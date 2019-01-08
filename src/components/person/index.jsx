@@ -4,11 +4,19 @@ import Constraint from '../constraint';
 
 import './style.scss';
 
-export default ({ quote, name, byline }) => (
+export default ({ image, quote, name, byline }) => (
   <section className="person">
     <Constraint>
       <header className="person__header">
-        <div className="person__portrait" />
+        <div className="person__portrait-container">
+          {image && (
+            <img
+              src={image}
+              alt={`Portrait ${name}`}
+              className="person__portrait"
+            />
+          )}
+        </div>
         <blockquote className="person__quote">{quote}</blockquote>
       </header>
 
