@@ -24,11 +24,14 @@
     }
   }
 
+  &__headline-container {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
   &__headline {
     display: inline;
     border-bottom: 7px solid currentColor;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
   }
 
   &__headline-content {

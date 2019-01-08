@@ -11,7 +11,7 @@ export default ({ blocks }) => (
       switch (type) {
         case 'headline-2':
           return (
-            <Constraint>
+            <Constraint className="block-content__headline-container">
               <h2 className="block-content__headline block-content__headline--2">
                 <span className="block-content__headline-content">
                   {content}

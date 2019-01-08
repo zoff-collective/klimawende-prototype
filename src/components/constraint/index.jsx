@@ -2,4 +2,6 @@ import React from 'react';
 
 import './style.scss';
 
-export default ({ children }) => <div className="constraint">{children}</div>;
+export default ({ className = '', children }) => (
+  <div className={`constraint ${className}`}>{children}</div>
+);
