@@ -1,0 +1,35 @@
+@import "../../mixins";
+@import "../../variables";
+
+.navigation {
+  color: $color-dark-brown;
+  display: flex;
+  flex-direction: row;
+  font-family: $font-mark;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &__logo {
+    background-color: $color-dark-brown;
+    color: white;
+  }
+
+  &__list {
+    @include reset-list();
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  &__item {
+    display: block;
+  }
+
+  &__logo,
+  &__item {
+    @include font-size(14px);
+
+    padding: 1.25rem 1.75rem;
+  }
+}

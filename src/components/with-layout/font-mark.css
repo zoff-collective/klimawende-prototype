@@ -1,0 +1,43 @@
+/* Regular */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Mark OT';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/mark/mark-ot-regular.woff2') format('woff2'),
+       url('/fonts/mark/mark-ot-regular.woff') format('woff');
+}
+
+/* Medium */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Mark OT';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/mark/mark-ot-medium.woff2') format('woff2'),
+       url('/fonts/mark/mark-ot-medium.woff') format('woff');
+}
+
+/* Bold */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Mark OT';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/mark/mark-ot-bold.woff2') format('woff2'),
+       url('/fonts/mark/mark-ot-bold.woff') format('woff');
+}
+
+/* Black */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Mark OT';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/mark/mark-ot-black.woff2') format('woff2'),
+       url('/fonts/mark/mark-ot-black.woff') format('woff');
+}

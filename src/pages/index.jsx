@@ -1,3 +1,5 @@
 import React from 'react';
 
-export default () => <h1>Here we come!</h1>;
+import withLayout from '../components/with-layout';
+
+export default withLayout('Startseite', () => <h1>Startseite</h1>);
