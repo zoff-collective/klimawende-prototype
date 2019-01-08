@@ -1,0 +1,19 @@
+@import "../../mixins";
+@import "../../variables";
+
+.project {
+  &__tags-container {
+    @include rem(margin-top, 30);
+  }
+
+  &__intro {
+    @include font-size(30);
+    @include rem(margin-top, 30);
+
+    font-family: $font-adelle;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+}

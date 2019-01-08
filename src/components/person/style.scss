@@ -1,0 +1,48 @@
+@import "../../mixins";
+@import "../../variables";
+
+.person {
+  color: $color-dark-brown;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  width: 100%;
+
+  &__header {
+    display: flex;
+    width: 100%;
+  }
+
+  &__portrait {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  &__quote {
+    @include font-size(20);
+
+    flex: 0 1 auto;
+    font-family: $font-adelle;
+    font-style: italic;
+    font-weight: 700;
+    background-color: $color-yellow;
+    line-height: 1.5;
+    padding: 3rem;
+  }
+
+  &__name {
+    background: $color-yellow;
+    margin-left: -0.5rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  &__byline {
+    @include font-size(20);
+
+    font-family: $font-adelle;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+}

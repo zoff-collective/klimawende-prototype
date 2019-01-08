@@ -10,9 +10,12 @@ export default ({ items }) => (
     </Link>
 
     <ul className="navigation__list">
-      {items.map(({ link, title }) => (
+      {items.map(({ link, title, name }) => (
         <li>
-          <Link to={link} className="navigation__item">
+          <Link
+            to={link}
+            className={`navigation__item navigation__item--theme-${name}`}
+          >
             {title}
           </Link>
         </li>
