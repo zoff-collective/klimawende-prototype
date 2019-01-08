@@ -2,7 +2,6 @@
 @import "../../variables";
 
 .person {
-  color: $color-dark-brown;
   display: flex;
   justify-content: center;
   padding-bottom: 5rem;
@@ -16,7 +15,7 @@
 
   &__portrait-container {
     flex: 0 0 auto;
-    width: 45%;
+    width: 35%;
   }
 
   &__portrait {
@@ -27,20 +26,46 @@
   &__quote {
     @include font-size(20);
 
+    align-self: flex-start;
     flex: 0 1 auto;
     font-family: $font-adelle;
     font-style: italic;
     font-weight: 700;
-    background-color: $color-yellow;
+    background-color: currentColor;
     line-height: 1.5;
-    margin: 0 10rem 0 4rem;
-    padding: 3rem;
+    margin: 0 5rem;
+    padding: 3.5rem;
+    position: relative;
+  }
+
+  &__quote::before {
+    border-style: solid;
+    border-width: 0 60px 48px 0;
+    border-color: transparent currentColor transparent transparent;
+    height: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 30%;
+    transform: translateX(-100%);
+    width: 0;
+  }
+
+  &__quote-content {
+    color: $color-dark-brown;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  &__name-container {
+    background-color: currentColor;
+    margin-left: -0.5rem;
+    padding: 0.25rem 0.5rem;
+    position: relative;
   }
 
   &__name {
-    background: $color-yellow;
-    margin-left: -0.5rem;
-    padding: 0.25rem 0.5rem;
+    color: $color-dark-brown;
   }
 
   &__byline {
@@ -50,5 +75,9 @@
     font-style: italic;
     font-weight: 700;
     line-height: 1.5;
+  }
+
+  &__byline-content {
+    color: $color-dark-brown;
   }
 }

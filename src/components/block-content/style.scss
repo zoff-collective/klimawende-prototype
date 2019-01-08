@@ -5,9 +5,28 @@
   @include font-size(20);
 
   align-items: center;
-  color: $color-dark-brown;
   display: flex;
   flex-direction: column;
   font-family: $font-adelle;
   line-height: 1.5;
+
+  &__paragraph {
+    color: $color-dark-brown;
+  }
+
+  &__image {
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+  }
+
+  &__headline {
+    display: inline-block;
+    border-bottom: 7px solid currentColor;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  &__headline-content {
+    color: $color-dark-brown;
+  }
 }

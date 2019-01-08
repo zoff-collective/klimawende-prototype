@@ -2,22 +2,20 @@
 @import "../../variables";
 
 .intro {
+  background-color: currentColor;
   align-items: center;
-  color: $color-dark-brown;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-bottom: 3rem;
   min-height: 95vh;
   padding: 5rem;
   width: 100%;
 
-  &--theme-mitmachen {
-    background-color: $color-yellow;
-  }
-
   &__title {
     @include font-size(120);
 
+    color: $color-dark-brown;
     display: inline-block;
     font-family: $font-adelle;
     font-weight: 700;

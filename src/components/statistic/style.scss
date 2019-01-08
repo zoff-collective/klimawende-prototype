@@ -2,7 +2,7 @@
 @import "../../variables";
 
 .statistic {
-  background-color: $color-yellow;
+  background-color: currentColor;
   display: flex;
   justify-content: center;
   padding: 5rem;
@@ -11,6 +11,7 @@
   &__number {
     @include font-size(150);
 
+    color: $color-dark-brown;
     display: block;
     font-weight: 700;
     line-height: 1;
@@ -18,6 +19,7 @@
   }
 
   &__text {
+    color: $color-dark-brown;
     font-style: italic;
     font-weight: 700;
     margin-bottom: 0;

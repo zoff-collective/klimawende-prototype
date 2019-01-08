@@ -2,6 +2,8 @@
 @import "../../variables";
 
 .project {
+  color: $color-yellow;
+
   &__tags-container {
     @include rem(margin-top, 30);
   }

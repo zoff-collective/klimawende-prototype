@@ -13,7 +13,9 @@ export default ({ blocks }) => (
           return (
             <Constraint>
               <h2 className="block-content__headline block-content__headline--2">
-                {content}
+                <span className="block-content__headline-content">
+                  {content}
+                </span>
               </h2>
             </Constraint>
           );
@@ -21,10 +23,21 @@ export default ({ blocks }) => (
         case 'statistic':
           return <Statistic number={rest.number} text={content} />;
 
+        case 'image':
+          return (
+            <Constraint>
+              <img
+                src={rest.src}
+                alt={rest.alt || ''}
+                className="block-content__image"
+              />
+            </Constraint>
+          );
+
         default:
           return (
             <Constraint>
-              <p>{content}</p>
+              <p className="block-content__paragraph">{content}</p>
             </Constraint>
           );
       }

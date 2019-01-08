@@ -21,7 +21,7 @@ export default withLayout(
         <title>{title}</title>
       </Helmet>
 
-      <Intro theme="mitmachen" title={title}>
+      <Intro title={title}>
         {tags && (
           <div className="project__tags-container">
             {tags.map(tag => (

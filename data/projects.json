@@ -21,6 +21,12 @@
       },
 
       {
+        "type": "image",
+        "src": "/images/von-wegen-geht-nicht.png",
+        "alt": "Von wegen geht nicht"
+      },
+
+      {
         "type": "headline-2",
         "content": "Bild-Zeitung titelt: „Münchens dreiste Öko-Lügen“"
       },

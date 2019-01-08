@@ -17,11 +17,16 @@ export default ({ image, quote, name, byline }) => (
             />
           )}
         </div>
-        <blockquote className="person__quote">{quote}</blockquote>
+        <blockquote className="person__quote">
+          <p className="person__quote-content">{quote}</p>
+        </blockquote>
       </header>
 
       <p className="person__byline">
-        <span className="person__name">{name}</span> {byline}
+        <span className="person__name-container">
+          <span className="person__name">{name}</span>
+        </span>
+        <span className="person__byline-content">{byline}</span>
       </p>
     </Constraint>
   </section>
