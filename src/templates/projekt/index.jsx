@@ -13,7 +13,7 @@ export default withLayout(
   'Projekt',
   ({
     pageContext: {
-      project: { title, intro, tags, blocks, person }
+      project: { title, intro, tags, blocks, person, date, location }
     }
   }) => (
     <article className="project">
@@ -22,6 +22,11 @@ export default withLayout(
       </Helmet>
 
       <Intro title={title}>
+        <p className="project__meta-container">
+          <span className="project__location">{location}</span>
+          <span className="project__date">, {date}</span>
+        </p>
+
         {tags && (
           <div className="project__tags-container">
             {tags.map(tag => (

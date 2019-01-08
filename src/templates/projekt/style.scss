@@ -4,6 +4,16 @@
 .project {
   color: $color-yellow;
 
+  &__meta-container {
+    @include font-size(30);
+
+    color: $color-dark-brown;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-top: 0;
+  }
+
   &__tags-container {
     @include rem(margin-bottom, 30);
   }
