@@ -1,3 +1,4 @@
+import Helmet from 'react-helmet';
 import React from 'react';
 
 import BlockContent from '../../components/block-content';
@@ -16,6 +17,10 @@ export default withLayout(
     }
   }) => (
     <article className="project">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+
       <Intro theme="mitmachen" title={title}>
         {tags && (
           <div className="project__tags-container">
