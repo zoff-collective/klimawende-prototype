@@ -1,3 +1,7 @@
+@import "./variables";
+/* Note: this must be placed after the variables import */
+@import "../node_modules/sass-mq/_mq";
+
 @mixin reset-list {
   list-style: none;
   margin-bottom: 0;

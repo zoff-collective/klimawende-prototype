@@ -9,11 +9,11 @@
   justify-content: flex-end;
   margin-bottom: 3rem;
   min-height: 95vh;
-  padding: 5rem;
+  padding: 5rem 0;
   width: 100%;
 
   &__title {
-    @include font-size(120);
+    @include font-size(40);
 
     color: $color-dark-brown;
     display: inline-block;
@@ -22,10 +22,14 @@
     line-height: 1;
     margin-bottom: 2.5rem;
     margin-top: 0;
+
+    @include mq($from: desktop) {
+      @include font-size(120);
+    }
   }
 
   &__text {
-    @include font-size(28);
+    @include font-size(18);
 
     color: $color-dark-brown;
     font-family: $font-adelle;
@@ -33,5 +37,9 @@
     line-height: 1.5;
     margin-bottom: 0;
     margin-top: 0;
+
+    @include mq($from: desktop) {
+      @include font-size(28);
+    }
   }
 }

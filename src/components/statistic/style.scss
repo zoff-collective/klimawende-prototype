@@ -9,13 +9,17 @@
   width: 100%;
 
   &__number {
-    @include font-size(150);
+    @include font-size(50);
 
     color: $color-dark-brown;
     display: block;
     font-weight: 700;
     line-height: 1;
     text-align: center;
+
+    @include mq($from: desktop) {
+      @include font-size(150);
+    }
   }
 
   &__text {
