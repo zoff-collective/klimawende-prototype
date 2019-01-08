@@ -30,6 +30,12 @@
     &--theme-mitmachen:focus {
       background-color: $color-yellow;
     }
+
+    &--theme-ausfuehrung.is-active,
+    &--theme-ausfuehrung:hover,
+    &--theme-ausfuehrung:focus {
+      background-color: $color-green;
+    }
   }
 
   &__logo,

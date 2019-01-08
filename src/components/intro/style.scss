@@ -20,6 +20,17 @@
     font-family: $font-adelle;
     font-weight: 700;
     line-height: 1;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+  }
+
+  &__text {
+    @include font-size(28);
+
+    color: $color-dark-brown;
+    font-family: $font-adelle;
+    font-weight: 600;
+    line-height: 1.5;
     margin-bottom: 0;
     margin-top: 0;
   }

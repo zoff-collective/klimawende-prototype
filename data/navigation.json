@@ -3,5 +3,11 @@
     "title": "Mitmachen",
     "link": "/mitmachen/",
     "name": "mitmachen"
+  },
+
+  {
+    "title": "Ausfuehrung",
+    "link": "/ausfuehrung/",
+    "name": "ausfuehrung"
   }
 ]
