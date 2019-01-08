@@ -15,6 +15,14 @@ export default ({ items }) => (
           <Link
             to={link}
             className={`navigation__item navigation__item--theme-${name}`}
+            activeClassName="is-active"
+            getProps={({ isPartiallyCurrent }) =>
+              isPartiallyCurrent
+                ? {
+                    className: `navigation__item navigation__item--theme-${name} is-active`
+                  }
+                : null
+            }
           >
             {title}
           </Link>

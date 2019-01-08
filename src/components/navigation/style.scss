@@ -25,7 +25,7 @@
   &__item {
     display: block;
 
-    &--theme-mitmachen[aria-current="page"],
+    &--theme-mitmachen.is-active,
     &--theme-mitmachen:hover,
     &--theme-mitmachen:focus {
       background-color: $color-yellow;
