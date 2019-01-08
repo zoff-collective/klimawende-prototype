@@ -5,16 +5,17 @@
   color: $color-yellow;
 
   &__tags-container {
-    @include rem(margin-top, 30);
+    @include rem(margin-bottom, 30);
   }
 
   &__intro {
     @include font-size(30);
     @include rem(margin-top, 30);
 
+    color: $color-dark-brown;
     font-family: $font-adelle;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.5;
     margin-bottom: 0;
   }
