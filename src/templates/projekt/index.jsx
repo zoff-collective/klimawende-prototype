@@ -12,7 +12,7 @@ export default withLayout(
   'Projekt',
   ({
     pageContext: {
-      project: { title, intro, tags, blocks }
+      project: { title, intro, tags, blocks, person }
     }
   }) => (
     <article className="project">
@@ -30,11 +30,7 @@ export default withLayout(
 
       <BlockContent blocks={blocks} />
 
-      <Person
-        name="Isabella Wach"
-        byline="war bei „Raus aus der Steinkohle“ aktiv. Die Sommerbräune von den Sammelaktionen ist inzwischen wieder weg. Einige der Freundschaften sind aber geblieben."
-        quote="Es war das erste Mal, dass ich für etwas Unterschriften gesammelt habe. Ich dachte, die Leute würden total genervt auf uns reagieren. Aber im Gegenteil: Bis auf ein paar Klimawandel-Leugner haben die sich fast alle gefreut, dass wir das machen. Besonders im Sommer am Ufer der Isar hat so gut wie jeder unterschrieben."
-      />
+      {person && <Person {...person} />}
     </article>
   )
 );

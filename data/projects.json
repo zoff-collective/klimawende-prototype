@@ -55,6 +55,34 @@
         "type": "paragraph",
         "content": "Rückenwind bekam das Bündnis aus dem Umland. Im Dezember 2015 forderte der Kreistag des Landkreises München die Stadtwerke mit deutlicher Mehrheit auf, Schadstoffemissionen abzustellen. Unterföhring, die Gemeinde am Rande Münchens, auf deren Grund das Kraftwerk steht, verabschiedete eine ähnliche Resolution und kündigte zugleich den Nutzungsvertrag mit den SWM. Ab 2021 bezieht die Gemeinde nun keinen schmutzigen Kohlestrom mehr, sondern setzt stattdessen auf umweltfreundliche Geothermie. Im Sommer 2017 nahm auch in München der Protest Schwung auf. Die Kampagne hatte die nötigen Unterschriften gesammelt, der Abstimmungstermin stand fest. Für den dreimonatigen Endspurt mobilisierte „Raus aus der Steinkohle“ alle Ressourcen. Sogar die Bavaria, Wächterin der Stadt, forderte mit einem riesigen Banner „Klimaschutz statt Kohleschmutz“. AktivistInnen von „Ende Gelände“ hatten es ihr umgehängt. Die gewaltige Bronzestatue, 1850 als Nationaldenkmal eingeweiht, blickte damit ausnahmsweise mal in die Zukunft. Am 5. November, zum Auftakt der Weltklimakonferenz in Bonn, votierten über 60 Prozent der Abstimmenden für den lokalen Kohleausstieg in München."
       }
+    ],
+
+    "person": {
+      "name": "Isabella Wach",
+      "byline": "war bei „Raus aus der Steinkohle“ aktiv. Die Sommerbräune von den Sammelaktionen ist inzwischen wieder weg. Einige der Freundschaften sind aber geblieben.",
+      "quote": "Es war das erste Mal, dass ich für etwas Unterschriften gesammelt habe. Ich dachte, die Leute würden total genervt auf uns reagieren. Aber im Gegenteil: Bis auf ein paar Klimawandel-Leugner haben die sich fast alle gefreut, dass wir das machen. Besonders im Sommer am Ufer der Isar hat so gut wie jeder unterschrieben."
+    }
+  },
+
+  {
+    "title": "Volksentscheid Fahrrad",
+    "slug": "volksentscheid-fahrrad",
+    "location": "Berlin",
+    "date": 2017,
+    "tags": [
+      "Radentscheid"
+    ],
+    "state": "Abgeschlossen",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "content": "Wer in München ins Kino geht, der sieht erstmal von Wind und Wasser angetriebene Turbinen. Dazu lacht die Sonne auf bayerische Solarzellen herab. Die Stadtwerke München (SWM) setzten auf „die Kräfte der Natur“, heißt es in dem Spot. Was man nicht sieht, ist das Heizkraftwerk Nord: Dessen Block 2 wird mit Steinkohle befeuert und erzeugt jährlich mehr CO2 als der gesamte Münchner Straßenverkehr."
+      },
+
+      {
+        "type": "paragraph",
+        "content": "Dieser Bilderbuch-Klimakiller gehört zu hundert Prozent den Stadtwerken, die wiederum vollständig Eigentum der Stadt München sind – und somit letztlich der Bürgerinnen und Bürger. Das Bündnis „Raus aus der Steinkohle“ startete deshalb ein Bürgerbegehren. Die MünchnerInnen sollten darüber abstimmen, ob „ihr“ Kohlekraftwerk bis 2022 vom Netz geht. Dafür mussten sie zunächst einmal von dessen Existenz erfahren. Die SWM gelten nämlich als leuchtendes Beispiel eines kommunalen Energieversorgers, der aktiv die Energiewende vorantreibt. „Was, in München steht ein Kohlekraftwerk?“ war die Antwort, die die Aktiven am häufigsten zu hören bekamen, als sie anfingen, Unterschriften zu sammeln."
+      }
     ]
   }
 ]
