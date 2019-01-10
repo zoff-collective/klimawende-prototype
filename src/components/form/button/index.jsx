@@ -4,8 +4,12 @@ import React from 'react';
 
 import './style.scss';
 
-export default ({ type = 'submit', children, ...rest }) => (
-  <button className="button" type={type} {...rest}>
-    {children}
-  </button>
-);
+export default ({ href, type = 'submit', children, ...rest }) => {
+  const Tag = `${href ? 'a' : 'button'}`;
+
+  return (
+    <Tag className="button" href={href} type={type} {...rest}>
+      {children}
+    </Tag>
+  );
+};

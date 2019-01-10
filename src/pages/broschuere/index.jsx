@@ -18,12 +18,17 @@ export default withLayout('Broschüre', () => (
       intro="Ein Bürgerbegehren besteht aus lauter kleinen Schritten. Zunächst verschaffen wir dem Thema eine Öffentlichkeit. Dann zwingen wir die lokale Politik, Farbe zu bekennen und sich zur Klimawende zu positionieren. Wenn sie sich weigert, erhöhen wir den Druck – und führen die Entscheidung irgendwann selbst herbei. Jede dieser Etappen ist für sich genommen schon ein Sieg. Eine Bürgerbegehrens-Kampagne kann also nicht wirklich scheitern. Die Frage ist vielmehr, wie viel sie gewinnt."
     />
 
-    <Content>
-      <Headline level="2" levelStyle="3" centered>
-        Broschüre herunterladen
-      </Headline>
-      <p>PDF, 2.5Mb</p>
+    <section className="broschuere__download">
+      <Content>
+        <Headline level="2" levelStyle="2" centered>
+          Broschüre herunterladen
+        </Headline>
+        <p className="broschuere__download-text">PDF, 2.5Mb</p>
+        <Button href="/broschuere/download">Download</Button>
+      </Content>
+    </section>
 
+    <Content>
       <form action="/broschuere/done" method="post">
         <Headline level="2" levelStyle="3">
           Gedruckte Broschüre bestellen

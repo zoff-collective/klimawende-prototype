@@ -1,5 +1,24 @@
+@import "../../mixins";
 @import "../../variables";
 
 .broschuere {
   color: $color-light-brown;
+
+  &__download {
+    border-bottom: 1px solid $color-light-brown;
+    color: $color-dark-brown;
+    margin-bottom: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  &__download-text {
+    @include font-size(18px);
+
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
 }
