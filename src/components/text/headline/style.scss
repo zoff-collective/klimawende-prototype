@@ -18,6 +18,10 @@
     text-align: center;
   }
 
+  &--level-1 &__headline {
+    @include font-size(100);
+  }
+
   &--level-2 {
     margin-bottom: 2.5rem;
   }
