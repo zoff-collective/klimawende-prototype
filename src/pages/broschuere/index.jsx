@@ -62,6 +62,7 @@ export default withLayout('Broschüre', () => (
           <Select
             label="Anzahl"
             name="count"
+            width="1-5"
             options={[
               ['1', '1', { selected: true }],
               ['2', '2'],
