@@ -1,6 +1,8 @@
 import classnames from 'classnames';
 import React from 'react';
 
+import Label from '../label';
+
 import './style.scss';
 
 export default ({ name, label, width, error = false, ...rest }) => (
@@ -11,10 +13,8 @@ export default ({ name, label, width, error = false, ...rest }) => (
       { [`input--width-${width}`]: width }
     )}
   >
-    <label htmlFor={name} className="label">
-      <span className="label__text">{label}</span>
-
+    <Label htmlFor={name} label={label}>
       <input className="input__field" {...rest} name={name} id={name} />
-    </label>
+    </Label>
   </div>
 );

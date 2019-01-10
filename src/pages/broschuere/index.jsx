@@ -5,6 +5,7 @@ import Content from '../../components/content';
 import FormGroup from '../../components/form/group';
 import Input from '../../components/form/input';
 import Intro from '../../components/intro';
+import Select from '../../components/form/select';
 import withLayout from '../../components/with-layout';
 
 import './style.scss';
@@ -36,6 +37,29 @@ export default withLayout('Broschüre', () => (
         <FormGroup>
           <Input label="Postleitzahl" name="postalcode" width="1-5" />
           <Input label="Ort" name="location" />
+        </FormGroup>
+
+        <FormGroup>
+          <Select
+            label="Land"
+            name="country"
+            options={[
+              ['germany', 'Deutschland', { selected: true }],
+              ['austria', 'Oesterreich']
+            ]}
+          />
+
+          <Select
+            label="Anzahl"
+            name="count"
+            options={[
+              ['1', '1', { selected: true }],
+              ['2', '2'],
+              ['3', '3'],
+              ['4', '4'],
+              ['5', '5']
+            ]}
+          />
         </FormGroup>
 
         <FormGroup type="submit">
