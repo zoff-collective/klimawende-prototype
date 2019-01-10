@@ -1,0 +1,17 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.button {
+  @include font-size(20px);
+  @include rem(border-radius, 15px);
+
+  appearance: none;
+  background-color: $color-dark-brown;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-family: $font-mark;
+  font-weight: 700;
+  padding: 1.25rem 3.5rem;
+  text-transform: uppercase;
+}

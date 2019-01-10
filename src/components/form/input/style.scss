@@ -1,0 +1,34 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.input {
+  flex: 1 1 100%;
+
+  &--width-1-5 {
+    flex-basis: 20%;
+  }
+
+  &__field {
+    @include font-size(18px);
+
+    border: 2px solid $color-light-brown;
+    color: $color-dark-brown;
+    font-family: $font-mark;
+    font-weight: 700;
+    padding: 0.75rem;
+    width: 100%;
+  }
+}
+
+.label {
+  &__text {
+    @include font-size(18px);
+
+    color: $color-dark-brown;
+    display: block;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+  }
+}
