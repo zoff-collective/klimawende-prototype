@@ -3,6 +3,7 @@ import React from 'react';
 import Button from '../../components/form/button';
 import Content from '../../components/content';
 import FormGroup from '../../components/form/group';
+import Headline from '../../components/text/headline';
 import Input from '../../components/form/input';
 import Intro from '../../components/intro';
 import Select from '../../components/form/select';
@@ -18,11 +19,15 @@ export default withLayout('Broschüre', () => (
     />
 
     <Content>
-      <h2>Broschüre herunterladen</h2>
+      <Headline level="2" levelStyle="3">
+        Broschüre herunterladen
+      </Headline>
       <p>PDF, 2.5Mb</p>
 
       <form action="/broschuere/done" method="post">
-        <h2>Gedruckte Broschüre bestellen</h2>
+        <Headline level="2" levelStyle="3">
+          Gedruckte Broschüre bestellen
+        </Headline>
 
         <FormGroup>
           <Input label="Vorname" name="firstname" />
