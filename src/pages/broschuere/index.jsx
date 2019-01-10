@@ -19,7 +19,7 @@ export default withLayout('Broschüre', () => (
     />
 
     <Content>
-      <Headline level="2" levelStyle="3">
+      <Headline level="2" levelStyle="3" centered>
         Broschüre herunterladen
       </Headline>
       <p>PDF, 2.5Mb</p>
