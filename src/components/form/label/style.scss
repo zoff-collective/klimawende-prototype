@@ -1,0 +1,15 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.label {
+  &__text {
+    @include font-size(18px);
+
+    color: $color-dark-brown;
+    display: block;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+  }
+}

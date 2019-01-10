@@ -36,6 +36,12 @@
     &--theme-ausfuehrung:focus {
       background-color: $color-green;
     }
+
+    &--theme-broschuere.is-active,
+    &--theme-broschuere:hover,
+    &--theme-broschuere:focus {
+      background-color: $color-light-brown;
+    }
   }
 
   &__logo,

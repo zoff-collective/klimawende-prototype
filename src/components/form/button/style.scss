@@ -1,0 +1,28 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.button {
+  @include font-size(18px);
+  @include rem(border-radius, 5px);
+
+  appearance: none;
+  background-color: $color-dark-brown;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-mark;
+  font-weight: 700;
+  line-height: 1;
+  padding: 1.5rem 3.5rem;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background-color: darken($color-dark-brown, 10%);
+  }
+
+  &:active {
+    transform: translateY(1px)
+  }
+}

@@ -9,5 +9,11 @@
     "title": "Ausführung",
     "link": "/ausfuehrung/",
     "name": "ausfuehrung"
+  },
+
+  {
+    "title": "Broschüre",
+    "link": "/broschuere/",
+    "name": "broschuere"
   }
 ]

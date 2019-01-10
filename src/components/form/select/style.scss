@@ -1,0 +1,24 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.select {
+  flex: 1 1 100%;
+
+  &--width-1-5 {
+    flex-basis: 20%;
+  }
+
+  &__field {
+    @include font-size(16px);
+
+    appearance: none;
+    background: white;
+    border: 2px solid $color-light-brown;
+    border-radius: 0;
+    color: $color-dark-brown;
+    font-family: $font-mark;
+    font-weight: 700;
+    padding: 1.25rem;
+    width: 100%;
+  }
+}

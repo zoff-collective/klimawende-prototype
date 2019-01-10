@@ -1,13 +1,14 @@
 import React from 'react';
 
 import Constraint from '../constraint';
+import Headline from '../text/headline';
 
 import './style.scss';
 
 export default ({ children, title, intro }) => (
   <section className="intro">
     <Constraint>
-      <h1 className="intro__title">{title}</h1>
+      <Headline level="1">{title}</Headline>
 
       {intro && <p className="intro__text">{intro}</p>}
 

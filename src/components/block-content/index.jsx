@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Constraint from '../constraint';
+import Headline from '../text/headline';
 import Statistic from '../statistic';
 
 import './style.scss';
@@ -12,11 +13,9 @@ export default ({ blocks }) => (
         case 'headline-2':
           return (
             <Constraint className="block-content__headline-container">
-              <h2 className="block-content__headline block-content__headline--2">
-                <span className="block-content__headline-content">
-                  {content}
-                </span>
-              </h2>
+              <Headline level="2" underlined>
+                {content}
+              </Headline>
             </Constraint>
           );
 
