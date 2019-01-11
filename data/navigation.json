@@ -15,5 +15,11 @@
     "title": "Broschüre",
     "link": "/broschuere/",
     "name": "broschuere"
+  },
+
+  {
+    "title": "Über uns",
+    "link": "/ueber-uns/",
+    "name": "ueber-uns"
   }
 ]
