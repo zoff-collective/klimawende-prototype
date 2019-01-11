@@ -1,0 +1,20 @@
+{
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/images/von-wegen-geht-nicht.png",
+      "alt": "Von wegen geht nicht"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Wer in München ins Kino geht, der sieht erstmal von Wind und Wasser angetriebene Turbinen. Dazu lacht die Sonne auf bayerische Solarzellen herab. Die Stadtwerke München (SWM) setzten auf „die Kräfte der Natur“, heißt es in dem Spot. Was man nicht sieht, ist das Heizkraftwerk Nord: Dessen Block 2 wird mit Steinkohle befeuert und erzeugt jährlich mehr CO2 als der gesamte Münchner Straßenverkehr."
+    },
+
+    {
+      "type": "button",
+      "content": "Best Practice Beispiele",
+      "href": "/"
+    }
+  ]
+}

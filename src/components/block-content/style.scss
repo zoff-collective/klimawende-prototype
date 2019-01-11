@@ -2,17 +2,9 @@
 @import "../../variables";
 
 .block-content {
-  @include font-size(20);
-
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-family: $font-adelle;
-  line-height: 1.5;
-
-  &__paragraph {
-    color: $color-dark-brown;
-  }
 
   &__image {
     height: auto;

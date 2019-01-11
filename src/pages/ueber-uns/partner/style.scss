@@ -1,0 +1,45 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.partner {
+  @include reset-list();
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+
+    & + & {
+      margin-top: 4rem;
+    }
+  }
+
+  &__figure {
+    margin: 0;
+    width: 15%;
+  }
+
+  &__figure-image {
+    height: auto;
+    width: 100%;
+  }
+
+  &__content {
+    color: $color-dark-brown;
+    flex: 1;
+    margin-left: 3rem;
+  }
+
+  &__address {
+    font-style: normal;
+  }
+
+  &__address,
+  &__link {
+    @include font-size(16px);
+
+    font-family: $font-mark;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+}

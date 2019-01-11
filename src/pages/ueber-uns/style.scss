@@ -1,0 +1,11 @@
+@import "../../mixins";
+@import "../../variables";
+
+.ueber-uns {
+  color: $color-middle-brown;
+
+  &__partner-container {
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+  }
+}

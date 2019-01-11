@@ -42,6 +42,12 @@
     &--theme-broschuere:focus {
       background-color: $color-light-brown;
     }
+
+    &--theme-ueber-uns.is-active,
+    &--theme-ueber-uns:hover,
+    &--theme-ueber-uns:focus {
+      background-color: $color-middle-brown;
+    }
   }
 
   &__logo,

@@ -38,6 +38,10 @@
     @include font-size(28px);
   }
 
+  &--level-4 &__headline {
+    @include font-size(26px);
+  }
+
   &__headline-content {
     color: $color-dark-brown;
   }

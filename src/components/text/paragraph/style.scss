@@ -1,0 +1,10 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.paragraph {
+  @include font-size(20);
+
+  color: $color-dark-brown;
+  font-family: $font-adelle;
+  line-height: 1.5;
+}

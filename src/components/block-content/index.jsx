@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Button from '../form/button';
 import Constraint from '../constraint';
 import Headline from '../text/headline';
+import Paragraph from '../text/paragraph';
 import Statistic from '../statistic';
 
 import './style.scss';
@@ -22,6 +24,9 @@ export default ({ blocks }) => (
         case 'statistic':
           return <Statistic number={rest.number} text={content} />;
 
+        case 'button':
+          return <Button href={rest.href}>{content}</Button>;
+
         case 'image':
           return (
             <Constraint>
@@ -36,7 +41,7 @@ export default ({ blocks }) => (
         default:
           return (
             <Constraint>
-              <p className="block-content__paragraph">{content}</p>
+              <Paragraph>{content}</Paragraph>
             </Constraint>
           );
       }
