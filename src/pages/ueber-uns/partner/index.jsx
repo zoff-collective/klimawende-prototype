@@ -5,7 +5,7 @@ import Paragraph from '../../../components/text/paragraph';
 
 import './style.scss';
 
-export default ({ title, items }) => (
+export default ({ title, items = [] }) => (
   <>
     <Headline level="2" levelStyle="2">
       {title}
