@@ -6,9 +6,9 @@ import Navigation from '../navigation';
 
 import navigationItems from '../../../data/navigation';
 
-import './font-adelle.css';
-import './font-mark.css';
-import './style.css';
+import './font-adelle.scss';
+import './font-mark.scss';
+import './style.scss';
 
 export default (title, WrappedComponent) => props => (
   <>
