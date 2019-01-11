@@ -1,27 +1,25 @@
-{
-  "partner": [
-    {
-      "title": "Umweltinstitut München e.V.",
-      "intro": "Das Umweltinstitut München ist ein gemeinnütziger Verein, der sich mit Aufklärungs- und Kampagnenarbeit gegen Atomkraft und für Klimaschutz sowie für die Agrarwende einsetzt.",
-      "address": "Landwehrstr. 64a, 80336 München",
-      "link": "https://www.umweltinstitut.org/",
-      "image": "/images/partners/umweltinstitut.png"
-    },
+[
+  {
+    "title": "Umweltinstitut München e.V.",
+    "intro": "Das Umweltinstitut München ist ein gemeinnütziger Verein, der sich mit Aufklärungs- und Kampagnenarbeit gegen Atomkraft und für Klimaschutz sowie für die Agrarwende einsetzt.",
+    "address": "Landwehrstr. 64a, 80336 München",
+    "link": "https://www.umweltinstitut.org/",
+    "image": "/images/partners/umweltinstitut.png"
+  },
 
-    {
-      "title": "BürgerBegehren Klimaschutz e.V",
-      "intro": "BürgerBegehren Klimaschutz e.V. (BBK) ist ein gemeinnütziger Verein mit dem Ziel, bundesweit Klimaschutzmaßnahmen durch Bürgerbegehren und Bürgerentscheide durchzusetzen.",
-      "address": "Greifswalder Str. 4, 10405 Berlin",
-      "link": "https://www.buerger-begehren-klimaschutz.de",
-      "image": "/images/partners/buergerbegehren-klimaschutz.png"
-    },
+  {
+    "title": "BürgerBegehren Klimaschutz e.V",
+    "intro": "BürgerBegehren Klimaschutz e.V. (BBK) ist ein gemeinnütziger Verein mit dem Ziel, bundesweit Klimaschutzmaßnahmen durch Bürgerbegehren und Bürgerentscheide durchzusetzen.",
+    "address": "Greifswalder Str. 4, 10405 Berlin",
+    "link": "https://www.buerger-begehren-klimaschutz.de",
+    "image": "/images/partners/buergerbegehren-klimaschutz.png"
+  },
 
-    {
-      "title": "Mehr Demokratie e.V",
-      "intro": "Mehr Demokratie e.V. ist ein gemeinnütziger, überparteilicher Fachverband für direkte Demokratie.",
-      "address": "Schwanthalerstr. 120, 80339 München",
-      "link": "https://www.mehr-demokratie.de/",
-      "image": "/images/partners/mehr-demokratie.png"
-    }
-  ]
-}
+  {
+    "title": "Mehr Demokratie e.V",
+    "intro": "Mehr Demokratie e.V. ist ein gemeinnütziger, überparteilicher Fachverband für direkte Demokratie.",
+    "address": "Schwanthalerstr. 120, 80339 München",
+    "link": "https://www.mehr-demokratie.de/",
+    "image": "/images/partners/mehr-demokratie.png"
+  }
+]

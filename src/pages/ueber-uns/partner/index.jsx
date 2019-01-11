@@ -12,29 +12,31 @@ export default ({ title, items }) => (
     </Headline>
 
     <ul className="partner">
-      {items.map(({ address, title: itemTitle, intro, link, image }) => (
-        <li className="partner__item">
-          <figure className="partner__figure">
-            <img
-              src={image}
-              alt={`Logo ${itemTitle}`}
-              className="partner__figure-image"
-            />
-          </figure>
-          <div className="partner__content">
-            <Headline level="3" levelStyle="4">
-              <a href={link}>{itemTitle}</a>
-            </Headline>
+      {items.map(
+        ({ node: { address, title: itemTitle, intro, link, image } }) => (
+          <li className="partner__item">
+            <figure className="partner__figure">
+              <img
+                src={image}
+                alt={`Logo ${itemTitle}`}
+                className="partner__figure-image"
+              />
+            </figure>
+            <div className="partner__content">
+              <Headline level="3" levelStyle="4">
+                <a href={link}>{itemTitle}</a>
+              </Headline>
 
-            <Paragraph>{intro}</Paragraph>
+              <Paragraph>{intro}</Paragraph>
 
-            <address className="partner__address">{address}</address>
-            <a href={link} className="partner__link">
-              {link}
-            </a>
-          </div>
-        </li>
-      ))}
+              <address className="partner__address">{address}</address>
+              <a href={link} className="partner__link">
+                {link}
+              </a>
+            </div>
+          </li>
+        )
+      )}
     </ul>
   </>
 );
