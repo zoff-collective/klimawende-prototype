@@ -1,0 +1,35 @@
+@import "../../../../mixins";
+@import "../../../../variables";
+
+.person-list__person {
+  display: flex;
+  flex-direction: row;
+
+  & + & {
+    margin-top: 6rem;
+  }
+
+  &-image {
+    width: 25%;
+  }
+
+  &-content {
+    flex: 1;
+  }
+
+  &:nth-child(2n) &-content {
+    order: -1;
+  }
+
+  &-phone,
+  &-email {
+    @include font-size(16px);
+
+    color: $color-dark-brown;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+}
