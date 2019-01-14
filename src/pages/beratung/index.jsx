@@ -18,9 +18,7 @@ export default withLayout(
   }) => (
     <div className="beratung">
       <Intro title={title} intro={intro} />
-      <Content>
-        <PersonList persons={persons.edges} />
-      </Content>
+      <Content>{persons && <PersonList persons={persons.edges} />}</Content>
     </div>
   )
 );
