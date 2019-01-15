@@ -3,14 +3,23 @@
 
 .person-list__person {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+  @include mq($from: tablet) {
+    flex-direction: row;
+  }
 
   & + & {
     margin-top: 6rem;
   }
 
   &-image {
-    width: 25%;
+    object-fit: contain;
+    width: 100%;
+
+    @include mq($from: tablet) {
+      width: 40%;
+    }
   }
 
   &-content {
@@ -18,12 +27,14 @@
   }
 
   &:nth-child(2n) &-content {
-    order: -1;
+    @include mq($from: tablet) {
+      order: -1;
+    }
   }
 
   &-phone,
   &-email {
-    @include font-size(16px);
+    @include font-size(14px);
 
     color: $color-dark-brown;
     font-family: $font-mark;
@@ -31,5 +42,9 @@
     margin-bottom: 0.5rem;
     margin-top: 0;
     text-transform: uppercase;
+
+    @include mq($from: tablet) {
+      @include font-size(16px);
+    }
   }
 }
