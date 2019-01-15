@@ -12,6 +12,12 @@
   },
 
   {
+    "title": "Beratung",
+    "link": "/beratung/",
+    "name": "beratung"
+  },
+
+  {
     "title": "Broschüre",
     "link": "/broschuere/",
     "name": "broschuere"

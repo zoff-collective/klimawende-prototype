@@ -3,7 +3,7 @@
 
 .label {
   &__text {
-    @include font-size(18px);
+    @include font-size(14px);
 
     color: $color-dark-brown;
     display: block;
@@ -11,5 +11,9 @@
     font-weight: 700;
     margin-top: 0.5rem;
     text-transform: uppercase;
+
+    @include mq($from: tablet) {
+      @include font-size(18px);
+    }
   }
 }

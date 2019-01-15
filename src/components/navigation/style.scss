@@ -48,6 +48,12 @@
     &--theme-ueber-uns:focus {
       background-color: $color-middle-brown;
     }
+
+    &--theme-beratung.is-active,
+    &--theme-beratung:hover,
+    &--theme-beratung:focus {
+      background-color: $color-purple;
+    }
   }
 
   &__logo,
