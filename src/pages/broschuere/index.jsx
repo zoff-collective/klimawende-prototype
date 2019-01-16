@@ -39,13 +39,12 @@ export default withLayout(
           </Headline>
 
           <FormGroup>
-            <Input label="Vorname" name="firstname" />
+            <Input label="Vorname" name="firstname" error />
             <Input label="Nachname" name="lastname" />
           </FormGroup>
 
           <FormGroup>
-            <Input label="Strasse" name="street" />
-            <Input label="Nummer" name="number" width="1-5" />
+            <Input label="Strasse & Hausnummer" name="address" />
           </FormGroup>
 
           <FormGroup>
@@ -61,6 +60,7 @@ export default withLayout(
                 ['germany', 'Deutschland', { selected: true }],
                 ['austria', 'Oesterreich']
               ]}
+              error
             />
 
             <Select
@@ -75,6 +75,10 @@ export default withLayout(
                 ['5', '5']
               ]}
             />
+          </FormGroup>
+
+          <FormGroup>
+            <Input label="Email" type="email" name="email" />
           </FormGroup>
 
           <FormGroup type="submit">

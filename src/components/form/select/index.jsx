@@ -10,9 +10,15 @@ export default ({
   name: fieldName,
   label: fieldLabel,
   width,
+  error = false,
   ...rest
 }) => (
-  <div className={classnames('select', { [`select--width-${width}`]: width })}>
+  <div
+    className={classnames('select', {
+      [`select--width-${width}`]: width,
+      'select--has-error': error
+    })}
+  >
     <Label htmlfor={fieldName} label={fieldLabel}>
       <select
         name={fieldName}

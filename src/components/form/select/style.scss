@@ -1,6 +1,10 @@
 @import "../../../mixins";
 @import "../../../variables";
 
+$arrow: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><path fill='%23D5C29D' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 38L9 14h34z'/></svg>";
+$arrow-active: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><path fill='%23493F39' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 38L9 14h34z'/></svg>";
+$arrow-error: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><path fill='%23EC0404' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 38L9 14h34z'/></svg>";
+
 .select {
   flex: 1 1 100%;
 
@@ -8,11 +12,19 @@
     flex-basis: 20%;
   }
 
+  &--has-error &__field {
+    background-image: url("data:image/svg+xml;utf8," + $arrow-error);
+    border-color: $color-red;
+  }
+
   &__field {
     @include font-size(16px);
 
     appearance: none;
-    background: white;
+    background-color: white;
+    background-image: url("data:image/svg+xml;utf8," + $arrow);
+    background-position: right center;
+    background-repeat: no-repeat;
     border: 2px solid $color-light-brown;
     border-radius: 0;
     color: $color-dark-brown;
@@ -20,5 +32,11 @@
     font-weight: 700;
     padding: 1.25rem;
     width: 100%;
+
+    &:focus,
+    &:hover {
+      background-image: url("data:image/svg+xml;utf8," + $arrow-active);
+      border-color: $color-dark-brown;
+    }
   }
 }
