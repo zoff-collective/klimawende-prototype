@@ -1,9 +1,9 @@
 @import "../../../mixins";
 @import "../../../variables";
 
-$arrow: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><path fill='%23D5C29D' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 38L9 14h34z'/></svg>";
-$arrow-active: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><path fill='%23493F39' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 38L9 14h34z'/></svg>";
-$arrow-error: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><path fill='%23EC0404' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 38L9 14h34z'/></svg>";
+$arrow: "<svg xmlns='http://www.w3.org/2000/svg' width='52' height='52'><path fill='%23D5C29D' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 35L14 19h24z'/></svg>";
+$arrow-active: "<svg xmlns='http://www.w3.org/2000/svg' width='52' height='52'><path fill='%23493F39' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 35L14 19h24z'/></svg>";
+$arrow-error: "<svg xmlns='http://www.w3.org/2000/svg' width='52' height='52'><path fill='%23EC0404' d='M0 0h52v52H0z'/><path fill='%23fff' d='M26 35L14 19h24z'/></svg>";
 
 .select {
   flex: 1 1 100%;
@@ -19,10 +19,11 @@ $arrow-error: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><p
   &--has-error &__field {
     background-image: url("data:image/svg+xml;utf8," + $arrow-error);
     border-color: $color-red;
+    color: $color-red;
   }
 
   &__field {
-    @include font-size(16px);
+    @include font-size(18px);
 
     appearance: none;
     background-color: white;
@@ -38,7 +39,7 @@ $arrow-error: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><p
     width: 100%;
 
     @include mq($from: tablet) {
-      padding: 1.25rem;
+      padding: 1.05rem 0.75rem;
     }
 
     &:focus,
