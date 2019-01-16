@@ -14,8 +14,13 @@
   }
 
   &__figure {
+    flex: 0 0 auto;
     margin: 0;
-    width: 15%;
+    width: 25%;
+
+    @include mq($from: tablet) {
+      width: 15%;
+    }
   }
 
   &__figure-image {
@@ -35,11 +40,19 @@
 
   &__address,
   &__link {
-    @include font-size(16px);
+    @include font-size(12px);
 
     font-family: $font-mark;
     font-weight: 700;
     line-height: 1.5;
     text-transform: uppercase;
+
+    @include mq($from: tablet) {
+      @include font-size(16px);
+    }
+  }
+
+  &__link {
+    word-break: break-all;
   }
 }

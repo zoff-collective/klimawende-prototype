@@ -55,7 +55,11 @@
   }
 
   &--level-4 &__headline {
-    @include font-size(26px);
+    @include font-size(18px);
+
+    @include mq($from: tablet) {
+      @include font-size(26px);
+    }
   }
 
   &__headline-content {
