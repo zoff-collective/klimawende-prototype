@@ -1,5 +1,5 @@
 import ClipboardJS from 'clipboard';
-import pretty from 'pretty';
+import { html as beautify } from 'js-beautify';
 import React from 'react';
 
 import './_style.css';
@@ -13,7 +13,9 @@ export default class Debug extends React.Component {
     // eslint-disable-next-line no-new
     new ClipboardJS(this.button.current, {
       text() {
-        return pretty(body.children[0].innerHTML);
+        return beautify(body.children[0].innerHTML.replace(/></g, '>\n<'), {
+          indent_size: 2
+        });
       }
     });
 
