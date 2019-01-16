@@ -31,7 +31,11 @@
   &__content {
     color: $color-dark-brown;
     flex: 1;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
+
+    @include mq($from: tablet) {
+      margin-left: 3rem;
+    }
   }
 
   &__address {
