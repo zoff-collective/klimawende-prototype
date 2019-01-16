@@ -1,6 +1,7 @@
 import Helmet from 'react-helmet';
 import React from 'react';
 
+import Debug from '../debug';
 import Footer from '../footer';
 import Navigation from '../navigation';
 
@@ -23,5 +24,7 @@ export default (title, WrappedComponent) => props => (
     </main>
 
     <Footer />
+
+    <Debug />
   </>
 );
