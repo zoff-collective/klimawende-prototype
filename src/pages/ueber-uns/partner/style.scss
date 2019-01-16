@@ -58,5 +58,10 @@
 
   &__link {
     word-break: break-all;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 }

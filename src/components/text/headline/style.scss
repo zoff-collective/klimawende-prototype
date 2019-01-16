@@ -64,5 +64,10 @@
 
   &__headline-content {
     color: $color-dark-brown;
+
+    > a:hover,
+    > a:focus {
+      text-decoration: underline;
+    }
   }
 }

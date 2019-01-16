@@ -7,6 +7,10 @@
 
   & + & {
     margin-top: 1rem;
+
+    @include mq($from: tablet) {
+      margin-top: 1.25rem;
+    }
   }
 
   & + &--type-submit {
@@ -17,7 +21,7 @@
     margin-left: 1rem;
 
     @include mq($from: tablet) {
-      margin-left: 3.5rem;
+      margin-left: 3rem;
     }
   }
 }

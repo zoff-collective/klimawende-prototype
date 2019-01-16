@@ -9,7 +9,11 @@ $arrow-error: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><p
   flex: 1 1 100%;
 
   &--width-1-5 {
-    flex-basis: 20%;
+    flex-basis: 50%;
+
+    @include mq($from: tablet) {
+      flex-basis: 20%;
+    }
   }
 
   &--has-error &__field {
@@ -30,8 +34,12 @@ $arrow-error: "<svg xmlns='http://www.w3.org/2000/svg' height='52' width='52'><p
     color: $color-dark-brown;
     font-family: $font-mark;
     font-weight: 700;
-    padding: 1.25rem;
+    padding: 1rem 0.5rem;
     width: 100%;
+
+    @include mq($from: tablet) {
+      padding: 1.25rem;
+    }
 
     &:focus,
     &:hover {
