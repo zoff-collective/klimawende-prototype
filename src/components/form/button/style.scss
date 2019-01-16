@@ -3,7 +3,7 @@
 
 .button {
   @include font-size(16px);
-  @include rem(border-radius, 5px);
+  @include rem(border-radius, 8px);
 
   appearance: none;
   background-color: $color-dark-brown;
@@ -16,6 +16,7 @@
   line-height: 1;
   padding: 1.5rem 2.5rem;
   text-transform: uppercase;
+  transition: transform 80ms ease;
 
   @include mq($from: tablet) {
     padding: 1.75rem 3.5rem;
@@ -25,6 +26,7 @@
   &:hover,
   &:focus {
     background-color: darken($color-dark-brown, 10%);
+    transform: scale(1.02);
   }
 
   &:active {
