@@ -4,29 +4,22 @@
 .project {
   color: $color-yellow;
 
-  &__meta-container {
-    @include font-size(30);
+  &__body {
+    display: flex;
+    justify-content: center;
 
-    color: $color-dark-brown;
-    font-family: $font-mark;
-    font-weight: 700;
-    margin-bottom: 3rem;
-    margin-top: 0;
-  }
+    &-constraint {
+      display: flex;
+      flex-direction: row;
+    }
 
-  &__tags-container {
-    @include rem(margin-bottom, 30);
-  }
+    &-content-container {
+      margin-right: 2.5rem;
+      width: 50%;
+    }
 
-  &__intro {
-    @include font-size(30);
-    @include rem(margin-top, 30);
-
-    color: $color-dark-brown;
-    font-family: $font-adelle;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 1.5;
-    margin-bottom: 0;
+    &-participate-container {
+      flex: 1;
+    }
   }
 }

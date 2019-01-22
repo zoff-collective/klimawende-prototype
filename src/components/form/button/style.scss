@@ -15,6 +15,7 @@
   font-weight: 700;
   line-height: 1;
   padding: 1.5rem 2.5rem;
+  text-align: center;
   text-transform: uppercase;
   transition: transform 80ms ease;
 
@@ -31,5 +32,19 @@
 
   &:active {
     transform: translateY(1px)
+  }
+
+  &--theme-yellow {
+    background-color: $color-yellow;
+    color: $color-dark-brown;
+
+    &:hover,
+    &:focus {
+      background-color: darken($color-yellow, 10%);
+    }
+  }
+
+  &--has-full-width {
+    width: 100%;
   }
 }
