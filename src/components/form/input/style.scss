@@ -15,7 +15,7 @@
   &__field {
     @include font-size(18px);
 
-    border: 2px solid $color-light-brown;
+    border: 2px solid $color-dark-brown;
     color: $color-dark-brown;
     font-family: $font-mark;
     font-weight: 700;
@@ -24,7 +24,7 @@
 
     &:focus,
     &:hover {
-      border-color: $color-dark-brown;
+      border-color: $color-light-brown;
     }
   }
 }

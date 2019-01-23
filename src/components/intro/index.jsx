@@ -6,7 +6,7 @@ import Headline from '../text/headline';
 import './style.scss';
 
 export default ({ children, title, intro }) => (
-  <section className="intro">
+  <header className="intro">
     <Constraint>
       <Headline level="1">{title}</Headline>
 
@@ -14,5 +14,5 @@ export default ({ children, title, intro }) => (
 
       {children}
     </Constraint>
-  </section>
+  </header>
 );

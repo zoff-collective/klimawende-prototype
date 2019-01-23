@@ -15,11 +15,30 @@
 
     &-content-container {
       margin-right: 2.5rem;
-      width: 50%;
+      width: 55%;
     }
 
     &-participate-container {
       flex: 1;
+    }
+  }
+
+  &__contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+
+    &-title {
+      @include font-size(26px);
+
+      background-color: $color-yellow;
+      color: $color-dark-brown;
+      font-family: $font-adelle;
+      font-weight: 700;
+      padding: 1.5rem;
+      text-align: center;
+      width: 100%;
     }
   }
 }

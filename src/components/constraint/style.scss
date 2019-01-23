@@ -10,4 +10,10 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  &--is-wide {
+    @include mq($from: desktop) {
+      max-width: 1000px;
+    }
+  }
 }

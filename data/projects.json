@@ -1,13 +1,17 @@
 [
   {
-    "title": "Volksentscheid Fahrrad",
+    "title": "Radentscheid Rostock",
     "slug": "volksentscheid-fahrrad",
     "location": "Rostock",
+    "type": "Bürgerentscheid",
     "date": 2017,
-    "tags": [
-      "Fahrrad/ Mobilität"
-    ],
+    "category": "Fahrrad/ Mobilität",
+    "summary": "„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.",
     "state": "Aktiv",
+    "image": {
+      "src": "/images/projects/radentscheid-rostock.png",
+      "alt": "Radentscheid Rostock"
+    },
     "site": {
       "url": "https://radentscheid-rostock.de/",
       "label": "radentscheid-rostock.de"
@@ -50,6 +54,11 @@
       {
         "type": "headline-2",
         "content": "Mehr Informationen"
+      },
+
+      {
+        "type": "paragraph",
+        "content": "www.radentscheid-rostock.de"
       }
     ]
   }

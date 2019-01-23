@@ -5,8 +5,9 @@ import BlockContent from '../../components/block-content';
 import Button from '../../components/form/button';
 import Constraint from '../../components/constraint';
 import FormGroup from '../../components/form/group';
+import Headline from '../../components/text/headline';
 import Input from '../../components/form/input';
-import Intro from '../../components/intro';
+import IntroProject from './intro-project';
 import Participate from '../../components/participate';
 import withLayout from '../../components/with-layout';
 
@@ -16,7 +17,7 @@ export default withLayout(
   'Projekt',
   ({
     pageContext: {
-      project: { title, blocks, date, location }
+      project: { title, blocks, image, summary, location, type, category }
     }
   }) => (
     <article className="project">
@@ -24,15 +25,17 @@ export default withLayout(
         <title>{title}</title>
       </Helmet>
 
-      <Intro title={title}>
-        <p className="project__meta-container">
-          <span className="project__location">{location}</span>
-          <span className="project__date">, {date}</span>
-        </p>
-      </Intro>
+      <IntroProject
+        title={title}
+        summary={summary}
+        image={image}
+        type={type}
+        location={location}
+        category={category}
+      />
 
       <div className="project__body">
-        <Constraint className="project__body-constraint">
+        <Constraint width="wide" className="project__body-constraint">
           <div className="project__body-content-container">
             <BlockContent blocks={blocks} />
           </div>
@@ -58,23 +61,29 @@ export default withLayout(
         </Constraint>
       </div>
 
-      <Constraint>
-        <form>
-          <FormGroup>
-            <Input label="Email" name="email" />
-          </FormGroup>
+      <div className="project__contact">
+        <h2 className="project__contact-title">Ansprechperson</h2>
 
-          <FormGroup>
-            <Input label="Text" name="text" />
-          </FormGroup>
+        <Constraint>
+          <Headline level="3" levelStyle="3">
+            Ansprechperson kontaktieren
+          </Headline>
 
-          <FormGroup>
-            <Button fullWidth theme="yellow">
-              Nachricht senden!
-            </Button>
-          </FormGroup>
-        </form>
-      </Constraint>
+          <form>
+            <FormGroup>
+              <Input label="Email" name="email" />
+            </FormGroup>
+
+            <FormGroup>
+              <Input label="Text" name="text" />
+            </FormGroup>
+
+            <FormGroup>
+              <Button>Nachricht senden!</Button>
+            </FormGroup>
+          </form>
+        </Constraint>
+      </div>
     </article>
   )
 );
