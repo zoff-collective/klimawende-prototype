@@ -3,6 +3,7 @@ import React from 'react';
 
 import BlockContent from '../../components/block-content';
 import Button from '../../components/form/button';
+import Checkbox from '../../components/form/checkbox';
 import Constraint from '../../components/constraint';
 import FormGroup from '../../components/form/group';
 import Headline from '../../components/text/headline';
@@ -48,6 +49,13 @@ export default withLayout(
               <form>
                 <FormGroup>
                   <Input label="Email" name="email" />
+                </FormGroup>
+
+                <FormGroup>
+                  <Checkbox
+                    label="Ja, ich möchte außerdem regelmäßig vom Umweltinstitut über Kampagnen zum Klimaschutz und anderen Umweltthemen informiert werden."
+                    name="email-confirm"
+                  />
                 </FormGroup>
 
                 <FormGroup>

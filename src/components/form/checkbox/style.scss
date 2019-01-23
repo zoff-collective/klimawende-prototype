@@ -1,0 +1,13 @@
+.checkbox {
+  &__field {
+    margin-right: 1rem;
+    position: relative;
+    top: 0.5rem;
+  }
+
+  .label {
+    align-items: flex-start;
+    display: flex;
+    user-select: none;
+  }
+}
