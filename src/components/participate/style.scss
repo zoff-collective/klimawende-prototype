@@ -2,8 +2,10 @@
 @import "../../variables";
 
 .participate {
-  position: sticky;
-  top: 0.5rem;
+  @include mq($from: desktop) {
+    position: sticky;
+    top: 0.5rem;
+  }
 
   &__box {
     background-color: $color-dark-brown;

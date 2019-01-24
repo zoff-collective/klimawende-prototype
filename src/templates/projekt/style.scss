@@ -10,12 +10,19 @@
 
     &-constraint {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+
+      @include mq($from: desktop) {
+        flex-direction: row;
+      }
     }
 
     &-content-container {
       margin-right: 2.5rem;
-      width: 60%;
+
+      @include mq($from: desktop) {
+        width: 60%;
+      }
     }
 
     &-participate-container {

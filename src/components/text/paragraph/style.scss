@@ -2,14 +2,14 @@
 @import "../../../variables";
 
 .paragraph {
-  @include font-size(16);
+  @include font-size(18px);
 
   color: $color-dark-brown;
   font-family: $font-adelle;
   line-height: 1.5;
 
   @include mq($from: tablet) {
-    @include font-size(20);
+    @include font-size(20px);
   }
 
   > a {

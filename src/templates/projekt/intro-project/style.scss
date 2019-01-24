@@ -4,7 +4,7 @@
 .intro-project {
   background-color: $color-yellow;
   display: flex;
-  height: 95vh;
+  min-height: 95vh;
   justify-content: center;
   margin-bottom: 4rem;
 
@@ -14,13 +14,14 @@
 
   &__constraint {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    height: 100%;
+    flex-direction: column;
+    max-width: 1280px;
     width: 100%;
 
-    @include mq($from: wide) {
-      max-width: 1280px;
+    @include mq($from: desktop) {
+      flex-direction: row;
+      justify-content: flex-end;
+      height: 100%;
     }
   }
 
@@ -29,19 +30,19 @@
     flex-direction: column;
     flex-shrink: 0;
     justify-content: center;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 8rem;
-    width: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
 
     @include mq($from: desktop) {
       padding-left: 8.5rem;
       padding-right: 8.5rem;
+      width: 50%;
     }
   }
 
   &__title {
-    @include font-size(60px);
+    @include font-size(40px);
 
     color: $color-dark-brown;
     font-family: $font-adelle;
@@ -51,26 +52,40 @@
     margin-bottom: 0;
     margin-top: 0;
     overflow-wrap: break-word;
+
+    @include mq($from: desktop) {
+      @include font-size(60px);
+    }
   }
 
   &__type {
-    @include font-size(16px);
+    @include font-size(14px);
 
     display: block;
     font-family: $font-mark;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
+
+    @include mq($from: desktop) {
+      @include font-size(16px);
+    }
   }
 
   &__summary {
-    @include font-size(24px);
+    @include font-size(20px);
 
     color: $color-dark-brown;
     font-family: $font-adelle;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.4;
     margin-top: 0;
+
+    @include mq($from: desktop) {
+      @include font-size(24px);
+
+      line-height: 1.5;
+    }
   }
 
   &__image-container {
@@ -79,12 +94,21 @@
     height: 100%;
     margin: 0;
     overflow: hidden;
-    width: 50%;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      width: 50%;
+    }
   }
 
   &__image {
     height: auto;
     object-fit: cover;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      width: auto;
+    }
   }
 
   &__meta {
@@ -97,7 +121,7 @@
   }
 
   &__meta-description {
-    @include font-size(16px);
+    @include font-size(14px);
 
     color: $color-dark-brown;
     display: block;
@@ -106,6 +130,10 @@
     margin-left: 0;
     margin-top: 1rem;
     text-transform: uppercase;
+
+    @include mq($from: desktop) {
+      @include font-size(16px);
+    }
   }
 
   &__meta-description > .icon {
