@@ -2,12 +2,20 @@
 @import "../../variables";
 
 .participate {
-  background-color: $color-dark-brown;
-  border-radius: 1rem;
-  color: white;
-  padding: 3rem 2rem;
   position: sticky;
   top: 0.5rem;
+
+  &__box {
+    background-color: $color-dark-brown;
+    border-radius: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+    padding: 3rem 2rem;
+
+    .label__text {
+      color: white;
+    }
+  }
 
   &__title {
     @include font-size(60px);
@@ -24,7 +32,9 @@
     font-family: $font-adelle;
   }
 
-  .label__text {
-    color: white;
+  &__share-container {
+    & + & {
+      margin-left: 1rem;
+    }
   }
 }
