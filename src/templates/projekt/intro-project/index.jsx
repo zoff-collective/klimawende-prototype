@@ -1,5 +1,8 @@
 import React from 'react';
 
+import CircleIcon from '../../../../static/icons/circle.svg';
+import MapIcon from '../../../../static/icons/map-marker-alt.svg';
+
 import './style.scss';
 
 export default ({ title, summary, image, location, type, category }) => (
@@ -12,11 +15,17 @@ export default ({ title, summary, image, location, type, category }) => (
         </h1>
 
         <dl className="intro-project__meta">
-          <dt />
-          <dd className="intro-project__meta-description">{location}</dd>
+          <dt className="intro-project__meta-term">Ort</dt>
+          <dd className="intro-project__meta-description">
+            <MapIcon />
+            {location}
+          </dd>
 
-          <dt />
-          <dd className="intro-project__meta-description">{category}</dd>
+          <dt className="intro-project__meta-term">Kategorie</dt>
+          <dd className="intro-project__meta-description">
+            <CircleIcon />
+            {category}
+          </dd>
         </dl>
 
         <p className="intro-project__summary">{summary}</p>

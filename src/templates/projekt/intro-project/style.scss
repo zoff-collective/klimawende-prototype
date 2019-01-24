@@ -92,15 +92,23 @@
     margin-left: 0;
   }
 
+  &__meta-term {
+    display: none;
+  }
+
   &__meta-description {
     @include font-size(16px);
 
     color: $color-dark-brown;
-    display: inline-block;
+    display: block;
     font-family: $font-mark;
     font-weight: 700;
     margin-left: 0;
     margin-top: 1rem;
     text-transform: uppercase;
+  }
+
+  &__meta-description > .icon {
+    margin-right: 1rem;
   }
 }
