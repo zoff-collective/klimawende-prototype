@@ -18,6 +18,7 @@
   }
 
   &__goals {
+    counter-reset: goals-counter;
     list-style: none;
     margin-bottom: 0;
     margin-top: 0;
@@ -25,8 +26,12 @@
   }
 
   &__goal {
+    @include font-size(16px);
+
     align-items: center;
     border-bottom: 3px solid $color-yellow;
+    counter-increment: goals-counter;
+    color: $color-dark-brown;
     display: flex;
     font-family: $font-mark;
     font-weight: 700;
@@ -35,8 +40,9 @@
     padding-left: 5.5rem;
     padding-top: 1rem;
     position: relative;
+    text-transform: uppercase;
 
-    &-number {
+    &::before {
       $size: 4.2rem;
 
       @include font-size(20px);
@@ -44,7 +50,7 @@
       align-items: center;
       background-color: $color-yellow;
       border-radius: 50%;
-      color: $color-dark-brown;
+      content: counter(goals-counter);
       display: inline-flex;
       height: $size;
       justify-content: center;
@@ -53,14 +59,6 @@
       padding-top: 0.2rem;
       position: absolute;
       width: $size;
-    }
-
-    &-title {
-      @include font-size(16px);
-
-      color: $color-dark-brown;
-      font-style: normal;
-      text-transform: uppercase;
     }
   }
 }
