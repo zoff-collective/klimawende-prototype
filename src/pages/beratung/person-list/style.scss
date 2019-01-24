@@ -2,4 +2,14 @@
 
 .person-list {
   @include reset-list();
+
+  > * + * {
+    margin-top: 6rem;
+  }
+
+  >*:nth-child(2n) .person__content {
+    @include mq($from: tablet) {
+      order: -1;
+    }
+  }
 }

@@ -1,33 +1,20 @@
 import React from 'react';
 
-import Constraint from '../constraint';
+import Headline from '../text/headline';
+import Paragraph from '../text/paragraph';
 
 import './style.scss';
 
-export default ({ image, quote, name, byline }) => (
-  <section className="person">
-    <Constraint>
-      <header className="person__header">
-        <div className="person__portrait-container">
-          {image && (
-            <img
-              src={image}
-              alt={`Portrait ${name}`}
-              className="person__portrait"
-            />
-          )}
-        </div>
-        <blockquote className="person__quote">
-          <p className="person__quote-content">{quote}</p>
-        </blockquote>
-      </header>
-
-      <p className="person__byline">
-        <span className="person__name-container">
-          <span className="person__name">{name}</span>
-        </span>
-        <span className="person__byline-content">{byline}</span>
-      </p>
-    </Constraint>
-  </section>
+export default ({ name, email, intro, phone, image }) => (
+  <div className="person">
+    <img src={image} alt="" className="person__image" />
+    <div className="person__content">
+      <Headline level="3" levelStyle="3" underlined>
+        {name}
+      </Headline>
+      <Paragraph>{intro}</Paragraph>
+      <p className="person__email">{email}</p>
+      <p className="person__phone">{phone}</p>
+    </div>
+  </div>
 );

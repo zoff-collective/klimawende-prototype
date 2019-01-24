@@ -3,81 +3,38 @@
 
 .person {
   display: flex;
-  justify-content: center;
-  padding-bottom: 5rem;
-  padding-top: 2rem;
-  width: 100%;
+  flex-direction: column;
 
-  &__header {
-    display: flex;
+  @include mq($from: tablet) {
+    flex-direction: row;
+  }
+
+  &__image {
+    object-fit: contain;
     width: 100%;
+
+    @include mq($from: tablet) {
+      width: 40%;
+    }
   }
 
-  &__portrait-container {
-    flex: 0 0 auto;
-    width: 35%;
+  &__content {
+    flex: 1;
   }
 
-  &__portrait {
-    height: auto;
-    width: 100%;
-  }
+  &__phone,
+  &__email {
+    @include font-size(14px);
 
-  &__quote {
-    @include font-size(20);
-
-    align-self: flex-start;
-    flex: 0 1 auto;
-    font-family: $font-adelle;
-    font-style: italic;
-    font-weight: 700;
-    background-color: currentColor;
-    line-height: 1.5;
-    margin: 0 5rem;
-    padding: 3.5rem;
-    position: relative;
-  }
-
-  &__quote::before {
-    border-style: solid;
-    border-width: 0 60px 48px 0;
-    border-color: transparent currentColor transparent transparent;
-    height: 0;
-    content: '';
-    left: 0;
-    position: absolute;
-    top: 30%;
-    transform: translateX(-100%);
-    width: 0;
-  }
-
-  &__quote-content {
     color: $color-dark-brown;
-    margin-bottom: 0;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
     margin-top: 0;
-  }
+    text-transform: uppercase;
 
-  &__name-container {
-    background-color: currentColor;
-    margin-left: -0.5rem;
-    padding: 0.25rem 0.5rem;
-    position: relative;
-  }
-
-  &__name {
-    color: $color-dark-brown;
-  }
-
-  &__byline {
-    @include font-size(20);
-
-    font-family: $font-adelle;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 1.5;
-  }
-
-  &__byline-content {
-    color: $color-dark-brown;
+    @include mq($from: tablet) {
+      @include font-size(16px);
+    }
   }
 }

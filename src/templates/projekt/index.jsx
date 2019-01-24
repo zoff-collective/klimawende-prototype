@@ -10,6 +10,7 @@ import Headline from '../../components/text/headline';
 import Input from '../../components/form/input';
 import IntroProject from './intro-project';
 import Participate from '../../components/participate';
+import Person from '../../components/person';
 import Textarea from '../../components/form/textarea';
 import withLayout from '../../components/with-layout';
 
@@ -19,7 +20,16 @@ export default withLayout(
   'Projekt',
   ({
     pageContext: {
-      project: { title, blocks, image, summary, location, type, category }
+      project: {
+        title,
+        blocks,
+        image,
+        summary,
+        location,
+        type,
+        category,
+        contactPerson
+      }
     }
   }) => (
     <article className="project">
@@ -74,6 +84,10 @@ export default withLayout(
         <h2 className="project__contact-title">Ansprechperson</h2>
 
         <Constraint>
+          <div className="project__contact-person-container">
+            <Person {...contactPerson} />
+          </div>
+
           <Headline level="3" levelStyle="3">
             Ansprechperson kontaktieren
           </Headline>
