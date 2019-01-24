@@ -49,7 +49,7 @@ export default ({ blocks, children }) => (
         default:
           return (
             <Constraint>
-              <Paragraph>{content}</Paragraph>
+              <Paragraph text={content} />
             </Constraint>
           );
       }

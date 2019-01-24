@@ -11,4 +11,13 @@
   @include mq($from: tablet) {
     @include font-size(20);
   }
+
+  > a {
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
 }

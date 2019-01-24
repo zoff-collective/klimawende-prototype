@@ -27,7 +27,7 @@ export default ({ title, items = [] }) => (
                 <a href={link}>{itemTitle}</a>
               </Headline>
 
-              <Paragraph>{intro}</Paragraph>
+              <Paragraph text={intro} />
 
               <address className="partner__address">{address}</address>
               <a href={link} className="partner__link">
