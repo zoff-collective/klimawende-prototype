@@ -1,0 +1,27 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.textarea {
+  flex: 1;
+
+  &--has-error &__field {
+    border-color: $color-red;
+  }
+
+  &__field {
+    @include font-size(18px);
+
+    border: 2px solid $color-dark-brown;
+    color: $color-dark-brown;
+    font-family: $font-mark;
+    font-weight: 700;
+    padding: 0.75rem;
+    resize: none;
+    width: 100%;
+
+    &:focus,
+    &:hover {
+      border-color: $color-light-brown;
+    }
+  }
+}

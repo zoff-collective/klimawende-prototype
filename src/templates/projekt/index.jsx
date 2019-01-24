@@ -10,6 +10,7 @@ import Headline from '../../components/text/headline';
 import Input from '../../components/form/input';
 import IntroProject from './intro-project';
 import Participate from '../../components/participate';
+import Textarea from '../../components/form/textarea';
 import withLayout from '../../components/with-layout';
 
 import './style.scss';
@@ -79,11 +80,11 @@ export default withLayout(
 
           <form>
             <FormGroup>
-              <Input label="Email" name="email" />
+              <Input label="Deine Email-Adresse" name="email" />
             </FormGroup>
 
             <FormGroup>
-              <Input label="Text" name="text" />
+              <Textarea label="Deine Nachricht" name="text" rows="8" />
             </FormGroup>
 
             <FormGroup>
