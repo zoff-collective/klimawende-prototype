@@ -28,7 +28,7 @@ export default withLayout(
         location,
         type,
         category,
-        contactPerson
+        contactPerson: { email, phone, ...contactPerson }
       }
     }
   }) => (
