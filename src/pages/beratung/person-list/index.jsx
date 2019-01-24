@@ -7,7 +7,9 @@ import './style.scss';
 export default ({ persons = [] }) => (
   <ul className="person-list">
     {persons.map(person => (
-      <Person {...person.node} />
+      <li>
+        <Person {...person.node} />
+      </li>
     ))}
   </ul>
 );
