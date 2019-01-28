@@ -28,7 +28,8 @@ export default withLayout(
         location,
         type,
         category,
-        contactPerson: { email, phone, ...contactPerson }
+        contactPerson: { email, phone, ...contactPerson },
+        state
       }
     }
   }) => (
@@ -42,6 +43,7 @@ export default withLayout(
         summary={summary}
         image={image}
         type={type}
+        state={state}
         location={location}
         category={category}
       />
@@ -49,42 +51,52 @@ export default withLayout(
       <div className="project__body">
         <Constraint width="wide" className="project__body-constraint">
           <div className="project__body-content-container">
-            <BlockContent blocks={blocks} />
+            {blocks && <BlockContent blocks={blocks} />}
           </div>
 
           <div className="project__body-participate-container">
-            <Button
-              href="#participate"
-              fullWidth
-              className="project__participate-fixed-button"
-            >
-              Mitmachen!
-            </Button>
+            {state !== 'Abgeschlossen' && (
+              <Button
+                href="#participate"
+                fullWidth
+                className="project__participate-fixed-button"
+              >
+                Mitmachen!
+              </Button>
+            )}
 
-            <Participate
-              id="participate"
-              title="Und jetzt du!"
-              intro="Willst Du die Kampagne „Radentscheid Rostock“ unterstützen?"
-            >
-              <form>
-                <FormGroup>
-                  <Input label="Email" name="email" />
-                </FormGroup>
+            {state !== 'Abgeschlossen' ? (
+              <Participate
+                id="participate"
+                title="Und jetzt du!"
+                intro="Willst Du die Kampagne „Radentscheid Rostock“ unterstützen?"
+              >
+                <form>
+                  <FormGroup>
+                    <Input label="Email" name="email" />
+                  </FormGroup>
 
-                <FormGroup>
-                  <Checkbox
-                    label="Ja, ich möchte außerdem regelmäßig vom Umweltinstitut über Kampagnen zum Klimaschutz und anderen Umweltthemen informiert werden."
-                    name="email-confirm"
-                  />
-                </FormGroup>
+                  <FormGroup>
+                    <Checkbox
+                      label="Ja, ich möchte außerdem regelmäßig vom Umweltinstitut über Kampagnen zum Klimaschutz und anderen Umweltthemen informiert werden."
+                      name="email-confirm"
+                    />
+                  </FormGroup>
 
-                <FormGroup>
-                  <Button fullWidth theme="yellow">
-                    Mitmachen!
-                  </Button>
-                </FormGroup>
-              </form>
-            </Participate>
+                  <FormGroup>
+                    <Button fullWidth theme="yellow">
+                      Mitmachen!
+                    </Button>
+                  </FormGroup>
+                </form>
+              </Participate>
+            ) : (
+              <Participate
+                id="participate"
+                title="Mach die Kampagne bekannter"
+                share={false}
+              />
+            )}
           </div>
         </Constraint>
       </div>

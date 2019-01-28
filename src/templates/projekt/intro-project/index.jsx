@@ -5,12 +5,17 @@ import MapIcon from '../../../../static/icons/map-marker-alt.svg';
 
 import './style.scss';
 
-export default ({ title, summary, image, location, type, category }) => (
+export default ({ title, summary, image, location, type, category, state }) => (
   <header className="intro-project">
     <div className="intro-project__constraint">
       <div className="intro-project__content-container">
         <h1 className="intro-project__title">
-          <small className="intro-project__type">{type}</small>
+          <small className="intro-project__type">
+            {type}
+
+            {state === 'Abgeschlossen' && `, ${state}`}
+          </small>
+
           {title}
         </h1>
 
