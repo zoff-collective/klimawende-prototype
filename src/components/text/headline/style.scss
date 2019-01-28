@@ -54,6 +54,10 @@
     }
   }
 
+  &--level-4 {
+    margin-bottom: 1.5rem;
+  }
+
   &--level-4 &__headline {
     @include font-size(18px);
 

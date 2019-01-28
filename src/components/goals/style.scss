@@ -1,0 +1,68 @@
+@import "../../mixins";
+@import "../../variables";
+
+.goals {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+
+  &__title {
+    @include font-size(26px);
+
+    background-color: $color-yellow;
+    color: $color-dark-brown;
+    font-family: $font-adelle;
+    font-weight: 700;
+    line-height: 1;
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+  }
+
+  &__goals {
+    counter-reset: goals-counter;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  &__goal {
+    @include font-size(14px);
+
+    align-items: center;
+    border-bottom: 3px solid $color-yellow;
+    counter-increment: goals-counter;
+    color: $color-dark-brown;
+    display: flex;
+    font-family: $font-mark;
+    font-weight: 700;
+    min-height: 7rem;
+    padding-bottom: 1rem;
+    padding-left: 5.5rem;
+    padding-top: 1rem;
+    position: relative;
+    text-transform: uppercase;
+
+    @include mq($from: desktop) {
+      @include font-size(16px);
+    }
+
+    &::before {
+      $size: 4.2rem;
+
+      @include font-size(20px);
+
+      align-items: center;
+      background-color: $color-yellow;
+      border-radius: 50%;
+      content: counter(goals-counter);
+      display: inline-flex;
+      height: $size;
+      justify-content: center;
+      left: 0;
+      line-height: 1;
+      padding-top: 0.2rem;
+      position: absolute;
+      width: $size;
+    }
+  }
+}

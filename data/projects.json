@@ -2,30 +2,24 @@
   {
     "title": "Raus aus der Steinkohle",
     "slug": "raus-aus-der-steinkohle",
-    "location": "Muenchen",
-    "date": 2016,
-    "tags": [
-      "Energie"
-    ],
+    "location": "München",
+    "type": "Bürgerentscheid",
+    "category": "Energie",
+    "summary": "„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.",
     "state": "Abgeschlossen",
-    "intro": "„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.",
+    "image": {
+      "src": "/images/projects/radentscheid-rostock.png",
+      "alt": "Radentscheid Rostock"
+    },
+    "site": {
+      "url": "https://radentscheid-rostock.de/",
+      "label": "radentscheid-rostock.de"
+    },
+    "contactPerson": {
+      "name": "Franziska Buch",
+      "email": true
+    },
     "blocks": [
-      {
-        "type": "paragraph",
-        "content": "Wer in München ins Kino geht, der sieht erstmal von Wind und Wasser angetriebene Turbinen. Dazu lacht die Sonne auf bayerische Solarzellen herab. Die Stadtwerke München (SWM) setzten auf „die Kräfte der Natur“, heißt es in dem Spot. Was man nicht sieht, ist das Heizkraftwerk Nord: Dessen Block 2 wird mit Steinkohle befeuert und erzeugt jährlich mehr CO2 als der gesamte Münchner Straßenverkehr."
-      },
-
-      {
-        "type": "paragraph",
-        "content": "Dieser Bilderbuch-Klimakiller gehört zu hundert Prozent den Stadtwerken, die wiederum vollständig Eigentum der Stadt München sind – und somit letztlich der Bürgerinnen und Bürger. Das Bündnis „Raus aus der Steinkohle“ startete deshalb ein Bürgerbegehren. Die MünchnerInnen sollten darüber abstimmen, ob „ihr“ Kohlekraftwerk bis 2022 vom Netz geht. Dafür mussten sie zunächst einmal von dessen Existenz erfahren. Die SWM gelten nämlich als leuchtendes Beispiel eines kommunalen Energieversorgers, der aktiv die Energiewende vorantreibt. „Was, in München steht ein Kohlekraftwerk?“ war die Antwort, die die Aktiven am häufigsten zu hören bekamen, als sie anfingen, Unterschriften zu sammeln."
-      },
-
-      {
-        "type": "image",
-        "src": "/images/von-wegen-geht-nicht.png",
-        "alt": "Von wegen geht nicht"
-      },
-
       {
         "type": "headline-2",
         "content": "Bild-Zeitung titelt: „Münchens dreiste Öko-Lügen“"
@@ -42,14 +36,25 @@
       },
 
       {
+        "type": "blockquote",
+        "content": "Es war das erste Mal, dass ich für etwas Unterschriften gesammelt habe. Ich dachte, die Leute würden total genervt auf uns reagieren. Aber im Gegenteil: Bis auf ein paar Klimawandel-Leugner haben die sich fast alle gefreut, dass wir das machen. Besonders im Sommer am Ufer der Isar hat so gut wie jeder unterschrieben.",
+        "author": "Isabella Wach"
+      },
+
+      {
         "type": "paragraph",
         "content": "Die erste Studie hatte errechnet, dass den SWM durch die Stilllegung des Kohlekraftwerks im Jahr 2022 statt 2035 insgesamt Gewinne in der Höhe von etwa 300 Millionen Euro entgehen würden. Mit den neu einbezogenen Parametern korrigierten die GutachterInnen die Zahl um die Hälfte nach unten. Übrig blieben 12 Millionen Euro jährlich und damit weniger, als die Stadt München jedes Jahr für den Klimaschutz ausgibt, etwa in Form von Gebäudesanierungen oder Bildungsangeboten. Mit dieser Summe spart sie trotzdem viel weniger Emissionen einspart, als das Kohlekraftwerk im selben Zeitraum produziert. Das rechnete „Raus aus der Steinkohle“ der Presse vor."
       },
 
       {
-        "type": "statistic",
-        "number": "800.000",
-        "content": "Tonnen Steinkohle werden jedes Jahr im Heizkraftwerk Nord verbrannt."
+        "type": "paragraph",
+        "content": "Die erste Studie hatte errechnet, dass den SWM durch die Stilllegung des Kohlekraftwerks im Jahr 2022 statt 2035 insgesamt Gewinne in der Höhe von etwa 300 Millionen Euro entgehen würden. Mit den neu einbezogenen Parametern korrigierten die GutachterInnen die Zahl um die Hälfte nach unten. Übrig blieben 12 Millionen Euro jährlich und damit weniger, als die Stadt München jedes Jahr für den Klimaschutz ausgibt, etwa in Form von Gebäudesanierungen oder Bildungsangeboten. Mit dieser Summe spart sie trotzdem viel weniger Emissionen einspart, als das Kohlekraftwerk im selben Zeitraum produziert. Das rechnete „Raus aus der Steinkohle“ der Presse vor."
+      },
+
+      {
+        "type": "image",
+        "src": "/images/von-wegen-geht-nicht.png",
+        "alt": "Von wegen geht nicht"
       },
 
       {
@@ -59,31 +64,82 @@
 
       {
         "type": "paragraph",
-        "content": "Rückenwind bekam das Bündnis aus dem Umland. Im Dezember 2015 forderte der Kreistag des Landkreises München die Stadtwerke mit deutlicher Mehrheit auf, Schadstoffemissionen abzustellen. Unterföhring, die Gemeinde am Rande Münchens, auf deren Grund das Kraftwerk steht, verabschiedete eine ähnliche Resolution und kündigte zugleich den Nutzungsvertrag mit den SWM. Ab 2021 bezieht die Gemeinde nun keinen schmutzigen Kohlestrom mehr, sondern setzt stattdessen auf umweltfreundliche Geothermie. Im Sommer 2017 nahm auch in München der Protest Schwung auf. Die Kampagne hatte die nötigen Unterschriften gesammelt, der Abstimmungstermin stand fest. Für den dreimonatigen Endspurt mobilisierte „Raus aus der Steinkohle“ alle Ressourcen. Sogar die Bavaria, Wächterin der Stadt, forderte mit einem riesigen Banner „Klimaschutz statt Kohleschmutz“. AktivistInnen von „Ende Gelände“ hatten es ihr umgehängt. Die gewaltige Bronzestatue, 1850 als Nationaldenkmal eingeweiht, blickte damit ausnahmsweise mal in die Zukunft. Am 5. November, zum Auftakt der Weltklimakonferenz in Bonn, votierten über 60 Prozent der Abstimmenden für den lokalen Kohleausstieg in München."
-      }
-    ],
+        "content": "Rückenwind bekam das Bündnis aus dem Umland. Im Dezember 2015 forderte der Kreistag des Landkreises München die Stadtwerke mit deutlicher Mehrheit auf, Schadstoffemissionen abzustellen. Unterföhring, die Gemeinde am Rande Münchens, auf deren Grund das Kraftwerk steht, verabschiedete eine ähnliche Resolution und kündigte zugleich den Nutzungsvertrag mit den SWM. Ab 2021 bezieht die Gemeinde nun keinen schmutzigen Kohlestrom mehr, sondern setzt stattdessen auf umweltfreundliche Geothermie. Im Sommer 2017 nahm auch in München der Protest Schwung auf. Die Kampagne hatte die nötigen Unterschriften gesammelt, der Abstimmungstermin stand fest. Für den dreimonatigen Endspurt mobilisierte „Raus aus der Steinkohle“ alle Ressourcen. Sogar die Bavaria, Wächterin der Stadt, forderte mit einem riesigen Banner „Klimaschutz statt Kohleschmutz“. AktivistInnen von „Ende Gelände“ hatten es ihr umgehängt. Die gewaltige Bronzestatue, 1850 als Nationaldenkmal eingeweiht, blickte damit ausnahmsweise mal in die Zukunft. "
+      },
 
-    "person": "Isabella Wach"
-  },
-
-  {
-    "title": "Volksentscheid Fahrrad",
-    "slug": "volksentscheid-fahrrad",
-    "location": "Berlin",
-    "date": 2017,
-    "tags": [
-      "Radentscheid"
-    ],
-    "state": "Abgeschlossen",
-    "blocks": [
       {
-        "type": "paragraph",
-        "content": "Wer in München ins Kino geht, der sieht erstmal von Wind und Wasser angetriebene Turbinen. Dazu lacht die Sonne auf bayerische Solarzellen herab. Die Stadtwerke München (SWM) setzten auf „die Kräfte der Natur“, heißt es in dem Spot. Was man nicht sieht, ist das Heizkraftwerk Nord: Dessen Block 2 wird mit Steinkohle befeuert und erzeugt jährlich mehr CO2 als der gesamte Münchner Straßenverkehr."
+        "type": "headline-2",
+        "content": "Mehr Informationen"
       },
 
       {
         "type": "paragraph",
-        "content": "Dieser Bilderbuch-Klimakiller gehört zu hundert Prozent den Stadtwerken, die wiederum vollständig Eigentum der Stadt München sind – und somit letztlich der Bürgerinnen und Bürger. Das Bündnis „Raus aus der Steinkohle“ startete deshalb ein Bürgerbegehren. Die MünchnerInnen sollten darüber abstimmen, ob „ihr“ Kohlekraftwerk bis 2022 vom Netz geht. Dafür mussten sie zunächst einmal von dessen Existenz erfahren. Die SWM gelten nämlich als leuchtendes Beispiel eines kommunalen Energieversorgers, der aktiv die Energiewende vorantreibt. „Was, in München steht ein Kohlekraftwerk?“ war die Antwort, die die Aktiven am häufigsten zu hören bekamen, als sie anfingen, Unterschriften zu sammeln."
+        "content": "<a href='https://www.radentscheid-rostock.de'>www.radentscheid-rostock.de</a>"
+      }
+    ]
+  },
+
+  {
+    "title": "Radentscheid Rostock",
+    "slug": "volksentscheid-fahrrad",
+    "location": "Rostock",
+    "type": "Bürgerentscheid",
+    "date": 2017,
+    "category": "Fahrrad/ Mobilität",
+    "summary": "„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.",
+    "state": "Aktiv",
+    "image": {
+      "src": "/images/projects/radentscheid-rostock.png",
+      "alt": "Radentscheid Rostock"
+    },
+    "site": {
+      "url": "https://radentscheid-rostock.de/",
+      "label": "radentscheid-rostock.de"
+    },
+    "contactPerson": {
+      "name": "Franziska Buch",
+      "email": false
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "content": "Sichere Radwege, auf denen vom Schulkind bis zur Seniorin alle unbeschwert fahren können, sind in Rostock Mangelware. Viele Fahrradwege werden seit Jahren als Parkstreifen missbraucht."
+      },
+
+      {
+        "type": "paragraph",
+        "content": "Interessierte Aktive, die sich überparteilich und unabhängig für besseren Radverkehr einsetzen, haben deshalb im Sommer 2018 den „Radentscheid Rostock“ ins Leben gerufen. Sie werden unterstützt von Changing Cities e.V., Greenpeace Rostock, Frieda 23, Fuß e.V., Dein freies Lastenrad Helge, dem Verkehrsclub Deutschland (VCD) und dem Landesjugendring Mecklenburg-Vorpommern."
+      },
+
+      {
+        "type": "paragraph",
+        "content": "Folgende Ziele wollen sie mit Hilfe eines Bürgerbegehrens erreichen."
+      },
+
+      {
+        "type": "goals",
+        "content": "Unsere Ziele",
+        "goals": [
+          "Zehn Kilometer sichere Radwege pro Jahr",
+          "Rad- und Gehwege müssen hinderungsfrei sein",
+          "Fünf sichere Kreuzungen pro Jahr",
+          "Grüne Welle für Umweltverbund auf allen Hauptrouten",
+          "Mindestens 1000 neue Radabstellanlagen pro Jahr",
+          "50 Bordsteinabsenkungen pro Jahr",
+          "Zehn Kilometer für den Radverkehr attraktives Nebenstraßennetz pro Jahr",
+          "Förderung von Lastenrädern",
+          "Kampagne zur Akzeptanz des Radverkehrs"
+        ]
+      },
+
+      {
+        "type": "headline-2",
+        "content": "Mehr Informationen"
+      },
+
+      {
+        "type": "paragraph",
+        "content": "<a href='https://www.radentscheid-rostock.de'>www.radentscheid-rostock.de</a>"
       }
     ]
   }

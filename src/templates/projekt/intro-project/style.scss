@@ -1,0 +1,148 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.intro-project {
+  background-color: $color-yellow;
+  display: flex;
+  min-height: 95vh;
+  justify-content: center;
+  margin-bottom: 4rem;
+
+  &__constraint {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1280px;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      flex-direction: row;
+      justify-content: flex-end;
+      height: 100%;
+    }
+  }
+
+  &__content-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+
+    @include mq($from: desktop) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+      width: 50%;
+    }
+
+    @include mq($from: wide) {
+      padding-left: 8.5rem;
+      padding-right: 8.5rem;
+    }
+  }
+
+  &__title {
+    @include font-size(40px);
+
+    color: $color-dark-brown;
+    font-family: $font-adelle;
+    font-weight: 800;
+    hyphens: auto;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow-wrap: break-word;
+
+    @include mq($from: desktop) {
+      @include font-size(60px);
+    }
+  }
+
+  &__type {
+    @include font-size(14px);
+
+    display: block;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+
+    @include mq($from: desktop) {
+      @include font-size(16px);
+    }
+  }
+
+  &__summary {
+    @include font-size(20px);
+
+    color: $color-dark-brown;
+    font-family: $font-adelle;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-top: 0;
+
+    @include mq($from: desktop) {
+      @include font-size(24px);
+
+      line-height: 1.5;
+    }
+  }
+
+  &__image-container {
+    font-size: 0;
+    flex-shrink: 0;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      width: 50%;
+    }
+
+    @include mq($from: wide) {
+      max-height: 67rem;
+    }
+  }
+
+  &__image {
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      width: auto;
+    }
+  }
+
+  &__meta {
+    margin-bottom: 2.5rem;
+    margin-left: 0;
+  }
+
+  &__meta-term {
+    display: none;
+  }
+
+  &__meta-description {
+    @include font-size(14px);
+
+    color: $color-dark-brown;
+    display: block;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 1rem;
+    text-transform: uppercase;
+
+    @include mq($from: desktop) {
+      @include font-size(16px);
+    }
+  }
+
+  &__meta-description > .icon {
+    margin-right: 1rem;
+  }
+}

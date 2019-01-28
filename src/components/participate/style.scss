@@ -1,0 +1,49 @@
+@import "../../mixins";
+@import "../../variables";
+
+.participate {
+  @include mq($from: desktop) {
+    position: sticky;
+    top: 0.5rem;
+  }
+
+  &__box {
+    background-color: $color-dark-brown;
+    border-radius: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+    padding: 3rem 2rem;
+
+    .label__text {
+      color: white;
+    }
+  }
+
+  &__title {
+    @include font-size(35px);
+
+    color: $color-yellow;
+    font-family: $font-adelle;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+
+    @include mq($from: tablet) {
+      @include font-size(40px);
+    }
+
+    @include mq($from: desktop) {
+      @include font-size(45px);
+    }
+  }
+
+  &__intro {
+    @include font-size(16px);
+
+    font-family: $font-adelle;
+    margin-top: 0;
+
+    @include mq($from: tablet) {
+      @include font-size(20px);
+    }
+  }
+}

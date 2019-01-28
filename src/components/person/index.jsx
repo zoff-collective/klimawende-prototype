@@ -1,33 +1,36 @@
 import React from 'react';
 
-import Constraint from '../constraint';
+import Headline from '../text/headline';
+import Paragraph from '../text/paragraph';
+
+import EnvelopeIcon from '../../../static/icons/envelope.svg';
+import PhoneIcon from '../../../static/icons/phone.svg';
 
 import './style.scss';
 
-export default ({ image, quote, name, byline }) => (
-  <section className="person">
-    <Constraint>
-      <header className="person__header">
-        <div className="person__portrait-container">
-          {image && (
-            <img
-              src={image}
-              alt={`Portrait ${name}`}
-              className="person__portrait"
-            />
-          )}
-        </div>
-        <blockquote className="person__quote">
-          <p className="person__quote-content">{quote}</p>
-        </blockquote>
-      </header>
+export default ({ name, email, intro, phone, image }) => (
+  <div className="person">
+    <img src={image} alt="" className="person__image" />
+    <div className="person__content">
+      <Headline level="3" levelStyle="3" underlined>
+        {name}
+      </Headline>
 
-      <p className="person__byline">
-        <span className="person__name-container">
-          <span className="person__name">{name}</span>
-        </span>
-        <span className="person__byline-content">{byline}</span>
-      </p>
-    </Constraint>
-  </section>
+      <Paragraph text={intro} />
+
+      {email && (
+        <p className="person__meta">
+          <EnvelopeIcon className="person__meta-icon" />
+          {email}
+        </p>
+      )}
+
+      {phone && (
+        <p className="person__meta">
+          <PhoneIcon className="person__meta-icon" />
+          {phone}
+        </p>
+      )}
+    </div>
+  </div>
 );

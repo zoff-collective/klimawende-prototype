@@ -14,7 +14,14 @@
     text-transform: uppercase;
 
     @include mq($from: tablet) {
-      @include font-size(18px);
+      @include font-size(16px);
     }
+  }
+
+  &--for-checkbox &__text {
+    @include font-size(14px);
+
+    font-weight: 500;
+    text-transform: none;
   }
 }

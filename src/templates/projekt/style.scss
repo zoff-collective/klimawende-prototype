@@ -4,29 +4,78 @@
 .project {
   color: $color-yellow;
 
-  &__meta-container {
-    @include font-size(30);
+  &__body {
+    display: flex;
+    justify-content: center;
 
-    color: $color-dark-brown;
-    font-family: $font-mark;
-    font-weight: 700;
+    @include mq($from: tablet) {
+      padding-left: 4rem;
+    }
+
+    @include mq($from: wide) {
+      padding-left: 0;
+    }
+
+    &-constraint {
+      display: flex;
+      flex-direction: column;
+
+      @include mq($from: desktop) {
+        flex-direction: row;
+      }
+    }
+
+    &-content-container {
+      @include mq($from: desktop) {
+        margin-right: 4.5rem;
+        width: 60%;
+      }
+    }
+
+    &-participate-container {
+      flex: 1;
+    }
+  }
+
+  &__contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+
+    &-title {
+      @include font-size(20px);
+
+      background-color: $color-yellow;
+      color: $color-dark-brown;
+      font-family: $font-adelle;
+      font-weight: 700;
+      padding: 1rem;
+      text-align: center;
+      width: 100%;
+
+      @include mq($from: tablet) {
+        @include font-size(26px);
+
+        padding: 1.5rem;
+      }
+    }
+  }
+
+  &__contact-person-container {
     margin-bottom: 3rem;
-    margin-top: 0;
+    margin-top: 3rem;
   }
 
-  &__tags-container {
-    @include rem(margin-bottom, 30);
-  }
+  &__participate-fixed-button {
+    display: none;
 
-  &__intro {
-    @include font-size(30);
-    @include rem(margin-top, 30);
-
-    color: $color-dark-brown;
-    font-family: $font-adelle;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 1.5;
-    margin-bottom: 0;
+    @include mq($until: tablet) {
+      border-radius: 0;
+      bottom: 0;
+      display: block;
+      left: 0;
+      position: fixed;
+    }
   }
 }

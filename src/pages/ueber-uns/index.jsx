@@ -36,11 +36,13 @@ export default withLayout(
           Mit freundlicher Unterstützung
         </Headline>
 
-        <Paragraph>
+        <Paragraph
+          text="
           der Klima-Allianz Deutschland, Greenpeace, Bund für Umwelt und
           Naturschutz Deutschland (BUND), NaturFreunde Deutschlands, 350.org,
           ADFC, Changing Cities
-        </Paragraph>
+        "
+        />
       </Content>
     </div>
   )

@@ -9,6 +9,7 @@ import navigationItems from '../../../data/navigation';
 
 import './font-adelle.scss';
 import './font-mark.scss';
+import './icon.scss';
 import './style.scss';
 
 export default (title, WrappedComponent) => props => (
