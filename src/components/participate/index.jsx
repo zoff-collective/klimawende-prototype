@@ -3,7 +3,7 @@ import React from 'react';
 import Headline from '../text/headline';
 import Share from '../share';
 
-import EnvelopekIcon from '../../../static/icons/envelope.svg';
+import EnvelopeIcon from '../../../static/icons/envelope.svg';
 import FacebookIcon from '../../../static/icons/facebook-square.svg';
 import TwitterIcon from '../../../static/icons/twitter.svg';
 
@@ -40,8 +40,8 @@ export default ({ title, intro, children, share = true, ...rest }) => (
         <span className="participate__share-container">
           <Share
             label="Email"
-            href="mailto:pursche@posteo.de"
-            Icon={EnvelopekIcon}
+            href="mailto:gustav@zoff-kollektiv.net"
+            Icon={EnvelopeIcon}
           />
         </span>
       </>

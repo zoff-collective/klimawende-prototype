@@ -11,8 +11,13 @@ import Input from '../../components/form/input';
 import IntroProject from './intro-project';
 import Participate from '../../components/participate';
 import Person from '../../components/person';
+import Share from '../../components/share';
 import Textarea from '../../components/form/textarea';
 import withLayout from '../../components/with-layout';
+
+import EnvelopeIcon from '../../../static/icons/envelope.svg';
+import FacebookIcon from '../../../static/icons/facebook-square.svg';
+import TwitterIcon from '../../../static/icons/twitter.svg';
 
 import './style.scss';
 
@@ -95,7 +100,26 @@ export default withLayout(
                 id="participate"
                 title="Mach die Kampagne bekannter"
                 share={false}
-              />
+              >
+                <Share
+                  label="Tweet"
+                  href="https://twitter.com"
+                  Icon={TwitterIcon}
+                  theme="white"
+                />
+                <Share
+                  label="Facebook"
+                  href="https://facebook.com"
+                  Icon={FacebookIcon}
+                  theme="white"
+                />
+                <Share
+                  label="Email"
+                  href="mailto:gustav@zoff-kollektiv.net"
+                  Icon={EnvelopeIcon}
+                  theme="white"
+                />
+              </Participate>
             )}
           </div>
         </Constraint>
