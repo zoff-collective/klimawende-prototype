@@ -53,7 +53,11 @@ export default withLayout(
           </div>
 
           <div className="project__body-participate-container">
-            <Button fullWidth className="project__participate-fixed-button">
+            <Button
+              href="#participate"
+              fullWidth
+              className="project__participate-fixed-button"
+            >
               Mitmachen!
             </Button>
 
