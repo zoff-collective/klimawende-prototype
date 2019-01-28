@@ -2,14 +2,15 @@
 @import "../../variables";
 
 .share {
-  @include font-size(13px);
+  @include font-size(12px);
 
   background-color: $color-dark-brown;
   border-radius: 0.35rem;
   color: white;
   font-family: $font-mark;
   font-weight: 700;
-  padding: 0.9rem 1.5rem;
+  line-height: 1;
+  padding: 1rem 1.3rem;
   vertical-align: middle;
   white-space: nowrap;
 
@@ -29,6 +30,7 @@
   }
 
   .icon {
-    margin-right: 0.5rem;
+    margin-right: 0.45rem;
+    transform: translateY(-0.15rem);
   }
 }
