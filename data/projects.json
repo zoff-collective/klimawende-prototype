@@ -16,7 +16,8 @@
       "label": "radentscheid-rostock.de"
     },
     "contactPerson": {
-      "name": "Franziska Buch"
+      "name": "Franziska Buch",
+      "email": true
     },
     "blocks": [
       {
@@ -65,7 +66,8 @@
       "label": "radentscheid-rostock.de"
     },
     "contactPerson": {
-      "name": "Franziska Buch"
+      "name": "Franziska Buch",
+      "email": false
     },
     "blocks": [
       {

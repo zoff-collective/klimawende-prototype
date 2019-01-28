@@ -33,9 +33,10 @@ export default withLayout(
         location,
         type,
         category,
-        contactPerson: { email, phone, ...contactPerson },
         state
-      }
+      },
+
+      contactPerson
     }
   }) => (
     <article className="project">
@@ -135,23 +136,29 @@ export default withLayout(
             <Person {...contactPerson} />
           </div>
 
-          <Headline level="3" levelStyle="3">
-            Ansprechperson kontaktieren
-          </Headline>
+          {console.log(contactPerson)}
 
-          <form>
-            <FormGroup>
-              <Input label="Deine Email-Adresse" name="email" />
-            </FormGroup>
+          {!contactPerson.email && (
+            <>
+              <Headline level="3" levelStyle="3">
+                Ansprechperson kontaktieren
+              </Headline>
 
-            <FormGroup>
-              <Textarea label="Deine Nachricht" name="text" rows="8" />
-            </FormGroup>
+              <form>
+                <FormGroup>
+                  <Input label="Deine Email-Adresse" name="email" />
+                </FormGroup>
 
-            <FormGroup>
-              <Button>Nachricht senden!</Button>
-            </FormGroup>
-          </form>
+                <FormGroup>
+                  <Textarea label="Deine Nachricht" name="text" rows="8" />
+                </FormGroup>
+
+                <FormGroup>
+                  <Button>Nachricht senden!</Button>
+                </FormGroup>
+              </form>
+            </>
+          )}
         </Constraint>
       </div>
     </article>
