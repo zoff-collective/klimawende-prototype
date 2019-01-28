@@ -103,7 +103,7 @@
     }
 
     @include mq($from: wide) {
-      max-height: 67rem;
+      max-height: 75rem;
     }
   }
 
@@ -111,10 +111,6 @@
     height: auto;
     object-fit: cover;
     width: 100%;
-
-    @include mq($from: desktop) {
-      width: auto;
-    }
   }
 
   &__meta {
