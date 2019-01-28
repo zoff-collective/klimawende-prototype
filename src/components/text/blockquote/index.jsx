@@ -3,9 +3,13 @@ import React from 'react';
 import './style.scss';
 
 export default ({ author, children }) => (
-  <blockquote className="blockquote">
-    {children}
+  <figure className="blockquote">
+    <blockquote className="blockquote__inner">
+      {children}
 
-    {author}
-  </blockquote>
+      {author && (
+        <figcaption className="blockquote__author">{author}</figcaption>
+      )}
+    </blockquote>
+  </figure>
 );
