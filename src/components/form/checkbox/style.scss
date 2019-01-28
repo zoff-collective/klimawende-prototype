@@ -25,6 +25,7 @@ $check: "<svg aria-hidden='true' role='img' xmlns='http://www.w3.org/2000/svg' v
 
   &__field:hover ~ &__custom-check,
   &__field:focus ~ &__custom-check {
+    background-color: $color-yellow;
     border-color: $color-light-brown;
   }
 
