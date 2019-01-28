@@ -12,9 +12,12 @@ export default ({ name, email, intro, phone, image }) => (
       <Headline level="3" levelStyle="3" underlined>
         {name}
       </Headline>
+
       <Paragraph text={intro} />
-      <p className="person__email">{email}</p>
-      <p className="person__phone">{phone}</p>
+
+      {email && <p className="person__email">{email}</p>}
+
+      {phone && <p className="person__phone">{phone}</p>}
     </div>
   </div>
 );
