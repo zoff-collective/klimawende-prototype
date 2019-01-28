@@ -136,8 +136,6 @@ export default withLayout(
             <Person {...contactPerson} />
           </div>
 
-          {console.log(contactPerson)}
-
           {!contactPerson.email && (
             <>
               <Headline level="3" levelStyle="3">
