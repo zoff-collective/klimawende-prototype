@@ -15,6 +15,8 @@ export default ({ name, label, ...rest }) => (
         name={name}
         id={name}
       />
+
+      <span className="checkbox__custom-check" />
     </Label>
   </div>
 );
