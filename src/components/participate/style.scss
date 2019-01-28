@@ -20,12 +20,16 @@
   }
 
   &__title {
-    @include font-size(40px);
+    @include font-size(35px);
 
     color: $color-yellow;
     font-family: $font-adelle;
     margin-bottom: 1.5rem;
     margin-top: 0;
+
+    @include mq($from: tablet) {
+      @include font-size(40px);
+    }
 
     @include mq($from: desktop) {
       @include font-size(45px);
@@ -33,9 +37,13 @@
   }
 
   &__intro {
-    @include font-size(20px);
+    @include font-size(16px);
 
     font-family: $font-adelle;
     margin-top: 0;
+
+    @include mq($from: tablet) {
+      @include font-size(20px);
+    }
   }
 }
