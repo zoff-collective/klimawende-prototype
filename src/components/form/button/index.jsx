@@ -10,6 +10,7 @@ export default ({
   theme = false,
   children,
   fullWidth = false,
+  className = '',
   ...rest
 }) => {
   const Tag = `${href ? 'a' : 'button'}`;
@@ -19,7 +20,8 @@ export default ({
       className={classnames(
         'button',
         { 'button--has-full-width': fullWidth },
-        { [`button--theme-${theme}`]: theme }
+        { [`button--theme-${theme}`]: theme },
+        className
       )}
       href={href}
       type={type}
