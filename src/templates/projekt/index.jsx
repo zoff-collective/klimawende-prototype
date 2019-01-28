@@ -18,6 +18,7 @@ import withLayout from '../../components/with-layout';
 import EnvelopeIcon from '../../../static/icons/envelope.svg';
 import FacebookIcon from '../../../static/icons/facebook-square.svg';
 import TwitterIcon from '../../../static/icons/twitter.svg';
+import WhatsappIcon from '../../../static/icons/whatsapp.svg';
 
 import './style.scss';
 
@@ -106,6 +107,13 @@ export default withLayout(
                   label="Email"
                   href="mailto:gustav@zoff-kollektiv.net"
                   Icon={EnvelopeIcon}
+                  theme="white"
+                />
+
+                <Share
+                  label="Whatsapp"
+                  href="https://whatsapp.com"
+                  Icon={WhatsappIcon}
                   theme="white"
                 />
 
