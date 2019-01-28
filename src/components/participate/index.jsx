@@ -25,25 +25,19 @@ export default ({ title, intro, children, share = true, ...rest }) => (
           Mach die Kampagne bekannter!
         </Headline>
 
-        <span className="participate__share-container">
-          <Share label="Tweet" href="https://twitter.com" Icon={TwitterIcon} />
-        </span>
+        <Share label="Tweet" href="https://twitter.com" Icon={TwitterIcon} />
 
-        <span className="participate__share-container">
-          <Share
-            label="Facebook"
-            href="https://facebook.com"
-            Icon={FacebookIcon}
-          />
-        </span>
+        <Share
+          label="Facebook"
+          href="https://facebook.com"
+          Icon={FacebookIcon}
+        />
 
-        <span className="participate__share-container">
-          <Share
-            label="Email"
-            href="mailto:gustav@zoff-kollektiv.net"
-            Icon={EnvelopeIcon}
-          />
-        </span>
+        <Share
+          label="Email"
+          href="mailto:gustav@zoff-kollektiv.net"
+          Icon={EnvelopeIcon}
+        />
       </>
     )}
   </aside>
