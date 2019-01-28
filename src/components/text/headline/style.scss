@@ -5,6 +5,7 @@
   &__headline {
     font-family: $font-adelle;
     font-weight: 700;
+    line-height: 1.2;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -12,6 +13,7 @@
   &--is-underlined &__headline {
     display: inline;
     border-bottom: 4px solid currentColor;
+    line-height: 1.8;
 
     @include mq($from: tablet) {
       border-bottom-width: 7px;
