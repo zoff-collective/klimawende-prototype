@@ -9,8 +9,8 @@ import TwitterIcon from '../../../static/icons/twitter.svg';
 
 import './style.scss';
 
-export default ({ title, intro, children }) => (
-  <aside className="participate">
+export default ({ title, intro, children, ...rest }) => (
+  <aside className="participate" {...rest}>
     <div className="participate__box">
       <h2 className="participate__title">{title}</h2>
 

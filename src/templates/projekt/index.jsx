@@ -53,7 +53,12 @@ export default withLayout(
           </div>
 
           <div className="project__body-participate-container">
+            <Button fullWidth className="project__participate-fixed-button">
+              Mitmachen!
+            </Button>
+
             <Participate
+              id="participate"
               title="Und jetzt du!"
               intro="Willst Du die Kampagne „Radentscheid Rostock“ unterstützen?"
             >

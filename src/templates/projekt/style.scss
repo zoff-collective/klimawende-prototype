@@ -53,4 +53,16 @@
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
+
+  &__participate-fixed-button {
+    display: none;
+
+    @include mq($until: tablet) {
+      border-radius: 0;
+      bottom: 0;
+      display: block;
+      left: 0;
+      position: fixed;
+    }
+  }
 }
