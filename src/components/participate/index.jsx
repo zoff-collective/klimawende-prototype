@@ -24,6 +24,7 @@ export default ({ title, intro, children, share = true, ...rest }) => (
         <Headline level="3" levelStyle="4">
           Mach die Kampagne bekannter!
         </Headline>
+
         <span className="participate__share-container">
           <Share label="Tweet" href="https://twitter.com" Icon={TwitterIcon} />
         </span>

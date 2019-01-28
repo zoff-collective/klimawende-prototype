@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Blockquote from '../text/blockquote';
 import Button from '../form/button';
 import Constraint from '../constraint';
 import Goals from '../goals';
@@ -19,6 +20,13 @@ export default ({ blocks, children }) => (
               <Headline level="2" levelStyle="3" underlined>
                 {content}
               </Headline>
+            </Constraint>
+          );
+
+        case 'blockquote':
+          return (
+            <Constraint>
+              <Blockquote author={rest.author}>{content}</Blockquote>
             </Constraint>
           );
 
