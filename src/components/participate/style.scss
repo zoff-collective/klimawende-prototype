@@ -24,11 +24,11 @@
 
     color: $color-yellow;
     font-family: $font-adelle;
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
     margin-top: 0;
 
     @include mq($from: desktop) {
-      @include font-size(60px);
+      @include font-size(45px);
     }
   }
 
@@ -36,5 +36,6 @@
     @include font-size(20px);
 
     font-family: $font-adelle;
+    margin-top: 0;
   }
 }
