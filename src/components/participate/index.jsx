@@ -25,7 +25,11 @@ export default ({ title, intro, children, share = true, ...rest }) => (
           Mach die Kampagne bekannter!
         </Headline>
 
-        <Share label="Tweet" href="https://twitter.com" Icon={TwitterIcon} />
+        <Share
+          label="Email"
+          href="mailto:gustav@zoff-kollektiv.net"
+          Icon={EnvelopeIcon}
+        />
 
         <Share
           label="Facebook"
@@ -33,11 +37,7 @@ export default ({ title, intro, children, share = true, ...rest }) => (
           Icon={FacebookIcon}
         />
 
-        <Share
-          label="Email"
-          href="mailto:gustav@zoff-kollektiv.net"
-          Icon={EnvelopeIcon}
-        />
+        <Share label="Tweet" href="https://twitter.com" Icon={TwitterIcon} />
       </>
     )}
   </aside>

@@ -102,21 +102,23 @@ export default withLayout(
                 share={false}
               >
                 <Share
-                  label="Tweet"
-                  href="https://twitter.com"
-                  Icon={TwitterIcon}
+                  label="Email"
+                  href="mailto:gustav@zoff-kollektiv.net"
+                  Icon={EnvelopeIcon}
                   theme="white"
                 />
+
                 <Share
                   label="Facebook"
                   href="https://facebook.com"
                   Icon={FacebookIcon}
                   theme="white"
                 />
+
                 <Share
-                  label="Email"
-                  href="mailto:gustav@zoff-kollektiv.net"
-                  Icon={EnvelopeIcon}
+                  label="Tweet"
+                  href="https://twitter.com"
+                  Icon={TwitterIcon}
                   theme="white"
                 />
               </Participate>
