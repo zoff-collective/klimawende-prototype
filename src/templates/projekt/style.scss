@@ -8,6 +8,14 @@
     display: flex;
     justify-content: center;
 
+    @include mq($from: tablet) {
+      padding-left: 4rem;
+    }
+
+    @include mq($from: wide) {
+      padding-left: 0;
+    }
+
     &-constraint {
       display: flex;
       flex-direction: column;
