@@ -22,19 +22,27 @@
     flex: 1;
   }
 
-  &__phone,
-  &__email {
+  &__meta {
     @include font-size(14px);
 
     color: $color-dark-brown;
     font-family: $font-mark;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
     margin-top: 0;
     text-transform: uppercase;
 
     @include mq($from: tablet) {
       @include font-size(16px);
     }
+  }
+
+  &__meta-icon {
+    height: 1.75rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+    position: relative;
+    top: -0.2rem;
+    width: 1.75rem;
   }
 }
