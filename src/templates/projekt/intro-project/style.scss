@@ -4,21 +4,21 @@
 .intro-project {
   background-color: $color-yellow;
   display: flex;
-  min-height: 95vh;
   justify-content: center;
   margin-bottom: 4rem;
+
+  @include mq($from: wide) {
+    max-height: 73rem;
+  }
 
   &__constraint {
     display: flex;
     flex-direction: column;
-    height: 100%;
     max-width: 1280px;
     width: 100%;
 
     @include mq($from: desktop) {
       flex-direction: row;
-      justify-content: flex-end;
-      height: 100%;
     }
   }
 
@@ -93,7 +93,6 @@
   &__image-container {
     font-size: 0;
     flex-shrink: 0;
-    height: 100%;
     margin: 0;
     overflow: hidden;
     width: 100%;
@@ -101,14 +100,10 @@
     @include mq($from: desktop) {
       width: 50%;
     }
-
-    @include mq($from: wide) {
-      max-height: 75rem;
-    }
   }
 
   &__image {
-    height: auto;
+    height: 100%;
     object-fit: cover;
     width: 100%;
   }
