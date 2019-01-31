@@ -100,7 +100,8 @@ export default withLayout(
             ) : (
               <Participate
                 id="participate"
-                title="Mach die Kampagne bekannter"
+                title="Teile die Kampagne!"
+                intro="Um bekannter zu werden braucht die Kampagne deine Hilfe. Erzähl deinen FreundInnen davon!"
                 share={false}
               >
                 <Share

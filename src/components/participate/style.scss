@@ -28,11 +28,7 @@
     margin-top: 0;
 
     @include mq($from: tablet) {
-      @include font-size(40px);
-    }
-
-    @include mq($from: desktop) {
-      @include font-size(45px);
+      @include font-size(38px);
     }
   }
 
