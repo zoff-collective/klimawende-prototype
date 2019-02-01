@@ -10,7 +10,7 @@ import WhatsappIcon from '../../../static/icons/whatsapp.svg';
 
 import './style.scss';
 
-export default ({ title, intro, children, share = true, ...rest }) => (
+export default ({ title, intro, children, ...rest }) => (
   <aside className="participate" {...rest}>
     <div className="participate__box">
       <h2 className="participate__title">{title}</h2>
@@ -20,32 +20,20 @@ export default ({ title, intro, children, share = true, ...rest }) => (
       {children}
     </div>
 
-    {share && (
-      <>
-        <Headline level="3" levelStyle="4">
-          Mach die Kampagne bekannter!
-        </Headline>
+    <Headline level="3" levelStyle="4">
+      Mach die Kampagne bekannter!
+    </Headline>
 
-        <Share
-          label="Email"
-          href="mailto:gustav@zoff-kollektiv.net"
-          Icon={EnvelopeIcon}
-        />
+    <Share
+      label="Email"
+      href="mailto:gustav@zoff-kollektiv.net"
+      Icon={EnvelopeIcon}
+    />
 
-        <Share
-          label="Whatsapp"
-          href="https://whatsapp.com"
-          Icon={WhatsappIcon}
-        />
+    <Share label="Whatsapp" href="https://whatsapp.com" Icon={WhatsappIcon} />
 
-        <Share
-          label="Facebook"
-          href="https://facebook.com"
-          Icon={FacebookIcon}
-        />
+    <Share label="Facebook" href="https://facebook.com" Icon={FacebookIcon} />
 
-        <Share label="Tweet" href="https://twitter.com" Icon={TwitterIcon} />
-      </>
-    )}
+    <Share label="Tweet" href="https://twitter.com" Icon={TwitterIcon} />
   </aside>
 );
