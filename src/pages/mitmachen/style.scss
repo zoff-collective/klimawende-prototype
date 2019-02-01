@@ -1,0 +1,14 @@
+@import "../../mixins";
+@import "../../variables";
+
+.mitmachen {
+  color: $color-yellow;
+  display: flex;
+  justify-content: center;
+
+  &__project-list-item {
+    & + & {
+      margin-top: 2.5rem;
+    }
+  }
+}

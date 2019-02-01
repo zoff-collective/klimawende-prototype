@@ -1,20 +1,47 @@
-import Link from 'gatsby-link';
+import { graphql } from 'gatsby';
 import React from 'react';
 
+import Constraint from '../../components/constraint';
+import Project from './project';
 import withLayout from '../../components/with-layout';
 
-import projects from '../../../data/projects';
+import './style.scss';
 
-const List = () => (
-  <>
-    <ul>
-      <li>
-        {projects.map(({ title, slug }) => (
-          <Link to={`/mitmachen/${slug}/`}>{title}</Link>
+const List = ({
+  data: {
+    projects: { edges: projects }
+  }
+}) => (
+  <div className="mitmachen">
+    <Constraint>
+      <ul className="mitmachen__project-list">
+        {projects.map(({ node }) => (
+          <li className="mitmachen__project-list-item">
+            <Project {...node} />
+          </li>
         ))}
-      </li>
-    </ul>
-  </>
+      </ul>
+    </Constraint>
+  </div>
 );
+
+export const query = graphql`
+  query {
+    projects: allProjectsJson {
+      edges {
+        node {
+          slug
+          title
+          location
+          type
+          date
+          category
+          summary
+          state
+        }
+      }
+    }
+  }
+`;
 
 export default withLayout('Mitmachen', List);

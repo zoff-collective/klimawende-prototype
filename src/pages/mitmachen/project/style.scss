@@ -1,0 +1,53 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.project {
+  border-bottom: 3px solid $color-yellow;
+
+  &__type {
+    @include font-size(14px);
+
+    display: block;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+    @include mq($from: desktop) {
+      @include font-size(16px);
+    }
+  }
+
+  &__title {
+    margin-bottom: 1.5rem;
+  }
+
+  &__meta {
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+  }
+
+  &__meta-term {
+    display: none;
+  }
+
+  &__meta-description {
+    @include font-size(14px);
+
+    color: $color-dark-brown;
+    display: block;
+    font-family: $font-mark;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 1rem;
+    text-transform: uppercase;
+
+    @include mq($from: desktop) {
+      @include font-size(16px);
+    }
+  }
+
+  &__meta-description > .icon {
+    margin-right: 1rem;
+  }
+}
