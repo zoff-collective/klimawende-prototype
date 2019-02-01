@@ -2,7 +2,7 @@
 @import "../../../variables";
 
 .project {
-  border-bottom: 3px solid $color-yellow;
+  border-bottom: 5px solid $color-yellow;
 
   &__type {
     @include font-size(14px);

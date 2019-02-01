@@ -2,6 +2,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 
 import Constraint from '../../components/constraint';
+import IntroFilter from './intro-filter';
 import Project from './project';
 import withLayout from '../../components/with-layout';
 
@@ -13,6 +14,8 @@ const List = ({
   }
 }) => (
   <div className="mitmachen">
+    <IntroFilter resultsTitle="Ergebnisse" />
+
     <Constraint>
       <ul className="mitmachen__project-list">
         {projects.map(({ node }) => (
