@@ -8,7 +8,9 @@ export default class Select extends React.Component {
   element = React.createRef();
 
   componentDidMount() {
-    select(this.element.current);
+    if (this.element && this.element.current) {
+      select(this.element.current);
+    }
   }
 
   render() {
