@@ -1,8 +1,9 @@
-let isOpen = false;
+const OPEN_CLASSNAME = 'super-select--is-open';
+
+const isOpen = select => select.classList.contains(OPEN_CLASSNAME);
 
 const toggleSelect = select => {
-  select.classList.toggle('super-select--is-open', !isOpen);
-  isOpen = !isOpen;
+  select.classList.toggle(OPEN_CLASSNAME, !isOpen(select));
 };
 
 const init = select => {
