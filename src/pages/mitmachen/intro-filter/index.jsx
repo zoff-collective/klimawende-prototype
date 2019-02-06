@@ -3,11 +3,15 @@ import React from 'react';
 import Headline from '../../../components/text/headline';
 import Select from './select';
 
+import Map from '../../../../static/icons/map-germany.svg';
+
 import './style.scss';
 
 export default ({ resultsTitle, activeState }) => (
   <header className="intro-filter">
     <div className="intro-filter__filter">
+      <Map className="intro-filter__map" />
+
       <div className="intro-filter__title-container">
         <h1 className="intro-filter__title">
           <Select
@@ -75,7 +79,7 @@ export default ({ resultsTitle, activeState }) => (
               {
                 value: 'Deutschland',
                 label: 'Deutschland',
-                href: '/mitmachen/deutschland/'
+                href: '/mitmachen/'
               },
               { value: 'Bayern', label: 'Bayern', href: '/mitmachen/bayern/' }
             ]}
