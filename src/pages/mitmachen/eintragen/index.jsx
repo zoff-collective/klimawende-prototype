@@ -9,6 +9,8 @@ import Paragraph from '../../../components/text/paragraph';
 import Textarea from '../../../components/form/textarea';
 import withLayout from '../../../components/with-layout';
 
+import '../style.scss';
+
 const Page = () => (
   <div className="mitmachen mitmachen--form">
     <Constraint>
