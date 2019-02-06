@@ -7,13 +7,15 @@ import Map from '../../../../static/icons/map-germany.svg';
 
 import './style.scss';
 
-export default ({ resultsTitle, activeState }) => (
+export default ({ intro, resultsTitle, activeState }) => (
   <header className="intro-filter">
     <div className="intro-filter__filter">
       <Map className="intro-filter__map" />
 
       <div className="intro-filter__title-container">
-        <h1 className="intro-filter__title">
+        {intro && <h1 className="intro-filter__intro">{intro}</h1>}
+
+        <div className="intro-filter__title">
           <Select
             options={[
               {
@@ -85,7 +87,7 @@ export default ({ resultsTitle, activeState }) => (
             ]}
             selected={activeState}
           />
-        </h1>
+        </div>
       </div>
     </div>
 

@@ -17,7 +17,11 @@ const List = ({
   pageContext: { state: federalState }
 }) => (
   <div className="mitmachen">
-    <IntroFilter resultsTitle="Ergebnisse" activeState={federalState} />
+    <IntroFilter
+      intro="Finde Projekte in deiner Umgebung, bleibe auf dem Laufenden oder trage dein eigenes Projekt ein."
+      resultsTitle="Ergebnisse"
+      activeState={federalState}
+    />
 
     <Constraint width="wide" className="mitmachen__content-container">
       <ul className="mitmachen__project-list">
@@ -33,7 +37,7 @@ const List = ({
         intro="Deine Kampagne ist noch nicht dabei? Trag Sie schnell ein ..."
         share={false}
       >
-        <Button theme="yellow" href="/mitmachen/">
+        <Button theme="yellow" href="/mitmachen/eintragen/">
           Trag deine Kampagne ein
         </Button>
       </Participate>
