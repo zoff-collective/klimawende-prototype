@@ -1,14 +1,14 @@
 @import "../../../mixins";
 @import "../../../variables";
 
-.project {
+.project-list {
   border-bottom: 5px solid $color-yellow;
   display: flex;
   flex-direction: row;
 
   &__image-container {
     margin-right: 1.5rem;
-    flex-basis: 25%;
+    flex-basis: 35%;
   }
 
   &__content-container {

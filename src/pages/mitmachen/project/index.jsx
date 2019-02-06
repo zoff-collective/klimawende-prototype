@@ -19,17 +19,17 @@ export default ({
   category,
   image
 }) => (
-  <div className="project">
+  <div className="project-list">
     {image && (
-      <div className="project__image-container">
+      <div className="project-list__image-container">
         {/* eslint-disable-next-line jsx-a11y/alt-text */}
-        <img {...image} className="project__image" />
+        <img {...image} className="project-list__image" />
       </div>
     )}
 
-    <div className="project__content-container">
-      <Headline level="3" levelStyle="2" className="project__title">
-        <small className="project__type">
+    <div className="project-list__content-container">
+      <Headline level="3" levelStyle="2" className="project-list__title">
+        <small className="project-list__type">
           {type}
 
           {state === 'Abgeschlossen' && `, ${state}`}
@@ -37,15 +37,15 @@ export default ({
         <Link to={`/mitmachen/${slug}/`}>{title}</Link>
       </Headline>
 
-      <dl className="project__meta">
-        <dt className="project__meta-term">Ort</dt>
-        <dd className="project__meta-description">
+      <dl className="project-list__meta">
+        <dt className="project-list__meta-term">Ort</dt>
+        <dd className="project-list__meta-description">
           <MapIcon />
           {location}
         </dd>
 
-        <dt className="project__meta-term">Kategorie</dt>
-        <dd className="project__meta-description">
+        <dt className="project-list__meta-term">Kategorie</dt>
+        <dd className="project-list__meta-description">
           <CircleIcon />
           {category}
         </dd>
