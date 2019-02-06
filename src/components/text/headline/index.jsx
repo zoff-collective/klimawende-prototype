@@ -9,6 +9,7 @@ export default ({
   underlined,
   centered,
   children,
+  className,
   ...rest
 }) => {
   const Headline = `h${level}`;
@@ -21,7 +22,8 @@ export default ({
         {
           'headline--is-underlined': underlined
         },
-        { 'headline--is-centered': centered }
+        { 'headline--is-centered': centered },
+        className
       )}
     >
       <Headline className="headline__headline" {...rest}>

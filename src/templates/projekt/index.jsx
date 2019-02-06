@@ -11,14 +11,8 @@ import Input from '../../components/form/input';
 import IntroProject from './intro-project';
 import Participate from '../../components/participate';
 import Person from '../../components/person';
-import Share from '../../components/share';
 import Textarea from '../../components/form/textarea';
 import withLayout from '../../components/with-layout';
-
-import EnvelopeIcon from '../../../static/icons/envelope.svg';
-import FacebookIcon from '../../../static/icons/facebook-square.svg';
-import TwitterIcon from '../../../static/icons/twitter.svg';
-import WhatsappIcon from '../../../static/icons/whatsapp.svg';
 
 import './style.scss';
 
@@ -26,16 +20,7 @@ export default withLayout(
   'Projekt',
   ({
     pageContext: {
-      project: {
-        title,
-        blocks,
-        image,
-        summary,
-        location,
-        type,
-        category,
-        state
-      },
+      project: { title, blocks, image, summary, place, type, category, state },
 
       contactPerson
     }
@@ -51,7 +36,7 @@ export default withLayout(
         image={image}
         type={type}
         state={state}
-        location={location}
+        place={place}
         category={category}
       />
 
@@ -92,7 +77,7 @@ export default withLayout(
 
                   <FormGroup>
                     <Button fullWidth theme="yellow">
-                      Mitmachen!
+                      Mach mit!
                     </Button>
                   </FormGroup>
                 </form>
@@ -100,37 +85,16 @@ export default withLayout(
             ) : (
               <Participate
                 id="participate"
-                title="Teile die Kampagne!"
-                intro="Um bekannter zu werden braucht die Kampagne deine Hilfe. Erzähl deinen FreundInnen davon!"
-                share={false}
+                title="Wir beraten dich"
+                intro="Um deine eigene Kampagne zu holen, kannst du dir von uns jederzeit kompetente Beratung einholen."
               >
-                <Share
-                  label="Email"
-                  href="mailto:gustav@zoff-kollektiv.net"
-                  Icon={EnvelopeIcon}
-                  theme="white"
-                />
-
-                <Share
-                  label="Whatsapp"
-                  href="https://whatsapp.com"
-                  Icon={WhatsappIcon}
-                  theme="white"
-                />
-
-                <Share
-                  label="Facebook"
-                  href="https://facebook.com"
-                  Icon={FacebookIcon}
-                  theme="white"
-                />
-
-                <Share
-                  label="Tweet"
-                  href="https://twitter.com"
-                  Icon={TwitterIcon}
-                  theme="white"
-                />
+                <form>
+                  <FormGroup>
+                    <Button fullWidth theme="yellow">
+                      Beratung anfordern
+                    </Button>
+                  </FormGroup>
+                </form>
               </Participate>
             )}
           </div>

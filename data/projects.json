@@ -2,7 +2,7 @@
   {
     "title": "Raus aus der Steinkohle",
     "slug": "raus-aus-der-steinkohle",
-    "location": "München",
+    "place": "München",
     "type": "Bürgerentscheid",
     "category": "Energie",
     "summary": "„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.",
@@ -82,7 +82,7 @@
   {
     "title": "Radentscheid Rostock",
     "slug": "volksentscheid-fahrrad",
-    "location": "Rostock",
+    "place": "Rostock",
     "type": "Bürgerentscheid",
     "date": 2017,
     "category": "Fahrrad/ Mobilität",
