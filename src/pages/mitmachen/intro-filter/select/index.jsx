@@ -18,6 +18,7 @@ export default class Select extends React.Component {
 
   render() {
     const { options, selected } = this.props;
+    const defaultOption = findSelected(options, selected);
 
     return (
       <div className="super-select js-super-select" ref={this.element}>
@@ -25,7 +26,7 @@ export default class Select extends React.Component {
           type="button"
           className="super-select__canvas js-super-select-canvas"
         >
-          {selected ? findSelected(options, selected).label : options[0].label}
+          {defaultOption ? defaultOption.label : options[0].label}
         </button>
 
         <ul className="super-select__list">
