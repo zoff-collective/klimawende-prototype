@@ -4,6 +4,14 @@
 .textarea {
   flex: 1;
 
+  &__help {
+    color: $color-dark-brown;
+    font-family: $font-mark;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+
   &--has-error &__field {
     border-color: $color-red;
   }

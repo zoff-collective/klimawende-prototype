@@ -37,7 +37,12 @@ const Page = () => (
         </FormGroup>
 
         <FormGroup>
-          <Textarea name="url" label="Beschreibung" rows="8" />
+          <Textarea
+            name="url"
+            label="Beschreibung"
+            help="Beschreibe Deine Kampagne: Wer ist aktiv? Wann ist die Kampagne gestartet? Welche Ziele verfolgt ihr?"
+            rows="8"
+          />
         </FormGroup>
 
         <FormGroup>
