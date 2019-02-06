@@ -17,6 +17,10 @@ export const query = graphql`
           category
           summary
           state
+          image {
+            src
+            alt
+          }
         }
       }
     }

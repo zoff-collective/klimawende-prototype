@@ -7,6 +7,16 @@
   display: flex;
   flex-direction: column;
 
+  &__content-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__project-list {
+    margin-right: 4.5rem;
+    width: 95%;
+  }
+
   &__project-list-item {
     & + & {
       margin-top: 2.5rem;
