@@ -15,7 +15,7 @@ export default ({
   slug,
   type,
   state,
-  location,
+  place,
   category,
   image
 }) => (
@@ -41,7 +41,7 @@ export default ({
         <dt className="project-list__meta-term">Ort</dt>
         <dd className="project-list__meta-description">
           <MapIcon />
-          {location}
+          {place}
         </dd>
 
         <dt className="project-list__meta-term">Kategorie</dt>

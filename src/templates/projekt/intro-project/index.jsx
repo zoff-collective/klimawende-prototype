@@ -5,7 +5,7 @@ import MapIcon from '../../../../static/icons/map-marker-alt.svg';
 
 import './style.scss';
 
-export default ({ title, summary, image, location, type, category, state }) => (
+export default ({ title, summary, image, place, type, category, state }) => (
   <header className="intro-project">
     <div className="intro-project__constraint">
       <div className="intro-project__content-container">
@@ -23,7 +23,7 @@ export default ({ title, summary, image, location, type, category, state }) => (
           <dt className="intro-project__meta-term">Ort</dt>
           <dd className="intro-project__meta-description">
             <MapIcon />
-            {location}
+            {place}
           </dd>
 
           <dt className="intro-project__meta-term">Kategorie</dt>

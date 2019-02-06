@@ -48,7 +48,7 @@ export const query = graphql`
         node {
           slug
           title
-          location
+          place
           type
           date
           category

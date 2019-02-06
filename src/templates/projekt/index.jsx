@@ -20,16 +20,7 @@ export default withLayout(
   'Projekt',
   ({
     pageContext: {
-      project: {
-        title,
-        blocks,
-        image,
-        summary,
-        location,
-        type,
-        category,
-        state
-      },
+      project: { title, blocks, image, summary, place, type, category, state },
 
       contactPerson
     }
@@ -45,7 +36,7 @@ export default withLayout(
         image={image}
         type={type}
         state={state}
-        location={location}
+        place={place}
         category={category}
       />
 
