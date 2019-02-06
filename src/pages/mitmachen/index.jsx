@@ -11,10 +11,11 @@ import './style.scss';
 const List = ({
   data: {
     projects: { edges: projects }
-  }
+  },
+  pageContext: { state: federalState }
 }) => (
   <div className="mitmachen">
-    <IntroFilter resultsTitle="Ergebnisse" />
+    <IntroFilter resultsTitle="Ergebnisse" activeState={federalState} />
 
     <Constraint>
       <ul className="mitmachen__project-list">

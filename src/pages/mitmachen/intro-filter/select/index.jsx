@@ -4,6 +4,9 @@ import select from './frontend';
 
 import './style.scss';
 
+const findSelected = (options, value) =>
+  options.find(({ value: optionValue }) => optionValue === value);
+
 export default class Select extends React.Component {
   element = React.createRef();
 
@@ -14,7 +17,7 @@ export default class Select extends React.Component {
   }
 
   render() {
-    const { options } = this.props;
+    const { options, selected } = this.props;
 
     return (
       <div className="super-select js-super-select" ref={this.element}>
@@ -22,7 +25,7 @@ export default class Select extends React.Component {
           type="button"
           className="super-select__canvas js-super-select-canvas"
         >
-          {options[0].label}
+          {selected ? findSelected(options, selected).label : options[0].label}
         </button>
 
         <ul className="super-select__list">
