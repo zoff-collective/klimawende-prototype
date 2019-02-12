@@ -1,14 +1,14 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
-import Button from '../../components/form/button';
-import Content from '../../components/content';
-import FormGroup from '../../components/form/group';
-import Headline from '../../components/text/headline';
-import Input from '../../components/form/input';
-import Intro from '../../components/intro';
-import Select from '../../components/form/select';
-import withLayout from '../../components/with-layout';
+import Button from '../../../components/form/button';
+import Content from '../../../components/content';
+import FormGroup from '../../../components/form/group';
+import Headline from '../../../components/text/headline';
+import Input from '../../../components/form/input';
+import Intro from '../../../components/intro';
+import Select from '../../../components/form/select';
+import withLayout from '../../../components/with-layout';
 
 import './style.scss';
 
@@ -33,7 +33,7 @@ export default withLayout(
       </section>
 
       <Content>
-        <form action="/broschuere/done" method="post">
+        <form action="/so-gehts/broschuere/done" method="post">
           <Headline level="2" levelStyle="3">
             Gedruckte Broschüre bestellen
           </Headline>
