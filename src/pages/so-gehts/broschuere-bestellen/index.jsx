@@ -19,15 +19,15 @@ export default withLayout(
       content: { title, intro }
     }
   }) => (
-    <div className="broschuere">
+    <div className="so-gehts">
       <Intro title={title} intro={intro} />
 
-      <section className="broschuere__download">
+      <section className="so-gehts__download">
         <Content>
           <Headline level="2" levelStyle="2" centered>
             Broschüre herunterladen
           </Headline>
-          <p className="broschuere__download-text">PDF, 2.5Mb</p>
+          <p className="so-gehts__download-text">PDF, 2.5Mb</p>
           <Button href="/broschuere/download">Download</Button>
         </Content>
       </section>

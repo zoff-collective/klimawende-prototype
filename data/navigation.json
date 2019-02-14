@@ -3,32 +3,43 @@
     "title": "Erfolge",
     "link": "/erfolge/",
     "name": "erfolge",
-    "items": [
-      {
-        "title": "Raus aus der Steinkohle",
-        "link": "/mitmachen/raus-aus-der-steinkohle/"
+    "sub": {
+      "teaser": {
+        "title": "Neue Kampagne erfolgreich abgeschlossen",
+        "text": "„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.",
+        "link": "/",
+        "image": {
+          "src": "/images/von-wegen-geht-nicht.png",
+          "alt": ""
+        }
       },
+      "items": [
+        {
+          "title": "Raus aus der Steinkohle",
+          "link": "/mitmachen/raus-aus-der-steinkohle/"
+        },
 
-      {
-        "title": "Tschüss Kohle",
-        "link": "/"
-      },
+        {
+          "title": "Tschüss Kohle",
+          "link": "/"
+        },
 
-      {
-        "title": "Berliner Energietisch",
-        "link": "/"
-      },
+        {
+          "title": "Berliner Energietisch",
+          "link": "/"
+        },
 
-      {
-        "title": "Radentscheid Bamberg",
-        "link": "/"
-      },
+        {
+          "title": "Radentscheid Bamberg",
+          "link": "/"
+        },
 
-      {
-        "title": "Keine 3. Startbahn",
-        "link": "/"
-      }
-    ]
+        {
+          "title": "Keine 3. Startbahn",
+          "link": "/"
+        }
+      ]
+    }
   },
 
   {
@@ -41,47 +52,58 @@
     "title": "So gehts!",
     "link": "/so-gehts/",
     "name": "so-gehts",
-    "items": [
-      {
+    "sub": {
+      "teaser": {
         "title": "Broschüre bestellen",
-        "link": "/so-gehts/broschuere-bestellen/"
+        "text": "„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.",
+        "link": "/so-gehts/broschuere-bestellen/",
+        "image": {
+          "src": "/images/broschuere.png",
+          "alt": ""
+        }
       },
+      "items": [
+        {
+          "title": "Broschüre bestellen",
+          "link": "/so-gehts/broschuere-bestellen/"
+        },
 
-      {
-        "title": "Direkte Demokratie",
-        "link": "/so-gehts/"
-      },
+        {
+          "title": "Direkte Demokratie",
+          "link": "/so-gehts/"
+        },
 
-      {
-        "title": "Kohlekraftwerke abschalten",
-        "link": "/"
-      },
+        {
+          "title": "Kohlekraftwerke abschalten",
+          "link": "/"
+        },
 
-      {
-        "title": "Energieversorgung",
-        "link": "/"
-      },
+        {
+          "title": "Energieversorgung",
+          "link": "/"
+        },
 
-      {
-        "title": "Fernwärme ohne Kohle zurückerobern",
-        "link": "/"
-      },
+        {
+          "title": "Fernwärme ohne Kohle zurückerobern",
+          "link": "/"
+        },
 
-      {
-        "title": "Vorfahrt für Fahrräder",
-        "link": "/"
-      },
+        {
+          "title": "Vorfahrt für Fahrräder",
+          "link": "/"
+        },
 
-      {
-        "title": "Ökologische Stadtwerke",
-        "link": "/"
-      },
+        {
+          "title": "Ökologische Stadtwerke",
+          "link": "/"
+        },
 
-      {
-        "title": "Kampagnen-Checkliste",
-        "link": "/"
-      }
-    ]
+        {
+          "title": "Kampagnen-Checkliste",
+          "link": "/"
+        }
+      ]
+    }
   },
 
   {

@@ -1,3 +1,4 @@
+import classnames from 'classnames';
 import Link from 'gatsby-link';
 import React from 'react';
 
@@ -10,11 +11,17 @@ export default ({ items }) => (
     </Link>
 
     <ul className="navigation__list">
-      {items.map(({ link, title, name }) => (
-        <li>
+      {items.map(({ link, title, name, sub }) => (
+        <li
+          className={classnames(
+            'navigation__list-item',
+            `navigation__list-item--theme-${name}`,
+            { 'navigation__list-item--has-sub': !!sub }
+          )}
+        >
           <Link
             to={link}
-            className={`navigation__item navigation__item--theme-${name}`}
+            className="navigation__item"
             activeClassName="is-active"
             getProps={({ isPartiallyCurrent }) =>
               isPartiallyCurrent
@@ -24,8 +31,41 @@ export default ({ items }) => (
                 : null
             }
           >
-            {title}
+            <span className="navigation__item-label">{title}</span>
           </Link>
+
+          {sub && (
+            <div className="navigation__sub">
+              <ul className="navigation__sub-list">
+                {sub.items &&
+                  sub.items.map(({ link: subLink, title: subTitle }) => (
+                    <li>
+                      <Link to={subLink} className="navigation__sub-item">
+                        {subTitle}
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+
+              {sub.teaser && (
+                <Link to={sub.teaser.link} className="navigation__sub-teaser">
+                  <div className="navigation__sub-teaser-image-container">
+                    {/* eslint-disable-next-line jsx-a11y/alt-text */}
+                    <img {...sub.teaser.image} />
+                  </div>
+
+                  <div className="navigation__sub-teaser-content-container">
+                    <span className="navigation__sub-teaser-content-title">
+                      {sub.teaser.title}
+                    </span>
+                    <p className="navigation__sub-teaser-content-intro">
+                      {sub.teaser.text}
+                    </p>
+                  </div>
+                </Link>
+              )}
+            </div>
+          )}
         </li>
       ))}
     </ul>

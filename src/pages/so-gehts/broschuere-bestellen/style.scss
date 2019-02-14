@@ -1,11 +1,10 @@
 @import "../../../mixins";
 @import "../../../variables";
 
-.broschuere {
-  color: $color-light-brown;
+.so-gehts {
+  color: $color-green;
 
   &__download {
-    border-bottom: 1px solid $color-light-brown;
     color: $color-dark-brown;
     margin-bottom: 4rem;
     padding-bottom: 5rem;
