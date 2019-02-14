@@ -1,14 +1,14 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
-import Button from '../../components/form/button';
-import Content from '../../components/content';
-import FormGroup from '../../components/form/group';
-import Headline from '../../components/text/headline';
-import Input from '../../components/form/input';
-import Intro from '../../components/intro';
-import Select from '../../components/form/select';
-import withLayout from '../../components/with-layout';
+import Button from '../../../components/form/button';
+import Content from '../../../components/content';
+import FormGroup from '../../../components/form/group';
+import Headline from '../../../components/text/headline';
+import Input from '../../../components/form/input';
+import Intro from '../../../components/intro';
+import Select from '../../../components/form/select';
+import withLayout from '../../../components/with-layout';
 
 import './style.scss';
 
@@ -19,21 +19,21 @@ export default withLayout(
       content: { title, intro }
     }
   }) => (
-    <div className="broschuere">
+    <div className="so-gehts">
       <Intro title={title} intro={intro} />
 
-      <section className="broschuere__download">
+      <section className="so-gehts__download">
         <Content>
           <Headline level="2" levelStyle="2" centered>
             Broschüre herunterladen
           </Headline>
-          <p className="broschuere__download-text">PDF, 2.5Mb</p>
+          <p className="so-gehts__download-text">PDF, 2.5Mb</p>
           <Button href="/broschuere/download">Download</Button>
         </Content>
       </section>
 
       <Content>
-        <form action="/broschuere/done" method="post">
+        <form action="/so-gehts/broschuere/done" method="post">
           <Headline level="2" levelStyle="3">
             Gedruckte Broschüre bestellen
           </Headline>

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Intro from '../../../components/intro';
-import withLayout from '../../../components/with-layout';
+import Intro from '../../../../components/intro';
+import withLayout from '../../../../components/with-layout';
 
 export default withLayout('Broschüre', () => (
   <div className="broschuere">
