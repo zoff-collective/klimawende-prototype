@@ -2,5 +2,15 @@
 @import "../../mixins";
 
 .so-gehts {
+  align-items: center;
   color: $color-light-blue;
+  display: flex;
+  flex-direction: column;
+
+  &__constraint {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
 }

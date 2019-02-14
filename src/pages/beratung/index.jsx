@@ -21,8 +21,8 @@ export default withLayout(
     <div className="beratung">
       <Intro title={title} intro={intro} />
 
-      <Content>
-        <Headline level="2" levelStyle="3" centered>
+      <Content className="beratung__constraint">
+        <Headline level="2" levelStyle="2" centered>
           Beratung und Kampagnenunterstützung
         </Headline>
         <Paragraph text="Die HerausgeberInnen beraten zu organisatorischen wie inhaltlichen Fragen bei der Initiierung und Umsetzung von Bürgerbegehren und unterstützen bei der Kampagnen- und Mobilisierungsarbeit." />

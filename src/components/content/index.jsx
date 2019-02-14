@@ -4,8 +4,8 @@ import Constraint from '../constraint';
 
 import './style.scss';
 
-export default ({ children }) => (
-  <section className="content">
+export default ({ children, className = '', ...rest }) => (
+  <section className={`content ${className}`} {...rest}>
     <Constraint>{children}</Constraint>
   </section>
 );

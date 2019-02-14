@@ -2,5 +2,9 @@
 
 .beratung {
   color: $color-purple;
+
+  &__constraint {
+    padding-top: 2rem;
+  }
 }
 

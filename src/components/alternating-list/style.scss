@@ -1,0 +1,39 @@
+@import "../../variables";
+@import "../../mixins";
+
+.alternating-list {
+  @include reset-list;
+
+  > * + * {
+    margin-top: 6rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__content-container {
+    margin-left: 3.5rem;
+    width: 60%;
+  }
+
+  > *:nth-child(2n) .alternating-list__content-container {
+    margin-left: 0;
+    margin-right: 3.5rem;
+    order: -1;
+  }
+
+  > *:nth-child(2n+1) &__content-container {
+    order: -1;
+  }
+
+  &__image-container {
+    flex: 1;
+
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}

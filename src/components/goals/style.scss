@@ -18,11 +18,9 @@
   }
 
   &__goals {
+    @include reset-list;
+
     counter-reset: goals-counter;
-    list-style: none;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-left: 0;
   }
 
   &__goal {
