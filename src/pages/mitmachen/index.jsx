@@ -23,24 +23,28 @@ const List = ({
       activeState={federalState}
     />
 
-    <Constraint width="wide" className="mitmachen__content-container">
-      <ul className="mitmachen__project-list">
-        {projects.map(({ node }) => (
-          <li className="mitmachen__project-list-item">
-            <Project {...node} />
-          </li>
-        ))}
-      </ul>
+    <Constraint width="wide" className="mitmachen__constraint">
+      <div className="mitmachen__content-container">
+        <ul className="mitmachen__project-list">
+          {projects.map(({ node }) => (
+            <li className="mitmachen__project-list-item">
+              <Project {...node} />
+            </li>
+          ))}
+        </ul>
+      </div>
 
-      <Participate
-        title="DEINE Kampagne fehlt?"
-        intro="Du hast bereits eine Kampagne für die Klimawende in Deinem Ort gestartet, oder spielst mit dem Gedanken? Sag uns jetzt Bescheid, damit wir Dein Projekt in die Karte aufnehmen und Dir helfen können, MitstreiterInnen zu finden!"
-        share={false}
-      >
-        <Button theme="yellow" href="/mitmachen/eintragen/">
-          Kampagne melden!
-        </Button>
-      </Participate>
+      <div className="mitmachen__participate-container">
+        <Participate
+          title="DEINE Kampagne fehlt?"
+          intro="Du hast bereits eine Kampagne für die Klimawende in Deinem Ort gestartet, oder spielst mit dem Gedanken? Sag uns jetzt Bescheid, damit wir Dein Projekt in die Karte aufnehmen und Dir helfen können, MitstreiterInnen zu finden!"
+          share={false}
+        >
+          <Button theme="yellow" href="/mitmachen/eintragen/">
+            Kampagne melden!
+          </Button>
+        </Participate>
+      </div>
     </Constraint>
   </div>
 );

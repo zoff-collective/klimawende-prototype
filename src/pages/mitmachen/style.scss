@@ -12,15 +12,32 @@
     padding-top: 5rem;
   }
 
+  &__constraint {
+    display: flex;
+    flex-direction: column;
+
+    @include mq($from: desktop) {
+      flex-direction: row;
+    }
+  }
+
   &__content-container {
     display: flex;
     flex-direction: row;
+
+    @include mq($from: desktop) {
+      margin-right: 4.5rem;
+      width: 60%;
+    }
+  }
+
+  &__participate-container {
+    flex: 1;
   }
 
   &__project-list {
     margin-bottom: 8rem;
-    margin-right: 4.5rem;
-    width: 95%;
+    padding-left: 0;
   }
 
   &__project-list-item {
