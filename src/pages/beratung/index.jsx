@@ -2,7 +2,9 @@ import { graphql } from 'gatsby';
 import React from 'react';
 
 import Content from '../../components/content';
+import Headline from '../../components/text/headline';
 import Intro from '../../components/intro';
+import Paragraph from '../../components/text/paragraph';
 import PersonList from './person-list';
 import withLayout from '../../components/with-layout';
 
@@ -18,7 +20,15 @@ export default withLayout(
   }) => (
     <div className="beratung">
       <Intro title={title} intro={intro} />
-      <Content>{persons && <PersonList persons={persons.edges} />}</Content>
+
+      <Content>
+        <Headline level="2" levelStyle="3" centered>
+          Beratung und Kampagnenunterstützung
+        </Headline>
+        <Paragraph text="Die HerausgeberInnen beraten zu organisatorischen wie inhaltlichen Fragen bei der Initiierung und Umsetzung von Bürgerbegehren und unterstützen bei der Kampagnen- und Mobilisierungsarbeit." />
+
+        {persons && <PersonList persons={persons.edges} />}
+      </Content>
     </div>
   )
 );
