@@ -15,25 +15,25 @@ const Page = () => (
   <div className="mitmachen mitmachen--form">
     <Constraint>
       <Headline level="2" levelStyle="2" underlined>
-        Trag deine Kampagne ein
+        Neue Kampagne eintragen
       </Headline>
 
-      <Paragraph text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum." />
+      <Paragraph text="Trage hier die wichtigsten Informationen über deine Kampagne ein. Wir kontaktieren Dich im Anschluss und erstellen in Absprache mit dir einen Kampagnen-Steckbrief für die Klimawende-Karte. Gerne beraten wir Dich auch zu inhaltlichen Fragen und unterstützen bei der Mobilisierung." />
 
       <form>
         <FormGroup>
           <Headline level="2" levelStyle="4">
-            Dein Projekt
+            Deine Kampagne
           </Headline>
         </FormGroup>
 
         <FormGroup>
-          <Input name="title" label="Projekttitel" />
+          <Input name="title" label="Titel der Kampagne" />
           <Input name="place" label="Ort" />
         </FormGroup>
 
         <FormGroup>
-          <Input name="url" label="Website (optional)" />
+          <Input name="url" label="Mehr Informationen/ Website" />
         </FormGroup>
 
         <FormGroup>
@@ -60,7 +60,7 @@ const Page = () => (
           <Input name="telephone" label="Telefon (optional)" />
         </FormGroup>
 
-        <Paragraph text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum." />
+        <Paragraph text="Durch meine Eintragung akzeptiere ich die Datenschutzbestimmungen." />
 
         <FormGroup type="submit">
           <Button type="submit">Projekt eintragen</Button>

@@ -18,7 +18,7 @@ const List = ({
 }) => (
   <div className="mitmachen">
     <IntroFilter
-      intro="Finde Projekte in deiner Umgebung, bleibe auf dem Laufenden oder trage dein eigenes Projekt ein."
+      intro="Gemeinsam schaffen wir die Klimawende! Mach mit bei einer Kampagne in Deiner Nähe oder starte Deine eigene!"
       resultsTitle="Ergebnisse"
       activeState={federalState}
     />
@@ -33,12 +33,12 @@ const List = ({
       </ul>
 
       <Participate
-        title="Und jetzt du!"
-        intro="Deine Kampagne ist noch nicht dabei? Trag Sie schnell ein ..."
+        title="DEINE Kampagne fehlt?"
+        intro="Du hast bereits eine Kampagne für die Klimawende in Deinem Ort gestartet, oder spielst mit dem Gedanken? Sag uns jetzt Bescheid, damit wir Dein Projekt in die Karte aufnehmen und Dir helfen können, MitstreiterInnen zu finden!"
         share={false}
       >
         <Button theme="yellow" href="/mitmachen/eintragen/">
-          Trag deine Kampagne ein
+          Kampagne melden!
         </Button>
       </Participate>
     </Constraint>

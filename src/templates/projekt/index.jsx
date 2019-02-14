@@ -60,24 +60,24 @@ export default withLayout(
             {state !== 'Abgeschlossen' ? (
               <Participate
                 id="participate"
-                title="Und jetzt du!"
-                intro="Willst Du die Kampagne „Radentscheid Rostock“ unterstützen?"
+                title="Und jetzt DU!"
+                intro="Trag Dich hier ein, um von den Aktiven in {ORT} auf dem Laufenden gehalten zu werden. Sie informieren Dich über wichtige Termine und wie Du sie unterstützen kannst."
               >
                 <form>
                   <FormGroup>
-                    <Input label="Email" name="email" />
+                    <Input label="Deine E-Mail" name="email" />
                   </FormGroup>
 
                   <FormGroup>
                     <Checkbox
-                      label="Ja, ich möchte außerdem regelmäßig vom Umweltinstitut über Kampagnen zum Klimaschutz und anderen Umweltthemen informiert werden."
+                      label="Ja, ich möchte außerdem vom Umweltinstitut regelmäßig über Kampagnen zum Klimaschutz und andere Umweltthemen informiert werden."
                       name="email-confirm"
                     />
                   </FormGroup>
 
                   <FormGroup>
                     <Button fullWidth theme="yellow">
-                      Mach mit!
+                      Jetzt mitmachen
                     </Button>
                   </FormGroup>
                 </form>
@@ -85,13 +85,13 @@ export default withLayout(
             ) : (
               <Participate
                 id="participate"
-                title="Wir beraten dich"
-                intro="Um deine eigene Kampagne zu holen, kannst du dir von uns jederzeit kompetente Beratung einholen."
+                title="Wir unterstützen Dich!"
+                intro="Du hast eine erste Idee für eine Kampagne, aber viele offenen Fragen?"
               >
                 <form>
                   <FormGroup>
                     <Button fullWidth theme="yellow">
-                      Beratung anfordern
+                      Zur Beratung
                     </Button>
                   </FormGroup>
                 </form>
