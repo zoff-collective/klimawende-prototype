@@ -19,6 +19,7 @@ const Page = () => (
         items={[
           {
             title: 'Broschüre bestellen',
+            link: '/so-gehts/broschuere-bestellen/',
             text:
               '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
             image: {
