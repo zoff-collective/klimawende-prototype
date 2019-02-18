@@ -25,13 +25,18 @@ const List = ({
 
     <Constraint width="wide" className="mitmachen__constraint">
       <div className="mitmachen__content-container">
+        {/* eslint-disable react/no-array-index-key */}
         <ul className="mitmachen__project-list">
-          {projects.map(({ node }) => (
-            <li className="mitmachen__project-list-item">
+          {projects.map(({ node }, index) => (
+            <li
+              className="mitmachen__project-list-item"
+              key={`mitmachen-${index}`}
+            >
               <Project {...node} />
             </li>
           ))}
         </ul>
+        {/* eslint-enable react/no-array-index-key */}
       </div>
 
       <div className="mitmachen__participate-container">
