@@ -16,6 +16,15 @@
     min-height: 95vh;
   }
 
+  &__constraint {
+    display: flex;
+    flex-direction: column;
+
+    @include mq($from: tablet) {
+      flex-direction: row;
+    }
+  }
+
   &__text {
     @include font-size(16);
 
@@ -29,5 +38,25 @@
     @include mq($from: desktop) {
       @include font-size(28);
     }
+  }
+
+  &__content-container {
+    flex: 1;
+  }
+
+  &__image-container {
+    flex-basis: 100%;
+    order: -1;
+
+    @include mq($from: tablet) {
+      flex-basis: 75%;
+      margin-left: 4.5rem;
+      order: 2;
+    }
+  }
+
+  &__image {
+    height: auto;
+    width: 100%;
   }
 }

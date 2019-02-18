@@ -16,11 +16,11 @@ export default withLayout(
   'Broschüre',
   ({
     data: {
-      content: { title, intro }
+      content: { title, intro, image }
     }
   }) => (
     <div className="so-gehts">
-      <Intro title={title} intro={intro} />
+      <Intro title={title} intro={intro} image={image} />
 
       <section className="so-gehts__download">
         <Content>
@@ -95,6 +95,10 @@ export const query = graphql`
     content: pagesJson(id: { eq: "broschuere" }) {
       title
       intro
+      image {
+        src
+        alt
+      }
     }
   }
 `;
