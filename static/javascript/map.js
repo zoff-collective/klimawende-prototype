@@ -16,7 +16,23 @@ class TopoJSON extends Leaflet.GeoJSON {
   }
 }
 
-const initFederalStates = (el, endpoint) => {
+const initFederalStates = (map, endpoint) => {
+  fetch(endpoint)
+    .then(res => res.json())
+    .then(data => {
+      new TopoJSON(data).addTo(map);
+    });
+};
+
+const initMarkers = (map, endpoint) => {
+  fetch(endpoint)
+    .then(res => res.json())
+    .then(data => {
+      new Leaflet.GeoJSON(data).addTo(map);
+    });
+};
+
+const initMap = el => {
   const map = Leaflet.map(el, {
     attributionControl: false,
     zoomControl: false
@@ -25,18 +41,15 @@ const initFederalStates = (el, endpoint) => {
   // set view to the center of germany
   map.setView([51.133481, 10.018343], 6);
 
-  // fetch data and render data layer
-  fetch(endpoint)
-    .then(res => res.json())
-    .then(data => {
-      new TopoJSON(data).addTo(map);
-    });
+  return map;
 };
 
 const init = el => {
-  const { shapesEndpoint } = el.dataset;
+  const { shapesEndpoint, markersEndpoint } = el.dataset;
+  const map = initMap(el);
 
-  initFederalStates(el, shapesEndpoint);
+  initFederalStates(map, shapesEndpoint);
+  initMarkers(map, markersEndpoint);
 };
 
 export default init;
