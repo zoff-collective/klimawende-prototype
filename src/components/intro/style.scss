@@ -8,9 +8,13 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 3rem;
-  min-height: 95vh;
+  min-height: 72vh;
   padding: 5rem 0;
   width: 100%;
+
+  @include mq($from: desktop) {
+    min-height: 95vh;
+  }
 
   &__text {
     @include font-size(16);
