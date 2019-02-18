@@ -12,7 +12,10 @@ export default class Intro extends React.Component {
 
   componentDidMount() {
     const { current: map } = this.map;
-    initMap(map);
+
+    if (typeof window !== 'undefined' && this.element && this.element.current) {
+      initMap(map);
+    }
   }
 
   render() {
