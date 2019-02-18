@@ -1,6 +1,12 @@
 @import "../../../mixins";
 @import "../../../variables";
 
+@import "~leaflet/dist/leaflet.css";
+
+.leaflet-container {
+  background: transparent;
+}
+
 .intro-filter {
   background-color: $color-yellow;
   display: flex;
@@ -13,13 +19,14 @@
     fill: white;
     height: 90%;
     margin-left: 3rem;
-    stroke: $color-yellow;
-    stroke-width: 3px;
     width: 35%;
 
-    path:hover {
-      cursor: pointer;
-      fill: $color-dark-brown;
+    path {
+      fill: white;
+      fill-opacity: 1;
+      opacity: 1;
+      stroke: $color-yellow;
+      stroke-width: 2px;
     }
   }
 
