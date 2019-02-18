@@ -28,7 +28,13 @@ const initMarkers = (map, endpoint) => {
   fetch(endpoint)
     .then(res => res.json())
     .then(data => {
-      new Leaflet.GeoJSON(data).addTo(map);
+      Leaflet.geoJSON(data, {
+        pointToLayer: (feature, latlng) =>
+          Leaflet.circleMarker(latlng, {
+            className: 'leaflet-marker',
+            fill: true
+          })
+      }).addTo(map);
     });
 };
 
