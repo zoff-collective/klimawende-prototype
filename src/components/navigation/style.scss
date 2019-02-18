@@ -2,24 +2,90 @@
 @import "../../variables";
 
 .navigation {
+  background-color: currentColor;
   color: $color-dark-brown;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   font-family: $font-mark;
   font-weight: 700;
   position: relative;
 
+  @include mq($from: desktop) {
+    background-color: transparent;
+    flex-wrap: nowrap;
+  }
+
   &__logo {
+    @include font-size(14px);
+
     background-color: $color-dark-brown;
     color: white;
+    padding: 1.5rem;
     text-transform: uppercase;
+    white-space: nowrap;
+
+    @include mq($from: tablet) {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    @include mq($from: desktop) {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    @include mq($from: wide) {
+      @include font-size(16px);
+    }
+  }
+
+  &__toggle {
+    @include font-size(14px);
+
+    align-self: flex-end;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+    user-select: none;
+
+    @include mq($from: desktop) {
+      display: none;
+    }
+
+    &-icon {
+      height: 1.65rem;
+      margin-left: 0.5rem;
+      width: 1.65rem;
+    }
+
+    &-checkbox {
+      display: none;
+    }
   }
 
   &__list {
     @include reset-list();
 
+    display: none;
+    flex-direction: column;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+    }
+  }
+
+  &__toggle-checkbox:checked ~ &__list {
     display: flex;
-    flex-direction: row;
   }
 
   &__list-item {
@@ -39,11 +105,37 @@
     &--theme-so-gehts {
       color: $color-light-blue;
     }
+
+    & + & {
+      @include mq($until: desktop) {
+        border-top: 2px solid white;
+      }
+    }
   }
 
   &__item {
+    @include font-size(18px);
+
+    background-color: currentColor;
     display: block;
+    padding: 1.75rem 2.5rem 1.5rem 2.5rem;
     text-transform: uppercase;
+    white-space: nowrap;
+
+    @include mq($from: desktop) {
+      @include font-size(14px);
+
+      background-color: transparent;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    @include mq($from: wide) {
+      @include font-size(16px);
+
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
 
     &:hover,
     &:focus,
@@ -66,37 +158,42 @@
     padding-right: 2rem;
   }
 
-  &__list-item--has-sub &__item-label:after {
+  &__list-item--has-sub &__item-label::after {
     border-style: solid;
     border-width: 0.65rem 0.65rem 0 0.65rem;
     border-color: currentColor transparent transparent transparent;
     content: '';
+    display: none;
     height: 0;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
     width: 0;
-  }
 
-  &__logo,
-  &__item {
-    @include font-size(14px);
-
-    padding: 1.75rem 4rem;
+    @include mq($from: desktop) {
+      display: inline;
+    }
   }
 
   &__sub {
     background-color: currentColor;
-    display: none;
-    flex-direction: row;
-    left: 0;
-    min-height: 50vh;
-    padding: 3.5rem 2.5rem 2.5rem 2.5rem;
-    position: absolute;
-    top: 100%;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     width: 100%;
     z-index: 100;
+
+    @include mq($from: desktop) {
+      display: none;
+      flex-direction: row;
+      left: 0;
+      min-height: 50vh;
+      padding: 3.5rem 2.5rem 2.5rem 2.5rem;
+      position: absolute;
+      top: 100%;
+    }
   }
 
   &__list-item:hover &__sub {
@@ -108,10 +205,21 @@
 
     color: $color-dark-brown;
     flex-basis: 33%;
-    margin-right: 3.5rem;
+
+    @include mq($from: desktop) {
+      margin-right: 3.5rem;
+    }
+
+    > * {
+      @include mq($until: desktop) {
+        border-top: 1px dotted currentColor;
+      }
+    }
 
     > * + * {
-      border-top: 1px dotted currentColor;
+      @include mq($from: desktop) {
+        border-top: 1px dotted currentColor;
+      }
     }
   }
 
@@ -119,7 +227,8 @@
     @include font-size(22px);
 
     display: block;
-    padding: 0.75rem 0;
+    padding: 0.75rem 0 0.75rem 1.75rem;
+    position: relative;
 
     &:hover,
     &:focus{
@@ -127,10 +236,26 @@
     }
   }
 
+  &__sub-item::before {
+    border-style: solid;
+    border-width: 0.7rem 0 0.7rem 0.7rem;
+    border-color: transparent transparent transparent currentColor;
+    content: '';
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 1.35rem;
+    width: 0;
+  }
+
   &__sub-teaser {
-    display: flex;
+    display: none;
     flex-direction: row;
     width: 77%;
+
+    @include mq($from: desktop) {
+      display: flex;
+    }
   }
 
   &__sub-teaser-image-container,

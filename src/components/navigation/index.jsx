@@ -2,6 +2,8 @@ import classnames from 'classnames';
 import Link from 'gatsby-link';
 import React from 'react';
 
+import BarsIcon from '../../../static/icons/bars.svg';
+
 import './style.scss';
 
 export default ({ items }) => (
@@ -9,6 +11,20 @@ export default ({ items }) => (
     <Link to="/" className="navigation__logo">
       Klimawende von unten
     </Link>
+
+    {/* eslint-disable */}
+    <label htmlFor="navigation-toggle" className="navigation__toggle">
+      Menü
+      <BarsIcon className="navigation__toggle-icon" />
+    </label>
+    {/* eslint-enable */}
+
+    <input
+      type="checkbox"
+      name="navigation-toggle"
+      id="navigation-toggle"
+      className="navigation__toggle-checkbox"
+    />
 
     <ul className="navigation__list">
       {items.map(({ link, title, name, sub }) => (
