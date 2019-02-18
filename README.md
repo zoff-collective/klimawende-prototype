@@ -17,6 +17,8 @@
   - `src/style.scss` entry file for the compiled CSS file, which contains all
     styles
 - `static/` static files, such as images and fonts
+  - `static/json/` geoJSON and topoJSON files, used to render the map. The
+    federal states of Germany were [pulled from here](https://github.com/isellsoap/deutschlandGeoJSON).
 - `webpack.config.js` webpack configuration for the extra CSS build step, which
   generates a CSS file in public containing all CSS used in components
 
