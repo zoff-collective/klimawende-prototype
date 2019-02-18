@@ -33,6 +33,12 @@
       fill: $color-dark-brown;
       stroke-width: 0;
     }
+
+    .leaflet-country:hover,
+    .leaflet-country:focus {
+      fill: $color-yellow;
+      stroke: white;
+    }
   }
 
   &__filter {

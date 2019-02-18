@@ -20,7 +20,22 @@ const initFederalStates = (map, endpoint) => {
   fetch(endpoint)
     .then(res => res.json())
     .then(data => {
-      new TopoJSON(data).addTo(map);
+      new TopoJSON(data, {
+        className: 'leaflet-country',
+        onEachFeature: (feature, layer) => {
+          layer.on('click', () => {
+            const { link } = feature.properties;
+
+            if (!link) {
+              throw new Error(
+                'Federal State: The geoJSON feature is missing a link property'
+              );
+            }
+
+            window.location.href = link;
+          });
+        }
+      }).addTo(map);
     });
 };
 
@@ -29,11 +44,25 @@ const initMarkers = (map, endpoint) => {
     .then(res => res.json())
     .then(data => {
       Leaflet.geoJSON(data, {
-        pointToLayer: (feature, latlng) =>
-          Leaflet.circleMarker(latlng, {
+        pointToLayer: (feature, layer) =>
+          Leaflet.circleMarker(layer, {
             className: 'leaflet-marker',
             fill: true
-          })
+          }),
+
+        onEachFeature: (feature, layer) => {
+          layer.on('click', () => {
+            const { link } = feature.properties;
+
+            if (!link) {
+              throw new Error(
+                'Marker: The geoJSON feature (Point) is missing a link property'
+              );
+            }
+
+            window.location.href = link;
+          });
+        }
       }).addTo(map);
     });
 };

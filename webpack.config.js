@@ -31,6 +31,7 @@ module.exports = {
           {
             loader: 'postcss-loader'
           },
+
           {
             loader: 'sass-loader',
             options: {
@@ -38,6 +39,8 @@ module.exports = {
               outputStyle: 'expanded'
             }
           }
+
+          // autoprefixer
         ]
       }
     ]
