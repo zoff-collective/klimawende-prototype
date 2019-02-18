@@ -41,6 +41,8 @@ const initMap = el => {
   // set view to the center of germany
   map.setView([51.133481, 10.018343], 6);
 
+  map.scrollWheelZoom.disable();
+
   return map;
 };
 
