@@ -204,7 +204,7 @@
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     width: 100%;
-    z-index: 100;
+    z-index: 1000; // we have to beat leaflet here
 
     @include mq($from: desktop) {
       display: none;
