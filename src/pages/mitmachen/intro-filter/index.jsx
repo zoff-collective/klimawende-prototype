@@ -13,7 +13,7 @@ export default class Intro extends React.Component {
   componentDidMount() {
     const { current: map } = this.map;
 
-    if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined' && map) {
       initMap(map);
     }
   }
