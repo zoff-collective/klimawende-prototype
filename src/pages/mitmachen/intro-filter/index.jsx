@@ -1,7 +1,5 @@
 import React from 'react';
 
-import initMap from '../../../../static/javascript/map';
-
 import Headline from '../../../components/text/headline';
 import Select from './select';
 
@@ -14,7 +12,9 @@ export default class Intro extends React.Component {
     const { current: map } = this.map;
 
     if (typeof window !== 'undefined' && map) {
-      initMap(map);
+      import('../../../../static/javascript/map').then(init => {
+        init.default(map);
+      });
     }
   }
 
