@@ -45,6 +45,7 @@ export default class Navigation extends React.Component {
         <ul className="navigation__list">
           {items.map(({ link, title, name, sub }) => (
             <li
+              key={title}
               className={classnames(
                 'navigation__list-item',
                 `navigation__list-item--theme-${name}`,
@@ -71,7 +72,7 @@ export default class Navigation extends React.Component {
                   <ul className="navigation__sub-list">
                     {sub.items &&
                       sub.items.map(({ link: subLink, title: subTitle }) => (
-                        <li>
+                        <li key={subTitle}>
                           <Link to={subLink} className="navigation__sub-item">
                             {subTitle}
                           </Link>
