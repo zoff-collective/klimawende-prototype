@@ -15,6 +15,7 @@ export const query = graphql`
           type
           date
           category
+          federalState
           summary
           state
           image {

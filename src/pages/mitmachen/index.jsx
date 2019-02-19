@@ -18,8 +18,11 @@ const List = ({
 }) => {
   let visibleProjects = projects;
 
-  if (typeof window !== 'undefined' && window.location.search === '?empty') {
-    visibleProjects = null;
+  if (federalState) {
+    visibleProjects = visibleProjects.filter(
+      ({ node: { federalState: projectFederalState } }) =>
+        projectFederalState === federalState
+    );
   }
 
   return (
@@ -72,6 +75,7 @@ export const query = graphql`
           slug
           title
           place
+          federalState
           type
           date
           category

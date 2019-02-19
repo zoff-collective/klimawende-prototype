@@ -19,7 +19,7 @@ export default () => (
             '/images/partners/bund-white.png',
             '/images/partners/changing-cities-white.png'
           ].map(src => (
-            <img src={src} alt="" />
+            <img key={`footer-1-${src}`} src={src} alt="" />
           ))}
         </div>
       </div>
@@ -38,7 +38,7 @@ export default () => (
 
             '/images/partners/naturfreunde-white.png'
           ].map(src => (
-            <img src={src} alt="" />
+            <img key={`footer-2-${src}`} src={src} alt="" />
           ))}
         </div>
       </div>

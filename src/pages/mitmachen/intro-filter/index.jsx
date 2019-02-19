@@ -10,6 +10,7 @@ import './style.scss';
 
 export default ({ intro, resultsTitle, activeState }) => {
   const search = typeof window !== 'undefined' && window.location.search;
+  const activeStateSlug = activeState ? activeState.toLowerCase() : '';
 
   return (
     <>
@@ -27,32 +28,27 @@ export default ({ intro, resultsTitle, activeState }) => {
                 {
                   value: 'all',
                   label: 'Alle Kampagnen',
-                  href: `/mitmachen/${activeState &&
-                    `${activeState.toLowerCase()}/`}?status=all`
+                  href: `/mitmachen/${activeStateSlug}/?status=all`
                 },
                 {
                   value: 'archived',
                   label: 'Abgeschlossene Kampagnen',
-                  href: `/mitmachen/${activeState &&
-                    `${activeState.toLowerCase()}/`}?status=archived`
+                  href: `/mitmachen/${activeStateSlug}/?status=archived`
                 },
                 {
                   value: 'creation',
                   label: 'Gründungen',
-                  href: `/mitmachen/${activeState &&
-                    `${activeState.toLowerCase()}/`}?status=creation`
+                  href: `/mitmachen/${activeStateSlug}/?status=creation`
                 },
                 {
                   value: 'potential',
                   label: 'Potentielle Standorte',
-                  href: `/mitmachen/${activeState &&
-                    `${activeState.toLowerCase()}/`}?status=potential`
+                  href: `/mitmachen/${activeStateSlug}/?status=potential`
                 },
                 {
                   value: 'bestpractice',
                   label: 'Best Practice Beispiele',
-                  href: `/mitmachen/${activeState &&
-                    `${activeState.toLowerCase()}/`}?status=bestpractive`
+                  href: `/mitmachen/${activeStateSlug}/?status=bestpractive`
                 }
               ]}
             />
@@ -63,20 +59,17 @@ export default ({ intro, resultsTitle, activeState }) => {
                 {
                   value: 'all',
                   label: 'allen Bereichen',
-                  href: `/mitmachen/${activeState &&
-                    `${activeState.toLowerCase()}/`}?topic=all`
+                  href: `/mitmachen/${activeStateSlug}/?topic=all`
                 },
                 {
                   value: 'energy',
                   label: 'Energie',
-                  href: `/mitmachen/${activeState &&
-                    `${activeState.toLowerCase()}/`}?topic=energy`
+                  href: `/mitmachen/${activeStateSlug}/?topic=energy`
                 },
                 {
                   value: 'bicycle',
                   label: 'Fahrrad/ Mobilität',
-                  href: `/mitmachen/${activeState &&
-                    `${activeState.toLowerCase()}/`}?topic=mobility`
+                  href: `/mitmachen/${activeStateSlug}/?topic=mobility`
                 }
               ]}
             />
@@ -93,6 +86,16 @@ export default ({ intro, resultsTitle, activeState }) => {
                   value: 'Bayern',
                   label: 'Bayern',
                   href: `/mitmachen/bayern/${search}`
+                },
+                {
+                  value: 'Mecklenburg-Vorpommern',
+                  label: 'Mecklenburg-Vorpommern',
+                  href: `/mitmachen/mecklenburg-vorpommern/${search}`
+                },
+                {
+                  value: 'Sachsen',
+                  label: 'Sachsen',
+                  href: `/mitmachen/sachsen/${search}`
                 }
               ]}
               selected={activeState}

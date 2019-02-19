@@ -15,8 +15,12 @@
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
+    max-width: 50rem;
+    overflow-x: hidden;
     padding: 0.5rem 5rem 0 1rem;
+    text-overflow: ellipsis;
     position: relative;
+    white-space: nowrap;
 
     &:hover,
     &:focus {
