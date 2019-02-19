@@ -16,7 +16,7 @@ class TopoJSON extends Leaflet.GeoJSON {
   }
 }
 
-const initFederalStates = (map, endpoint) => {
+const initFederalStates = (map, endpoint) =>
   fetch(endpoint)
     .then(res => res.json())
     .then(data => {
@@ -37,7 +37,6 @@ const initFederalStates = (map, endpoint) => {
         }
       }).addTo(map);
     });
-};
 
 const initMarkers = (map, endpoint) => {
   fetch(endpoint)
@@ -86,8 +85,9 @@ const init = el => {
   const { shapesEndpoint, markersEndpoint } = el.dataset;
   const map = initMap(el);
 
-  initFederalStates(map, shapesEndpoint);
-  initMarkers(map, markersEndpoint);
+  initFederalStates(map, shapesEndpoint).then(() =>
+    initMarkers(map, markersEndpoint)
+  );
 };
 
 export default init;
