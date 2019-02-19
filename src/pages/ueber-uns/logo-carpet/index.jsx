@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.scss';
 
-export default ({ logos }) => (
+export default ({ logos = [] }) => (
   <ol className="logo-carpet">
     {logos.map(logo => (
       <li>
