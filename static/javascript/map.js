@@ -77,6 +77,7 @@ const initMap = el => {
   map.setView([51.133481, 10.018343], 6);
 
   map.scrollWheelZoom.disable();
+  map.doubleClickZoom.disable();
 
   return map;
 };
