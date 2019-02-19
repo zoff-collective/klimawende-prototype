@@ -1,15 +1,15 @@
-import Leaflet from 'leaflet';
+import { GeoJSON, geoJSON, circleMarker, map as leafletMap } from 'leaflet';
 import * as topojson from 'topojson';
 
-class TopoJSON extends Leaflet.GeoJSON {
+class TopoJSON extends GeoJSON {
   addData(data) {
     if (data.type === 'Topology') {
       Object.keys(data.objects).forEach(key => {
         const geojson = topojson.feature(data, data.objects[key]);
-        Leaflet.GeoJSON.prototype.addData.call(this, geojson);
+        GeoJSON.prototype.addData.call(this, geojson);
       });
     } else {
-      Leaflet.GeoJSON.prototype.addData.call(this, data);
+      GeoJSON.prototype.addData.call(this, data);
     }
 
     return this;
@@ -42,9 +42,9 @@ const initMarkers = (map, endpoint) => {
   fetch(endpoint)
     .then(res => res.json())
     .then(data => {
-      Leaflet.geoJSON(data, {
+      geoJSON(data, {
         pointToLayer: (feature, layer) =>
-          Leaflet.circleMarker(layer, {
+          circleMarker(layer, {
             className: 'leaflet-marker',
             fill: true
           }),
@@ -67,7 +67,7 @@ const initMarkers = (map, endpoint) => {
 };
 
 const initMap = el => {
-  const map = Leaflet.map(el, {
+  const map = leafletMap(el, {
     attributionControl: false,
     zoomControl: false
   });
