@@ -32,7 +32,7 @@ export default withLayout(
           />
         </div>
 
-        <Headline level="2" levelStyle="2">
+        <Headline level="2" levelStyle="2" centered>
           Mit freundlicher Unterstützung
         </Headline>
 

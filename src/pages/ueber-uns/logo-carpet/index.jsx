@@ -1,9 +1,13 @@
 import React from 'react';
 
+import './style.scss';
+
 export default ({ logos }) => (
-  <ol>
+  <ol className="logo-carpet">
     {logos.map(logo => (
-      <img src={logo} alt="" />
+      <li>
+        <img src={logo} className="logo-carpet__logo" alt="" />
+      </li>
     ))}
   </ol>
 );

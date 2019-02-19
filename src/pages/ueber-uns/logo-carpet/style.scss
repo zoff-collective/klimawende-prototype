@@ -1,0 +1,25 @@
+@import "../../../variables";
+@import "../../../mixins";
+
+.logo-carpet {
+  @include reset-list;
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  width: 100%;
+
+  > * {
+    flex: 0 1 33;
+    padding: 0 2rem;
+  }
+
+  &__logo {
+    max-height: 15rem;
+    object-fit: contain;
+  }
+}

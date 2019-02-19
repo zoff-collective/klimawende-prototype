@@ -4,6 +4,9 @@
 .partner {
   @include reset-list();
 
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+
   &__item {
     display: flex;
     flex-direction: row;

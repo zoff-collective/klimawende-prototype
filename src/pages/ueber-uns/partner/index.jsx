@@ -7,7 +7,7 @@ import './style.scss';
 
 export default ({ title, items = [] }) => (
   <>
-    <Headline level="2" levelStyle="2">
+    <Headline level="2" levelStyle="2" centered>
       {title}
     </Headline>
 
