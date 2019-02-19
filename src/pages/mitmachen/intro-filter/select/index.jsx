@@ -1,3 +1,4 @@
+import Link from 'gatsby-link';
 import React from 'react';
 
 import select from '../../../../../static/javascript/super-select';
@@ -32,10 +33,10 @@ export default class Select extends React.Component {
         <ul className="super-select__list">
           {options &&
             options.map(({ value, label, href }) => (
-              <li data-value={value} key={`${value}-${label}-${href}`}>
-                <a href={href} className="super-select__list-item">
+              <li key={`${value}-${label}-${href}`}>
+                <Link to={href} className="super-select__list-item">
                   {label}
-                </a>
+                </Link>
               </li>
             ))}
         </ul>

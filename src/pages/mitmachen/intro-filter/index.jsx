@@ -1,16 +1,18 @@
 import React from 'react';
 
 import Headline from '../../../components/text/headline';
+import Map from './map';
 import Select from './select';
 
-import Map from '../../../../static/icons/map-germany.svg';
-
+import '../../../../node_modules/leaflet/dist/leaflet.css';
 import './style.scss';
 
 export default ({ intro, resultsTitle, activeState }) => (
-  <header className="intro-filter">
-    <div className="intro-filter__filter">
-      <Map className="intro-filter__map" />
+  <>
+    <header className="intro-filter">
+      <div className="intro-filter__map-container">
+        <Map activeState={activeState} />
+      </div>
 
       <div className="intro-filter__title-container">
         {intro && <h1 className="intro-filter__intro">{intro}</h1>}
@@ -83,18 +85,22 @@ export default ({ intro, resultsTitle, activeState }) => (
                 label: 'Deutschland',
                 href: '/mitmachen/'
               },
-              { value: 'Bayern', label: 'Bayern', href: '/mitmachen/bayern/' }
+              {
+                value: 'Bayern',
+                label: 'Bayern',
+                href: '/mitmachen/bayern/'
+              }
             ]}
             selected={activeState}
           />
         </div>
       </div>
-    </div>
+    </header>
 
     <div className="intro-filter__results-title-container">
       <Headline level="2" levelStyle="3">
         {resultsTitle}
       </Headline>
     </div>
-  </header>
+  </>
 );
