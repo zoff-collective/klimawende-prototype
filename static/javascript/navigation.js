@@ -18,7 +18,7 @@ const buildButton = (toggle, callback) => {
 };
 
 const init = el => {
-  const toggle = el.querySelector('.js-toggle');
+  const toggle = el.querySelector('.js-navigation-toggle');
   const button = buildButton(toggle, () => {
     toggleMenu(el);
   });

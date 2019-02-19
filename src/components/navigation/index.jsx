@@ -22,13 +22,13 @@ export default class Navigation extends React.Component {
     const { items } = this.props;
 
     return (
-      <nav className="navigation" ref={this.element}>
+      <nav className="navigation js-navigation" ref={this.element}>
         <Link to="/" className="navigation__logo">
           Klimawende von unten
         </Link>
 
         {/* eslint-disable */}
-        <label htmlFor="navigation-toggle" className="navigation__toggle js-toggle">
+        <label htmlFor="navigation-toggle" className="navigation__toggle js-navigation-toggle">
           Menü
           <BarsIcon className="navigation__toggle-icon" />
           <TimesIcon className="navigation__close-icon" />

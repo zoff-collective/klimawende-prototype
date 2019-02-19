@@ -7,13 +7,13 @@ const sassGlobImporter = require('node-sass-glob-importer');
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
 
-  entry: ['./src/style.scss'],
+  entry: ['./static/javascript/init.js', './src/style.scss'],
 
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: 'out.js'
+    filename: 'bundle.js'
   },
 
   module: {
