@@ -1,7 +1,7 @@
 [
   {
     "name": "Franziska Buch",
-    "intro": "Franziska Buch ist Referentin für Energie und Klima beim Umweltinstitut. Gemeinsam mit vielen anderen hat sie im Bündnis „Raus aus der Steinkohle“ den Kohleausstieg in München erkämpft und engagiert sich nun beim „Radentscheid München“.",
+    "intro": "ist Referentin für Energie und Klima beim Umweltinstitut. Gemeinsam mit vielen anderen hat sie im Bündnis „Raus aus der Steinkohle“ den Kohleausstieg in München erkämpft und engagiert sich nun beim „Radentscheid München“. Sie berät zu Bürgerbegehren in den Bereichen Kohleausstieg, Energiewende/Stadtwerke und Radverkehr.",
     "email": "energie@umweltinstitut.org",
     "phone": "089 – 30 77 49 17",
     "image": "/images/persons/franziska-buch.png"
@@ -9,8 +9,8 @@
 
   {
     "name": "Eric Häublein",
-    "intro": "Eric Häublein ist Campaigner bei Bürgerbegehren Klimaschutz. Er ist Sprecher beim „Berliner Energietisch“, dank dem Berlin jetzt ein Öko-Stadtwerk hat.",
-    "email": "nfo@buerger-begehren-klimaschutz.de",
+    "intro": "Eric Häublein ist Campaigner bei Bürgerbegehren Klimaschutz. Er ist Sprecher beim „Berliner Energietisch“, dank dem Berlin jetzt ein Öko-Stadtwerk hat. Er berät zu Bürgerbegehren in den Bereichen Kohleausstieg und Energiewende/Stadtwerke.",
+    "email": "info@buerger-begehren-klimaschutz.de",
     "phone": "030 - 92 25 09 19",
     "image": "/images/persons/eric-haeublein.png"
   },
@@ -24,10 +24,10 @@
   },
 
   {
-    "name": "Isabella Wach",
-    "intro": "war bei „Raus aus der Steinkohle“ aktiv. Die Sommerbräune von den Sammelaktionen ist inzwischen wieder weg. Einige der Freundschaften sind aber geblieben.",
-    "email": "beratung@mehr-demokratie.de",
+    "name": "Kanzlei Rechtsanwälte Günther",
+    "intro": "Die Hamburger Kanzlei Rechtsanwälte Günther ist auf Umwelt- und Energierecht spezialisiert. Für diesen Leitfaden hat sie ein Rechtsgutachten zum kommunalen Kohleausstieg durch direkte Demokratie erstellt. Außerdem hat sie den Gesetzentwurf für die Hamburger Volksinitiative „Tschüss Kohle“ verfasst.",
+    "email": "post@rae-guenther.de",
     "phone": "089 – 46 22 42 05",
-    "image": "/images/persons/isabella-wach.png"
+    "image": ""
   }
 ]

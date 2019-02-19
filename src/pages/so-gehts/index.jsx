@@ -14,7 +14,7 @@ const Page = () => (
       intro="Ein Bürgerbegehren besteht aus lauter kleinen Schritten. Zunächst verschaffen wir dem Thema eine Öffentlichkeit. Dann zwingen wir die lokale Politik, Farbe zu bekennen und sich zur Klimawende zu positionieren. Wenn sie sich weigert, erhöhen wir den Druck – und führen die Entscheidung irgendwann selbst herbei. Jede dieser Etappen ist für sich genommen schon ein Sieg. Eine Bürgerbegehrens-Kampagne kann also nicht wirklich scheitern. Die Frage ist vielmehr, wie viel sie gewinnt."
     />
 
-    <Constraint width="wide" className="so-gehts__constraint">
+    <Constraint width="semi-wide" className="so-gehts__constraint">
       <AlternatingList
         items={[
           {
@@ -33,7 +33,7 @@ const Page = () => (
             text:
               '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
             image: {
-              src: '/images/broschuere.png',
+              src: '/images/radentscheid.png',
               alt: ''
             }
           },
@@ -43,7 +43,7 @@ const Page = () => (
             text:
               '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
             image: {
-              src: '/images/broschuere.png',
+              src: '/images/abschalten.png',
               alt: ''
             }
           },
@@ -53,7 +53,7 @@ const Page = () => (
             text:
               '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
             image: {
-              src: '/images/broschuere.png',
+              src: '/images/end-coal.png',
               alt: ''
             }
           },
@@ -63,7 +63,7 @@ const Page = () => (
             text:
               '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
             image: {
-              src: '/images/broschuere.png',
+              src: '/images/netz-oder-nie.png',
               alt: ''
             }
           },
@@ -73,7 +73,7 @@ const Page = () => (
             text:
               '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
             image: {
-              src: '/images/broschuere.png',
+              src: '/images/stadtwerke.png',
               alt: ''
             }
           },
@@ -83,7 +83,7 @@ const Page = () => (
             text:
               '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
             image: {
-              src: '/images/broschuere.png',
+              src: '/images/fahrrad.png',
               alt: ''
             }
           },
@@ -93,7 +93,7 @@ const Page = () => (
             text:
               '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
             image: {
-              src: '/images/broschuere.png',
+              src: '/images/diskussion.png',
               alt: ''
             }
           }

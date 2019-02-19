@@ -10,7 +10,10 @@ import './style.scss';
 
 export default ({ name, email, intro, phone, image }) => (
   <div className="person">
-    <img src={image} alt="" className="person__image" />
+    <div className="person__image-container">
+      {image && <img src={image} alt="" className="person__image" />}
+    </div>
+
     <div className="person__content">
       <Headline level="3" levelStyle="3" underlined>
         {name}

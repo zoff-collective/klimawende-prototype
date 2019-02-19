@@ -16,4 +16,10 @@
       width: 1120px;
     }
   }
+
+  &--is-semi-wide {
+    @include mq($from: desktop) {
+      width: 1000px;
+    }
+  }
 }

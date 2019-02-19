@@ -8,6 +8,7 @@ export default ({ className = '', width = false, children }) => (
     className={classnames(
       'constraint',
       { [`constraint--is-wide`]: width === 'wide' },
+      { [`constraint--is-semi-wide`]: width === 'semi-wide' },
       className
     )}
   >

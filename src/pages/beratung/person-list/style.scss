@@ -3,12 +3,17 @@
 .person-list {
   @include reset-list();
 
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+
   > * + * {
-    margin-top: 6rem;
+    margin-top: 7rem;
   }
 
   >*:nth-child(2n) .person__content {
     @include mq($from: tablet) {
+      margin-left: 0;
+      margin-right: 1.5rem;
       order: -1;
     }
   }

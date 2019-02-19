@@ -21,7 +21,7 @@
 
     background-color: $color-dark-brown;
     color: white;
-    padding: 1.5rem;
+    padding: 1.75rem;
     text-transform: uppercase;
     white-space: nowrap;
 
@@ -33,10 +33,6 @@
     @include mq($from: desktop) {
       padding-left: 3rem;
       padding-right: 3rem;
-    }
-
-    @include mq($from: wide) {
-      @include font-size(16px);
     }
   }
 
@@ -139,7 +135,7 @@
 
     background-color: currentColor;
     display: block;
-    padding: 1.75rem 2.5rem 1.5rem 2.5rem;
+    padding: 1.75rem 2.5rem 1.75rem 2.5rem;
     text-transform: uppercase;
     white-space: nowrap;
 
@@ -152,8 +148,6 @@
     }
 
     @include mq($from: wide) {
-      @include font-size(16px);
-
       padding-left: 4rem;
       padding-right: 4rem;
     }

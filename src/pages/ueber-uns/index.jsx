@@ -5,7 +5,7 @@ import BlockContent from '../../components/block-content';
 import Content from '../../components/content';
 import Headline from '../../components/text/headline';
 import Intro from '../../components/intro';
-import Paragraph from '../../components/text/paragraph';
+import LogoCarpet from './logo-carpet';
 import Partner from './partner';
 import withLayout from '../../components/with-layout';
 
@@ -36,12 +36,18 @@ export default withLayout(
           Mit freundlicher Unterstützung
         </Headline>
 
-        <Paragraph
-          text="
-          der Klima-Allianz Deutschland, Greenpeace, Bund für Umwelt und
-          Naturschutz Deutschland (BUND), NaturFreunde Deutschlands, 350.org,
-          ADFC, Changing Cities
-        "
+        <LogoCarpet
+          logos={[
+            '/images/partners/350.png',
+            '/images/partners/adfc.png',
+            '/images/partners/bund.png',
+
+            '/images/partners/changing-cities.png',
+            '/images/partners/greenpeace.png',
+            '/images/partners/klima-allianz.png',
+
+            '/images/partners/naturfreunde.png'
+          ]}
         />
       </Content>
     </div>
