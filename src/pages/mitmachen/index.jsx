@@ -51,7 +51,7 @@ const List = ({
         <div className="mitmachen__participate-container">
           <Participate
             title="DEINE Kampagne fehlt?"
-            intro="Du hast bereits eine Kampagne für die Klimawende in Deinem Ort gestartet, oder spielst mit dem Gedanken? Sag uns jetzt Bescheid, damit wir Dein Projekt in die Karte aufnehmen und Dir helfen können, MitstreiterInnen zu finden!"
+            intro="Du hast bereits eine Kampagne für die Klimawende in Deinem Ort gestartet? Sag uns jetzt Bescheid, damit wir Dein Projekt in die Karte aufnehmen und Dir helfen können, MitstreiterInnen zu finden!"
             share={false}
           >
             <Button theme="yellow" href="/mitmachen/eintragen/">

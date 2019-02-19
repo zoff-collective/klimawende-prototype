@@ -15,10 +15,10 @@ const Page = () => (
   <div className="mitmachen mitmachen--form">
     <Constraint>
       <Headline level="2" levelStyle="2" underlined>
-        Neue Kampagne eintragen
+        Deine Kampagne auf Klimawende.org!
       </Headline>
 
-      <Paragraph text="Trage hier die wichtigsten Informationen über deine Kampagne ein. Wir kontaktieren Dich im Anschluss und erstellen in Absprache mit dir einen Kampagnen-Steckbrief für die Klimawende-Karte. Gerne beraten wir Dich auch zu inhaltlichen Fragen und unterstützen bei der Mobilisierung." />
+      <Paragraph text="Trage hier die wichtigsten Informationen über deine Kampagne ein. Wir kontaktieren Dich im Anschluss und erstellen in Absprache mit dir einen Kampagnen-Steckbrief für die Klimawende-Karte. Dort erhalten Interessierte die wichtigsten Informationen über Deine Initiative und die Kontaktdaten einer Ansprechperson. Sie können sich über die “Mitmachen”-Box in einen Info-Verteiler eintragen, um Deine Kampagne zu unterstützen. So kannst Du ihnen per E-Mail mitteilen, wann Treffen stattfinden oder ob bald eine Aktion oder Unterschriftensammlung stattfindet, bei der sie mithelfen können. Gerne beraten wir Dich auch zu inhaltlichen Fragen und unterstützen bei der Mobilisierung." />
 
       <form>
         <FormGroup>

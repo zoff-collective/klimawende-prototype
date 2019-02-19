@@ -25,7 +25,7 @@ export default withLayout(
       <section className="so-gehts__download">
         <Content>
           <Headline level="2" levelStyle="2" centered>
-            Broschüre herunterladen
+            Handbuch „Klimawende von unten“ herunterladen
           </Headline>
           <p className="so-gehts__download-text">PDF, 2.5Mb</p>
           <Button href="/broschuere/download">Download</Button>
@@ -35,7 +35,7 @@ export default withLayout(
       <Content>
         <form action="/so-gehts/broschuere/done" method="post">
           <Headline level="2" levelStyle="3">
-            Gedruckte Broschüre bestellen
+            Handbuch „Klimawende von unten“ bestellen
           </Headline>
 
           <FormGroup>

@@ -11,17 +11,17 @@ const Page = () => (
   <div className="so-gehts">
     <Intro
       title="So geht's"
-      intro="Ein Bürgerbegehren besteht aus lauter kleinen Schritten. Zunächst verschaffen wir dem Thema eine Öffentlichkeit. Dann zwingen wir die lokale Politik, Farbe zu bekennen und sich zur Klimawende zu positionieren. Wenn sie sich weigert, erhöhen wir den Druck – und führen die Entscheidung irgendwann selbst herbei. Jede dieser Etappen ist für sich genommen schon ein Sieg. Eine Bürgerbegehrens-Kampagne kann also nicht wirklich scheitern. Die Frage ist vielmehr, wie viel sie gewinnt."
+      intro="Erfolge für die Klimawende wie in Bamberg, Berlin oder München lassen sich fast überall in Deutschland wiederholen. Wir müssen nur wissen, an welchen Stellen wir die Hebel der direkten Demokratie anlegen können."
     />
 
     <Constraint width="semi-wide" className="so-gehts__constraint">
       <AlternatingList
         items={[
           {
-            title: 'Broschüre bestellen',
+            title: 'Handbuch bestellen',
             link: '/so-gehts/broschuere-bestellen/',
             text:
-              '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
+              'Die inspirierenden Erfolgsbeispiele, die Anleitungen für die Klimawende von unten und die Checkliste für gelungene Kampagnen haben wir in einem schön illustrierten Handbuch zusammengefasst.',
             image: {
               src: '/images/broschuere.png',
               alt: ''
@@ -29,9 +29,9 @@ const Page = () => (
           },
 
           {
-            title: 'Direkte Demokratie',
+            title: 'Direkte Demokratie verstehen',
             text:
-              '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
+              'Mit Bürger- und Volksbegehren führen wir selbst kommunalpolitische Entscheidungen herbei und gestalten damit unsere Städte und Gemeinden. So funktionieren die direktdemokratischen Instrumente für die Klimawende von unten.',
             image: {
               src: '/images/radentscheid.png',
               alt: ''
@@ -39,9 +39,9 @@ const Page = () => (
           },
 
           {
-            title: 'Kohlekraftwerke abschalten',
+            title: 'Kohlekraftwerken den Stecker ziehen',
             text:
-              '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
+              'Immer mehr Städte schalten ihre Kohlekraftwerke ab. Einige kommunale Schornsteine qualmen aber noch. Höchste Zeit, per Bürgerentscheid den lokalen Kohleausstieg einzuleiten.',
             image: {
               src: '/images/abschalten.png',
               alt: ''
@@ -49,9 +49,9 @@ const Page = () => (
           },
 
           {
-            title: 'Fernwärme ohne Kohle',
+            title: 'Kohle aus der Fernwärme verbannen',
             text:
-              '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
+              'Indem wir aus kommunalen Fernwärmenetzen Kohlewärme ausschließen, machen wir die Leitungen frei für erneuerbare Energien. Zugleich bringen wir das wirtschaftliche Fundament der Kohlekraftwerke zum Wackeln.',
             image: {
               src: '/images/end-coal.png',
               alt: ''
@@ -61,7 +61,7 @@ const Page = () => (
           {
             title: 'Energieversorgung zurückerobern',
             text:
-              '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
+              'Immer mehr Städte und Gemeinden in Deutschland holen sich die Kontrolle über ihre Strom- und Wärmenetze zurück und gründen eigene Öko-Stadtwerke. Mit Bürgerbegehren können wir die lokale Energiewende anstoßen.',
             image: {
               src: '/images/netz-oder-nie.png',
               alt: ''
@@ -69,9 +69,9 @@ const Page = () => (
           },
 
           {
-            title: 'Ökologische Stadtwerke',
+            title: 'Mit Stadtwerken Klimapolitik machen',
             text:
-              '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
+              'Kommunale Stadtwerke ermöglichen Städten und Gemeinden, in Fragen der Energiepolitik selbstständig Entscheidungen treffen zu können. Diese Spielräume können auch wir BürgerInnen für die Energiewende nutzen.',
             image: {
               src: '/images/stadtwerke.png',
               alt: ''
@@ -79,9 +79,9 @@ const Page = () => (
           },
 
           {
-            title: 'Vorfahrt für Fahrräder',
+            title: 'Vorfahrt für Fahrräder erkämpfen',
             text:
-              '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
+              'Unsere Städte versinken im Blech und ersticken in Abgasen. Die Straßen gehören den Autos, als sei das ein Naturrecht. Doch nun rollt eine Verkehrswende von unten durch das Land – auf Fahrrädern.',
             image: {
               src: '/images/fahrrad.png',
               alt: ''
@@ -89,9 +89,9 @@ const Page = () => (
           },
 
           {
-            title: 'Kampagnen-Checkliste',
+            title: 'Erfolgreich mobilisieren',
             text:
-              '„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.',
+              'Ein Bürgerbegehren besteht aus vielen kleinen Schritten. Aus vergangenen und aktuell noch laufenden Kampagnen können wir lernen, worauf wir achten müssen und was besonders gut funktioniert.',
             image: {
               src: '/images/diskussion.png',
               alt: ''
