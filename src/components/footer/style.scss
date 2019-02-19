@@ -1,8 +1,54 @@
 @import "../../variables";
+@import "../../mixins";
 
 .footer {
+  @include font-size(17px);
+
+  align-items: center;
   background-color: $color-dark-brown;
   color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-mark;
+  font-weight: 900;
   margin-top: 8rem;
-  min-height: 50vh;
+  padding-top: 5rem;
+  text-transform: uppercase;
+
+  &__logo-container {
+    margin-bottom: 5rem;
+  }
+
+  &__logo-title {
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+
+  &__logo-image-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+    > img {
+      margin-right: 2.5rem;
+      object-fit: contain;
+    }
+  }
+
+  &__lower {
+    align-items: center;
+    background-color: $color-light-brown;
+    color: $color-dark-brown;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    padding: 2rem 1.5rem 3rem 1.5rem;
+    width: 100%;
+
+    &-links {
+      a + a {
+        margin-left: 5rem;
+      }
+    }
+  }
 }
