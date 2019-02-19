@@ -8,7 +8,7 @@ const sassGlobImporter = require('node-sass-glob-importer');
 const path = require('path');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
 
   entry: {
     styles: ['./node_modules/leaflet/dist/leaflet.css', './src/style.scss'],
