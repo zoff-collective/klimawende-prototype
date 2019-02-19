@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Headline from '../../../components/text/headline';
 import Map from './map';
 import Select from './select';
 
@@ -99,10 +98,6 @@ export default ({ intro, resultsTitle, activeState }) => (
       </div>
     </header>
 
-    <div className="intro-filter__results-title-container">
-      <Headline level="2" levelStyle="3">
-        {resultsTitle}
-      </Headline>
-    </div>
+    <div className="intro-filter__results-title-container">{resultsTitle}</div>
   </>
 );
