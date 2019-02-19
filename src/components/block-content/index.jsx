@@ -23,6 +23,15 @@ export default ({ blocks, children }) => (
             </Constraint>
           );
 
+        case 'headline-3':
+          return (
+            <Constraint className="block-content__headline-container">
+              <Headline level="3" levelStyle="3">
+                {content}
+              </Headline>
+            </Constraint>
+          );
+
         case 'blockquote':
           return (
             <Constraint>

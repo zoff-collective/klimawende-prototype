@@ -39,6 +39,8 @@
   &--level-2 &__headline {
     @include font-size(24px);
 
+    font-weight: 800;
+
     @include mq($from: tablet) {
       @include font-size(34px);
     }
