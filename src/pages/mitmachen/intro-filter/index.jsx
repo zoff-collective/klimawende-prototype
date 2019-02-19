@@ -4,6 +4,8 @@ import Headline from '../../../components/text/headline';
 import Map from './map';
 import Select from './select';
 
+import markers from '../../../../static/json/markers.json';
+
 import '../../../../node_modules/leaflet/dist/leaflet.css';
 import './style.scss';
 
@@ -11,7 +13,7 @@ export default ({ intro, resultsTitle, activeState }) => (
   <>
     <header className="intro-filter">
       <div className="intro-filter__map-container">
-        <Map activeState={activeState} />
+        <Map activeState={activeState} markers={markers} />
       </div>
 
       <div className="intro-filter__title-container">

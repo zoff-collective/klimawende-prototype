@@ -17,7 +17,7 @@ export default class Map extends React.Component {
   }
 
   render() {
-    const { activeState } = this.props;
+    const { activeState, markers } = this.props;
 
     return (
       <div
@@ -25,7 +25,7 @@ export default class Map extends React.Component {
           'map--single-state': !!activeState
         })}
         data-federalstates-endpoint="/json/federal-states.json"
-        data-markers-endpoint="/json/markers.json"
+        data-markers={encodeURIComponent(JSON.stringify(markers))}
         data-active-federalstate={activeState}
         ref={this.map}
       />

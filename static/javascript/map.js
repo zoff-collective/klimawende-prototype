@@ -53,25 +53,29 @@ const initFederalStates = (map, endpoint, activeFederalstate = null) =>
       map.fitBounds(layer.getBounds());
     });
 
-const initMarkers = (map, endpoint) => {
-  fetch(endpoint)
-    .then(res => res.json())
-    .then(data => {
-      geoJSON(data, {
-        pointToLayer: (feature, layer) =>
-          circleMarker(layer, {
-            className: 'leaflet-marker',
-            fill: true
-          }),
+const initMarkers = (map, data) => {
+  let json;
 
-        onEachFeature: (feature, layer) => {
-          layer.on('click', () => {
-            const { link } = feature.properties;
-            redirect(link);
-          });
-        }
-      }).addTo(map);
-    });
+  try {
+    json = JSON.parse(decodeURIComponent(data));
+  } catch (err) {
+    console.log(err);
+  }
+
+  geoJSON(json, {
+    pointToLayer: (feature, layer) =>
+      circleMarker(layer, {
+        className: 'leaflet-marker',
+        fill: true
+      }),
+
+    onEachFeature: (feature, layer) => {
+      layer.on('click', () => {
+        const { link } = feature.properties;
+        redirect(link);
+      });
+    }
+  }).addTo(map);
 };
 
 const initMap = el => {
@@ -87,15 +91,11 @@ const initMap = el => {
 };
 
 const init = el => {
-  const {
-    federalstatesEndpoint,
-    markersEndpoint,
-    activeFederalstate
-  } = el.dataset;
+  const { federalstatesEndpoint, markers, activeFederalstate } = el.dataset;
   const map = initMap(el);
 
   initFederalStates(map, federalstatesEndpoint, activeFederalstate).then(() =>
-    initMarkers(map, markersEndpoint)
+    initMarkers(map, markers)
   );
 };
 
