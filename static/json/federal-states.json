@@ -8590,7 +8590,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Bayern"
+            "NAME_1": "Bayern",
+            "link": "/mitmachen/bayern/"
           },
           "id": 1
         },
