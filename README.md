@@ -22,6 +22,14 @@
 - `webpack.config.js` webpack configuration for the extra CSS build step, which
   generates a CSS file in public containing all CSS used in components
 
+
+## Components
+
+Some components bring their own documentation:
+
+- [Map](src/pages/mitmachen/intro-filter/map/README.md)
+
+
 ## Develop
 
 The prototype is based on [Gatsby](https://www.gatsbyjs.org/), a very flexible
@@ -46,3 +54,11 @@ Running
 
 will build the static site into one single folder, which can then be served
 by any webserver.
+
+
+### Static styles & JavaScript
+
+Through an additional build step, two additional files are created:
+
+- `style.css` Contains all styles in a single file
+- `bundle.js` Contains all the transpiled JS in a single file
