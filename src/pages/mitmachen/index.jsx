@@ -15,44 +15,54 @@ const List = ({
     projects: { edges: projects }
   },
   pageContext: { state: federalState }
-}) => (
-  <div className="mitmachen">
-    <IntroFilter
-      intro="Gemeinsam schaffen wir die Klimawende! Mach mit bei einer Kampagne in Deiner Nähe oder starte Deine eigene!"
-      resultsTitle="Ergebnisse"
-      activeState={federalState}
-    />
+}) => {
+  let visibleProjects = projects;
 
-    <Constraint width="wide" className="mitmachen__constraint">
-      <div className="mitmachen__content-container">
-        {/* eslint-disable react/no-array-index-key */}
-        <ul className="mitmachen__project-list">
-          {projects.map(({ node }, index) => (
-            <li
-              className="mitmachen__project-list-item"
-              key={`mitmachen-${index}`}
-            >
-              <Project {...node} />
-            </li>
-          ))}
-        </ul>
-        {/* eslint-enable react/no-array-index-key */}
-      </div>
+  if (window.location.search === '?empty') {
+    visibleProjects = null;
+  }
 
-      <div className="mitmachen__participate-container">
-        <Participate
-          title="DEINE Kampagne fehlt?"
-          intro="Du hast bereits eine Kampagne für die Klimawende in Deinem Ort gestartet, oder spielst mit dem Gedanken? Sag uns jetzt Bescheid, damit wir Dein Projekt in die Karte aufnehmen und Dir helfen können, MitstreiterInnen zu finden!"
-          share={false}
-        >
-          <Button theme="yellow" href="/mitmachen/eintragen/">
-            Kampagne melden!
-          </Button>
-        </Participate>
-      </div>
-    </Constraint>
-  </div>
-);
+  return (
+    <div className="mitmachen">
+      <IntroFilter
+        intro="Gemeinsam schaffen wir die Klimawende! Mach mit bei einer Kampagne in Deiner Nähe oder starte Deine eigene!"
+        resultsTitle="Ergebnisse"
+        activeState={federalState}
+      />
+
+      <Constraint width="wide" className="mitmachen__constraint">
+        <div className="mitmachen__content-container">
+          {/* eslint-disable react/no-array-index-key */}
+          {visibleProjects && (
+            <ul className="mitmachen__project-list">
+              {visibleProjects.map(({ node }, index) => (
+                <li
+                  className="mitmachen__project-list-item"
+                  key={`mitmachen-${index}`}
+                >
+                  <Project {...node} />
+                </li>
+              ))}
+            </ul>
+          )}
+          {/* eslint-enable react/no-array-index-key */}
+        </div>
+
+        <div className="mitmachen__participate-container">
+          <Participate
+            title="DEINE Kampagne fehlt?"
+            intro="Du hast bereits eine Kampagne für die Klimawende in Deinem Ort gestartet, oder spielst mit dem Gedanken? Sag uns jetzt Bescheid, damit wir Dein Projekt in die Karte aufnehmen und Dir helfen können, MitstreiterInnen zu finden!"
+            share={false}
+          >
+            <Button theme="yellow" href="/mitmachen/eintragen/">
+              Kampagne melden!
+            </Button>
+          </Participate>
+        </div>
+      </Constraint>
+    </div>
+  );
+};
 
 export const query = graphql`
   query {
