@@ -9,8 +9,14 @@ domready(() => {
   initNavigation(navigation);
 
   const selects = document.querySelectorAll('.js-super-select');
-  Array.from(selects).forEach(initSelect);
+
+  if (selects && selects.length > 0) {
+    Array.from(selects).forEach(initSelect);
+  }
 
   const map = document.querySelector('.js-map');
-  initMap(map);
+
+  if (map) {
+    initMap(map);
+  }
 });
