@@ -16,12 +16,20 @@ class TopoJSON extends GeoJSON {
   }
 }
 
-const initFederalStates = (map, endpoint) =>
+const initFederalStates = (map, endpoint, activeFederalstate = null) =>
   fetch(endpoint)
     .then(res => res.json())
     .then(data => {
       new TopoJSON(data, {
         className: 'leaflet-country',
+        filter: feature => {
+          // if there isn't an active federal state, return everything
+          if (activeFederalstate === null) {
+            return true;
+          }
+          const { NAME_1: name } = feature.properties;
+          return name === activeFederalstate;
+        },
         onEachFeature: (feature, country) => {
           country.on('click', () => {
             const { link } = feature.properties;
@@ -82,10 +90,14 @@ const initMap = el => {
 };
 
 const init = el => {
-  const { federalstatesEndpoint, markersEndpoint } = el.dataset;
+  const {
+    federalstatesEndpoint,
+    markersEndpoint,
+    activeFederalstate
+  } = el.dataset;
   const map = initMap(el);
 
-  initFederalStates(map, federalstatesEndpoint).then(() =>
+  initFederalStates(map, federalstatesEndpoint, activeFederalstate).then(() =>
     initMarkers(map, markersEndpoint)
   );
 };

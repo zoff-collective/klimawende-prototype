@@ -28,6 +28,7 @@ export default class Intro extends React.Component {
             className="intro-filter__map js-map"
             data-federalstates-endpoint="/json/federal-states.json"
             data-markers-endpoint="/json/markers.json"
+            data-active-federalstate={activeState}
             ref={this.map}
           />
 
