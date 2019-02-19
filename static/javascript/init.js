@@ -6,7 +6,10 @@ import initSelect from './super-select';
 
 domready(() => {
   const navigation = document.querySelector('.js-navigation');
-  initNavigation(navigation);
+
+  if (navigation) {
+    initNavigation(navigation);
+  }
 
   const selects = document.querySelectorAll('.js-super-select');
 

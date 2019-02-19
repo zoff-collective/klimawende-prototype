@@ -18,10 +18,6 @@ const buildButton = (toggle, callback) => {
 };
 
 const init = el => {
-  if (!el) {
-    return;
-  }
-
   const toggle = el.querySelector('.js-navigation-toggle');
   const button = buildButton(toggle, () => {
     toggleMenu(el);
