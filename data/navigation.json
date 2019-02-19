@@ -56,7 +56,7 @@
       "teaser": {
         "title": "Handbuch bestellen",
         "text": "Die inspirierenden Erfolgsbeispiele, die Anleitungen für die Klimawende von unten und die Checkliste für gelungene Kampagnen haben wir in einem schön illustrierten Handbuch zusammengefasst.",
-        "link": "/so-gehts/broschuere-bestellen/",
+        "link": "/so-gehts/handbuch-bestellen/",
         "image": {
           "src": "/images/broschuere.png",
           "alt": ""
@@ -64,8 +64,8 @@
       },
       "items": [
         {
-          "title": "Broschüre bestellen",
-          "link": "/so-gehts/broschuere-bestellen/"
+          "title": "Handbuch bestellen",
+          "link": "/so-gehts/handbuch-bestellen/"
         },
 
         {

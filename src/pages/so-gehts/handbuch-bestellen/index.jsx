@@ -28,12 +28,12 @@ export default withLayout(
             Handbuch „Klimawende von unten“ herunterladen
           </Headline>
           <p className="so-gehts__download-text">PDF, 2.5Mb</p>
-          <Button href="/broschuere/download">Download</Button>
+          <Button href="/handbuch/download">Download</Button>
         </Content>
       </section>
 
       <Content>
-        <form action="/so-gehts/broschuere/done" method="post">
+        <form action="/so-gehts/handbuch-bestellen/done" method="post">
           <Headline level="2" levelStyle="3">
             Handbuch „Klimawende von unten“ bestellen
           </Headline>

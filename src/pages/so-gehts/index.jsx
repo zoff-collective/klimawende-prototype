@@ -19,7 +19,7 @@ const Page = () => (
         items={[
           {
             title: 'Handbuch bestellen',
-            link: '/so-gehts/broschuere-bestellen/',
+            link: '/so-gehts/handbuch-bestellen/',
             text:
               'Die inspirierenden Erfolgsbeispiele, die Anleitungen für die Klimawende von unten und die Checkliste für gelungene Kampagnen haben wir in einem schön illustrierten Handbuch zusammengefasst.',
             image: {
