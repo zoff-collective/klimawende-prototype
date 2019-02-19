@@ -18,7 +18,7 @@ const List = ({
 }) => {
   let visibleProjects = projects;
 
-  if (window.location.search === '?empty') {
+  if (typeof window !== 'undefined' && window.location.search === '?empty') {
     visibleProjects = null;
   }
 
