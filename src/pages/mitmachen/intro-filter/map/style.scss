@@ -1,0 +1,42 @@
+@import "../../../../variables";
+@import "../../../../mixins";
+
+@import "~leaflet/dist/leaflet.css";
+
+.map {
+  width: 100%;
+
+  path {
+    fill: white;
+    fill-opacity: 1;
+    opacity: 1;
+  }
+
+  &.leaflet-container {
+    background: transparent;
+  }
+
+  .leaflet-marker {
+    fill: $color-dark-brown;
+    stroke: $color-dark-brown;
+    stroke-width: 0.2rem;
+    z-index: 1000;
+  }
+
+  .leaflet-marker:hover,
+  .leaflet-marker:focus {
+    fill: $color-yellow;
+  }
+
+  .leaflet-country {
+    stroke: $color-yellow;
+    stroke-width: 0.1rem;
+  }
+
+  // only do the hover effects, if the whole country is displayed
+  &:not(&--single-state) .leaflet-country:hover,
+  &:not(&--single-state) .leaflet-country:focus {
+    fill: $color-yellow;
+    stroke: white;
+  }
+}

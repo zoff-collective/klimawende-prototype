@@ -1,12 +1,6 @@
 @import "../../../mixins";
 @import "../../../variables";
 
-@import "~leaflet/dist/leaflet.css";
-
-.leaflet-container {
-  background: transparent;
-}
-
 .intro-filter {
   background-color: $color-yellow;
   display: flex;
@@ -19,53 +13,25 @@
     min-height: 95vh;
   }
 
-  &__map {
+  &__map-container {
     display: none;
-    fill: white;
+    flex: 1;
+    height: 100%;
+    margin-left: 2rem;
+    width: 37%;
 
     @include mq($from: tablet) {
-      display: block;
-      height: 95%;
-      margin-left: 2rem;
-      width: 37%;
-    }
-
-    path {
-      fill: white;
-      fill-opacity: 1;
-      opacity: 1;
-    }
-
-    .leaflet-marker {
-      fill: $color-dark-brown;
-      stroke: $color-dark-brown;
-      stroke-width: 0.2rem;
-      z-index: 1000;
-    }
-
-    .leaflet-marker:hover,
-    .leaflet-marker:focus {
-      fill: $color-yellow;
-    }
-
-    .leaflet-country {
-      stroke: $color-yellow;
-      stroke-width: 0.1rem;
-    }
-
-    .leaflet-country:hover,
-    .leaflet-country:focus {
-      fill: $color-yellow;
-      stroke: white;
+      display: flex;
     }
   }
 
   &__filter {
     align-items: center;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    justify-content: center;
     height: 100%;
+    justify-content: center;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 
