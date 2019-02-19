@@ -22,8 +22,8 @@ const initFederalStates = (map, endpoint) =>
     .then(data => {
       new TopoJSON(data, {
         className: 'leaflet-country',
-        onEachFeature: (feature, layer) => {
-          layer.on('click', () => {
+        onEachFeature: (feature, country) => {
+          country.on('click', () => {
             const { link } = feature.properties;
 
             if (!link) {
@@ -82,10 +82,10 @@ const initMap = el => {
 };
 
 const init = el => {
-  const { shapesEndpoint, markersEndpoint } = el.dataset;
+  const { federalstatesEndpoint, markersEndpoint } = el.dataset;
   const map = initMap(el);
 
-  initFederalStates(map, shapesEndpoint).then(() =>
+  initFederalStates(map, federalstatesEndpoint).then(() =>
     initMarkers(map, markersEndpoint)
   );
 };

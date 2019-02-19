@@ -32,7 +32,7 @@ export default class Select extends React.Component {
         <ul className="super-select__list">
           {options &&
             options.map(({ value, label, href }) => (
-              <li data-value={value} key={`${value}-${label}-${href}`}>
+              <li key={`${value}-${label}-${href}`}>
                 <a href={href} className="super-select__list-item">
                   {label}
                 </a>

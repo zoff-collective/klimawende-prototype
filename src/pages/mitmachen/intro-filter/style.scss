@@ -11,15 +11,24 @@
   background-color: $color-yellow;
   display: flex;
   flex-direction: column;
-  height: 95vh;
   margin-bottom: 5.5rem;
+  min-height: 60vh;
   width: 100%;
 
+  @include mq($from: tablet) {
+    min-height: 95vh;
+  }
+
   &__map {
+    display: none;
     fill: white;
-    height: 90%;
-    margin-left: 3rem;
-    width: 35%;
+
+    @include mq($from: tablet) {
+      display: block;
+      height: 95%;
+      margin-left: 2rem;
+      width: 37%;
+    }
 
     path {
       fill: white;
@@ -54,8 +63,17 @@
   &__filter {
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+    @include mq($from: tablet) {
+      flex-direction: row;
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &__intro {
@@ -68,16 +86,23 @@
   }
 
   &__title-container {
-    margin-left: 5rem;
     max-width: 60rem;
+
+    @include mq($from: tablet) {
+      margin-left: 5rem;
+    }
   }
 
   &__title {
     color: $color-dark-brown;
     font-family:$font-adelle;
-    font-size: 4.5rem;
+    font-size: 2rem;
     font-weight: 800;
     line-height: 1.65;
+
+    @include mq($from: tablet) {
+      font-size: 4.5rem;
+    }
 
     > .super-select:not(:nth-of-type(1)) {
       margin-left: 1.5rem;
