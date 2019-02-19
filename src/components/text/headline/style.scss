@@ -13,7 +13,7 @@
   &--is-underlined &__headline {
     display: inline;
     border-bottom: 4px solid currentColor;
-    line-height: 1.8;
+    line-height: 1.7;
 
     @include mq($from: tablet) {
       border-bottom-width: 7px;
