@@ -3,10 +3,12 @@
   normalize the output CSS file as much as possible.
 */
 
+const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 
 module.exports = {
   plugins: [
+    autoprefixer(),
     cssnano({
       preset: [
         'default',

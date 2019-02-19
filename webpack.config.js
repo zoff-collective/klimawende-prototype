@@ -3,34 +3,31 @@
   into a single css file, which can be passed to the production system.
 */
 
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const sassGlobImporter = require('node-sass-glob-importer');
 const path = require('path');
 
 module.exports = {
   mode: 'production',
 
-  entry: ['./static/javascript/init.js', './src/style.scss'],
+  entry: {
+    styles: ['./node_modules/leaflet/dist/leaflet.css', './src/style.scss'],
+
+    'bundle.js': './static/javascript/init.js'
+  },
 
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: '[name]'
   },
 
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.s?css$/,
         use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].css'
-            }
-          },
-
-          {
-            loader: 'postcss-loader'
-          },
+          MiniCssExtractPlugin.loader,
+          'css-loader?url=false',
 
           {
             loader: 'sass-loader',
@@ -39,10 +36,14 @@ module.exports = {
               outputStyle: 'expanded'
             }
           }
-
-          // autoprefixer
         ]
       }
     ]
-  }
+  },
+
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: 'style.css'
+    })
+  ]
 };
