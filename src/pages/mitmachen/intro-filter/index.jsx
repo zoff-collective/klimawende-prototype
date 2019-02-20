@@ -30,25 +30,29 @@ export default ({ intro, resultsTitle, activeState }) => {
                   label: 'Alle Kampagnen',
                   href: `/mitmachen/${activeStateSlug}/?status=all`
                 },
+
                 {
                   value: 'archived',
                   label: 'Abgeschlossene Kampagnen',
                   href: `/mitmachen/${activeStateSlug}/?status=archived`
                 },
+
                 {
                   value: 'creation',
                   label: 'Gründungen',
                   href: `/mitmachen/${activeStateSlug}/?status=creation`
                 },
+
                 {
                   value: 'potential',
-                  label: 'Potentielle Standorte',
+                  label: 'Potenzielle Standorte',
                   href: `/mitmachen/${activeStateSlug}/?status=potential`
                 },
+
                 {
-                  value: 'bestpractice',
-                  label: 'Best Practice Beispiele',
-                  href: `/mitmachen/${activeStateSlug}/?status=bestpractive`
+                  value: 'success',
+                  label: 'Erfolgsbeispiele',
+                  href: `/mitmachen/${activeStateSlug}/?status=success`
                 }
               ]}
             />
@@ -61,14 +65,22 @@ export default ({ intro, resultsTitle, activeState }) => {
                   label: 'allen Bereichen',
                   href: `/mitmachen/${activeStateSlug}/?topic=all`
                 },
+
                 {
-                  value: 'energy',
-                  label: 'Energie',
+                  value: 'coal',
+                  label: 'Kohleausstieg',
                   href: `/mitmachen/${activeStateSlug}/?topic=energy`
                 },
+
                 {
-                  value: 'bicycle',
-                  label: 'Fahrrad/ Mobilität',
+                  value: 'energy',
+                  label: 'Energiewende',
+                  href: `/mitmachen/${activeStateSlug}/?topic=energy`
+                },
+
+                {
+                  value: 'mobility',
+                  label: 'Verkehrswende',
                   href: `/mitmachen/${activeStateSlug}/?topic=mobility`
                 }
               ]}
@@ -82,16 +94,19 @@ export default ({ intro, resultsTitle, activeState }) => {
                   label: 'Deutschland',
                   href: `/mitmachen/${search}`
                 },
+
                 {
                   value: 'Bayern',
                   label: 'Bayern',
                   href: `/mitmachen/bayern/${search}`
                 },
+
                 {
                   value: 'Mecklenburg-Vorpommern',
                   label: 'Mecklenburg-Vorpommern',
                   href: `/mitmachen/mecklenburg-vorpommern/${search}`
                 },
+
                 {
                   value: 'Sachsen',
                   label: 'Sachsen',
