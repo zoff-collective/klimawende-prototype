@@ -9,7 +9,15 @@
 
   .intro {
     .headline__headline {
-      @include font-size(130px);
+      @include font-size(45px);
+
+      @include mq($from: tablet) {
+        @include font-size(80px);
+      }
+
+      @include mq($from: desktop) {
+        @include font-size(130px);
+      }
 
       font-weight: 800;
       line-height: 1;
@@ -22,7 +30,7 @@
   }
 
   &__intro-divider {
-    @include font-size(18px);
+    @include font-size(14px);
 
     background-color: $color-dark-brown;
     color: white;
@@ -35,6 +43,10 @@
     text-align: center;
     text-transform: uppercase;
     width: 100%;
+
+    @include mq($from: tablet) {
+      @include font-size(18px);
+    }
 
     &::after {
       border-style: solid;

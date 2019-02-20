@@ -11,22 +11,35 @@
   &__container {
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+    @include mq($from: tablet) {
+      flex-direction: row;
+    }
   }
 
   &__content-container {
-    margin-left: 3.5rem;
-    width: 55%;
+    margin-top: 1.5rem;
+
+    @include mq($from: tablet) {
+      margin-left: 3.5rem;
+      margin-top: 0;
+      width: 55%;
+    }
   }
 
   > *:nth-child(2n) .alternating-list__content-container {
-    margin-left: 0;
-    margin-right: 3.5rem;
-    order: -1;
+    @include mq($from: tablet) {
+      margin-left: 0;
+      margin-right: 3.5rem;
+      order: -1;
+    }
   }
 
   > *:nth-child(2n+1) &__content-container {
-    order: -1;
+    @include mq($from: tablet) {
+      order: -1;
+    }
   }
 
   &__image-container {
