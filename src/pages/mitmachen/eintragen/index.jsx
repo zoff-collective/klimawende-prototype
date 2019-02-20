@@ -60,7 +60,11 @@ const Page = () => (
           <Input name="telephone" label="Telefon (optional)" />
         </FormGroup>
 
-        <Paragraph text="Durch meine Eintragung akzeptiere ich die Datenschutzbestimmungen." />
+        <FormGroup>
+          <Input name="organisation" label="Organisation (falls zutreffend)" />
+        </FormGroup>
+
+        <Paragraph text="Durch meine Eintragung akzeptiere ich die <a href='/datenschutz/'>Datenschutzbestimmungen</a>." />
 
         <FormGroup type="submit">
           <Button type="submit">Kampagne eintragen</Button>
