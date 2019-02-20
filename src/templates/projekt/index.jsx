@@ -61,7 +61,7 @@ export default withLayout(
               <Participate
                 id="participate"
                 title="Und jetzt DU!"
-                intro="Trag Dich hier ein, um von den Aktiven in {ORT} auf dem Laufenden gehalten zu werden. Sie informieren Dich über wichtige Termine und wie Du sie unterstützen kannst."
+                intro={`Trag Dich hier ein, um von den Aktiven in ${place} auf dem Laufenden gehalten zu werden. Sie informieren Dich über wichtige Termine und wie Du sie unterstützen kannst.`}
               >
                 <form>
                   <FormGroup>
