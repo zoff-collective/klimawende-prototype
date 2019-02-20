@@ -63,6 +63,8 @@ export const query = graphql`
       blocks {
         type
         content
+        src
+        alt
       }
     }
 
