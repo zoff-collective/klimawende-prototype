@@ -15,9 +15,9 @@ export default () => (
 
         <div className="footer__logo-image-container">
           {[
-            '/images/partners/350-white.png',
-            '/images/partners/bund-white.png',
-            '/images/partners/changing-cities-white.png'
+            '/images/partners/umweltinstitut-white.png',
+            '/images/partners/buergerbegehren-klimaschutz-white.png',
+            '/images/partners/mehr-demokratie-white.png'
           ].map(src => (
             <img key={`footer-1-${src}`} src={src} alt="" />
           ))}
@@ -30,12 +30,11 @@ export default () => (
         <div className="footer__logo-image-container">
           {[
             '/images/partners/350-white.png',
+            '/images/partners/adfc-white.png',
             '/images/partners/bund-white.png',
-
             '/images/partners/changing-cities-white.png',
             '/images/partners/greenpeace-white.png',
             '/images/partners/klima-allianz-white.png',
-
             '/images/partners/naturfreunde-white.png'
           ].map(src => (
             <img key={`footer-2-${src}`} src={src} alt="" />
