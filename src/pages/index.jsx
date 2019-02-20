@@ -97,7 +97,7 @@ const Page = () => (
             text:
               'Erfolge für die Klimawende wie in Bamberg, Berlin oder München lassen sich fast überall in Deutschland wiederholen. Erfahre hier, wie Du dafür sorgen kannst, dass in Deiner Gemeinde die Kohle durch Öko-Energie ersetzt wird, Solaranlagen auf die Dächer kommen oder neue Radwege entstehen.',
             image: {
-              src: '/images/end-coal.png',
+              src: '/images/diskussion-tisch.png',
               alt: ''
             }
           }

@@ -5,7 +5,11 @@
   @include reset-list;
 
   > * + * {
-    margin-top: 4rem;
+    margin-top: 2rem;
+
+    @include mq($from: tablet) {
+      margin-top: 3rem;
+    }
   }
 
   &__container {

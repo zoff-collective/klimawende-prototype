@@ -57,7 +57,7 @@ const List = ({
             intro="Du hast bereits eine Kampagne für die Klimawende in Deinem Ort gestartet? Sag uns jetzt Bescheid, damit wir Dein Projekt in die Karte aufnehmen und Dir helfen können, MitstreiterInnen zu finden!"
             share={false}
           >
-            <Button theme="yellow" href="/mitmachen/eintragen/">
+            <Button theme="yellow" href="/mitmachen/eintragen/" fullWidth>
               Kampagne melden!
             </Button>
           </Participate>

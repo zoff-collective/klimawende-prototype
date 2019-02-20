@@ -23,7 +23,7 @@
   }
 
   &__title {
-    @include font-size(35px);
+    @include font-size(32px);
 
     color: $color-yellow;
     font-family: $font-adelle;
@@ -31,17 +31,25 @@
     margin-top: 0;
 
     @include mq($from: tablet) {
+      @include font-size(35px);
+    }
+
+    @include mq($from: desktop) {
       @include font-size(38px);
     }
   }
 
   &__intro {
-    @include font-size(16px);
+    @include font-size(17px);
 
     font-family: $font-adelle;
     margin-top: 0;
 
     @include mq($from: tablet) {
+      @include font-size(18px);
+    }
+
+    @include mq($from: desktop) {
       @include font-size(20px);
     }
   }

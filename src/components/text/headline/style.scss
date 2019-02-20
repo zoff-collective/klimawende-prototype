@@ -25,10 +25,14 @@
   }
 
   &--level-1 &__headline {
-    @include font-size(50px);
+    @include font-size(45px);
 
     @include mq($from: tablet) {
-      @include font-size(100px);
+      @include font-size(90px);
+    }
+
+    @include mq($from: desktop) {
+      @include font-size(120px);
     }
   }
 
