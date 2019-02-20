@@ -62,10 +62,7 @@ export const query = graphql`
       intro
       blocks {
         type
-        src
-        alt
         content
-        href
       }
     }
 
