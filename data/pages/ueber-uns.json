@@ -1,23 +1,16 @@
 {
   "id": "ueber-uns",
   "title": "Über uns",
-  "intro": "Das Münchner Kohlekraftwerk wird 2022 abgeschaltet werden – weil die Bürgerinnen und Bürger es so beschlossen haben. Mit direkter Demokratie haben wir auf lokaler Ebene den Klimaschutz in die Hand genommen und politische Entscheidungen herbeigeführt. Das hat uns motiviert, Erfolgsgeschichten wie die in München aufzuschreiben. Wir haben recherchiert, wie sie sich an anderen Orten wiederholen lassen. Daraus ist ein Leitfaden mit vielen Denkanstößen und Handlungsempfehlungen entstanden.",
+  "intro": "Seit Jahren verschleppt die Bundesregierung den Kohleausstieg, den Ausbau der erneuerbaren Energien und die Verkehrswende. Mit den Mitteln der direkten Demokratie können wir aber in den Städten und Gemeinden ambitionierte klimapolitische Entscheidungen herbeiführen. Und die Kommunalpolitik muss sie umsetzen. Wir – das Umweltinstitut München, Mehr Demokratie und Bürgerbegehren Klimaschutz – setzen uns dafür ein, dass mehr und mehr Initiativen die Klimawende von unten starten. Zahlreiche Kooperationspartner unterstützen uns dabei.",
   "blocks": [
     {
-      "type": "image",
-      "src": "/images/von-wegen-geht-nicht.png",
-      "alt": "Von wegen geht nicht"
+      "type": "paragraph",
+      "content": "Das Münchner Kohlekraftwerk wird 2022 abgeschaltet werden – weil die Bürgerinnen und Bürger es so beschlossen haben. Mit direkter Demokratie haben wir auf lokaler Ebene den Klimaschutz in die Hand genommen und eine ambitionierte politische Entscheidung herbeigeführt. Das hat uns motiviert, Erfolgsgeschichten wie die in München aufzuschreiben. Wir haben recherchiert, wie sie sich an anderen Orten wiederholen lassen. Daraus ist ein Handbuch mit vielen Denkanstößen und Handlungsempfehlungen entstanden. Wir hoffen, dass es viele Menschen inspiriert und ihnen wertvolle Informationen für lokale Kampagnen liefert."
     },
 
     {
       "type": "paragraph",
-      "content": "Wer in München ins Kino geht, der sieht erstmal von Wind und Wasser angetriebene Turbinen. Dazu lacht die Sonne auf bayerische Solarzellen herab. Die Stadtwerke München (SWM) setzten auf „die Kräfte der Natur“, heißt es in dem Spot. Was man nicht sieht, ist das Heizkraftwerk Nord: Dessen Block 2 wird mit Steinkohle befeuert und erzeugt jährlich mehr CO2 als der gesamte Münchner Straßenverkehr."
-    },
-
-    {
-      "type": "button",
-      "content": "Best Practice Beispiele",
-      "href": "/"
+      "content": "Damit zahlreiche lokale Initiativen in ihren Städten und Gemeinden die Klimawende starten, haben wir zusätzlich diese Website ins Leben gerufen. Sie soll Engagierten die Möglichkeit geben, auf einer Karte (Bürgerbegehrens-)Kampagnen in ihrer Nähe zu finden, sich mit den Aktiven zu vernetzen und sie tatkräftig zu unterstützen. Wer selbst eine Idee für ein Bürgerbegehren oder eine Kampagne zur lokalen Klimapolitik hat, kann sich von den bestehenden Initiativen inspirieren lassen und findet Ansprechpersonen für den Austausch. Und es lohnt sich, auch die eigene Kampagne in die Karte einzutragen – und so MitstreiterInnen zu finden. Wir bieten außerdem Beratung und Unterstützung bei der Mobilisierung an."
     }
   ]
 }

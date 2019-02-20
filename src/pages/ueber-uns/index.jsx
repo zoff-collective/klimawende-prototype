@@ -27,13 +27,13 @@ export default withLayout(
       <Content>
         <div className="ueber-uns__partner-container">
           <Partner
-            title="Klimawende von unten ist ein Projekt von"
+            title="„Klimawende von unten“ ist ein Projekt von"
             items={partner}
           />
         </div>
 
         <Headline level="2" levelStyle="2" centered>
-          Mit freundlicher Unterstützung
+          Das Projekt „Klimawende von unten“ wird unterstützt von
         </Headline>
 
         <LogoCarpet
