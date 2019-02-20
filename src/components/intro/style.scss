@@ -13,7 +13,7 @@
   width: 100%;
 
   @include mq($from: desktop) {
-    min-height: 95vh;
+    min-height: 87vh;
   }
 
   &__constraint {
