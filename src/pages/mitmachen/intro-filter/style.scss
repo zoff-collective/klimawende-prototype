@@ -54,7 +54,7 @@
     line-height: 1.65;
 
     @include mq($from: tablet) {
-      font-size: 4.5rem;
+      font-size: 3.8rem;
     }
 
     > .super-select:not(:nth-of-type(1)) {
