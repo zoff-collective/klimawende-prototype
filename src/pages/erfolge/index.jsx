@@ -3,10 +3,17 @@ import React from 'react';
 
 import AlternatingList from '../../components/alternating-list';
 import Constraint from '../../components/constraint';
+import Headline from '../../components/text/headline';
 import Intro from '../../components/intro';
 import withLayout from '../../components/with-layout';
 
 import './style.scss';
+
+const getTitleComponent = title => (
+  <Headline level="2" levelStyle="2">
+    {title}
+  </Headline>
+);
 
 const Page = ({
   data: {
@@ -24,7 +31,7 @@ const Page = ({
         items={projects
           .filter(({ node: { bestPractice } }) => bestPractice === true)
           .map(({ node: { title, slug, summary, image } }) => ({
-            title,
+            titleComponent: getTitleComponent(title),
             image,
             text: summary,
             link: `/mitmachen/${slug}/`

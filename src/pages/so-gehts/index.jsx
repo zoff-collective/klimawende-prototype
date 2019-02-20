@@ -2,10 +2,17 @@ import React from 'react';
 
 import AlternatingList from '../../components/alternating-list';
 import Constraint from '../../components/constraint';
+import Headline from '../../components/text/headline';
 import Intro from '../../components/intro';
 import withLayout from '../../components/with-layout';
 
 import './style.scss';
+
+const getTitleComponent = title => (
+  <Headline level="2" levelStyle="2" underlined>
+    {title}
+  </Headline>
+);
 
 const Page = () => (
   <div className="so-gehts">
@@ -18,7 +25,7 @@ const Page = () => (
       <AlternatingList
         items={[
           {
-            title: 'Handbuch bestellen',
+            titleComponent: getTitleComponent('Handbuch bestellen'),
             link: '/so-gehts/handbuch-bestellen/',
             text:
               'Die inspirierenden Erfolgsbeispiele, die Anleitungen für die Klimawende von unten und die Checkliste für gelungene Kampagnen haben wir in einem schön illustrierten Handbuch zusammengefasst.',
@@ -29,7 +36,7 @@ const Page = () => (
           },
 
           {
-            title: 'Direkte Demokratie verstehen',
+            titleComponent: getTitleComponent('Direkte Demokratie verstehen'),
             text:
               'Mit Bürger- und Volksbegehren führen wir selbst kommunalpolitische Entscheidungen herbei und gestalten damit unsere Städte und Gemeinden. So funktionieren die direktdemokratischen Instrumente für die Klimawende von unten.',
             image: {
@@ -39,7 +46,9 @@ const Page = () => (
           },
 
           {
-            title: 'Kohlekraftwerken den Stecker ziehen',
+            titleComponent: getTitleComponent(
+              'Kohlekraftwerken den Stecker ziehen'
+            ),
             text:
               'Immer mehr Städte schalten ihre Kohlekraftwerke ab. Einige kommunale Schornsteine qualmen aber noch. Höchste Zeit, per Bürgerentscheid den lokalen Kohleausstieg einzuleiten.',
             image: {
@@ -49,7 +58,9 @@ const Page = () => (
           },
 
           {
-            title: 'Kohle aus der Fernwärme verbannen',
+            titleComponent: getTitleComponent(
+              'Kohle aus der Fernwärme verbannen'
+            ),
             text:
               'Indem wir aus kommunalen Fernwärmenetzen Kohlewärme ausschließen, machen wir die Leitungen frei für erneuerbare Energien. Zugleich bringen wir das wirtschaftliche Fundament der Kohlekraftwerke zum Wackeln.',
             image: {
@@ -59,7 +70,9 @@ const Page = () => (
           },
 
           {
-            title: 'Energieversorgung zurückerobern',
+            titleComponent: getTitleComponent(
+              'Energieversorgung zurückerobern'
+            ),
             text:
               'Immer mehr Städte und Gemeinden in Deutschland holen sich die Kontrolle über ihre Strom- und Wärmenetze zurück und gründen eigene Öko-Stadtwerke. Mit Bürgerbegehren können wir die lokale Energiewende anstoßen.',
             image: {
@@ -69,7 +82,9 @@ const Page = () => (
           },
 
           {
-            title: 'Mit Stadtwerken Klimapolitik machen',
+            titleComponent: getTitleComponent(
+              'Mit Stadtwerken Klimapolitik machen'
+            ),
             text:
               'Kommunale Stadtwerke ermöglichen Städten und Gemeinden, in Fragen der Energiepolitik selbstständig Entscheidungen treffen zu können. Diese Spielräume können auch wir BürgerInnen für die Energiewende nutzen.',
             image: {
@@ -79,7 +94,9 @@ const Page = () => (
           },
 
           {
-            title: 'Vorfahrt für Fahrräder erkämpfen',
+            titleComponent: getTitleComponent(
+              'Vorfahrt für Fahrräder erkämpfen'
+            ),
             text:
               'Unsere Städte versinken im Blech und ersticken in Abgasen. Die Straßen gehören den Autos, als sei das ein Naturrecht. Doch nun rollt eine Verkehrswende von unten durch das Land – auf Fahrrädern.',
             image: {
@@ -89,7 +106,7 @@ const Page = () => (
           },
 
           {
-            title: 'Erfolgreich mobilisieren',
+            titleComponent: getTitleComponent('Erfolgreich mobilisieren'),
             text:
               'Ein Bürgerbegehren besteht aus vielen kleinen Schritten. Aus vergangenen und aktuell noch laufenden Kampagnen können wir lernen, worauf wir achten müssen und was besonders gut funktioniert.',
             image: {
