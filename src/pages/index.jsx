@@ -20,7 +20,10 @@ const getTitleComponent = (theme, title) => (
 
 const Page = () => (
   <div className="start">
-    <Intro title="Klimawende von unten" />
+    <Intro
+      title="Klimawende von unten"
+      backgroundImage={{ src: '/images/start-intro.png' }}
+    />
 
     <p className="start__intro-divider">
       Wie wir durch direkte Demokratie die Klimapolitik in die Hand nehmen
