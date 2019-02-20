@@ -31,16 +31,30 @@
     letter-spacing: 0.08rem;
     margin-top: -4rem;
     padding: 1.5rem;
+    position: relative;
     text-align: center;
     text-transform: uppercase;
     width: 100%;
+
+    &::after {
+      border-style: solid;
+      border-width: 2.5rem 2.5rem 0 2.5rem;
+      border-color: $color-dark-brown transparent transparent transparent;
+      content: '';
+      height: 0;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      top: 100%;
+      width: 0;
+    }
   }
 
   &__constraint {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
 
   &__title-container {
