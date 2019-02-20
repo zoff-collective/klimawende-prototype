@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Nuernberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1181640625,
+          49.44670029695474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Muenchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5631103515625,
+          48.15509285476017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Regensburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0794677734375,
+          49.01625665778159
+        ]
+      }
+    }
+  ]
+}

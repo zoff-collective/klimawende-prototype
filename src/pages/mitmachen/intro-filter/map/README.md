@@ -9,6 +9,9 @@ The DOM element accepts it's data via data attributes:
 - `data-markers`: Contains the encoded GeoJSON for the markers. It should only
   contain the markers, which are currently rendered (e.g. for the federal
   country).
+- `data-cities`: Contains the encoded GeoJSON for the city markers. It should only
+  contain the markers, which are currently rendered (e.g. for the federal
+  country).
 
 If a single federal state is displayed, you have to add the additional CSS
 class `map--single-state` to the map element.

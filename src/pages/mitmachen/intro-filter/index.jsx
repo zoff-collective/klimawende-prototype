@@ -3,6 +3,7 @@ import React from 'react';
 import Map from './map';
 import Select from './select';
 
+import cities from '../../../../static/json/cities.json';
 import markers from '../../../../static/json/markers.json';
 
 import '../../../../node_modules/leaflet/dist/leaflet.css';
@@ -16,7 +17,7 @@ export default ({ intro, resultsTitle, activeState }) => {
     <>
       <header className="intro-filter">
         <div className="intro-filter__map-container">
-          <Map activeState={activeState} markers={markers} />
+          <Map activeState={activeState} markers={markers} cities={cities} />
         </div>
 
         <div className="intro-filter__title-container">

@@ -14,11 +14,33 @@
     background: transparent;
   }
 
+  .leaflet-city-marker,
   .leaflet-marker {
     fill: $color-dark-brown;
     stroke: $color-dark-brown;
     stroke-width: 0.2rem;
     z-index: 1000;
+  }
+
+  .leaflet-city-marker {
+    fill: $color-yellow;
+    stroke-width: 0;
+    z-index: 500;
+  }
+
+  .leaflet-tooltip {
+    @include font-size(12px);
+
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-family: $font-mark;
+    font-weight: 700;
+    padding-left: 0.5rem;
+
+    &::before {
+      display: none;
+    }
   }
 
   .leaflet-marker:hover,
