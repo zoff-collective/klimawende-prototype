@@ -63,7 +63,7 @@ const Page = () => (
         <Paragraph text="Durch meine Eintragung akzeptiere ich die Datenschutzbestimmungen." />
 
         <FormGroup type="submit">
-          <Button type="submit">Projekt eintragen</Button>
+          <Button type="submit">Kampagne eintragen</Button>
         </FormGroup>
       </form>
     </Constraint>

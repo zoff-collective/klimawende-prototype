@@ -85,7 +85,7 @@ export default withLayout(
             ) : (
               <Participate
                 id="participate"
-                title="Wir unterstützen Dich!"
+                title="Wir beraten DICH"
                 intro="Du hast eine erste Idee für eine Kampagne, aber viele offenen Fragen?"
               >
                 <form>

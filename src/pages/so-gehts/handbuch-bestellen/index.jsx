@@ -7,6 +7,7 @@ import FormGroup from '../../../components/form/group';
 import Headline from '../../../components/text/headline';
 import Input from '../../../components/form/input';
 import Intro from '../../../components/intro';
+import Paragraph from '../../../components/text/paragraph';
 import Select from '../../../components/form/select';
 import withLayout from '../../../components/with-layout';
 
@@ -81,10 +82,14 @@ export default withLayout(
             <Input label="Email" type="email" name="email" />
           </FormGroup>
 
+          <Paragraph text="Für Bestellungen aus dem Ausland oder von einer größeren Menge an Exemplaren, kontaktiere bitte <a href='mailto:bestellungen@klimawende.org'>bestellungen@klimawende.org</a>." />
+
           <FormGroup type="submit">
             <Button>Bestellen</Button>
           </FormGroup>
         </form>
+
+        <Paragraph text="Die Erstellung und der Versand dieses Handbuchs sowie die Beratung und Kampagnenunterstützung kosten einiges an Geld. Wir freuen uns daher über eine Spende auf das im Footer angegebene Konto. Selbstverständlich ist die Bestellung aber auch ohne eine Spende möglich." />
       </Content>
     </div>
   )

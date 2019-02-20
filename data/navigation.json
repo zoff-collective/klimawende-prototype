@@ -5,7 +5,7 @@
     "name": "erfolge",
     "sub": {
       "teaser": {
-        "title": "Neue Kampagne erfolgreich abgeschlossen",
+        "title": "Raus aus der Steinkohle",
         "text": "„Stell dir vor, es ist Sonntag und du kannst ein Kohlekraftwerk abschalten“, schrieb ein Münchner Stadtmagazin Ende 2017. Der Sonntag kam – und die MünchnerInnen trafen ihre Entscheidung.",
         "link": "/",
         "image": {
@@ -55,7 +55,7 @@
     "sub": {
       "teaser": {
         "title": "Handbuch bestellen",
-        "text": "Die inspirierenden Erfolgsbeispiele, die Anleitungen für die Klimawende von unten und die Checkliste für gelungene Kampagnen haben wir in einem schön illustrierten Handbuch zusammengefasst.",
+        "text": "Die inspirierenden Erfolgsbeispiele, die Anleitungen für die Klimawende von unten und die Checkliste für gelungene Kampagnen haben wir in einem schön illustrierten Handbuch zusammengefasst. Jetzt bestellen!",
         "link": "/so-gehts/handbuch-bestellen/",
         "image": {
           "src": "/images/broschuere.png",
@@ -99,7 +99,7 @@
         },
 
         {
-          "title": "Kampagnen-Checkliste",
+          "title": "Erfolgreich mobilisieren",
           "link": "/"
         }
       ]
