@@ -53,8 +53,13 @@ const initFederalStates = (map, endpoint, activeFederalstate = null) =>
         onEachFeature: addBindings
       }).addTo(map);
 
-      // fit the layer into the map shape
-      map.fitBounds(layer.getBounds());
+      if (activeFederalstate) {
+        // fit the layer into the map shape
+        map.fitBounds(layer.getBounds());
+      } else {
+        // set the center to the middle of Germany
+        map.setView([51.133481, 10.018343], 6);
+      }
     });
 
 const initMarkers = (map, data) => {
