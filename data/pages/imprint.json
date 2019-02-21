@@ -1,0 +1,105 @@
+{
+  "id": "imprint",
+  "title": "Impressum",
+  "blocks": [
+    {
+      "type": "headline-2",
+      "content": "Herausgeberinnen"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Klimawende.org wird gemeinsam herausgegeben von:"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "<strong>Umweltinstitut München e.V.</strong><br/>Landwehrstr. 64 a<br/>80336 München<br/><a href='http://www.umweltinstitut.org'>http://www.umweltinstitut.org</a>"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "<strong>BürgerBegehren Klimaschutz e.V.</strong><br/>Greifswalder Straße 4<br/>10405 Berlin<br/><a href='http://www.buerger-begehren-klimaschutz.de'>http://www.buerger-begehren-klimaschutz.de</a>"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "<strong>Mehr Demokratie e.V.</strong><br/>Greifswalder Straße 4<br/>10405 Berlin<br/><a href='http://www.mehr-demokratie.de'>http://www.mehr-demokratie.de</a>"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Für die Inhalte verantwortlich ist das Umweltinstitut München e.V., vertreten durch den Vorstand: Martin Bauhof, Franziska Buch, Fabian Holzheid, Karin Fischer, Jurek Vengels"
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Webmaster"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Reinhold Ripper. Vorschläge, Kritik etc. an: <a href='mailto:webmaster@umweltinstitut.org'>webmaster@umweltinstitut.org</a>"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Gestaltung"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "<strong>Zoff Kollektiv</strong><br/><a href='https://zoff-kollektiv.net'>zoff-kollektiv.net</a>"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Urheberrecht"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Unsere Webseiten und deren Inhalte unterliegen dem deutschen Leistungsschutz- und Urheberrecht. Alle Rechte vorbehalten. Ein Übernehmen von Artikeln auf eine andere Webseite oder Nachdruck ist nur nach vorheriger schriftlicher Genehmigung des Umweltinstitut München e.V. zulässig."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Haftungsausschluss"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Der Inhalt unserer Webseiten wurde sorgfältig geprüft und bearbeitet, erhebt jedoch keinen Anspruch auf Vollständigkeit. Alle Informationen auf diesem Server erfolgen daher ohne Gewähr für ihre Richtigkeit, Aktualität oder Vollständigkeit. In keinem Fall wird für Schäden, die sich aus der Verwendung der abgerufenen Informationen ergeben, eine Haftung übernommen."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Haftung für Links zu externen Seiten"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Wir haben auf unseren Seiten Links zu anderen Seiten im Internet gesetzt. Da es nicht möglich ist, ständig alle verlinkten Seiten auf die mögliche Veränderung ihres Inhalts zu überprüfen, sind wir nicht verantwortlich für rechtswidrige oder strafbare Inhalte dort. Hinweise auf möglicherweise bedenkliche Inhalte hinter den Links nehmen wir gerne an und prüfen sie."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Datenschutz"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Der Schutz personenbezogener Daten bei der Erhebung, Verarbeitung und Nutzung anlässlich Ihres Besuchs auf klimawende.org ist uns ein wichtiges Anliegen. Ausführliche Informationen dazu finden Sie in unserer <a href='/datenschutz/'>Datenschutzerklärung</a>."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Datenschutzbeauftragte"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Dipl. Inform. Anja Jarosch<br/><a href='mailto:datenschutz@umweltinstitut.org'>datenschutz@umweltinstitut.org</a>"
+    }
+  ]
+}
