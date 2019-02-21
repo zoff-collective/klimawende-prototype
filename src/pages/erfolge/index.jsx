@@ -10,7 +10,7 @@ import withLayout from '../../components/with-layout';
 import './style.scss';
 
 const getTitleComponent = title => (
-  <Headline level="2" levelStyle="2">
+  <Headline level="2" levelStyle="2" underlined>
     {title}
   </Headline>
 );
