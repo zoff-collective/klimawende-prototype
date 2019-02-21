@@ -201,6 +201,7 @@
     z-index: 1000; // we have to beat leaflet here
 
     @include mq($from: desktop) {
+      border-bottom: 20px solid $color-dark-brown;
       display: none;
       flex-direction: row;
       left: 0;
@@ -227,13 +228,13 @@
 
     > * {
       @include mq($until: desktop) {
-        border-top: 1px dotted currentColor;
+        border-top: 1px dashed currentColor;
       }
     }
 
     > * + * {
       @include mq($from: desktop) {
-        border-top: 1px dotted currentColor;
+        border-top: 1px dashed currentColor;
       }
     }
   }
