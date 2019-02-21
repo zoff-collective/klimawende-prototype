@@ -45,6 +45,10 @@
     padding: 2rem 1.5rem 3rem 1.5rem;
     width: 100%;
 
+    strong {
+      font-weight: 900;
+    }
+
     &-links {
       a + a {
         margin-left: 5rem;
