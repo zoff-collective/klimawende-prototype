@@ -42,7 +42,7 @@
     }
 
     @include mq($from: desktop) {
-      @include font-size(28px);
+      @include font-size(26px);
     }
   }
 
