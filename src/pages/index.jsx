@@ -35,7 +35,7 @@ const Page = () => (
           {
             titleComponent: getTitleComponent(
               'mitmachen',
-              'Finde eine Kampagne in deiner Nähe'
+              'Finde eine Kampagne in Deiner Nähe'
             ),
             link: '/mitmachen/',
             text:
@@ -49,7 +49,7 @@ const Page = () => (
           {
             titleComponent: getTitleComponent(
               'mitmachen',
-              'Lass dich von erfolgreichen Bürgerentscheid inspirieren'
+              'Lass Dich von erfolgreichen Bürgerbegehren inspirieren'
             ),
             link: '/erfolge/',
             text:
@@ -67,7 +67,7 @@ const Page = () => (
             ),
             link: '/so-gehts/handbuch-bestellen/',
             text:
-              'Die inspirierenden Erfolgsbeispiele, die Anleitungen für die Klimawende von unten und die Checkliste für gelungene Kampagnen haben wir in einem schön illustrierten Handbuch zusammengefasst. Dort kannst du nachlesen, wo es Kohlekraftwerke oder Fernwärmenetze in städtischer Hand gibt, wie Du die Energieversorgung in Deiner Gemeinde wieder in öffentliche Hand bringst oder die Verkehrswende einläutest.',
+              'Die inspirierenden Erfolgsbeispiele, die Anleitungen für die Klimawende von unten und die Checkliste für gelungene Kampagnen haben wir in einem schön illustrierten Handbuch zusammengefasst. Dort kannst Du nachlesen, wo es Kohlekraftwerke oder Fernwärmenetze in städtischer Hand gibt, wie Du die Energieversorgung in Deiner Gemeinde wieder in öffentliche Hand bringst oder die Verkehrswende einläutest.',
             image: {
               src: '/images/broschuere.png',
               alt: ''
@@ -91,7 +91,7 @@ const Page = () => (
           {
             titleComponent: getTitleComponent(
               'so-gehts',
-              'So startest du die Klimawende in deiner Stadt'
+              'So startest Du die Klimawende in Deiner Stadt'
             ),
             link: '/so-gehts/',
             text:
