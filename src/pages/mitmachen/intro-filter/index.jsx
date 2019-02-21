@@ -39,6 +39,12 @@ export default ({ intro, resultsTitle, activeState }) => {
                 },
 
                 {
+                  value: 'active',
+                  label: 'Laufende Kampagnen',
+                  href: `/mitmachen/${activeStateSlug}/?status=active`
+                },
+
+                {
                   value: 'creation',
                   label: 'Gründungen',
                   href: `/mitmachen/${activeStateSlug}/?status=creation`
