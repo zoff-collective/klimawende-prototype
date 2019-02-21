@@ -66,6 +66,8 @@
   }
 
   &__list-item {
+    @include font-size(18px);
+
     display: block;
     line-height: 1;
     padding: 1.5rem 1rem 1rem 1rem;

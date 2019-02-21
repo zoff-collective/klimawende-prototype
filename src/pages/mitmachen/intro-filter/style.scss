@@ -19,9 +19,10 @@
   }
 
   &__intro {
+    @include font-size(16px);
+
     color: $color-dark-brown;
     font-family:$font-adelle;
-    font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 2.5rem;
     margin-top: 0;
@@ -47,6 +48,8 @@
   }
 
   &__title {
+    @include font-size(20px);
+
     color: $color-dark-brown;
     font-family:$font-adelle;
     font-size: 2rem;
@@ -54,7 +57,7 @@
     line-height: 1.65;
 
     @include mq($from: tablet) {
-      font-size: 3.8rem;
+      @include font-size(38px);
     }
 
     > .super-select:not(:nth-of-type(1)) {

@@ -43,14 +43,11 @@
     @include font-size(17px);
 
     font-family: $font-adelle;
+    line-height: 1.4;
     margin-top: 0;
 
     @include mq($from: tablet) {
       @include font-size(18px);
-    }
-
-    @include mq($from: desktop) {
-      @include font-size(20px);
     }
   }
 }
