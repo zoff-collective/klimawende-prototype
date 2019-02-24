@@ -1,5 +1,6 @@
 import { GeoJSON, geoJSON, circleMarker, map as leafletMap } from 'leaflet';
 import * as topojson from 'topojson';
+import throttle from 'lodash.throttle';
 
 const getScreenWidth = () => {
   if (!window) {
@@ -58,13 +59,24 @@ const initFederalStates = (map, endpoint, activeFederalstate = null) =>
         }
       };
 
+      const findLayerinBounds = layer => {
+        map.fitBounds(layer.getBounds());
+      };
+
       const layer = new TopoJSON(data, {
         className: 'leaflet-country',
         filter: filterFederalStates,
         onEachFeature: addBindings
       }).addTo(map);
 
-      map.fitBounds(layer.getBounds());
+      findLayerinBounds(layer);
+
+      window.addEventListener(
+        'resize',
+        throttle(() => {
+          findLayerinBounds(layer);
+        }, 150)
+      );
     });
 
 const initMarkers = (map, data) => {
