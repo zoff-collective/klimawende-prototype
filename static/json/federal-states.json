@@ -8591,7 +8591,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Bayern",
-            "link": "/mitmachen/bayern/"
+            "link": "/mitmachen/?bundesland=bayern"
           },
           "id": 1
         },
@@ -8610,7 +8610,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Berlin"
+            "NAME_1": "Berlin",
+            "link": "/mitmachen/?bundesland=berlin"
           },
           "id": 2
         },
@@ -8649,7 +8650,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Brandenburg"
+            "NAME_1": "Brandenburg",
+            "link": "/mitmachen/?bundesland=brandenburg"
           },
           "id": 3
         },
@@ -8665,7 +8667,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Bremen"
+            "NAME_1": "Bremen",
+            "link": "/mitmachen/?bundesland=bremen"
           },
           "id": 4
         },
@@ -8681,7 +8684,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Hamburg"
+            "NAME_1": "Hamburg",
+            "link": "/mitmachen/?bundesland=hamburg"
           },
           "id": 5
         },
@@ -8722,7 +8726,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Hessen"
+            "NAME_1": "Hessen",
+            "link": "/mitmachen/?bundesland=hessen"
           },
           "id": 6
         },
@@ -8768,7 +8773,8 @@
           ],
           "type": "MultiPolygon",
           "properties": {
-            "NAME_1": "Mecklenburg-Vorpommern"
+            "NAME_1": "Mecklenburg-Vorpommern",
+            "link": "/mitmachen/?bundesland=mecklenburg-vorpommern"
           },
           "id": 7
         },
@@ -8874,7 +8880,8 @@
           ],
           "type": "MultiPolygon",
           "properties": {
-            "NAME_1": "Niedersachsen"
+            "NAME_1": "Niedersachsen",
+            "link": "/mitmachen/?bundesland=niedersachsen"
           },
           "id": 8
         },
@@ -8910,7 +8917,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Nordrhein-Westfalen"
+            "NAME_1": "Nordrhein-Westfalen",
+            "link": "/mitmachen/?bundesland=nordrhein-westfalen"
           },
           "id": 9
         },
@@ -8932,7 +8940,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Rheinland-Pfalz"
+            "NAME_1": "Rheinland-Pfalz",
+            "link": "/mitmachen/?bundesland=rheinland-pfalz"
           },
           "id": 10
         },
@@ -8977,7 +8986,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Sachsen-Anhalt"
+            "NAME_1": "Sachsen-Anhalt",
+            "link": "/mitmachen/?bundesland=sachsen-anhalt"
           },
           "id": 12
         },
@@ -9004,7 +9014,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Sachsen"
+            "NAME_1": "Sachsen",
+            "link": "/mitmachen/?bundesland=sachsen"
           },
           "id": 13
         },
@@ -9075,7 +9086,8 @@
           ],
           "type": "MultiPolygon",
           "properties": {
-            "NAME_1": "Schleswig-Holstein"
+            "NAME_1": "Schleswig-Holstein",
+            "link": "/mitmachen/?bundesland=schleswig-holstein"
           },
           "id": 14
         },
@@ -9117,7 +9129,8 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Thüringen"
+            "NAME_1": "Thüringen",
+            "link": "/mitmachen/?bundesland=thueringen"
           },
           "id": 15
         }
