@@ -9,15 +9,36 @@ import markers from '../../../../static/json/markers.json';
 import '../../../../node_modules/leaflet/dist/leaflet.css';
 import './style.scss';
 
-export default ({ intro, resultsTitle, activeState }) => {
-  const search = typeof window !== 'undefined' && window.location.search;
-  const activeStateSlug = activeState ? activeState.toLowerCase() : '';
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+export default ({ intro, resultsTitle }) => {
+  const search =
+    typeof window !== 'undefined' &&
+    window.location.search &&
+    window.location.search.split('?');
+  const params =
+    search &&
+    search[1].split('&').reduce((acc, param) => {
+      const [key, value] = param.split('=');
+
+      acc[key] = value;
+
+      return acc;
+    }, {});
+
+  const activeStateSlug = params.bundesland
+    ? params.bundesland.toLowerCase()
+    : '';
 
   return (
     <>
       <header className="intro-filter">
         <div className="intro-filter__map-container">
-          <Map activeState={activeState} markers={markers} cities={cities} />
+          <Map
+            activeState={params.bundesland && capitalize(params.bundesland)}
+            markers={markers}
+            cities={cities}
+          />
         </div>
 
         <div className="intro-filter__title-container">
@@ -99,28 +120,28 @@ export default ({ intro, resultsTitle, activeState }) => {
                 {
                   value: 'Deutschland',
                   label: 'Deutschland',
-                  href: `/mitmachen/${search}`
+                  href: `/mitmachen/`
                 },
 
                 {
-                  value: 'Bayern',
+                  value: 'bayern',
                   label: 'Bayern',
-                  href: `/mitmachen/bayern/${search}`
+                  href: `/mitmachen/?bundesland=bayern`
                 },
 
                 {
-                  value: 'Mecklenburg-Vorpommern',
+                  value: 'mecklenburg-vorpommern',
                   label: 'Mecklenburg-Vorpommern',
-                  href: `/mitmachen/mecklenburg-vorpommern/${search}`
+                  href: `/mitmachen/?bundesland=mecklenburg-vorpommern`
                 },
 
                 {
-                  value: 'Sachsen',
+                  value: 'sachsen',
                   label: 'Sachsen',
-                  href: `/mitmachen/sachsen/${search}`
+                  href: `/mitmachen/?bundesland=sachsen`
                 }
               ]}
-              selected={activeState}
+              selected={params && params.bundesland}
             />
           </div>
         </div>

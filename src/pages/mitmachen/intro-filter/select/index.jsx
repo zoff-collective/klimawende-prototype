@@ -1,4 +1,3 @@
-import Link from 'gatsby-link';
 import React from 'react';
 
 import select from '../../../../../static/javascript/super-select';
@@ -18,8 +17,8 @@ export default class Select extends React.Component {
   }
 
   render() {
-    const { options, selected } = this.props;
-    const defaultOption = findSelected(options, selected);
+    const { options, selected = false } = this.props;
+    const defaultOption = selected && findSelected(options, selected);
 
     return (
       <div className="super-select js-super-select" ref={this.element}>
@@ -34,9 +33,9 @@ export default class Select extends React.Component {
           {options &&
             options.map(({ value, label, href }) => (
               <li key={`${value}-${label}-${href}`}>
-                <Link to={href} className="super-select__list-item">
+                <a href={href} className="super-select__list-item">
                   {label}
-                </Link>
+                </a>
               </li>
             ))}
         </ul>

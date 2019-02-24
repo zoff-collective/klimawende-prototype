@@ -17,7 +17,7 @@ export default class Map extends React.Component {
   }
 
   render() {
-    const { activeState, markers, cities } = this.props;
+    const { activeState = null, markers, cities } = this.props;
 
     return (
       <div
