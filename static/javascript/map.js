@@ -1,6 +1,17 @@
 import { GeoJSON, geoJSON, circleMarker, map as leafletMap } from 'leaflet';
 import * as topojson from 'topojson';
 
+const getScreenWidth = () => {
+  if (!window) {
+    return null;
+  }
+
+  const docElement = document.documentElement;
+  const body = document.getElementsByTagName('body')[0];
+
+  return window.innerWidth || docElement.clientWidth || body.clientWidth;
+};
+
 const redirect = to => {
   if (!to) {
     throw new Error('Missing link');
@@ -53,13 +64,7 @@ const initFederalStates = (map, endpoint, activeFederalstate = null) =>
         onEachFeature: addBindings
       }).addTo(map);
 
-      if (activeFederalstate) {
-        // fit the layer into the map shape
-        map.fitBounds(layer.getBounds());
-      } else {
-        // set the center to the middle of Germany
-        map.setView([51.133481, 10.018343], 6);
-      }
+      map.fitBounds(layer.getBounds());
     });
 
 const initMarkers = (map, data) => {
@@ -72,11 +77,19 @@ const initMarkers = (map, data) => {
     console.log(err);
   }
 
-  const renderMarker = (feature, layer) =>
-    circleMarker(layer, {
+  const renderMarker = (feature, layer) => {
+    let radius = 5;
+
+    if (getScreenWidth() > 768) {
+      radius = 10;
+    }
+
+    return circleMarker(layer, {
       className: 'leaflet-marker',
-      fill: true
+      fill: true,
+      radius
     });
+  };
 
   const addBindings = (feature, layer) => {
     layer.on('click', () => {

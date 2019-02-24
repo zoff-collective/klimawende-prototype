@@ -7,15 +7,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 72vh;
   padding: 2rem;
   width: 100%;
 
   @include mq($from: tablet) {
     flex-direction: row;
-    min-height: 85vh;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  @include mq($from: desktop) {
+    min-height: 85vh;
   }
 
   &__intro {
@@ -29,22 +31,37 @@
   }
 
   &__map-container {
-    display: none;
     flex-grow: 0;
     flex-shrink: 1;
-    height: 100%;
-    width: 50%;
+    order: 2;
+    width: 100%;
 
     @include mq($from: tablet) {
       display: flex;
+      height: 100%;
+      order: 0;
+      width: 50%;
+    }
+
+    .map {
+      height: 40rem;
+
+      @include mq($from: desktop) {
+        height: 60rem;
+      }
     }
   }
 
   &__title-container {
     flex-grow: 0;
     flex-shrink: 1;
+    margin-left: 3rem;
+    margin-right: 3rem;
     max-width: 60rem;
-    width: 50%;
+
+    @include mq($from: tablet) {
+      width: 50%;
+    }
   }
 
   &__title {
@@ -57,7 +74,19 @@
     line-height: 1.65;
 
     @include mq($from: tablet) {
+      @include font-size(28px);
+    }
+
+    @include mq($from: desktop) {
       @include font-size(38px);
+    }
+
+    .super-select {
+      margin-bottom: 0.5rem;
+
+      @include mq($from: tablet) {
+        margin-bottom: 0;
+      }
     }
 
     > .super-select:not(:nth-of-type(1)) {
