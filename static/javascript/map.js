@@ -46,8 +46,8 @@ const initFederalStates = (map, endpoint, activeFederalstate = null) =>
           return true;
         }
 
-        const { NAME_1: name } = feature.properties;
-        return name === activeFederalstate;
+        const { NAME_1: name, id } = feature.properties;
+        return id === activeFederalstate || name === activeFederalstate;
       };
 
       const addBindings = (feature, country) => {
