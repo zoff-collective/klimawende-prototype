@@ -86,14 +86,23 @@
     }
 
     .super-select {
+      flex: 1;
       margin-bottom: 0.5rem;
 
       @include mq($from: tablet) {
+        flex-grow: 0;
         margin-bottom: 0;
       }
     }
+  }
 
-    > .super-select:not(:nth-of-type(1)) {
+  &__title-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 0.5rem;
+
+    > * + .super-select {
       margin-left: 1.5rem;
     }
   }

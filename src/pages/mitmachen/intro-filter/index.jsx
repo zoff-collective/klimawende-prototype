@@ -39,104 +39,108 @@ export default ({ intro, resultsTitle }) => {
           {intro && <h1 className="intro-filter__intro">{intro}</h1>}
 
           <div className="intro-filter__title">
-            <Select
-              options={[
-                {
-                  value: 'all',
-                  label: 'Alle Kampagnen',
-                  href: `/mitmachen/?status=all`
-                },
+            <div className="intro-filter__title-row">
+              <Select
+                options={[
+                  {
+                    value: 'all',
+                    label: 'Alle Kampagnen',
+                    href: `/mitmachen/?status=all`
+                  },
 
-                {
-                  value: 'archived',
-                  label: 'Abgeschlossene Kampagnen',
-                  href: `/mitmachen/?status=archived`
-                },
+                  {
+                    value: 'archived',
+                    label: 'Abgeschlossene Kampagnen',
+                    href: `/mitmachen/?status=archived`
+                  },
 
-                {
-                  value: 'active',
-                  label: 'Laufende Kampagnen',
-                  href: `/mitmachen/?status=active`
-                },
+                  {
+                    value: 'active',
+                    label: 'Laufende Kampagnen',
+                    href: `/mitmachen/?status=active`
+                  },
 
-                {
-                  value: 'creation',
-                  label: 'Gründungen',
-                  href: `/mitmachen/?status=creation`
-                },
+                  {
+                    value: 'creation',
+                    label: 'Gründungen',
+                    href: `/mitmachen/?status=creation`
+                  },
 
-                {
-                  value: 'potential',
-                  label: 'Potenzielle Standorte',
-                  href: `/mitmachen/?status=potential`
-                },
+                  {
+                    value: 'potential',
+                    label: 'Potenzielle Standorte',
+                    href: `/mitmachen/?status=potential`
+                  },
 
-                {
-                  value: 'success',
-                  label: 'Erfolgsbeispiele',
-                  href: `/mitmachen/?status=success`
-                }
-              ]}
-            />
-            <br />
-            aus
-            <Select
-              options={[
-                {
-                  value: 'all',
-                  label: 'allen Bereichen',
-                  href: `/mitmachen/?topic=all`
-                },
+                  {
+                    value: 'success',
+                    label: 'Erfolgsbeispiele',
+                    href: `/mitmachen/?status=success`
+                  }
+                ]}
+              />
+            </div>
+            <div className="intro-filter__title-row">
+              <span className="intro-filter__title-row-label">aus</span>
+              <Select
+                options={[
+                  {
+                    value: 'all',
+                    label: 'allen Bereichen',
+                    href: `/mitmachen/?topic=all`
+                  },
 
-                {
-                  value: 'coal',
-                  label: 'Kohleausstieg',
-                  href: `/mitmachen/?topic=energy`
-                },
+                  {
+                    value: 'coal',
+                    label: 'Kohleausstieg',
+                    href: `/mitmachen/?topic=energy`
+                  },
 
-                {
-                  value: 'energy',
-                  label: 'Energiewende',
-                  href: `/mitmachen/?topic=energy`
-                },
+                  {
+                    value: 'energy',
+                    label: 'Energiewende',
+                    href: `/mitmachen/?topic=energy`
+                  },
 
-                {
-                  value: 'mobility',
-                  label: 'Verkehrswende',
-                  href: `/mitmachen/?topic=mobility`
-                }
-              ]}
-            />
-            <br />
-            in
-            <Select
-              options={[
-                {
-                  value: null,
-                  label: 'Deutschland',
-                  href: `/mitmachen/`
-                },
+                  {
+                    value: 'mobility',
+                    label: 'Verkehrswende',
+                    href: `/mitmachen/?topic=mobility`
+                  }
+                ]}
+              />
+            </div>
+            <div className="intro-filter__title-row">
+              <span className="intro-filter__title-row-label">in</span>
+              <Select
+                options={[
+                  {
+                    value: null,
+                    label: 'Deutschland',
+                    href: `/mitmachen/`
+                  },
 
-                {
-                  value: 15,
-                  label: 'Bayern',
-                  href: `/mitmachen/?bundesland=15`
-                },
+                  {
+                    value: 15,
+                    label: 'Bayern',
+                    href: `/mitmachen/?bundesland=15`
+                  },
 
-                {
-                  value: 22,
-                  label: 'Mecklenburg-Vorpommern',
-                  href: `/mitmachen/?bundesland=22`
-                },
+                  {
+                    value: 22,
+                    label: 'Mecklenburg-Vorpommern',
+                    href: `/mitmachen/?bundesland=22`
+                  },
 
-                {
-                  value: 24,
-                  label: 'Sachsen',
-                  href: `/mitmachen/?bundesland=24`
-                }
-              ]}
-              selected={activeStateId}
-            />
+                  {
+                    value: 24,
+                    label: 'Sachsen',
+                    href: `/mitmachen/?bundesland=24`
+                  }
+                ]}
+                selected={activeStateId}
+              />
+            </div>
           </div>
         </div>
       </header>
