@@ -145,7 +145,10 @@ const initCities = (map, data) => {
 const initMap = el => {
   const map = leafletMap(el, {
     attributionControl: false,
-    zoomControl: false
+    zoomControl: false,
+    fadeAnimation: false,
+    markerZoomAnimation: false,
+    zoomAnimation: false
   });
 
   map.scrollWheelZoom.disable();
