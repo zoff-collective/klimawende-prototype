@@ -41,6 +41,11 @@
     @include mq($from: tablet) {
       @include font-size(16px);
     }
+
+    > a:hover,
+    > a:focus {
+      text-decoration: underline;
+    }
   }
 
   &__meta-icon {

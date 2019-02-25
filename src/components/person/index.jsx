@@ -8,7 +8,7 @@ import PhoneIcon from '../../../static/icons/phone.svg';
 
 import './style.scss';
 
-export default ({ name, email, intro, phone, image }) => (
+export default ({ name, email, intro, phone, image, url }) => (
   <div className="person">
     <div className="person__image-container">
       {image && <img src={image} alt="" className="person__image" />}
@@ -24,14 +24,20 @@ export default ({ name, email, intro, phone, image }) => (
       {email && (
         <p className="person__meta">
           <EnvelopeIcon className="person__meta-icon" />
-          {email}
+          <a href={`mailto:${email}`}>{email}</a>
         </p>
       )}
 
       {phone && (
         <p className="person__meta">
           <PhoneIcon className="person__meta-icon" />
-          {phone}
+          <a href={`tel:${phone}`}>{phone}</a>
+        </p>
+      )}
+
+      {url && (
+        <p className="person__meta">
+          <a href={url}>{url}</a>
         </p>
       )}
     </div>

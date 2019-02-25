@@ -4,7 +4,8 @@
     "intro": "Franziska Buch ist Referentin für Energie und Klima beim Umweltinstitut. Gemeinsam mit vielen anderen hat sie im Bündnis „Raus aus der Steinkohle“ den Kohleausstieg in München erkämpft und engagiert sich nun beim „Radentscheid München“.",
     "email": "energie@umweltinstitut.org",
     "phone": "089 – 30 77 49 17",
-    "image": "/images/persons/franziska-buch.png"
+    "image": "/images/persons/franziska-buch.png",
+    "url": ""
   },
 
   {
@@ -12,7 +13,8 @@
     "intro": "Eric Häublein ist Campaigner bei BürgerBegehren Klimaschutz. Er ist Sprecher beim „Berliner Energietisch“, dank dem Berlin jetzt ein Öko-Stadtwerk hat.",
     "email": "info@buerger-begehren-klimaschutz.de",
     "phone": "030 - 92 25 09 19",
-    "image": "/images/persons/eric-haeublein.png"
+    "image": "/images/persons/eric-haeublein.png",
+    "url": ""
   },
 
   {
@@ -20,7 +22,8 @@
     "intro": "Susanne Socher ist im Bundesvorstand und Geschäftsführerin von Mehr Demokratie Bayern. Sie leitet den bundesweiten Arbeitskreis Bürgerbegehren. Mit ihrer Beratung zu den Verfahren der direkten Demokratie hat sie schon dutzenden Bürgerbegehren zum Erfolg verholfen.",
     "email": "beratung@mehr-demokratie.de",
     "phone": "089 – 46 22 42 05",
-    "image": "/images/persons/susanne-socher.png"
+    "image": "/images/persons/susanne-socher.png",
+    "url": ""
   },
 
   {
@@ -28,6 +31,7 @@
     "intro": "Die Hamburger Kanzlei Rechtsanwälte Günther ist auf Umwelt- und Energierecht spezialisiert. Für diesen Leitfaden hat sie ein Rechtsgutachten zum kommunalen Kohleausstieg durch direkte Demokratie erstellt. Außerdem hat sie den Gesetzentwurf für die Hamburger Volksinitiative „Tschüss Kohle“ verfasst.",
     "email": "post@rae-guenther.de",
     "phone": "089 – 46 22 42 05",
-    "image": ""
+    "image": "",
+    "url": "https://rae-guenther.de"
   }
 ]

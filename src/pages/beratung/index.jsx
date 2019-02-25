@@ -48,6 +48,7 @@ export const query = graphql`
           email
           phone
           image
+          url
         }
       }
     }
