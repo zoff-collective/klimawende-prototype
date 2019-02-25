@@ -151,8 +151,13 @@ const initMap = el => {
     zoomAnimation: false
   });
 
+  // disable all interactions regarding zoom/ pan/ scroll
   map.scrollWheelZoom.disable();
+  map.boxZoom.disable();
   map.doubleClickZoom.disable();
+  map.touchZoom.disable();
+  map.scrollWheelZoom.disable();
+  map.dragging.disable();
 
   return map;
 };
