@@ -8557,7 +8557,7 @@
           "properties": {
             "NAME_1": "Baden-Württemberg"
           },
-          "id": 0
+          "id": 27
         },
         {
           "arcs": [
@@ -8591,9 +8591,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Bayern",
-            "link": "/mitmachen/?bundesland=bayern"
+            "link": "/mitmachen/?bundesland=1"
           },
-          "id": 1
+          "id": 15
         },
         {
           "arcs": [
@@ -8611,9 +8611,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Berlin",
-            "link": "/mitmachen/?bundesland=berlin"
+            "link": "/mitmachen/?bundesland=2"
           },
-          "id": 2
+          "id": 19
         },
         {
           "arcs": [
@@ -8651,9 +8651,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Brandenburg",
-            "link": "/mitmachen/?bundesland=brandenburg"
+            "link": "/mitmachen/?bundesland=20"
           },
-          "id": 3
+          "id": 20
         },
         {
           "arcs": [
@@ -8668,9 +8668,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Bremen",
-            "link": "/mitmachen/?bundesland=bremen"
+            "link": "/mitmachen/?bundesland=26"
           },
-          "id": 4
+          "id": 26
         },
         {
           "arcs": [
@@ -8685,9 +8685,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Hamburg",
-            "link": "/mitmachen/?bundesland=hamburg"
+            "link": "/mitmachen/?bundesland=28"
           },
-          "id": 5
+          "id": 28
         },
         {
           "arcs": [
@@ -8727,9 +8727,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Hessen",
-            "link": "/mitmachen/?bundesland=hessen"
+            "link": "/mitmachen/?bundesland=17"
           },
-          "id": 6
+          "id": 17
         },
         {
           "arcs": [
@@ -8774,9 +8774,9 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME_1": "Mecklenburg-Vorpommern",
-            "link": "/mitmachen/?bundesland=mecklenburg-vorpommern"
+            "link": "/mitmachen/?bundesland=22"
           },
-          "id": 7
+          "id": 22
         },
         {
           "arcs": [
@@ -8881,9 +8881,9 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME_1": "Niedersachsen",
-            "link": "/mitmachen/?bundesland=niedersachsen"
+            "link": "/mitmachen/?bundesland=14"
           },
-          "id": 8
+          "id": 14
         },
         {
           "arcs": [
@@ -8918,9 +8918,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Nordrhein-Westfalen",
-            "link": "/mitmachen/?bundesland=nordrhein-westfalen"
+            "link": "/mitmachen/?bundesland=16"
           },
-          "id": 9
+          "id": 16
         },
         {
           "arcs": [
@@ -8941,9 +8941,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Rheinland-Pfalz",
-            "link": "/mitmachen/?bundesland=rheinland-pfalz"
+            "link": "/mitmachen/?bundesland=16"
           },
-          "id": 10
+          "id": 16
         },
         {
           "arcs": [
@@ -8955,9 +8955,10 @@
           ],
           "type": "Polygon",
           "properties": {
-            "NAME_1": "Saarland"
+            "NAME_1": "Saarland",
+            "link": "/mitmachen/?bundesland=18"
           },
-          "id": 11
+          "id": 18
         },
         {
           "arcs": [
@@ -8987,9 +8988,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Sachsen-Anhalt",
-            "link": "/mitmachen/?bundesland=sachsen-anhalt"
+            "link": "/mitmachen/?bundesland=25"
           },
-          "id": 12
+          "id": 25
         },
         {
           "arcs": [
@@ -9015,9 +9016,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Sachsen",
-            "link": "/mitmachen/?bundesland=sachsen"
+            "link": "/mitmachen/?bundesland=24"
           },
-          "id": 13
+          "id": 24
         },
         {
           "arcs": [
@@ -9087,9 +9088,9 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME_1": "Schleswig-Holstein",
-            "link": "/mitmachen/?bundesland=schleswig-holstein"
+            "link": "/mitmachen/?bundesland=21"
           },
-          "id": 14
+          "id": 21
         },
         {
           "arcs": [
@@ -9130,9 +9131,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Thüringen",
-            "link": "/mitmachen/?bundesland=thueringen"
+            "link": "/mitmachen/?bundesland=23"
           },
-          "id": 15
+          "id": 23
         }
       ]
     }

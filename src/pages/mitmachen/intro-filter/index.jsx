@@ -9,8 +9,6 @@ import markers from '../../../../static/json/markers.json';
 import '../../../../node_modules/leaflet/dist/leaflet.css';
 import './style.scss';
 
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-
 export default ({ intro, resultsTitle }) => {
   const search =
     typeof window !== 'undefined' &&
@@ -26,19 +24,15 @@ export default ({ intro, resultsTitle }) => {
       return acc;
     }, {});
 
-  const activeStateSlug = params.bundesland
-    ? params.bundesland.toLowerCase()
-    : '';
+  const activeStateId = params.bundesland
+    ? parseInt(params.bundesland, 10)
+    : null;
 
   return (
     <>
       <header className="intro-filter">
         <div className="intro-filter__map-container">
-          <Map
-            activeState={params.bundesland && capitalize(params.bundesland)}
-            markers={markers}
-            cities={cities}
-          />
+          <Map activeState={activeStateId} markers={markers} cities={cities} />
         </div>
 
         <div className="intro-filter__title-container">
@@ -50,37 +44,37 @@ export default ({ intro, resultsTitle }) => {
                 {
                   value: 'all',
                   label: 'Alle Kampagnen',
-                  href: `/mitmachen/${activeStateSlug}/?status=all`
+                  href: `/mitmachen/?status=all`
                 },
 
                 {
                   value: 'archived',
                   label: 'Abgeschlossene Kampagnen',
-                  href: `/mitmachen/${activeStateSlug}/?status=archived`
+                  href: `/mitmachen/?status=archived`
                 },
 
                 {
                   value: 'active',
                   label: 'Laufende Kampagnen',
-                  href: `/mitmachen/${activeStateSlug}/?status=active`
+                  href: `/mitmachen/?status=active`
                 },
 
                 {
                   value: 'creation',
                   label: 'Gründungen',
-                  href: `/mitmachen/${activeStateSlug}/?status=creation`
+                  href: `/mitmachen/?status=creation`
                 },
 
                 {
                   value: 'potential',
                   label: 'Potenzielle Standorte',
-                  href: `/mitmachen/${activeStateSlug}/?status=potential`
+                  href: `/mitmachen/?status=potential`
                 },
 
                 {
                   value: 'success',
                   label: 'Erfolgsbeispiele',
-                  href: `/mitmachen/${activeStateSlug}/?status=success`
+                  href: `/mitmachen/?status=success`
                 }
               ]}
             />
@@ -91,25 +85,25 @@ export default ({ intro, resultsTitle }) => {
                 {
                   value: 'all',
                   label: 'allen Bereichen',
-                  href: `/mitmachen/${activeStateSlug}/?topic=all`
+                  href: `/mitmachen/?topic=all`
                 },
 
                 {
                   value: 'coal',
                   label: 'Kohleausstieg',
-                  href: `/mitmachen/${activeStateSlug}/?topic=energy`
+                  href: `/mitmachen/?topic=energy`
                 },
 
                 {
                   value: 'energy',
                   label: 'Energiewende',
-                  href: `/mitmachen/${activeStateSlug}/?topic=energy`
+                  href: `/mitmachen/?topic=energy`
                 },
 
                 {
                   value: 'mobility',
                   label: 'Verkehrswende',
-                  href: `/mitmachen/${activeStateSlug}/?topic=mobility`
+                  href: `/mitmachen/?topic=mobility`
                 }
               ]}
             />
@@ -118,30 +112,30 @@ export default ({ intro, resultsTitle }) => {
             <Select
               options={[
                 {
-                  value: 'Deutschland',
+                  value: null,
                   label: 'Deutschland',
                   href: `/mitmachen/`
                 },
 
                 {
-                  value: 'bayern',
+                  value: 15,
                   label: 'Bayern',
-                  href: `/mitmachen/?bundesland=bayern`
+                  href: `/mitmachen/?bundesland=15`
                 },
 
                 {
-                  value: 'mecklenburg-vorpommern',
+                  value: 22,
                   label: 'Mecklenburg-Vorpommern',
-                  href: `/mitmachen/?bundesland=mecklenburg-vorpommern`
+                  href: `/mitmachen/?bundesland=22`
                 },
 
                 {
-                  value: 'sachsen',
+                  value: 24,
                   label: 'Sachsen',
-                  href: `/mitmachen/?bundesland=sachsen`
+                  href: `/mitmachen/?bundesland=24`
                 }
               ]}
-              selected={params && params.bundesland}
+              selected={activeStateId}
             />
           </div>
         </div>
