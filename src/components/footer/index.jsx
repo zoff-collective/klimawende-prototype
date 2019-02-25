@@ -46,9 +46,19 @@ export default () => (
     <div className="footer__lower">
       <Constraint width="semi-wide">
         <p>
-          <strong>Spendenkonto</strong>&nbsp;&nbsp; Umweltinstitut München
-          e.V.&nbsp;&nbsp;&nbsp; Bank für Sozialwirtschaft&nbsp;&nbsp;&nbsp;
-          IBAN : DE32 7002 0500 0008 8311 06
+          <strong>Spendenkonto</strong>
+
+          <span className="footer__bank-account">
+            <span className="footer__bank-account-line">
+              Umweltinstitut München e.V.
+            </span>
+            <span className="footer__bank-account-line">
+              Bank für Sozialwirtschaft
+            </span>
+            <span className="footer__bank-account-line">
+              IBAN : DE32 7002 0500 0008 8311 06
+            </span>
+          </span>
         </p>
 
         <div className="footer__lower-links">
