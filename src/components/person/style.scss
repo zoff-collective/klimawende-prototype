@@ -5,12 +5,16 @@
   display: flex;
   flex-direction: column;
 
-  @include mq($from: tablet) {
+  @include mq($from: mobileWide) {
     flex-direction: row;
   }
 
   &__image-container {
     width: 100%;
+
+    @include mq($from: mobileWide) {
+      width: 35%;
+    }
 
     @include mq($from: tablet) {
       width: 25%;

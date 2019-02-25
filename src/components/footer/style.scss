@@ -34,7 +34,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 
-    @include mq($from: tablet) {
+    @include mq($from: desktop) {
       flex-wrap: nowrap;
     }
 

@@ -34,6 +34,11 @@
 
     &-participate-container {
       flex: 1;
+      padding-right: 1rem;
+
+      @include mq($from: wide) {
+        padding-right: 0;
+      }
     }
   }
 

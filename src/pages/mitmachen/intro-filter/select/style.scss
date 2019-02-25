@@ -70,8 +70,8 @@
     font-size: 1.5rem;
     left: 0;
     margin-left: -1px;
+    min-width: calc(100% + 2px);
     position: absolute;
-    width: calc(100% + 2px);
     z-index: 10;
 
     > * + * {
@@ -89,6 +89,7 @@
     display: block;
     line-height: 1;
     padding: 1.5rem 1rem 1rem 1rem;
+    white-space: nowrap;
 
     @include mq($from: tablet) {
       @include font-size(18px);
