@@ -59,12 +59,7 @@
   }
 
   &--is-open &__canvas::after {
-    border-width: 0 0.75rem 0.75rem 0.75rem;
-    border-color: transparent transparent currentColor transparent;
-
-    @include mq($from: tablet) {
-      border-width: 1.25rem 1.25rem 0 1.25rem;
-    }
+    transform: rotate(180deg) translateY(50%);
   }
 
   &__list {
