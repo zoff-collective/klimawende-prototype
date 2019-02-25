@@ -13,6 +13,10 @@
       "src": "/images/projects/klimaschutz-statt-kohleschmutz.png",
       "alt": "Radentscheid Rostock"
     },
+    "imageErfolg": {
+      "src": "/images/von-wegen-geht-nicht.png",
+      "alt": "Raus aus der Steinkohle"
+    },
     "site": {
       "url": "https://radentscheid-rostock.de/",
       "label": "radentscheid-rostock.de"
@@ -146,5 +150,110 @@
         "content": "<a href='https://www.radentscheid-rostock.de'>www.radentscheid-rostock.de</a>"
       }
     ]
+  },
+
+
+  {
+    "title": "Heiß umkämpft",
+    "slug": "heiss-umkaempft",
+    "place": "Hamburg",
+    "federalState": "Hamburg",
+    "type": "Bürgerentscheid",
+    "bestPractice": true,
+    "date": 2017,
+    "category": "Fahrrad/ Mobilität",
+    "summary": "Die Volksinitiative „Tschüss Kohle“ fordert für den Stadtstaat Hamburg den Kohleausstieg bis 2030. Schon ab 2026 soll die Fernwärmeversorgung der Stadt kohlefrei werden. Vattenfall klammert sich an seine Pfründe, doch im Gesetzesentwurf stecken ein linker und ein rechter Haken gegen den Energieriesen.",
+    "state": "Aktiv",
+    "image": {
+      "src": "/images/projects/radentscheid-rostock.png",
+      "alt": "Radentscheid Rostock"
+    },
+    "imageErfolg": {
+      "src": "/images/tschuess-kohle.png",
+      "alt": "Heiß umkämpft"
+    },
+    "contactPerson": {
+      "name": "Franziska Buch",
+      "email": false
+    },
+    "blocks": []
+  },
+
+  {
+    "title": "Dit is Watt für Berlin!",
+    "slug": "dit-is-watt",
+    "place": "Berlin",
+    "federalState": "Berlin",
+    "type": "Bürgerentscheid",
+    "bestPractice": true,
+    "date": 2017,
+    "category": "Fahrrad/ Mobilität",
+    "summary": "Die Berliner Stadtwerke bieten heute hundert Prozent Ökostrom an und das Land Berlin hat als erstes Bundesland den Kohleausstieg bis 2030 gesetzlich festgeschrieben – weil ein Volksbegehren den nötigen Druck auf die Politik aufgebaut hat. Auch ein parlamentarisches Foul der CDU konnte das nicht verhindern.",
+    "state": "Aktiv",
+    "image": {
+      "src": "/images/projects/radentscheid-rostock.png",
+      "alt": "Radentscheid Rostock"
+    },
+    "imageErfolg": {
+      "src": "/images/fahrrad-2.png",
+      "alt": "Dit is Watt für Berlin!"
+    },
+    "contactPerson": {
+      "name": "Franziska Buch",
+      "email": false
+    },
+    "blocks": []
+  },
+
+  {
+    "title": "Die Fahrradrebellion von Bamberg",
+    "slug": "fahrradrebellion-von-bamber",
+    "place": "Bamberg",
+    "federalState": "Bamberg",
+    "type": "Bürgerentscheid",
+    "bestPractice": true,
+    "date": 2017,
+    "category": "Fahrrad/ Mobilität",
+    "summary": "Der „Volksentscheid Fahrrad“ in Berlin hat vorgemacht, wie BürgerInnen ihre Stadt sicherer für FahrradfahrerInnen und gleichzeitig lebenswerter und klimafreundlicher machen können. RadaktivistInnen aus Bamberg haben das Konzept auf ihre Stadt übertragen. Mit vollem Erfolg.",
+    "state": "Aktiv",
+    "image": {
+      "src": "/images/projects/radentscheid-rostock.png",
+      "alt": "Radentscheid Rostock"
+    },
+    "imageErfolg": {
+      "src": "/images/neue-energie-fuer-berlin.png",
+      "alt": "Dit is Watt für Berlin!"
+    },
+    "contactPerson": {
+      "name": "Franziska Buch",
+      "email": false
+    },
+    "blocks": []
+  },
+
+  {
+    "title": "Stadt und Land, Hand in Hand",
+    "slug": "fahrradrebellion-von-bamber",
+    "place": "Bamberg",
+    "federalState": "Bamberg",
+    "type": "Bürgerentscheid",
+    "bestPractice": true,
+    "date": 2017,
+    "category": "Fahrrad/ Mobilität",
+    "summary": "„Die Welt mobil mit dem Flugzeug zu erreichen ist ein Grundrecht“, posaunte der Münchner Flughafen-Chef. Deshalb brauche es eine dritte Startbahn. Die BürgerInnen hingegen wollten nicht mehr Flugverkehr, sondern Mensch und Natur schützen. Über eine Stadt, die beschließt, auf dem Boden zu bleiben – und dabei die Menschen aus ihrem Umland kennenlernt.",
+    "state": "Aktiv",
+    "image": {
+      "src": "/images/projects/radentscheid-rostock.png",
+      "alt": "Radentscheid Rostock"
+    },
+    "imageErfolg": {
+      "src": "/images/fahrrad-2.png",
+      "alt": "Stadt und Land, Hand in Hand"
+    },
+    "contactPerson": {
+      "name": "Franziska Buch",
+      "email": false
+    },
+    "blocks": []
   }
 ]

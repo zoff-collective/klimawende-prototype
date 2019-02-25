@@ -30,9 +30,9 @@ const Page = ({
       <AlternatingList
         items={projects
           .filter(({ node: { bestPractice } }) => bestPractice === true)
-          .map(({ node: { title, slug, summary, image } }) => ({
+          .map(({ node: { title, slug, summary, imageErfolg } }) => ({
             titleComponent: getTitleComponent(title),
-            image,
+            image: imageErfolg,
             text: summary,
             link: `/mitmachen/${slug}/`
           }))}
@@ -50,7 +50,7 @@ export const query = graphql`
           slug
           title
           summary
-          image {
+          imageErfolg {
             src
             alt
           }
