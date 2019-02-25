@@ -8556,7 +8556,7 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME_1": "Baden-Württemberg",
-            "link": "/mitmachen/?bundesland=27"
+            "link": "/mitmachen/?federalstate=27"
           },
           "id": 27
         },
@@ -8592,7 +8592,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Bayern",
-            "link": "/mitmachen/?bundesland=15"
+            "link": "/mitmachen/?federalstate=15"
           },
           "id": 15
         },
@@ -8612,7 +8612,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Berlin",
-            "link": "/mitmachen/?bundesland=19"
+            "link": "/mitmachen/?federalstate=19"
           },
           "id": 19
         },
@@ -8652,7 +8652,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Brandenburg",
-            "link": "/mitmachen/?bundesland=20"
+            "link": "/mitmachen/?federalstate=20"
           },
           "id": 20
         },
@@ -8669,7 +8669,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Bremen",
-            "link": "/mitmachen/?bundesland=26"
+            "link": "/mitmachen/?federalstate=26"
           },
           "id": 26
         },
@@ -8686,7 +8686,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Hamburg",
-            "link": "/mitmachen/?bundesland=28"
+            "link": "/mitmachen/?federalstate=28"
           },
           "id": 28
         },
@@ -8728,7 +8728,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Hessen",
-            "link": "/mitmachen/?bundesland=17"
+            "link": "/mitmachen/?federalstate=17"
           },
           "id": 17
         },
@@ -8775,7 +8775,7 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME_1": "Mecklenburg-Vorpommern",
-            "link": "/mitmachen/?bundesland=22"
+            "link": "/mitmachen/?federalstate=22"
           },
           "id": 22
         },
@@ -8882,7 +8882,7 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME_1": "Niedersachsen",
-            "link": "/mitmachen/?bundesland=14"
+            "link": "/mitmachen/?federalstate=14"
           },
           "id": 14
         },
@@ -8919,7 +8919,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Nordrhein-Westfalen",
-            "link": "/mitmachen/?bundesland=13"
+            "link": "/mitmachen/?federalstate=13"
           },
           "id": 13
         },
@@ -8942,7 +8942,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Rheinland-Pfalz",
-            "link": "/mitmachen/?bundesland=16"
+            "link": "/mitmachen/?federalstate=16"
           },
           "id": 16
         },
@@ -8957,7 +8957,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Saarland",
-            "link": "/mitmachen/?bundesland=18"
+            "link": "/mitmachen/?federalstate=18"
           },
           "id": 18
         },
@@ -8989,7 +8989,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Sachsen-Anhalt",
-            "link": "/mitmachen/?bundesland=25"
+            "link": "/mitmachen/?federalstate=25"
           },
           "id": 25
         },
@@ -9017,7 +9017,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Sachsen",
-            "link": "/mitmachen/?bundesland=24"
+            "link": "/mitmachen/?federalstate=24"
           },
           "id": 24
         },
@@ -9089,7 +9089,7 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME_1": "Schleswig-Holstein",
-            "link": "/mitmachen/?bundesland=21"
+            "link": "/mitmachen/?federalstate=21"
           },
           "id": 21
         },
@@ -9132,7 +9132,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Thüringen",
-            "link": "/mitmachen/?bundesland=23"
+            "link": "/mitmachen/?federalstate=23"
           },
           "id": 23
         }

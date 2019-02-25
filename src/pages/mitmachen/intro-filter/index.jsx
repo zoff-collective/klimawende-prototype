@@ -24,8 +24,8 @@ export default ({ intro, resultsTitle }) => {
       return acc;
     }, {});
 
-  const activeStateId = params.bundesland
-    ? parseInt(params.bundesland, 10)
+  const activeStateId = params.federalstate
+    ? parseInt(params.federalstate, 10)
     : null;
 
   return (
@@ -123,19 +123,19 @@ export default ({ intro, resultsTitle }) => {
                   {
                     value: 15,
                     label: 'Bayern',
-                    href: `/mitmachen/?bundesland=15`
+                    href: `/mitmachen/?federalstate=15`
                   },
 
                   {
                     value: 22,
                     label: 'Mecklenburg-Vorpommern',
-                    href: `/mitmachen/?bundesland=22`
+                    href: `/mitmachen/?federalstate=22`
                   },
 
                   {
                     value: 24,
                     label: 'Sachsen',
-                    href: `/mitmachen/?bundesland=24`
+                    href: `/mitmachen/?federalstate=24`
                   }
                 ]}
                 selected={activeStateId}
