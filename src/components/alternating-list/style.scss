@@ -38,7 +38,7 @@
     }
   }
 
-  > *:nth-child(2n) .alternating-list__content-container {
+  & > *:nth-child(2n) .alternating-list__content-container {
     @include mq($from: tablet) {
       margin-left: 0;
       margin-right: 3.5rem;
@@ -46,7 +46,7 @@
     }
   }
 
-  > *:nth-child(2n+1) &__content-container {
+  & > *:nth-child(2n+1) &__content-container {
     @include mq($from: tablet) {
       order: -1;
     }
