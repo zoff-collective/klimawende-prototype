@@ -59,11 +59,11 @@
   &__title-container {
     flex-grow: 0;
     flex-shrink: 1;
-    margin-left: 3rem;
-    margin-right: 3rem;
     max-width: 60rem;
 
     @include mq($from: tablet) {
+      margin-left: 3rem;
+      margin-right: 3rem;
       width: 50%;
     }
   }

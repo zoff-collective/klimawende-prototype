@@ -21,12 +21,16 @@
     font-weight: inherit;
     max-width: 50rem;
     overflow-x: hidden;
-    padding: 0.75rem 5rem 0.25rem 1rem;
+    padding: 0.75rem 4rem 0.25rem 1rem;
     position: relative;
     text-align: left;
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 100%;
+
+    @include mq($from: tablet) {
+      padding-right: 5rem;
+    }
 
     &:hover,
     &:focus {
@@ -38,7 +42,7 @@
 
     &::after {
       border-style: solid;
-      border-width: 1.25rem 1.25rem 0 1.25rem;
+      border-width: 0.75rem 0.75rem 0 0.75rem;
       border-color: currentColor transparent transparent transparent;
       content: '';
       height: 0;
@@ -47,6 +51,19 @@
       top: 50%;
       transform: translateY(-50%);
       width: 0;
+
+      @include mq($from: tablet) {
+        border-width: 1.25rem 1.25rem 0 1.25rem;
+      }
+    }
+  }
+
+  &--is-open &__canvas::after {
+    border-width: 0 0.75rem 0.75rem 0.75rem;
+    border-color: transparent transparent currentColor transparent;
+
+    @include mq($from: tablet) {
+      border-width: 1.25rem 1.25rem 0 1.25rem;
     }
   }
 
@@ -58,8 +75,9 @@
     display: none;
     font-size: 1.5rem;
     left: 0;
+    margin-left: -1px;
     position: absolute;
-    width: 100%;
+    width: calc(100% + 2px);
     z-index: 10;
 
     > * + * {
@@ -72,11 +90,15 @@
   }
 
   &__list-item {
-    @include font-size(18px);
+    @include font-size(16px);
 
     display: block;
     line-height: 1;
     padding: 1.5rem 1rem 1rem 1rem;
+
+    @include mq($from: tablet) {
+      @include font-size(18px);
+    }
 
     &:hover,
     &:focus {
