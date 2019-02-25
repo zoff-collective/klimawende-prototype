@@ -6,9 +6,10 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const sassGlobImporter = require('node-sass-glob-importer');
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
 
   entry: {
     styles: ['./node_modules/leaflet/dist/leaflet.css', './src/style.scss'],
@@ -45,6 +46,10 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'style.css'
+    }),
+
+    new webpack.BannerPlugin({
+      banner: `Build: ${new Date().toString()}`
     })
   ]
 };

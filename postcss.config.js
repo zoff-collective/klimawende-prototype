@@ -13,8 +13,7 @@ module.exports = {
       preset: [
         'default',
         {
-          autoprefixer: true,
-          normalizeWhitespace: false
+          autoprefixer: true
         }
       ]
     })
