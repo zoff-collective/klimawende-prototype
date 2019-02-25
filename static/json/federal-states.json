@@ -8555,7 +8555,8 @@
           ],
           "type": "MultiPolygon",
           "properties": {
-            "NAME_1": "Baden-Württemberg"
+            "NAME_1": "Baden-Württemberg",
+            "link": "/mitmachen/?bundesland=27"
           },
           "id": 27
         },
@@ -8591,7 +8592,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Bayern",
-            "link": "/mitmachen/?bundesland=1"
+            "link": "/mitmachen/?bundesland=15"
           },
           "id": 15
         },
@@ -8611,7 +8612,7 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Berlin",
-            "link": "/mitmachen/?bundesland=2"
+            "link": "/mitmachen/?bundesland=19"
           },
           "id": 19
         },
@@ -8918,9 +8919,9 @@
           "type": "Polygon",
           "properties": {
             "NAME_1": "Nordrhein-Westfalen",
-            "link": "/mitmachen/?bundesland=16"
+            "link": "/mitmachen/?bundesland=13"
           },
-          "id": 16
+          "id": 13
         },
         {
           "arcs": [
