@@ -5,6 +5,11 @@
   padding-right: 1.5rem;
   max-width: 100%;
 
+  .constraint {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   @include mq($from: desktop) {
     width: 880px;
     padding-left: 0;

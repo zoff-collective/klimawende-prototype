@@ -2,7 +2,10 @@
 @import "../../variables";
 
 .ueber-uns {
+  align-items: center;
   color: $color-middle-brown;
+  display: flex;
+  flex-direction: column;
 
   &__partner-container {
     margin-bottom: 6rem;
