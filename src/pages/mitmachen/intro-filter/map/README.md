@@ -15,6 +15,9 @@ The map needs to be initialized with an empty container:
 Leaflet will then, out of the data passed through the data attributes, attempt
 to render a SVG version of the map.
 
+If a single federal state is displayed, you have to add the additional CSS
+class `map--single-state` to the map element.
+
 ## Data attributes
 
 The DOM element accepts it's data via data attributes:
@@ -32,9 +35,6 @@ The DOM element accepts it's data via data attributes:
 - `data-cities`: Contains the encoded GeoJSON for the city markers. It should only
   contain the markers, which are currently rendered (e.g. for the federal
   country).
-
-If a single federal state is displayed, you have to add the additional CSS
-class `map--single-state` to the map element.
 
 ## Markers
 
