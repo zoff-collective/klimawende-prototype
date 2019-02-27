@@ -92,16 +92,27 @@ const initMarkers = (map, data) => {
 
   const renderMarker = (feature, layer) => {
     let radius = 5;
+    const { title } = feature.properties;
 
     if (getScreenWidth() > 768) {
       radius = 10;
     }
 
-    return circleMarker(layer, {
+    const marker = circleMarker(layer, {
       className: 'leaflet-marker',
       fill: true,
       radius
     });
+
+    if (title) {
+      marker.bindTooltip(feature.properties.title, {
+        className: 'leaflet-marker-tooltip',
+        direction: 'right',
+        opacity: 1
+      });
+    }
+
+    return marker;
   };
 
   const addBindings = (feature, layer) => {
@@ -134,7 +145,8 @@ const initCities = (map, data) => {
       fill: true
     }).bindTooltip(feature.properties.title, {
       permanent: true,
-      direction: 'right'
+      direction: 'right',
+      opacity: 1
     });
 
   geoJSON(json, {

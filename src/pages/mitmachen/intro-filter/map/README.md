@@ -43,7 +43,8 @@ Markers are represented through GeoJSON:
     {
       "type": "Feature",
       "properties": {
-        "link": "/mitmachen/projekt/"
+        "title": "Title of the project (will become the tooltip)",
+        "link": "/mitmachen/[projectId]/"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +58,8 @@ Markers are represented through GeoJSON:
 }
 ```
 
-If the marker properties contain a `link` property, they are clickable.
+If the marker properties contain a `link` property, they are clickable. If the
+marker properties contain a `title` property, a tooltip is rendered on mouseover.
 
 ## Cities
 
