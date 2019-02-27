@@ -170,10 +170,12 @@ const initCities = (map, data) => {
 const initMap = el => {
   const map = leafletMap(el, {
     attributionControl: false,
+    dragging: false,
     zoomControl: false,
     fadeAnimation: false,
     markerZoomAnimation: false,
-    zoomAnimation: false
+    zoomAnimation: false,
+    tap: false
   });
 
   // disable all interactions regarding zoom/ pan/ scroll
@@ -181,7 +183,6 @@ const initMap = el => {
   map.boxZoom.disable();
   map.doubleClickZoom.disable();
   map.touchZoom.disable();
-  map.scrollWheelZoom.disable();
   map.dragging.disable();
 
   return map;
