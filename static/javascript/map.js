@@ -36,7 +36,12 @@ class TopoJSON extends GeoJSON {
   }
 }
 
-const initFederalStates = (map, endpoint, activeFederalstate = null) =>
+const initFederalStates = (
+  map,
+  endpoint,
+  activeFederalstate = null,
+  options = {}
+) =>
   fetch(endpoint)
     .then(res => res.json())
     .then(data => {
@@ -54,7 +59,14 @@ const initFederalStates = (map, endpoint, activeFederalstate = null) =>
       const addBindings = (feature, country) => {
         if (!activeFederalstate) {
           country.on('click', () => {
-            const { link } = feature.properties;
+            let { link } = feature.properties;
+            const { filterParameter } = options;
+
+            // extend the link with extra parameter passed through the data attribute
+            if (filterParameter) {
+              link += filterParameter;
+            }
+
             redirect(link);
           });
         }
@@ -118,6 +130,7 @@ const initMarkers = (map, data) => {
   const addBindings = (feature, layer) => {
     layer.on('click', () => {
       const { link } = feature.properties;
+
       redirect(link);
     });
   };
@@ -179,11 +192,14 @@ const init = el => {
     federalstatesEndpoint,
     markers,
     cities,
-    activeFederalstate
+    activeFederalstate,
+    federalstateFilterParameter
   } = el.dataset;
   const map = initMap(el);
 
-  initFederalStates(map, federalstatesEndpoint, activeFederalstate).then(() => {
+  initFederalStates(map, federalstatesEndpoint, activeFederalstate, {
+    filterParameter: federalstateFilterParameter
+  }).then(() => {
     if (activeFederalstate) {
       initCities(map, cities);
     }

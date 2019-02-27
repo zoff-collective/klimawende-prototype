@@ -4,6 +4,7 @@ The map needs to be initialized with an empty container:
 
 ```html
 <div class="map js-map"
+     data-federalstate-filter-parameter=""
      data-federalstates-endpoint=""
      data-active-federalstate=""
      data-markers=""
@@ -18,6 +19,9 @@ to render a SVG version of the map.
 
 The DOM element accepts it's data via data attributes:
 
+- `data-federalstate-filter-parameter`: Can contain a string, which is appended
+  the the `link` peroperty of the layer. E.g. `"&param=true"` would lead to
+  `?federalstate=[id]&param=true`.
 - `data-federalstates-endpoint`: Points to the static topojson file, which holds
   the federal country shape data.
 - `data-active-federalstate`: Contains either nothing, or the current active
