@@ -12,7 +12,6 @@
 
   @include mq($from: tablet) {
     flex-direction: row;
-    padding-left: 0;
     padding-right: 0;
   }
 
@@ -34,24 +33,21 @@
     flex-grow: 0;
     flex-shrink: 1;
     order: 2;
+    overflow: hidden;
     width: 100%;
 
     @include mq($from: tablet) {
       display: flex;
       height: 100%;
       order: 0;
-      width: 30%;
-    }
-
-    @include mq($from: desktop) {
-      width: 50%;
+      width: 60%;
     }
 
     .map {
       height: 40rem;
 
-      @include mq($from: desktop) {
-        height: 60rem;
+      @include mq($from: tablet) {
+        height: 65rem;
       }
     }
   }
