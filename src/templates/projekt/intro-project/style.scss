@@ -6,7 +6,6 @@
   display: flex;
   justify-content: center;
   margin-bottom: 4rem;
-  padding-bottom: 4rem;
 
   @include mq($from: wide) {
     max-height: 73rem;
@@ -28,9 +27,7 @@
     flex-direction: column;
     flex-shrink: 0;
     justify-content: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 4rem;
+    padding-bottom: 4rem 2rem;
 
     @include mq($from: desktop) {
       padding-left: 4rem;
