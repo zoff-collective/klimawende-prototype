@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 4rem;
+  padding-bottom: 4rem;
 
   @include mq($from: wide) {
     max-height: 73rem;
