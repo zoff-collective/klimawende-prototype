@@ -107,7 +107,7 @@ const initMarkers = (map, data) => {
     const { title } = feature.properties;
 
     if (getScreenWidth() > 768) {
-      radius = 10;
+      radius = 7;
     }
 
     const marker = circleMarker(layer, {
