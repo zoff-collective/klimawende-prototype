@@ -27,7 +27,7 @@ export default ({
       type={type}
       {...rest}
     >
-      {children}
+      <span className="button__children">{children}</span>
     </Tag>
   );
 };
