@@ -13,4 +13,10 @@
     flex-direction: column;
     padding-top: 4rem;
   }
+
+  &__body {
+    @include two-column();
+
+    padding-top: 2rem;
+  }
 }

@@ -32,3 +32,41 @@
 @mixin font-size($size) {
   @include rem(font-size, $size);
 }
+
+@mixin two-column() {
+  display: flex;
+  justify-content: center;
+
+  @include mq($from: tablet) {
+    padding-left: 4rem;
+  }
+
+  @include mq($from: wide) {
+    padding-left: 0;
+  }
+
+  &-constraint {
+    display: flex;
+    flex-direction: column;
+
+    @include mq($from: desktop) {
+      flex-direction: row;
+    }
+  }
+
+  &-content-container {
+    @include mq($from: desktop) {
+      margin-right: 4.5rem;
+      width: 60%;
+    }
+  }
+
+  &-action-container {
+    flex: 1;
+    padding-right: 1rem;
+
+    @include mq($from: wide) {
+      padding-right: 0;
+    }
+  }
+}
