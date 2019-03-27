@@ -3,7 +3,7 @@
   "title": "Direkte Demokratie verstehen",
   "intro": "Mit Bürger- und Volksbegehren führen wir selbst kommunalpolitische Entscheidungen herbei und gestalten damit unsere Städte und Gemeinden. So funktionieren die direktdemokratischen Instrumente für die Klimawende von unten.",
   "image": {
-    "src": "/images/broschuere.png",
+    "src": "/images/01_DDV_00TB_900x600.png",
     "alt": ""
   },
   "blocks": [
@@ -130,6 +130,12 @@
     {
       "type": "paragraph",
       "content": "Finanzpolitische Gesetzesinitiativen, die den Haushalt, Steuern oder die Besoldung der Landesbediensteten betreffen, sind ausgeschlossen. Ebenso Themenbereiche, die nicht in der Kompetenz der Landespolitik liegen oder dem Grundgesetz widersprechen. Anders als den meisten Bürgerbegehren liegt Volksbegehren ein dreistufiges Verfahren zugrunde."
+    },
+
+    {
+      "type": "image",
+      "src": "/images/01_DDV_01Radentscheid01_1344.png",
+      "alt": ""
     },
 
     {
