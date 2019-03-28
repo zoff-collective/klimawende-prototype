@@ -103,6 +103,73 @@
     },
 
     {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Kaiserslautern",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Block 20"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "15 MW/ 81 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1996"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "133 027 t  (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Kaiserslautern → 100 % Stadtwerke Kaiserslautern GmbH (Betreiber)"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Flensburg",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Blöcke 9 bis 11"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "100 MW/ 216 MW"
+        },
+
+        {
+          "title": "In Betrieb",
+          "content": "Block 9 seit 1985, Block 10 seit 1988, Block 11 seit 1992"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "596 836 t  (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Flensburg → 100 % Stadtwerke Flensburg GmbH (Betreiber)"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "2016 wurden bereits zwei Kohlekessel abgeschaltet. Die Kessel 9 bis 11 werden aber immer noch mit Kohle, Ersatzbrennstoffen und Holz betrieben. Im November 2018 haben die Stadtwerke eine weitere Absenkung des Kohleanteils bis 2023 angekündigt. Dafür soll 2022 ein neues Gaskraftwerk ans Netz gehen und zwei der drei Kohlekessel ersetzen."
+        }
+      ]
+    },
+
+    {
       "type": "headline-2",
       "content": "Kohleausstieg per Satzungsänderung"
     },
@@ -136,6 +203,140 @@
       "type": "image",
       "src": "/images/02_KKW_01EneMeMuh_1344.png",
       "alt": ""
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Frankfurt West",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Blöcke 2 und 3"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "144 MW/ 210 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989 (2017 modernisiert)"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "929 738 t (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Frankfurt → 100 % Stadtwerke Frankfurt Holding GmbH → 75,2 % Mainova AG (Betreiber)"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "Die Regierungskoalition aus CDU, SPD und Grünen hat einen Antrag in die Stadtverordnetenversammlung eingebracht, der einen Kohleausstieg im Heizkraftwerk West bis spätestens 2030 vorsieht. UmweltschützerInnen protestieren, dass das viel zu spät sei."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Köln-Merkenich",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Block 6"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "85 MW/ 78 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989 (2010 modernisiert)"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "537 244 t (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Köln → 100 % Stadtwerke Köln GmbH → 90 % GEW Köln AG → 80 % RheinEnergie AG (Betreiber)"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "2017 wurde auf Antrag der Linken ein möglicher Kohleausstieg und eine Umstellung auf eine regenerative Wärmeerzeugung durch die RheinEnergie AG geprüft. Ergebnis: Eine Umstellung auf alternative Brennstoffe wie Altholz oder Klärschlamm sei nicht wirtschaftlich und eine Umstellung auf Gas macht das Unterneh- men von den Ergebnissen der Kohlekommission abhängig. 2017 wurde auf Antrag der Linken ein möglicher Kohleausstieg und eine Umstellung auf eine regenerative Wärmeerzeugung durch die RheinEnergie AG geprüft. Ergebnis: Eine Umstellung auf alternative Brennstoffe wie Altholz oder Klärschlamm sei nicht wirtschaftlich und eine Umstellung auf Gas macht das Unterneh- men von den Ergebnissen der Kohlekommission abhängig. Die Rheinenergie AG ist außerdem mit 50 % am EnBW-Steinkoh- lekraftwerk Rostock beteiligt."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Hannover Stöcken",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Blöcke 1 und 2"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "300 MW/ 425 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "1 590 978 t (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Hannover → 80,49 % VVG Hannover mbH → 75,09 % enercity AG → 84,4 % Gemeinschafts- kraftwerk Hannover GmbH (Betreiber)"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "Die Prozesswärme wird vom nahegelegenen VW-Werk genutzt, obwohl VW für das eigene Kohlekraftwerk in Wolfsburg den Kohleausstieg bis 2022 angekündigt hat und selbst Mitglied in der Powering Past Coal Alliance ist. DerUnternehmensgegenstandderenercityAGumfasstbereits „auch die Beteiligung auf dem Gebiet des Umweltschutzes“, was aber eine zu schwache Formulierung für konsequenten Klimaschutz ist."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Kassel",
+      "powerPlantSections": [
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "38 MW/ 80 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "199 298 t (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Kassel → 75,1 % Städtische Werke AG → 94,9 % Städtische Werke Energie und Wärme GmbH (Betreiber)"
+        }
+      ]
     },
 
     {

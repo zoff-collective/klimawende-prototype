@@ -74,6 +74,21 @@
     }
   }
 
+  &--level-5 {
+    margin-bottom: 1rem;
+  }
+
+  &--level-5 &__headline {
+    @include font-size(16px);
+
+    font-family: $font-mark;
+    text-transform: uppercase;
+
+    @include mq($from: tablet) {
+      @include font-size(19px);
+    }
+  }
+
   &__headline-content {
     color: $color-dark-brown;
 
@@ -81,5 +96,9 @@
     > a:focus {
       text-decoration: underline;
     }
+  }
+
+  &--level-5 &__headline-content {
+    color: currentColor;
   }
 }

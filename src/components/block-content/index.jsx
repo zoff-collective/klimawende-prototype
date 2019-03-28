@@ -8,6 +8,7 @@ import Headline from '../text/headline';
 import Infobox from '../text/infobox';
 import List from '../text/list';
 import Paragraph from '../text/paragraph';
+import PowerPlant from '../power-plant';
 import Timeline from '../timeline';
 
 import './style.scss';
@@ -80,6 +81,16 @@ export default ({ blocks, children }) => (
           return (
             <Constraint>
               <Timeline items={rest.timelineItems} />
+            </Constraint>
+          );
+
+        case 'power-plant':
+          return (
+            <Constraint>
+              <PowerPlant
+                title={rest.title}
+                sections={rest.powerPlantSections}
+              />
             </Constraint>
           );
 

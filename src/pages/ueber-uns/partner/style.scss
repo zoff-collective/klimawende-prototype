@@ -50,6 +50,7 @@
     @include font-size(12px);
 
     font-family: $font-mark;
+    font-feature-settings: "ss01" on;
     font-weight: 700;
     line-height: 1.5;
     text-transform: uppercase;

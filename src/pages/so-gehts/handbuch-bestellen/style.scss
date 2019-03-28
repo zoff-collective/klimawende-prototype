@@ -16,6 +16,7 @@
     @include font-size(18px);
 
     font-family: $font-mark;
+    font-feature-settings: "ss01" on;
     font-weight: 700;
     margin-bottom: 1.5rem;
     margin-top: 0;
