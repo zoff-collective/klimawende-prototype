@@ -19,6 +19,66 @@
 
     {
       "type": "headline-2",
+      "content": "Klimawende-Logbuch"
+    },
+
+    {
+      "type": "timeline",
+      "timelineItems": [
+        {
+          "title": "März 2010",
+          "content": "Erstmals kippen BürgerInnen eine Stadtwerke-Beteiligung an einem Kohlekraftwerksprojekt. In Dachau ist ein Bürgerentscheid gegen die Investition des kommunalen Versorgers in einen neuen Kohlemeiler im 600 Kilometer entfernten Krefeld erfolgreich."
+        },
+
+        {
+          "title": "Januar 2011",
+          "content": "Die Aachener Stadtwerke verkünden, dass sie sich nur am Kraftwerksbau in Krefeld beteiligen werden, wenn es eine gasbetriebene Anlage wird. Sie beugen sich damit dem Druck eines Bürgerbegehrens noch vor dem Ende der Unterschriftensammlung."
+        },
+
+        {
+          "title": "Februar 2012",
+          "content": "Die Trianel GmbH, die hinter dem Kohlekraftwerk Krefeld steht, gibt nach und plant nun ein Gaskraftwerk. Zuvor war es in weiteren Städten zu Protesten gegen eine Beteiligung der örtlichen Stadtwerke gekommen."
+        },
+
+        {
+          "title": "November 2017",
+          "content": "Die MünchnerInnen entscheiden, dass die Stadtwerke ihr Steinkohlekraftwerk bis 2022 abschalten müssen. Wenige Tage später verkünden die Stadtwerke Erlangen die Umrüstung des dortigen Heizkraftwerks von Steinkohle auf Gas ab 2021."
+        },
+
+        {
+          "title": "Januar 2018",
+          "content": "Das Stadtparlament von Cottbus beschließt die Abschaltung des städtischen Braunkohlekraftwerks bis 2022."
+        },
+
+        {
+          "title": "Juni 2018",
+          "content": "Das Braunschweiger Kohle-Heizkraftwerk, an dem die Stadt eine Minderheitsbeteiligung hält, soll spätestens 2022 vom Netz. Der Energieversorger BS Energy prüft den Ersatz durch Altholz und Industrie-Abwärme. Im selben Monat beschließen die Stadtwerke Dessau, das städtische Braunkohlekraftwerk im März 2019 abzuschalten und die Fernwärme fortan mit Gas zu erzeugen."
+        },
+
+        {
+          "title": "Juli 2018",
+          "content": "Die Stadtwerke Wuppertal legen das Kohlekraftwerk Elberfeld still."
+        },
+
+        {
+          "title": "August 2018",
+          "content": "Die Stadtwerke Frankfurt an der Oder beschließen den Kohleausstieg bis 2022. Damit verzichten nun sämtliche kommunalen Versorgungsunternehmen in Brandenburg auf Braunkohle."
+        },
+
+        {
+          "title": "September 2018",
+          "content": "Die Stadtwerke Pforzheim beschließen, ihr Kohlekraftwerk Anfang 2022 abzuschalten."
+        },
+
+        {
+          "title": "November 2018",
+          "content": "Die Stadtwerke Flensburg kündigen die Senkung des Kohleanteils bei der Strom- und Wärmeversorgung von 70 auf 20 Prozent bis 2023 an. Dafür soll 2022 ein neues Gaskraftwerk ans Netz gehen und zwei Kohlekessel ersetzen."
+        }
+      ]
+    },
+
+    {
+      "type": "headline-2",
       "content": "Klimakiller auf der Abschaltliste"
     },
 

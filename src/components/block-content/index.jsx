@@ -8,6 +8,7 @@ import Headline from '../text/headline';
 import Infobox from '../text/infobox';
 import List from '../text/list';
 import Paragraph from '../text/paragraph';
+import Timeline from '../timeline';
 
 import './style.scss';
 
@@ -72,6 +73,13 @@ export default ({ blocks, children }) => (
           return (
             <Constraint>
               <Infobox content={content} title={rest.title} />
+            </Constraint>
+          );
+
+        case 'timeline':
+          return (
+            <Constraint>
+              <Timeline items={rest.timelineItems} />
             </Constraint>
           );
 

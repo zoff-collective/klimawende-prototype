@@ -59,6 +59,10 @@ export const query = graphql`
         alt
         items
         title
+        timelineItems {
+          title
+          content
+        }
       }
     }
   }
