@@ -40,11 +40,11 @@ const Page = ({
   </div>
 );
 
-export default withLayout('Direkte Demokratie verstehen', Page);
+export default withLayout('Kohlekraftwerken den Stecker ziehen', Page);
 
 export const query = graphql`
   query {
-    content: pagesJson(id: { eq: "direkte-demokratie-verstehen" }) {
+    content: pagesJson(id: { eq: "kohlekraftwerken-den-stecker-ziehen" }) {
       id
       title
       intro
@@ -57,6 +57,7 @@ export const query = graphql`
         content
         src
         alt
+        items
         title
       }
     }

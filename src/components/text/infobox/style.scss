@@ -1,0 +1,19 @@
+@import "../../../variables";
+@import "../../../mixins";
+
+.infobox {
+  background-color: currentColor;
+  padding: 4rem;
+
+  &__content-container {
+    color: $color-dark-brown;
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

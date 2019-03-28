@@ -5,8 +5,9 @@ import Button from '../form/button';
 import Constraint from '../constraint';
 import Goals from '../goals';
 import Headline from '../text/headline';
+import Infobox from '../text/infobox';
+import List from '../text/list';
 import Paragraph from '../text/paragraph';
-import Statistic from '../statistic';
 
 import './style.scss';
 
@@ -39,9 +40,6 @@ export default ({ blocks, children }) => (
             </Constraint>
           );
 
-        case 'statistic':
-          return <Statistic number={rest.number} text={content} />;
-
         case 'goals':
           return (
             <Constraint>
@@ -60,6 +58,20 @@ export default ({ blocks, children }) => (
                 alt={rest.alt || ''}
                 className="block-content__image"
               />
+            </Constraint>
+          );
+
+        case 'list':
+          return (
+            <Constraint>
+              <List items={rest.items} />
+            </Constraint>
+          );
+
+        case 'infobox':
+          return (
+            <Constraint>
+              <Infobox content={content} title={rest.title} />
             </Constraint>
           );
 
