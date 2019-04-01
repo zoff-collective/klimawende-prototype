@@ -3,7 +3,7 @@
   "title": "Vorfahrt für Fahrräder erkämpfen",
   "intro": "Unsere Städte versinken im Blech und ersticken in Abgasen. Die Straßen gehören den Autos, als sei das ein Naturrecht. Doch nun rollt eine Verkehrswende von unten durch das Land – auf Fahrrädern.",
   "image": {
-    "src": "/images/05_00TB_1280x1280.png",
+    "src": "/images/06_00TB_1280x1280.png",
     "alt": ""
   },
   "blocks": [
@@ -21,7 +21,8 @@
       "type": "quote",
       "content": "Jede Stadt muss ihre eigenen Lösungen finden, aber 50 Prozent Radverkehrsanteil sind überall möglich.",
       "quoteAuthor": "Morten Kabell",
-      "quoteAuthorDescription": "Umweltbürgermeister von Kopenhagen"
+      "quoteAuthorDescription": "Umweltbürgermeister von Kopenhagen",
+      "quoteAuthorImage": "/images/06_Morten_Kabell.png"
     },
 
     {
