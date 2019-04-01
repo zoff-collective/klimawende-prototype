@@ -1,0 +1,76 @@
+@import "../../variables.scss";
+@import "../../mixins.scss";
+
+.quote {
+  margin: 3rem 0;
+  padding: 0;
+
+  &__quote-container {
+    background-color: currentColor;
+    padding: 4rem;
+    position: relative;
+
+    &::after {
+      border-color: currentColor transparent transparent transparent;
+      border-style: solid;
+      border-width: 8rem 8rem 0 0;
+      content: '';
+      height: 0;
+      left: 25%;
+      position: absolute;
+      top: 100%;
+      width: 0;
+    }
+  }
+
+  &__quote {
+    @include font-size(20px);
+
+    color: $color-dark-brown;
+    font-family: $font-adelle;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  &__author {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    margin-top: 10rem;
+  }
+
+  &__author-image-container {
+    flex: 0 0 auto;
+    width: 30%;
+  }
+
+  &__author-image {
+    height: auto;
+    max-width: 100%;
+  }
+
+  &__author-content-container {
+    flex: 0 0 auto;
+    width: 70%;
+  }
+
+  &__author-name {
+    @include font-size(20px);
+
+    color: currentColor;
+    font-family: $font-mark;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  &__author-description {
+    @include font-size(20px);
+
+    color: $color-dark-brown;
+    font-family: $font-adelle;
+  }
+}

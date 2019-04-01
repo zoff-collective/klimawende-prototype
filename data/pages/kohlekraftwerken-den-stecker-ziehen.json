@@ -18,6 +18,14 @@
     },
 
     {
+      "type": "quote",
+      "content": "Der Kohleausstieg der Städte ist nicht nur ökologisch, sondern auch ökonomisch vernünftig. Erneuerbare Energie wird immer günstiger, während die Preise für CO2-Emissionen steigen.",
+      "quoteAuthor": "Prof. Claudia Kemfert",
+      "quoteAuthorDescription": "Energieökonomin am Deutschen Institut für Wirtschaftsforschung",
+      "quoteAuthorImage": "/images/02_KKW_Claudia_Kemfert_440x440.png"
+    },
+
+    {
       "type": "headline-2",
       "content": "Klimawende-Logbuch"
     },

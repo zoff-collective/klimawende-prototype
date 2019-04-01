@@ -56,6 +56,9 @@ export const query = graphql`
         type
         content
         items
+        quoteAuthor
+        quoteAuthorDescription
+        quoteAuthorImage
       }
     }
   }

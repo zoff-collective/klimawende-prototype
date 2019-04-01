@@ -40,11 +40,11 @@ const Page = ({
   </div>
 );
 
-export default withLayout('Kohlekraftwerken den Stecker ziehen', Page);
+export default withLayout('Energieversorgung zurückerobern', Page);
 
 export const query = graphql`
   query {
-    content: pagesJson(id: { eq: "kohlekraftwerken-den-stecker-ziehen" }) {
+    content: pagesJson(id: { eq: "energieversorgung-zurueckerobern" }) {
       id
       title
       intro
@@ -55,21 +55,15 @@ export const query = graphql`
       blocks {
         type
         content
-        src
-        alt
         items
-        title
-        powerPlantSections {
-          title
-          content
-        }
+        quoteAuthor
+        quoteAuthorDescription
+        quoteAuthorImage
+        items
         timelineItems {
           title
           content
         }
-        quoteAuthor
-        quoteAuthorDescription
-        quoteAuthorImage
       }
     }
   }

@@ -6,6 +6,7 @@ import Constraint from '../constraint';
 import Goals from '../goals';
 import Headline from '../text/headline';
 import Infobox from '../text/infobox';
+import Quote from '../quote';
 import List from '../text/list';
 import Paragraph from '../text/paragraph';
 import PowerPlant from '../power-plant';
@@ -91,6 +92,19 @@ export default ({ blocks, children }) => (
                 title={rest.title}
                 sections={rest.powerPlantSections}
               />
+            </Constraint>
+          );
+
+        case 'quote':
+          return (
+            <Constraint>
+              <Quote
+                image={rest.quoteAuthorImage}
+                author={rest.quoteAuthor}
+                description={rest.quoteAuthorDescription}
+              >
+                {content}
+              </Quote>
             </Constraint>
           );
 
