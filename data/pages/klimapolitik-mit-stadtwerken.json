@@ -1,0 +1,239 @@
+{
+  "id": "klimapolitik-mit-stadtwerken",
+  "title": "Mit Stadtwerken Klimapolitik machen",
+  "intro": "Kommunale Energieversorger ermöglichen Städten und Gemeinden, in Fragen der Energiepolitik selbstständig Entscheidungen zu treffen. Diesen Spielraum können auch Bürgerinnen und Bürger für die Energiewende nutzen.",
+  "image": {
+    "src": "/images/05_00TB_1280x1280.png",
+    "alt": ""
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Nach den Erklärungen zum Selbstverständnis der über tausend Stadt- und Gemeindewerke in Deutschland zu urteilen, sind die meisten von ihnen längst im postfossilen Zeitalter angekommen. Tatsächlich aber bieten nur wenige hundert Prozent ökologisch erzeugten Strom an und bringen die lokale Energiewende mit ambitionierten Projekten voran. Viele kommunale Energieversorger hübschen ihren Energiemix mit Ökostrom-Zertifikaten auf, liefern aber in Wirklichkeit hauptsächlich Atom- und Kohlestrom an ihre KundInnen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Doch gerade Stadt- und Gemeindewerke haben aufgrund ihrer regionalen Verankerung und ihrer Ausrichtung am Gemeinwohl beste Voraussetzungen, um vor Ort erneuerbare Energien aktiv auszubauen. Von den resultierenden Aufträgen profitiert auch die örtliche Wirtschaft."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Bei kommunalen Stadtwerken bestimmt der Stadt- oder Gemeinderat die Geschäftspolitik mit. Deshalb können wir mit direkter Demokratie über die Stadtwerke Klimapolitik machen. Im „Klimawende-Logbuch“ auf den nächsten beiden Seiten finden sich inspirierende Beispiele ambitioniert handelnder Stadt- und Gemeindewerke."
+    },
+
+    {
+      "type": "quote",
+      "content": "Stadt- und Gemeindewerke können den Wandel zu einer klimafreundlichen, demokratischen und  sozialen Energieversorgung in ihrer Region durchführen. Diese Chance sollten sie nutzen.",
+      "quoteAuthor": "Markus Henle",
+      "quoteAuthorDescription": "Geschäftsführer des Regionalversorgers Eberwerk",
+      "quoteAuthorImage": "/images/05_Makus Henle_440x440.png"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Klimawende-Logbuch"
+    },
+
+    {
+      "type": "timeline",
+      "timelineItems": [
+        {
+          "title": "2008",
+          "content": "Wolfhagen beschließt, bis 2015 komplett auf regional erzeugten Ökostrom umzusteigen. Unterstützt werden die Stadtwerke beim Ausbau von Wind- und Sonnenenergie von der 2012 gegründeten BürgerEnergieGenossenschaft Wolfhagen. Sie hält 25 Prozent der Anteile an den Stadtwerken und bestimmt mit zwei Mitgliedern im Aufsichtsrat auch deren Ausrichtung mit."
+        },
+
+        {
+          "title": "2009",
+          "content": "„Hamburg Energie“ wird als städtischer Ökostromversorger gegründet. Heute ist das Unternehmen zweitgrößter Energieversorger und größter Solarstromproduzent der Stadt. Es betreibt außerdem 15 Windkraftanlagen im Stadtgebiet."
+        },
+
+        {
+          "title": "2013",
+          "content": "In Kooperation mit den Elektrizitätswerken Schönau beginnen die Stadtwerke Stuttgart mit dem Vertrieb von 100 Prozent Ökostrom aus Wind- und Wasserkraftwerken sowie Biogas. Seit 2018 beliefern sie einen Großteil der städtischen Gebäude. Die Stadtwerke betreiben außerdem eigene Windparks an sechs Standorten."
+        },
+
+        {
+          "title": "2014",
+          "content": "Die Stadtwerke Bad Hersfeld beliefern ihre Kunden zu 100 Prozent mit Strom aus erneuerbaren Energien. Die eigene Stromerzeugung umfasst ein Wasserkraftwerk an der Fulda, Photovoltaikanlagen und Beteiligungen an Windparks."
+        },
+
+        {
+          "title": "2016",
+          "content": "Die Initiative „Bielefeld steigt ein“ erreicht mit einer Petition, dass die Stadt Bielefeld den gesamten Strombezug ihrer Gebäude auf zertifizierten Ökostrom umstellt."
+        },
+
+        {
+          "title": "2017",
+          "content": "Villingen-Schwenningen beschließt die flächendeckende Umrüstung der Straßenbeleuchtung auf die energiesparende LED-Technik. Die laufenden Stromkosten reduzieren sich von jährlich einer Million auf 300 000 Euro. Innerhalb von fünf Jahren sind die Kosten amortisiert. Die Berliner Stadtwerke gründen eine Mieterstrom-Plattform mit sechs kommunalen Wohnungsbaugesellschaften. Im gesamten Stadtgebiet bauen sie bis Ende 2018 auf 69 Berliner Dächern Photovoltaikanlagen für die MieterInnen."
+        },
+
+        {
+          "title": "2018",
+          "content": "Die Stadtwerke Greven, Ochtrup, Rheine, Emsdetten und Steinfurt bieten den regionalen Ökostrom-Tarif „Unser Landstrom“ an. Sie ermöglichen so den Weiterbetrieb von Windkraftanlagen im Landkreis, die in Kürze aus der Förderung durch das Erneuerbare-Energien-Gesetz (EEG) fallen und dann unwirtschaftlich werden würden."
+        },
+
+        {
+          "title": "2019",
+          "content": "Die Stadtwerke Leipzig bieten ihren KundInnen fortan einen regionalen Ökostrom-Tarif für Strom aus ihrem Windpark an. Begünstigt wird die Entscheidung durch das seit dem 1. Januar 2019 gültige Regionalnachweisregister für EEG-Anlagen."
+        }
+      ]
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Den Strommix der Stadtwerke durchleuchten"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Elektrizitätsversorgungsunternehmen sind nach §42 Energiewirtschaftsgesetz verpflichtet, den Anteil der einzelnen Energieträger an ihrem Gesamt-Energiemix sowie für ihre unterschiedlichen Stromtarife anzugeben. Diese „Stromkennzeichnung“ veröffentlichen die Energieversorger auf ihrer Internetseite, üblicherweise in Form eines Tortendiagramms. Häufig findet sich die Information unter dem Menüpunkt „Strom“, der wiederum oft ein Unterpunkt des Menüpunkts „Produkte“ oder „Leistungen“ ist. Werden wir hier nicht fündig, können wir über die Suchfunktion der Seite nach dem Begriff „Stromkennzeichnung“ suchen oder einfach bei den Stadtwerken nachfragen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Auf diese Weise erhalten wir einen ersten Überblick, wieviel Strom aus Atomkraft oder fossilen Energien unsere Stadtwerke an ihre KundInnen verkaufen. Allerdings bietet die Stromkennzeichnung allein noch keine aussagekräftige Information über das Engagement der Stadtwerke für die Energiewende. Folgende Hinweise helfen, die ausgewiesenen Anteile am Strommix zu interpretieren:"
+    },
+
+    {
+      "type": "headline-3",
+      "content": "„Erneuerbare Energien, finanziert aus der EEG-Umlage“"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Dieser Posten taucht pauschal bei allen Energieversorgern auf und ist überall gleich groß: 52,9 Prozent der Gesamtstromlieferungen an PrivatkundInnen und an Unternehmen, die nicht zu den  umlagebefreiten GroßverbraucherInnen gehören, waren es 2017. Denn diese KundInnen machen den Ausbau klimafreundlicher Anlagen möglich, indem sie mit ihren Stromrechnungen die EEG-Umlage bezahlen. Der Wert bedeutet also nicht, dass jeder Energieversorger genau diesen Anteil an Ökostrom erzeugt und vertreibt. Er zeigt lediglich, dass die geförderten Erneuerbare-Energien-Anlagen  rechnerisch auf Bundesebene einen so hohen Anteil am Stromverbrauch der umlagezahlenden EndverbraucherInnen decken. Dass kommunale Energieversorger diese Größe in ihrem Strommix abbilden müssen, lässt ihn auch dann schön grün aussehen, wenn sie selbst wenig für die Energiewende tun und vor allem Atom- und Kohlestrom vertreiben."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "„Erneuerbare Energien mit Herkunftsnachweisen“"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die meisten Energieversorger weisen auch „sonstige erneuerbare Energien“ aus. Für Strom aus Erneuerbaren, der nicht aus der EEG-Umlage finanziert wird, sind Herkunftsnachweise verpflichtend. Es handelt sich dabei um Zertifikate, die sich Betreiber von Erneuerbare-Energien-Anlagen, die nicht bereits gesetzlich gefördert werden, je erzeugte Kilowattstunde ausstellen lassen können. Sie können diese Zertifikate EU-weit verkaufen – ohne aber den tatsächlich erzeugten Ökostrom mitzuliefern. Wenn ein Stadtwerk solche Nachweise kauft, darf es fortan „Ökostrom“ vertreiben. Das gilt auch dann, wenn seine KundInnen weiter an der Strombörse erworbenen fossil oder atomar erzeugten „Graustrom“ von ihm bekommen. Die Ökostrom-Erzeuger, häufig alte Wasserkraftwerke aus Skandinavien, speisen dagegen nominell plötzlich Kohle- und Atomstrom in die Leitungen. Es findet also nur ein Tausch statt, während sich am Strommix insgesamt nichts ändert. Da das Angebot an regenerativ erzeugtem Strom europaweit bislang größer ist als die Nachfrage, sind die Zertifikate spottbillig. Zwischen 0,01 und 0,1 Cent pro Kilowattstunde kostet das Umetikettieren. Das ist weniger als ein Euro pro Jahr für einen Durchschnittshaushalt."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Ökostrom-Eigenversorgungsquote und Ausbaupläne"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Es ist allerdings auch möglich, dass sich Stadtwerke für die lokale Energiewende engagieren, ohne dass sich das in ihrer Stromkennzeichnung abbildet. Wichtige Indikatoren dafür sind, ob sie eigene Anlagen besitzen, mit denen sie das Potenzial regenerativer Energien in der Region ausschöpfen, und ob sie sich ambitionierte Ziele für den weiteren Ausbau gesetzt haben. Stadtwerke, die das tun, berichten meist auf ihrer Homepage darüber. Der Ökostrom-Versorger „Hamburg Energie“ veröffentlicht beispielsweise eine Grafik zur Eigenversorgungsquote, die abbildet, welchen Anteil des vertriebenen Stroms die selbst errichteten Anlagen decken. Setzt das Stadtwerk nicht ausschließlich auf erneuerbare Energien, sollten wir auch prüfen, ob es selbst fossile Kraftwerke betreibt. Das macht einen schnellen Umstieg auf hundert Prozent Ökostrom schwieriger als bei kommunalen Versorgern, die ihren Strom einkaufen."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Innovative Projekte und Engagement in der Region"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Manche Stadtwerke stellen kostenlose, mit Solarenergie aufgeladene E-Bikes zur Verfügung, ein kommunales E-Carsharing-Angebot oder investieren in Projekte, die eine Vollversorgung mit erneuerbaren Energien befördern, zum Beispiel Energiespeicher oder Power-to-Gas. Solche Projekte  sind ein Zeichen dafür, dass sie das fossile Zeitalter hinter sich lassen wollen. Sie sind dann im Zweifelsfall auch aufgeschlossen für Anregungen zu weiterem Energiewende-Engagement."
+    },
+
+    {
+      "type": "infobox",
+      "content": "<p class='paragraph'>Die Verbraucherzentrale und Umweltverbände empfehlen das „ok-power“-Siegel und das „Grüner Strom“-Label für Ökostrom-Tarife. Beide garantieren eine vollständige Erzeugung aus erneuerbaren Energien. Das „ok-power“-Siegel lässt allerdings gehandelte Zertifikate (die auf Seite 82-83 beschriebenen Herkunftsnachweise) zu. Das „Grüner Strom“-Label verlangt, dass auch eine tatsächliche Lieferung von Ökostrom erfolgt. Beide Siegel erlauben keine Beteiligung an Atom- oder Kohlekraftwerken und stellen sicher, dass der Stromanbieter in den Ausbau erneuerbarer Energien investiert. Beim „Grüner Strom“-Label erfolgt das über festgelegte Beträge pro verkaufter Kilowattstunde. Das „ok-power“-Siegel fordert, dass ein Drittel der Strommenge aus Neuanlagen stammt, die eine je nach Energieträger festgelegte Altersgrenze nicht überschreiten.</p>",
+      "title": "Ökostrom-Gütesiegel"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Forderungs-Baukasten"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die individuellen Gegebenheiten unserer Kommune und die aktuelle Situation der Stadt- oder Gemeindewerke bestimmen, welche Forderungen am meisten Sinn machen. Wenn wir unsere Stadt- oder Gemeindewerke durchleuchtet haben, gehen wir am besten mit ihnen und kommunalen PolitikerInnen ins Gespräch. So erfahren wir noch mehr über Pläne, Potenziale und Hindernisse."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Außerdem schaffen wir auch die Voraussetzung, um einzelne Forderungen im konstruktiven Dialog mit der Kommunalpolitik oder mit einer einfachen Petition durchzusetzen. Gute Aussicht auf eine rasche Umsetzung haben Maßnahmen, die nicht mit hohen Kosten oder sogar mit einer Ersparnis für die Kommune verbunden sind."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Wenn es politische Widerstände gegen die Beschleunigung der lokalen Energiewende gibt, können wir den Druck mit einem Einwohnerantrag oder einem Bürgerbegehren erhöhen. Wichtig ist: Damit die Kommune den Stadtwerken überhaupt Vorgaben machen kann, muss sie über die entsprechende Mehrheitsbeteiligung verfügen. Im Falle einer GmbH ist dafür im Regelfall mehr als die Hälfte, im Falle einer AG mehr als drei Viertel der Anteile notwendig. Ist das nicht der Fall, müssen wir uns zunächst um eine Rekommunalisierung der Energieversorgung kümmern (mehr dazu ab Seite 66)."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Im Folgenden finden sich einige Anregungen dafür, welche Forderungen wir – einzeln, miteinander kombiniert oder in abgewandelter Form – an den Stadt- oder Gemeinderat stellen können. Sie haben einen Fokus auf Ökostrom und sind nicht erschöpfend."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Keine Kohle und Atomkraft in öffentlichen Gebäuden"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Stadt soll – wenn nicht schon geschehen – bei der nächsten Ausschreibung ihres Stromvertrags, etwa für öffentliche Gebäude und die Straßenbeleuchtung, auf Ökostrom wechseln. Ein Kriterium für die Auswahl des Ökostromanbieters sollte eine Neuanlagenquote sein, zum Beispiel dass mindestens ein Drittel des Stroms aus Anlagen stammt, die nicht älter als zehn Jahre sind oder dass der Anbieter den Bau neuer Öko-Kraftwerke mit mindestens 0,1 Cent pro Kilowattstunde fördert, eventuell auch beides. Im Idealfall veranlasst diese Forderung zugleich die Stadtwerke, ein entsprechendes Stromangebot zu schaffen, wenn sie es bislang nicht haben."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Energieeffiziente Straßenbeleuchtung"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Stadt soll die Straßenbeleuchtung auf energieeffiziente LED-Technik umstellen und wo möglich Leuchtquellen reduzieren oder zeitweise dimmen. So spart die Kommune innerhalb von kurzer Zeit einiges an Energie und Kosten. Teile der Einsparung kann sie direkt in die Umstellung auf Ökostrom investieren."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Direkte Ökostrom-Lieferverträge"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Stadtwerke sollen ihr Ökostrom-Angebot nicht in erster Linie durch den Kauf von Herkunftsnachweisen (siehe Kritik auf Seite 82-83), sondern über direkte Lieferverträge mit den Betreibern regenerativer Kraftwerke oder Ökostromhändlern absichern. Neue Gelegenheiten, erneuerbaren Strom direkt bei Produzenten einzukaufen, bieten sich über die sogenannten „Post-EEG-Anlagen“: Ab 2021 werden tausende Windkraftanlagen aus der für 20 Jahre gültigen EEG-Förderung fallen – etwa 15 Gigawatt installierte Leistung bis zum Jahr 2025. Die Stadtwerke können mit den Betreibern Lieferverträge abschließen und damit zugleich den Fortbestand der Altanlagen ermöglichen. Damit ist der Energiewende mehr geholfen, als wenn sie Zertifikate von skandinavischen Wasserkraftanlagen kaufen, die so oder so laufen würden."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Ökostrom-Label für Stadtwerke-Strom"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Stadtwerke sollen ihre bereits existierenden Ökostromprodukte mit einem der beiden Ökostrom-Gütesiegel „ok-power“ oder „Grüner Strom“-Label zertifizieren lassen. So erreichen wir, dass sie an ihren Ökostrom-Einkauf strengere Kriterien anlegen müssen und den Ausbau von Erneuerbare-Energien-Anlagen fördern."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Klimafreundliches Stromangebot"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Stadtwerke sollen generell nur noch Ökostrom anbieten. Dazu können wir sie auffordern – schnellstmöglich oder bis zu einem vorgegebenen Zeitpunkt, der unter Berücksichtigung der lokalen Bedingungen sowohl ambitioniert als auch machbar erscheint."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Neue Ökostrom-Anlagen bauen"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Stadtwerke sollen die lokale Energiewende fördern, indem sie eigene Solar(thermie)-, Windkraft-, Geothermie- oder Biomasse-Anlagen errichten oder die Abwärme von Industrieanlagen nutzen. Wir können unsere Gemeinde auffordern, den Stadtwerken ambitionierte Ziele für den Ausbau der Ökostrom-Eigenversorgungsquote vorzugeben und einen jährlichen Bericht über die Fortschritte zu verlangen. Ein solcher Bericht gibt uns die Gelegenheit, auf Nachbesserung zu drängen."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Solaranlagen auf unsere Dächer"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Stadtwerke sollen Photovoltaik-Mieterstromprojekte umsetzen. Das 2017 verabschiedete Mieterstromgesetz sowie die in den vergangenen Jahren weiter gesunkenen Preise für Solartechnik begünstigen den Ausbau. Allein in den 20 größten deutschen Städten besteht ein Potenzial von über einem Gigawatt zusätzlicher Mieterstromanlagen, die 1,4 Millionen Menschen mit günstigem Solarstrom versorgen würden."
+    }
+  ]
+}
