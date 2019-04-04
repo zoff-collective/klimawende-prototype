@@ -1,0 +1,39 @@
+@import "../../../../variables.scss";
+@import "../../../../mixins.scss";
+
+.table-of-contents {
+  margin-top: 2.5rem;
+  position: sticky;
+  top: 1.5rem;
+
+  &__list {
+    @include font-size(18px);
+
+    font-family: $font-mark;
+    font-weight: 700;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  &__list-item {
+    & + & {
+      margin-top: 1.5rem;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+
+    &:hover &-content,
+    &:focus &-content {
+      color: currentColor;
+      text-decoration: underline;
+    }
+  }
+
+  &__link-content {
+    color: $color-dark-brown;
+  }
+}
