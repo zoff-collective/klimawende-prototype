@@ -16,14 +16,12 @@
 
   &__body {
     @include two-column();
-
-    padding-top: 2rem;
   }
 
   &--mobilisieren &__body-content-container {
     order: 2;
 
-    @include mq($from: tablet) {
+    @include mq($from: desktop) {
       order: -1;
     }
 
