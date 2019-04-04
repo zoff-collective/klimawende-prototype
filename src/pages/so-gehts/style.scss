@@ -22,7 +22,11 @@
 
   &--mobilisieren &__body-content-container {
     & > .headline {
-      margin-top: 6rem;
+      margin-top: 4rem;
+
+      @include mq($from: tablet) {
+        margin-top: 6rem;
+      }
     }
 
     & > .headline--level-3 {

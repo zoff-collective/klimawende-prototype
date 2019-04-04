@@ -285,8 +285,8 @@ const Page = ({
 
           <Checklist
             items={[
-              'Ehrenamtliche MITSTREITERINNEN gewinnen wir über Aufrufe unserer Unterstützerorganisationen, Social Media, Kontaktlisten, die wir auf Demos und Aktionen herumreichen, oder indem wir unsere Kampagne auf <em>KLIMAWENDE.ORG</em> eintragen.',
-              'Die Koordination von Sammelaktionen und die Betreuung der Ehrenamtlichen ist zeitaufwändig. Mindestens eine Person sollte verantwortlich und als ANSPRECHPARTNERIN bekannt sein. Diese Person ruft am besten alle neuen Aktiven an und macht konkrete Aktionsangebote. Wir erklären stets den Sinn und die Dringlichkeit jeder Aktion, für die wir Ehrenamtliche mobilisieren.',
+              'Ehrenamtliche <em>MITSTREITERINNEN</em> gewinnen wir über Aufrufe unserer Unterstützerorganisationen, Social Media, Kontaktlisten, die wir auf Demos und Aktionen herumreichen, oder indem wir unsere Kampagne auf <em>KLIMAWENDE.ORG</em> eintragen.',
+              'Die Koordination von Sammelaktionen und die Betreuung der Ehrenamtlichen ist zeitaufwändig. Mindestens eine Person sollte verantwortlich und als <em>ANSPRECHPARTNERIN</em> bekannt sein. Diese Person ruft am besten alle neuen Aktiven an und macht konkrete Aktionsangebote. Wir erklären stets den Sinn und die Dringlichkeit jeder Aktion, für die wir Ehrenamtliche mobilisieren.',
               'Vor dem ersten Einsatz auf der Straße bieten wir UnterstützerInnen eine <em>SCHULUNG</em> an. Sie erhalten einen Handzettel mit den wichtigsten Argumenten. Außerdem vermitteln wir ihnen praktische Tipps.',
               'Barrieren für die Beteiligung abzubauen ist eine Frage des richtigen <em>SERVICE</em>. Wir bereiten etwa sinnvolle Termine und Einsatzorte für die Unterschriftensammlung vor. Beim Plakatieren stellen wir das notwendige Material und eine Standortliste zur Verfügung.',
               'Der <em>INFORMATIONSFLUSS</em> sollte in beide Richtungen funktionieren. Einerseits halten wir die Aktiven auf dem Laufenden, andererseits erkundigen wir uns regelmäßig, wie es läuft und wo es in der Praxis auf der Straße klemmt.',

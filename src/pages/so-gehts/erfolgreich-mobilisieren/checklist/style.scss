@@ -4,9 +4,14 @@
 .checklist {
   counter-reset: checklist-counter;
   list-style: none;
-  margin-bottom: 4rem;
-  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   padding-left: 0;
+
+  @include mq($from: tablet) {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
 
   &__item {
     @include font-size(18px);
@@ -18,11 +23,19 @@
     color: $color-dark-brown;
     font-family: $font-adelle;
     line-height: 1.5;
-    padding-left: 4rem;
+    padding-left: 3.5rem;
     position: relative;
 
+    @include mq($from: tablet) {
+      padding-left: 4rem;
+    }
+
     & + & {
-      margin-top: 2rem;
+      margin-top: 1rem;
+
+      @include mq($from: tablet) {
+        margin-left: 2rem;
+      }
     }
 
     em {
@@ -40,7 +53,11 @@
     }
 
     &::before {
-      @include font-size(15px);
+      @include font-size(12px);
+
+      @include mq($from: tablet) {
+        @include font-size(15px);
+      }
 
       align-items: center;
       border-radius: 50%;
@@ -55,15 +72,18 @@
 
   @at-root ul#{&} &__item {
     &::before {
-      $size: 2.25rem;
-
       border: 4px solid $color-light-blue;
       content: '';
       font-family: $font-mark;
       font-weight: 700;
-      height: $size;
+      height: 1.75rem;
       top: 0.25rem;
-      width: $size;
+      width: 1.75rem;
+
+      @include mq($from: tablet) {
+        height: 2.5rem;
+        width: 2.5rem;
+      }
     }
   }
 
@@ -71,15 +91,18 @@
     counter-increment: checklist-counter;
 
     &::before {
-      $size: 2.75rem;
-
       background-color: $color-light-blue;
       content: counter(checklist-counter);
       font-family: $font-mark;
       font-weight: 700;
-      height: $size;
+      height: 2.35rem;
       padding-top: 0.2rem;
-      width: $size;
+      width: 2.35rem;
+
+      @include mq($from: tablet) {
+        height: 2.5rem;
+        width: 2.5rem;
+      }
     }
   }
 }

@@ -4,7 +4,11 @@
 .infobox {
   background-color: currentColor;
   margin: 2rem 0;
-  padding: 3rem;
+  padding: 1.5rem;
+
+  @include mq($from: tablet) {
+    padding: 3rem;
+  }
 
   &__content-container {
     color: $color-dark-brown;
