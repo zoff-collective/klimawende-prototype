@@ -21,6 +21,12 @@
   }
 
   &--mobilisieren &__body-content-container {
+    order: 2;
+
+    @include mq($from: tablet) {
+      order: -1;
+    }
+
     & > .headline {
       margin-top: 4rem;
 

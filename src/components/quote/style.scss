@@ -2,29 +2,50 @@
 @import "../../mixins.scss";
 
 .quote {
-  margin: 3rem 0;
+  margin: 2rem 0;
   padding: 0;
+
+  @include mq($from: tablet) {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
 
   &__quote-container {
     background-color: currentColor;
-    padding: 4rem;
+    padding: 2rem 2.5rem;
     position: relative;
+
+    @include mq($from: tablet) {
+      padding: 4rem;
+    }
 
     &::after {
       border-color: currentColor transparent transparent transparent;
       border-style: solid;
-      border-width: 8rem 8rem 0 0;
+      border-width: 4rem 4rem 0 0;
       content: '';
       height: 0;
       left: 25%;
       position: absolute;
       top: 100%;
       width: 0;
+
+      @include mq($from: tablet) {
+        border-width: 6rem 6rem 0 0;
+      }
+
+      @include mq($from: desktop) {
+        border-width: 8rem 8rem 0 0;
+      }
     }
   }
 
   &__quote {
-    @include font-size(20px);
+    @include font-size(18px);
+
+    @include mq($from: tablet) {
+      @include font-size(20px);
+    }
 
     color: $color-dark-brown;
     font-family: $font-adelle;
@@ -39,7 +60,15 @@
     display: flex;
     flex-direction: row;
     font-style: normal;
-    margin-top: 10rem;
+    margin-top: 5rem;
+
+    @include mq($from: tablet) {
+      margin-top: 7rem;
+    }
+
+    @include mq($from: desktop) {
+      margin-top: 10rem;
+    }
   }
 
   &__author-image-container {
@@ -58,7 +87,11 @@
   }
 
   &__author-name {
-    @include font-size(20px);
+    @include font-size(16px);
+
+    @include mq($from: tablet) {
+      @include font-size(20px);
+    }
 
     color: currentColor;
     font-family: $font-mark;
@@ -68,7 +101,11 @@
   }
 
   &__author-description {
-    @include font-size(20px);
+    @include font-size(16px);
+
+    @include mq($from: tablet) {
+      @include font-size(20px);
+    }
 
     color: $color-dark-brown;
     font-family: $font-adelle;

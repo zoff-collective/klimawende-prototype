@@ -4,6 +4,9 @@ import React from 'react';
 
 import './style.scss';
 
-export default ({ text }) => (
-  <p className="paragraph" dangerouslySetInnerHTML={{ __html: text }} />
+export default ({ text, isIntro = false }) => (
+  <p
+    className={`paragraph ${isIntro ? 'paragraph--is-intro' : ''}`}
+    dangerouslySetInnerHTML={{ __html: text }}
+  />
 );

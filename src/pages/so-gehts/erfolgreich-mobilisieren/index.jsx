@@ -31,7 +31,7 @@ const Page = ({
 
           <Paragraph
             text="Je breiter das Bündnis, desto größer die Reichweite und das Renommee des Anliegens. Bewährt hat sich eine Bündnisstruktur über mehrere Ebenen."
-            bold
+            isIntro
           />
 
           <Checklist
@@ -82,7 +82,7 @@ const Page = ({
 
           <Paragraph
             text="Unsere Website muss wie ein übersichtlicher Infostand funktionieren: Interessierte sollen möglichst schnell verstehen, worum es geht – und dann am besten gleich unterschreiben."
-            bold
+            isIntro
           />
 
           <Headline level="3" levelStyle="3">
@@ -119,7 +119,7 @@ const Page = ({
 
           <Paragraph
             text="Über Social-Media-Kanäle gewinnen wir neue MitstreiterInnen und werden auch überregional sichtbar."
-            bold
+            isIntro
           />
 
           <Checklist
@@ -146,7 +146,7 @@ const Page = ({
 
           <Paragraph
             text="Wissen kann man nie genug haben im Kampf um die politische Deutungshoheit. Es wächst, wenn wir es mit anderen AktivistInnen teilen."
-            bold
+            isIntro
           />
 
           <Checklist
@@ -167,7 +167,7 @@ const Page = ({
 
           <Paragraph
             text="Nur wenn über uns berichtet wird, erfahren die Leute, dass es uns gibt. Dafür sollten wir sorgen."
-            bold
+            isIntro
           />
 
           <Checklist
@@ -229,7 +229,7 @@ const Page = ({
 
           <Paragraph
             text="Jedes Bürgerbegehren beginnt mit einer Unterschrift. Damit es noch viele mehr werden, müssen wir die Sammelaktionen gut organisieren."
-            bold
+            isIntro
           />
 
           <Checklist
@@ -280,7 +280,7 @@ const Page = ({
 
           <Paragraph
             text="Sich bei einem Bürgerbegehren zu engagieren bedeutet nicht nur, mit dem Klemmbrett durch Wind und Wetter zu marschieren. Sondern auch echte politische Gestaltungsmacht und bleibende Freundschaften. So sorgen wir dafür, dass Lust über Frust siegt."
-            bold
+            isIntro
           />
 
           <Checklist
@@ -314,7 +314,7 @@ const Page = ({
 
           <Paragraph
             text="Die Abstimmung naht, aber wie kriegen wir die Menschen in die Wahllokale? Wenn wir nochmal alles geben und sie für unsere Idee begeistern, knacken wir das Quorum!"
-            bold
+            isIntro
           />
 
           <Checklist

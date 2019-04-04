@@ -12,6 +12,15 @@
     @include font-size(21px);
   }
 
+  &--is-intro {
+    font-weight: 700;
+    line-height: 1.4;
+
+    @include mq($from: tablet) {
+      @include font-size(24px);
+    }
+  }
+
   > a {
     text-decoration: underline;
 

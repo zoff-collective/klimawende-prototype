@@ -1,8 +1,15 @@
+@import "../../mixins.scss";
+
 .power-plant {
-  border: 2px dashed currentColor;
+  border: 1px dashed currentColor;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  padding: 3rem;
+  padding: 1.5rem;
+
+  @include mq($from: tablet) {
+    border-width: 2px;
+    padding: 3rem;
+  }
 
   > *:first-child {
     margin-top: 0;
@@ -26,6 +33,10 @@
   }
 
   > .paragraph {
-    margin-top: 0.5rem;
+    margin-top: 0.25rem;
+
+    @include mq($from: tablet) {
+      margin-top: 0.5rem;
+    }
   }
 }
