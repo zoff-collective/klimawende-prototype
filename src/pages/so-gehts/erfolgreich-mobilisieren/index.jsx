@@ -46,6 +46,8 @@ const Page = ({
             ordered
           />
 
+          <img src="/images/07_00TB_1344.png" alt="" className="image" />
+
           <Headline level="3" levelStyle="3">
             Als Bündnis an einem Strang ziehen
           </Headline>
@@ -109,6 +111,8 @@ const Page = ({
             ]}
           />
 
+          <img src="/images/07_01Computer_1344.png" alt="" className="image" />
+
           <Headline level="2" levelStyle="2" underlined id="soziale-netzwerke">
             Soziale Netzwerke nutzen
           </Headline>
@@ -128,6 +132,8 @@ const Page = ({
               'Einschlägige HASHTAGS sowie Orts- und Personen-Tags, zum Beispiel von KooperationspartnerInnen, unterstützen die Verbreitung unserer Botschaften.'
             ]}
           />
+
+          <img src="/images/07_02Handy_1344.png" alt="" className="image" />
 
           <Infobox
             title="Gesichter der Klimawende"
@@ -171,6 +177,8 @@ const Page = ({
             ]}
           />
 
+          <img src="/images/07_03Interview_1344.png" alt="" className="image" />
+
           <Checklist
             items={[
               'Wir identifizieren <em>KERNBOTSCHAFTEN</em> und eine Geschichte, die wir erzählen wollen. Wir bleiben dabei so nah wie möglich an der Lebenswirklichkeit der Menschen.',
@@ -181,6 +189,17 @@ const Page = ({
               'Für den VERSAND von Pressemitteilungen zeigt die Erfahrung, dass sie von Montag bis Donnerstag eher aufgegriffen werden als am Wochenende und vormittags eher als nachmittags. An Tagen, an denen Großereignisse ohne Bezug zu unserem Thema die Berichterstattung dominieren, gehen Emails an die Redaktionen leicht unter.',
               'Indem wir erreichte Kampagnen-Meilensteine oder inhaltliche Kontroversen kommunizieren, schaffen wir <em>ANLÄSSE</em> für die Berichterstattung. Meinungsbildende JournalistInnen bewegen wir eventuell zu einer Publikation, wenn wir ihnen Exklusivmaterial anbieten. Auch bildgewaltige Aktionen werden gern von der Presse aufgegriffen. Fotos in professioneller Qualität können wir den Zeitungen anbieten. Gleichzeitig verwenden wir sie für unsere Öffentlichkeitsarbeit.'
             ]}
+          />
+
+          <Infobox
+            title="Roten Teppich ausrollen"
+            content="<p class='paragraph'>Der „Radentscheid Stuttgart“ hat Radfahrenden vor laufender Kamera den roten Teppich ausgerollt. Er war 50 Meter lang, hatte Handschlaufen an den Seiten und war mit Fahrrad-Symbolen besprüht, was ihn zu einem mobilen Radweg machte. Die Aktiven ließen RadfahrerInnen, denen sie begegneten, mit La-Ola-Welle darüber fahren.</p>"
+          />
+
+          <img
+            src="/images/07_04Fahrradteppich_1344.png"
+            alt=""
+            className="image"
           />
 
           <Headline level="3" levelStyle="3">
@@ -202,10 +221,7 @@ const Page = ({
             ordered
           />
 
-          <Infobox
-            title="Roten Teppich ausrollen"
-            content="<p class='paragraph'>Der „Radentscheid Stuttgart“ hat Radfahrenden vor laufender Kamera den roten Teppich ausgerollt. Er war 50 Meter lang, hatte Handschlaufen an den Seiten und war mit Fahrrad-Symbolen besprüht, was ihn zu einem mobilen Radweg machte. Die Aktiven ließen RadfahrerInnen, denen sie begegneten, mit La-Ola-Welle darüber fahren.</p>"
-          />
+          <img src="/images/07_05Stadium_1344.png" alt="" className="image" />
 
           <Headline level="2" levelStyle="2" underlined id="unterschriften">
             Unterschriften sammeln
@@ -251,6 +267,8 @@ const Page = ({
             ]}
           />
 
+          <img src="/images/07_05Stadium_1344.png" alt="" className="image" />
+
           <Infobox
             title="Den Klimawandel wegkicken"
             content="<p class='paragraph'>Die Volksinitiative „Tschüss Kohle“ in Hamburg konnte den Kiez-Fußballclub „FC St. Pauli“ als Partner gewinnen. Der Verein sponserte Tickets und erlaubte, in der Halbzeit, vor und nach dem Spiel Unterschriften zu sammeln. Wer wollte, konnte sich natürlich auch das Spiel anschauen. Auf den Rängen jubelten „PaulianerInnen“ und Aktive mit umgehängtem „Tschüss Kohle“-Plakat gemeinsam.</p>"
@@ -275,6 +293,8 @@ const Page = ({
               'Die Aktiven brauchen Spielraum, selbst Dinge auf die Beine zu stellen. Das geht nur, wenn sie das Recht zur <em>MITSPRACHE</em> haben und Vorschläge machen können.'
             ]}
           />
+
+          <img src="/images/07_05Stadium_1344.png" alt="" className="image" />
 
           <Checklist
             items={[
@@ -308,6 +328,8 @@ const Page = ({
               'Wenn wir guten Kontakt zu einer Partei haben, können wir eventuell deren Wahlplakatständer nutzen und großflächig <em>PLAKATWERBUNG</em> für den Abstimmungstermin machen.'
             ]}
           />
+
+          <img src="/images/07_07Material_1344.png" alt="" className="image" />
         </div>
 
         <div className="so-gehts__body-action-container">
