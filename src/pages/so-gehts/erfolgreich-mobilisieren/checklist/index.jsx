@@ -7,12 +7,13 @@ export default ({ items, ordered = false }) => {
 
   return (
     <ListTag className="checklist">
-      {items.map(content => (
-        <li
-          className="checklist__item"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-      ))}
+      {items &&
+        items.map(content => (
+          <li
+            className="checklist__item"
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
+        ))}
     </ListTag>
   );
 };
