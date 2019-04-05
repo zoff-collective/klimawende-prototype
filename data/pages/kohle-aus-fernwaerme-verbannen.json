@@ -74,6 +74,186 @@
     },
 
     {
+      "type": "image",
+      "src": "/images/03_KFV_01_Pipeline_1344.png",
+      "alt": ""
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Karlsruhe",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Rheinhafen-Dampfkraftwerk Karlsruhe"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Karlsruhe → 100 % Karlsruher Versorgungs-, Verkehrs- und Hafen GmbH → 80 % Stadtwerke Karlsruhe GmbH"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heilbronn",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Heilbronn"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Heilbronn → 100% Stadtwerke Heilbronn GmbH → 74,9% Heilbronner Versorgungs GmbH"
+        },
+
+        {
+          "title": "Besonderheit",
+          "content": "Keine ausreichende Mehrheit für eine Satzungs- änderung bei der Versorgungs GmbH, aber bei den Stadtwerken. Diese könnten dann gegebenenfalls die nötigen Weisungen an ihre Tochtergesellschaft erteilen."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Hanau",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Staudinger"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Hanau → 50,1 % Stadtwerke Hanau GmbH → 90 % Hanau Netz GmbH"
+        },
+
+        {
+          "title": "Besonderheit",
+          "content": "Der Fernwärmeliefervertrag mit der Uniper SE läuft noch bis 2024."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Schweinfurt",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Gemeinschaftskraftwerk Schweinfurt"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Schweinfurt → 100 % Stadtwerke Schweinfurt"
+        },
+
+        {
+          "title": "Besonderheit",
+          "content": "Die Stadt Schweinfurt ist zusätzlich mit 6,25 %, die Stadtwerke Schweinfurt mit 12,8 % direkt am Kohlekraftwerk beteiligt."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Cottbus",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Jänschwalde"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Cottbus → 74,05 % Stadtwerke Cottbus GmbH → 100 % Elektroenergieversorgung Cottbus GmbH"
+        },
+
+        {
+          "title": "Besonderheit",
+          "content": "Cottbus hat bereits die Abschaltung des städtischen Kohlekraftwerks beschlossen."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Hoyerswerda",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Schwarze Pumpe"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Hoyerswerda → 100 % Versorgungsbetriebe Hoyerswerda GmbH"
+        },
+
+        {
+          "title": "Besonderheit",
+          "content": "Der Fernwärmeliefervertrag mit der LEAG AG läuft noch bis 2022."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Spremberg",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Schwarze Pumpe"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Spremberg → 100 % Städtische Werke Spremberg (Lausitz) GmbH"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Hohenmölsen",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Wählitz"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Hohenmölsen → 51 % Fernwärme GmbH Hohenmölsen-Webau"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Lünen",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Lünen-Stummhafen"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Lünen → 100 % Stadtwerke Lünen"
+        },
+
+        {
+          "title": "Besonderheit",
+          "content": "Das Kohlekraftwerk Lünen ging erst Ende 2013 ans Netz."
+        }
+      ]
+    },
+
+    {
       "type": "headline-3",
       "content": "Mehrheitlich kommunale AG als Betreiberin der Wärmenetze"
     },
@@ -81,6 +261,27 @@
     {
       "type": "paragraph",
       "content": "Wenn die Netzbetreibergesellschaft eine AG ist, brauchen wir in der Regel eine städtische Mehrheit von mindestens 75 Prozent, um den Verzicht auf Kohlewärme in der Unternehmenssatzung festschreiben zu lassen. Auch wenn die Kommune nicht über eine Drei-Viertel-Mehrheit, aber über eine einfache Mehrheit verfügt, kann sie Einfluss ausüben. Sie kann beispielsweise die Entlastung des Vorstands verhindern. Das kann sie dem Vorstand für den Fall in Aussicht stellen, dass er sich weigert, Fernwärme-Einkaufsverträge mit Betreibern von Kohlekraftwerken zum nächstmöglichen Zeitpunkt zu kündigen, und ihn so unter Druck setzen. Ein solches Vorgehen wäre etwa in Rostock und Mannheim denkbar."
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Rostock",
+      "powerPlantSections": [
+        {
+          "title": "Kraftwerk",
+          "content": "Rostock"
+        },
+
+        {
+          "title": "Netzeigentümer",
+          "content": "Stadt Rostock → 100 % Rostocker Versorgungs- und Verkehrs-Holding GmbH → 74,9 % Stadtwerke Rostock AG"
+        },
+
+        {
+          "title": "Besondernheit",
+          "content": "Der Fernwärmeliefervertrag mit EnBW läuft noch bis 2024. Die Stadt Rostock hat sich in ihrer Fernwärmesatzung zum Klimaschutz bekannt."
+        }
+      ]
     },
 
     {

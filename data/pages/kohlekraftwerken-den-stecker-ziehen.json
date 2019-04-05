@@ -385,6 +385,132 @@
     },
 
     {
+      "type": "power-plant",
+      "title": "Kohlekraftwerk Herne",
+      "powerPlantSections": [
+        {
+          "content": "Block 4"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "511 MW/ 550 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "1 531 134 t (2017)"
+        },
+
+        {
+          "title": "Eigentümer",
+          "content": "100 % STEAG GmbH"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerke Völklingen-Fenne",
+      "powerPlantSections": [
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "466 MW/ 390 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "1 046 235 t (2017)"
+        },
+
+        {
+          "title": "Eigentümer",
+          "content": "100 % STEAG GmbH"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Kohlekraftwerk Bergkamen",
+      "powerPlantSections": [
+        {
+          "content": "Block A"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "780 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1981"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "1 639 651 t (2017)"
+        },
+
+        {
+          "title": "Eigentümer",
+          "content": "51 % RWE Power AG, 49 % STEAG GmbH"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "Die STEAG hat im November 2018 angekün- digt, die Mehrheit von RWE übernehmen zu wollen. RWE hat die Verkaufspläne bereits bestätigt."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Kohlekraftwerk Duisburg Walsum",
+      "powerPlantSections": [
+        {
+          "content": "Blöcke 9 und 10"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "1 185 MW/ 295 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "Block 9 seit 1988, Block 10 seit 2012"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "3 125 023 t (2017)"
+        },
+
+        {
+          "title": "Eigentümer",
+          "content": "51 % RWE Power AG, 49 % STEAG GmbH"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "Das Kraftwerk verliert ab 2022 seinen ein- zigen Wärmeabnehmer. Die Stadtwerke Dinslaken haben angekündigt, den auslaufenden Wärmeliefervertrag nicht zu verlängern."
+        }
+      ]
+    },
+
+    {
       "type": "headline-2",
       "content": "Druck mit Minderheitsbeteiligungen machen"
     },

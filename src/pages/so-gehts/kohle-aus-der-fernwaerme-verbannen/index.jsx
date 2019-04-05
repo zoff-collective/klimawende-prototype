@@ -56,9 +56,14 @@ export const query = graphql`
         type
         content
         items
+        title
         quoteAuthor
         quoteAuthorDescription
         quoteAuthorImage
+        powerPlantSections {
+          title
+          content
+        }
       }
     }
   }
