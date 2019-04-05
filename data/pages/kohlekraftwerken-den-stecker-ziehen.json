@@ -251,7 +251,7 @@
 
     {
       "type": "power-plant",
-      "title": "Heizkraftwerk Köln-Merkenich",
+      "title": "Heizkraftwerk Köln-Merkenich",
       "powerPlantSections": [
         {
           "title": "",
@@ -287,7 +287,7 @@
 
     {
       "type": "power-plant",
-      "title": "Heizkraftwerk Hannover Stöcken",
+      "title": "Heizkraftwerk Hannover Stöcken",
       "powerPlantSections": [
         {
           "title": "",
@@ -416,7 +416,7 @@
 
     {
       "type": "power-plant",
-      "title": "Heizkraftwerke Völklingen-Fenne",
+      "title": "Heizkraftwerke Völklingen-Fenne",
       "powerPlantSections": [
         {
           "title": "Elektrische Leistung/ Wärmeleistung",

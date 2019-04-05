@@ -111,7 +111,7 @@
 
         {
           "title": "Besonderheit",
-          "content": "Keine ausreichende Mehrheit für eine Satzungs- änderung bei der Versorgungs GmbH, aber bei den Stadtwerken. Diese könnten dann gegebenenfalls die nötigen Weisungen an ihre Tochtergesellschaft erteilen."
+          "content": "Keine ausreichende Mehrheit für eine Satzungsänderung bei der Versorgungs GmbH, aber bei den Stadtwerken. Diese könnten dann gegebenenfalls die nötigen Weisungen an ihre Tochtergesellschaft erteilen."
         }
       ]
     },
@@ -132,7 +132,7 @@
 
         {
           "title": "Besonderheit",
-          "content": "Der Fernwärmeliefervertrag mit der Uniper SE läuft noch bis 2024."
+          "content": "Der Fernwärmeliefervertrag mit der Uniper SE läuft noch bis 2024."
         }
       ]
     },
@@ -153,7 +153,7 @@
 
         {
           "title": "Besonderheit",
-          "content": "Die Stadt Schweinfurt ist zusätzlich mit 6,25 %, die Stadtwerke Schweinfurt mit 12,8 % direkt am Kohlekraftwerk beteiligt."
+          "content": "Die Stadt Schweinfurt ist zusätzlich mit 6,25 %, die Stadtwerke Schweinfurt mit 12,8 % direkt am Kohlekraftwerk beteiligt."
         }
       ]
     },
@@ -195,7 +195,7 @@
 
         {
           "title": "Besonderheit",
-          "content": "Der Fernwärmeliefervertrag mit der LEAG AG läuft noch bis 2022."
+          "content": "Der Fernwärmeliefervertrag mit der LEAG AG läuft noch bis 2022."
         }
       ]
     },
@@ -211,44 +211,44 @@
 
         {
           "title": "Netzeigentümer",
-          "content": "Stadt Spremberg → 100 % Städtische Werke Spremberg (Lausitz) GmbH"
+          "content": "Stadt Spremberg → 100 % Städtische Werke Spremberg (Lausitz) GmbH"
         }
       ]
     },
 
     {
       "type": "power-plant",
-      "title": "Hohenmölsen",
+      "title": "Hohenmölsen",
       "powerPlantSections": [
         {
           "title": "Kraftwerk",
-          "content": "Wählitz"
+          "content": "Wählitz"
         },
 
         {
           "title": "Netzeigentümer",
-          "content": "Stadt Hohenmölsen → 51 % Fernwärme GmbH Hohenmölsen-Webau"
+          "content": "Stadt Hohenmlsen → 51 % Fernwärme GmbH Hohenmlsen-Webau"
         }
       ]
     },
 
     {
       "type": "power-plant",
-      "title": "Lünen",
+      "title": "Lünen",
       "powerPlantSections": [
         {
           "title": "Kraftwerk",
-          "content": "Lünen-Stummhafen"
+          "content": "Lünen-Stummhafen"
         },
 
         {
           "title": "Netzeigentümer",
-          "content": "Stadt Lünen → 100 % Stadtwerke Lünen"
+          "content": "Stadt Lünen → 100 % Stadtwerke Lünen"
         },
 
         {
           "title": "Besonderheit",
-          "content": "Das Kohlekraftwerk Lünen ging erst Ende 2013 ans Netz."
+          "content": "Das Kohlekraftwerk Lünen ging erst Ende 2013 ans Netz."
         }
       ]
     },
