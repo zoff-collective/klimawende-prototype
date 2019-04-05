@@ -22,7 +22,7 @@
     &::after {
       border-color: currentColor transparent transparent transparent;
       border-style: solid;
-      border-width: 4rem 4rem 0 0;
+      border-width: 3rem 3rem 0 0;
       content: '';
       height: 0;
       left: 25%;
@@ -31,11 +31,11 @@
       width: 0;
 
       @include mq($from: tablet) {
-        border-width: 6rem 6rem 0 0;
+        border-width: 5rem 5rem 0 0;
       }
 
       @include mq($from: desktop) {
-        border-width: 8rem 8rem 0 0;
+        border-width: 6.5rem 6.5rem 0 0;
       }
     }
   }
@@ -60,14 +60,14 @@
     display: flex;
     flex-direction: row;
     font-style: normal;
-    margin-top: 5rem;
+    margin-top: 4rem;
 
     @include mq($from: tablet) {
-      margin-top: 7rem;
+      margin-top: 6rem;
     }
 
     @include mq($from: desktop) {
-      margin-top: 10rem;
+      margin-top: 8rem;
     }
   }
 
