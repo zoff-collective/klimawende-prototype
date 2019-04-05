@@ -36,6 +36,7 @@
 @mixin two-column() {
   display: flex;
   justify-content: center;
+  max-width: 100%;
 
   @include mq($from: tablet) {
     padding-left: 4rem;
