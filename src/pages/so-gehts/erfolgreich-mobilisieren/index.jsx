@@ -294,7 +294,11 @@ const Page = ({
             ]}
           />
 
-          <img src="/images/07_05Stadium_1344.png" alt="" className="image" />
+          <img
+            src="/images/07_06Mitglieder_1344.png"
+            alt=""
+            className="image"
+          />
 
           <Checklist
             items={[
