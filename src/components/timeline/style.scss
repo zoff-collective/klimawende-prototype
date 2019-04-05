@@ -1,12 +1,12 @@
 @import "../../mixins.scss";
 
 .timeline {
-  border-bottom: 2px dashed currentColor;
+  border-bottom: 1px dashed currentColor;
   list-style: none;
   padding-left: 0;
 
   @include mq($from: tablet) {
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
   }
 
   &__item {
@@ -15,7 +15,7 @@
     padding-top: 1.5rem;
 
     @include mq($from: tablet) {
-      border-top-width: 3px;
+      border-top-width: 2px;
       padding-bottom: 2rem;
       padding-top: 2rem;
     }
