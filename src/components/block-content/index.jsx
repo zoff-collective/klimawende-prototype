@@ -5,8 +5,12 @@ import Button from '../form/button';
 import Constraint from '../constraint';
 import Goals from '../goals';
 import Headline from '../text/headline';
+import Infobox from '../text/infobox';
+import Quote from '../quote';
+import List from '../text/list';
 import Paragraph from '../text/paragraph';
-import Statistic from '../statistic';
+import PowerPlant from '../power-plant';
+import Timeline from '../timeline';
 
 import './style.scss';
 
@@ -39,9 +43,6 @@ export default ({ blocks, children }) => (
             </Constraint>
           );
 
-        case 'statistic':
-          return <Statistic number={rest.number} text={content} />;
-
         case 'goals':
           return (
             <Constraint>
@@ -60,6 +61,50 @@ export default ({ blocks, children }) => (
                 alt={rest.alt || ''}
                 className="block-content__image"
               />
+            </Constraint>
+          );
+
+        case 'list':
+          return (
+            <Constraint>
+              <List items={rest.items} />
+            </Constraint>
+          );
+
+        case 'infobox':
+          return (
+            <Constraint>
+              <Infobox content={content} title={rest.title} />
+            </Constraint>
+          );
+
+        case 'timeline':
+          return (
+            <Constraint>
+              <Timeline items={rest.timelineItems} />
+            </Constraint>
+          );
+
+        case 'power-plant':
+          return (
+            <Constraint>
+              <PowerPlant
+                title={rest.title}
+                sections={rest.powerPlantSections}
+              />
+            </Constraint>
+          );
+
+        case 'quote':
+          return (
+            <Constraint>
+              <Quote
+                image={rest.quoteAuthorImage}
+                author={rest.quoteAuthor}
+                description={rest.quoteAuthorDescription}
+              >
+                {content}
+              </Quote>
             </Constraint>
           );
 

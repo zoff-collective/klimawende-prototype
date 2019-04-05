@@ -1,0 +1,207 @@
+{
+  "id": "energieversorgung-zurueckerobern",
+  "title": "Energieversorgung zurückerobern",
+  "intro": "Immer mehr Städte und Gemeinden in Deutschland holen sich die Kontrolle über ihre Strom- und Wärmenetze zurück und gründen eigene Öko-Stadtwerke. Mit Bürgerbegehren können wir die lokale Energiewende anstoßen.",
+  "image": {
+    "src": "/images/03_KFV_00TB_900x600.png",
+    "alt": ""
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Begünstigt durch die Liberalisierung des Strommarkts verkaufen um die Jahrtausendwende zahlreiche Kommunen ihre Stadtwerke und Energienetze an große Energieunternehmen. Kurzfristig spült die Privatisierung Geld in die städtischen Kassen. Die Gewinne fließen nun jedoch auf die Konten weit entfernter Konzerne. Investitionen werden verschleppt, wenn sie den Profit drosseln. Strom und Wärme kommen aus mit Kohle, Gas und Atomenergie befeuerten Großkraftwerken."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Seit etwa 2005 findet nun eine Welle von Rekommunalisierungen statt. Mindestens 365 Städte und Gemeinden kaufen bis zum Jahr 2017 ihre Strom- und Gasnetze von den privaten Betreibern zurück. Im selben Zeitraum gründen 152 Städte kommunale Stadt- und Gemeindewerke. Sie wollen, begünstigt durch den Aufschwung der erneuerbaren Energien, unabhängig von Konzernen und steigenden Rohstoffpreisen werden."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Mit den Mitteln der direkten Demokratie können wir auch in unserer Gemeinde die Entscheidung herbeiführen, wieder demokratische Kontrolle über die Energieversorgung zu erlangen. Das funktioniert in großen Städten, wie das Volksbegehren „Neue Energie für Berlin“ zeigt, über das wir ab Seite 16 berichten – aber mindestens genauso gut in kleinen ländlichen Gemeinden. Der Großteil der bisher erfolgten Rekommunalisierungen fand in Gemeinden mit bis zu 25 000 EinwohnerInnen statt."
+    },
+
+    {
+      "type": "quote",
+      "content": "Eine Rekommunalisierung früher veräußerter Stadtwerke und Netzrückkäufe oder die Gründung neuer Stadtwerke sind elementare Voraussetzungen für eine schnelle Energiewende.",
+      "quoteAuthor": "Hermann Scheer",
+      "quoteAuthorDescription": "verstorbener SPD-Politiker und Energiewende-Visionär",
+      "quoteAuthorImage": "/images/04_EV_Herman_Scheer_440x440.png"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Klimawende-Logbuch"
+    },
+
+    {
+      "type": "timeline",
+      "timelineItems": [
+        {
+          "title": "1991",
+          "content": "Die Schönauer „Stromrebellen“ gewinnen einen Bürgerentscheid gegen die erneute Vergabe der Energienetzkonzession an einen privaten Versorger. Dieser hatte sich gegen den ökologischen Umbau der örtlichen Energieversorgung gewehrt. Fünf Jahre später kauft die Bürgerinitiative als Betreibergesellschaft bürgerlichen Rechts die lokalen Netze. Aus der Netzgesellschaft gehen die Elektrizitätswerke Schönau hervor, die heute einer der bekanntesten Ökostromanbieter mit knapp 200 000 KundInnen bundesweit sind."
+        },
+
+        {
+          "title": "2001",
+          "content": "Die hessische Stadt Wolfhagen gründet eigene Stadtwerke mit innovativem Beteiligungsmodell: Neben der städtischen Mehrheit befinden sich 25 Prozent im Besitz einer Bürgerenergie-Genossenschaft. Die Stadtwerke erzeugen die jährlich verbrauchte Menge Strom in lokalen Solar- und Windkraftanlagen. 2006 kauft die Stadt auch die Netze zurück."
+        },
+
+        {
+          "title": "2009",
+          "content": "Die Stadt Hamburg gründet die Öko-Stadtwerke „Hamburg Energie“. Sie sind heute Hamburgs größter Solarstromerzeuger."
+        },
+
+        {
+          "title": "2011",
+          "content": "In Stuttgart gründet der Stadtrat Stadtwerke als reinen Ökostromanbieter – mit der Absicht, auch die Hoheit über die Netze wiederzuerlangen. Nach dem Auslaufen der Verträge mit EnBW kauft die Stadt die Strom- und Gasnetze mehrheitlich zurück."
+        },
+
+        {
+          "title": "2012",
+          "content": "Vier süddeutsche Gemeinden mit insgesamt 45 000 EinwohnerInnen gründen das Remstalwerk als überregionalen kommunalen Energieversorger."
+        },
+
+        {
+          "title": "2013",
+          "content": "Der Volksentscheid „Unser Hamburg – unser Netz“ für den Rückkauf der Hamburger Strom-, Gas- und Fernwärmenetze ist erfolgreich. Inzwischen sind alle Netze wieder in den Händen der Stadt."
+        },
+
+        {
+          "title": "2014",
+          "content": "Die Stadtwerke Rheda-Wiedenbrück werden als Gas- und Ökostromanbieter gegründet. Von jeder Kilowattstunde des Ökostroms wird ein Teil in einen Fonds eingezahlt, der für Umweltschutzprojekte in der Stadt vorgesehen ist."
+        },
+
+        {
+          "title": "2015",
+          "content": "Die Stadtwerke Haßfurt kaufen die siebenprozentige Beteiligung eines privaten Unternehmens an den Haßfurter Energienetzen zurück. BürgerInnen können sich für einen Zins von 2,5 Prozent finanziell an der Investition beteiligen. Die Stadtwerke erzeugen heute in eigenen Wind-, Solar- und Biogasanlagen doppelt so viel Strom wie die Gemeinde verbraucht. Sie betreiben außerdem eine Power-to-Gas-Anlage und das erste Wasserstoff-Blockheizkraftwerk Deutschlands."
+        },
+
+        {
+          "title": "2016",
+          "content": "Die „Münsterlandrebellen“, acht Kommunen aus dem Münsterland, erobern aus Unzufriedenheit mit dem bisherigen Verteilnetzbetreiber RWE die Hoheit über ihre Strom- und Gasnetze zurück."
+        },
+
+        {
+          "title": "2017",
+          "content": "Das Eberwerk wird als kommunales Gemeinschaftsunternehmen von 19 Städten, Märkten und Gemeinden im bayerischen Landkreis Ebersberg ins Leben gerufen. Es kauft den Mehrheitsanteil des Stromnetzes, um die regionale Energiewende anzupacken."
+        },
+
+        {
+          "title": "2018",
+          "content": "Die Stadtwerke Donauwörth übernehmen die Mehrheit am kommunalen Stromnetz von der innogy-Tochter Lechwerke."
+        }
+      ]
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Energienetze in die öffentliche Hand"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Energieversorgung ist eine öffentliche Aufgabe. Städte und Gemeinden können den Betrieb ihrer Netze für Strom, Gas und Wärme allerdings auch über Konzessionsverträge an private Unternehmen abtreten. Im Gegenzug erhalten sie eine Konzessionsabgabe, verzichten aber auf die meist höheren Gewinne aus dem Netzbetrieb – und darauf, die Netze in Eigenregie fit für die Energiewende machen zu können."
+    },
+
+    {
+      "type": "infobox",
+      "content": "<ul class='list'><li class='list__item'><p class='paragraph'>Mit dem Betrieb von Strom-, Gas- und Wärmenetzen lässt sich Geld verdienen – sonst würden es private Unternehmen schließlich nicht machen. Bleiben die Gewinne in der Kommune, können sie in die Energiewende, in soziale Einrichtungen oder den öffentlichen Nahverkehr fließen.</p></li><li class='list__item'><p class='paragraph'>Die Verteilnetze müssen für die Einspeisung aus erneuerbaren Energiequellen umgebaut werden. Die Energie kommt dann nämlich dezentral aus vielen kleinen Anlagen. Kommunale Netzbetreiber mit einer Energiewende-Vision und einem Interesse an lokaler Wertschöpfung tätigen die dafür nötigen Maßnahmen zur Umrüstung eher als fossile Energiekonzerne. Unter diesen Voraussetzungen kann sich ein breiter Energieerzeugermarkt aus kleinen und mittelständischen Unternehmen, samt den dazugehörigen Arbeitsplätzen, in der Region entwickeln.</p></li></ul>",
+      "title": "Darum brauchen wir die Netze"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Konzessionsverträge für Strom- und Gasnetze sind nach dem Energiewirtschaftsgesetz (EnWG) geregelt und dürfen höchstens über eine Laufzeit von 20 Jahren abgeschlossen werden. Dann wird die Konzession neu ausgeschrieben. Das ist die Gelegenheit, um die Netze zurück in kommunale Hand zu holen. Komplizierter ist es im Fall der Wärmenetze, deren Vergabe nicht im EnWG festgelegt ist. Hier ist die Kommune bei der Übernahme darauf angewiesen, dass der Altkonzessionär verhandlungsbereit ist oder eine Kaufoption vertraglich festgelegt wurde."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Nach Schätzungen von ExpertInnen sind deutschlandweit in den Jahren 2010 bis 2016 etwa 8000 der insgesamt rund 14 000 Konzessionen im Strombereich ausgelaufen. Aber auch in den kommenden Jahren gibt es für viele Gemeinden die Chance, ihre Strom-, Gas- und Wärmenetze zurückzubekommen. Ab 2022 steigt die Zahl der endenden Verträge erneut – und damit auch die Chance, per Bürgerbegehren die Energieversorgung in die eigene Hand zu nehmen. Voraussetzung dafür ist, dass es einen kommunalen Energieversorger gibt, der diese Aufgabe übernehmen kann."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Gemeinde ist dazu verpflichtet, das Auslaufen eines Konzessionsvertrags für die Strom- oder Gasnetze mindestens zwei Jahre vorher im Bundesanzeiger bekanntzugeben. Sind mehr als 100 000 KundInnen an das betreffende Netz angeschlossen, muss die Neuvergabe der Konzession auch im Amtsblatt der Europäischen Union angekündigt werden. Im Anschluss daran muss die Gemeinde interessierten Unternehmen mindestens drei Monate Zeit einräumen, um ihr Interesse zu bekunden."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Wollen wir die Gemeinde per Bürgerbegehren dazu verpflichten, sich – allein oder im Verbund mit benachbarten Kommunen – um die Netzübernahme zu bewerben, müssen wir demnach frühzeitig herausfinden, wann der Konzessionsvertrag endet. KommunalpolitikerInnen erhalten Einsicht in die Verträge und können uns diese Information geben. Die oben genannten Zeitspannen zeigen, dass wir auf der sicheren Seite sind, wenn wir unser Bürgerbegehren etwa drei bis vier Jahre vor Vertragsende starten, also ausreichend lange bevor das Auslaufen der Konzession im Bundesanzeiger erscheint. So können wir davon ausgehen, dass der Bürgerentscheid rechtzeitig abgeschlossen ist."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Wenn unser Bürgerbegehren erfolgreich war und die Gemeinde daraufhin beschließt, die Netze zurückzukaufen, kann sie die Konzession nicht einfach an die eigenen Stadtwerke vergeben. Auch diese müssen sich, ebenso wie private Betreiberfirmen, zunächst in einem geregelten Verfahren, in dem die Gemeinde alle InteressentInnen gleich behandeln muss, darum bewerben. Die Kriterien für die Vergabe und ihre jeweilige Gewichtung schreibt das EnWG vor. Dazu gehören Versorgungssicherheit, der Energiepreis, Verbraucherfreundlichkeit, Effizienz, aber auch Umweltverträglichkeit. Kommunen mit mehr als 100 000 Netz-KundInnen müssen eine von den Stadtwerken separate Gesellschaft für den Netzbetrieb gründen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Gibt es keinen kommunalen Energieversorger, der die Netze übernehmen könnte, besteht die Möglichkeit, ein Stadt- oder Gemeindewerk zu gründen. Wie wir per Bürgerbegehren die Gründung eines kommunalen Öko-Energieversorgers veranlassen, steht auf den nächsten Seiten."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Einen Großteil der bisherigen Rekommunalisierungen tragen regionale Energieversorger, die aus dem Zusammenschluss mehrerer Gemeinden resultieren – manchmal mit einem privaten Netzbetreiber an Bord, der nur einen Minderheitsanteil von maximal 49 Prozent hält, aber das nötige Know-How mitbringt. Es kann sich auf dem Land also lohnen, zunächst in benachbarten Gemeinden  MitstreiterInnen zu suchen und parallel Bürgerbegehren für die Gründung eines regionalen Energieunternehmens anzustoßen, das sich um die Netzkonzession bewerben soll."
+    },
+
+    {
+      "type": "infobox",
+      "content": "<p class='paragraph'>Die „Schönauer Stromrebellen“, die Stadtwerke Wolfhagen und Herten haben gezeigt, dass es sinnvoll sein kann, die BürgerInnen finanziell an den Energienetzen, den Stadtwerken sowie ihren Wind- und Solaranlagen zu beteiligen. Im Gegenzug erhalten sie einen Teil der Gewinne. Das führt zu mehr Akzeptanz und einer höheren Identifikation mit der lokalen Energiewende. Gleichzeitig entlastet es die Kommune bei der Anfangsinvestition. Erprobte Modelle für die finanzielle Beteiligung sind zum Beispiel Klimasparbriefe und Klimaschutz-Bürgerfonds oder die Stadtwerke binden Bürgergenossenschaften in die Eigentümerstruktur ein.</p>",
+      "title": "Wie sich die Energiewende für alle rechnet"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Stadt- oder Gemeindewerke gründen"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Stadt- und Gemeindewerke versorgen die Bevölkerung mit den grundlegenden Gütern und Dienstleistungen für das tägliche Leben. Sie liefern Wasser und Energie, kümmern sich um die Abfallentsorgung, den öffentlichen Nahverkehr und oft noch um vieles mehr. Strom kaufen sie entweder auf dem Strommarkt oder sie produzieren ihn in eigenen, meist lokalen Anlagen. Stadt- und Gemeindewerke sind nicht den Interessen von AnteilseignerInnen verpflichtet, sondern dem Allgemeinwohl. Das macht sie zu wesentlichen Akteurinnen im kommunalen Klimaschutz."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Wenn das örtliche Energieunternehmen nur minderheitlich in kommunaler Hand ist, können wir per Bürgerbegehren fordern, dass die Gemeindevertretung Verhandlungen zum Rückkauf von Anteilen aufnehmen soll. Ist sie wieder Mehrheitseigentümerin, können wir BürgerInnen demokratische Kontrolle ausüben und die Geschäftspolitik im Sinne der Energiewende beeinflussen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Besitzt die Kommune keine eigenen Gemeinde- oder Stadtwerke, die die Netzkonzession übernehmen können, ist der Zeitpunkt vor der Konzessionsneuvergabe gut geeignet, um ein kommunales Energieunternehmen zu gründen. Einige Gemeinden entscheiden sich auch dafür, Gemeindewerke zu gründen, die nur in Energieerzeugung und -vertrieb tätig sind. Zu einem späteren Zeitpunkt können sie dann mit dem bereits etablierten Unternehmen in den Netzbetrieb einsteigen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Für kleinere Gemeinden kann es sinnvoll sein, mit anderen Kommunen des Landkreises gemeinsam einen regionalen Energieversorger zu gründen, wie im Falle des im Klimawende-Logbuch aufgeführten „Eberwerks“. Wenn diese Möglichkeit in Betracht kommt, können wir das Bürgerbegehren auch so formulieren, dass die Gemeindevertretung mit diesem Anliegen an die Nachbarkommunen herantreten soll. Finden wir MitstreiterInnen in den umliegenden Gemeinden, die vor Ort ebenfalls Bürgerbegehren mit diesem Ziel anstoßen, verstärkt sich deren jeweiliges Momentum gegenseitig."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die neu zu gründenden Stadt- oder Gemeindewerke sollten eine Gesellschaftsform bekommen, die eine möglichst hohe demokratische Kontrolle ermöglicht. Bei einer Gesellschaft mit beschränkter Haftung (GmbH) ist sie beispielsweise größer als bei einer Aktiengesellschaft (AG). Auch der in der Satzung festgelegte Unternehmensgegenstand spielt eine wichtige Rolle. Er kann zum Beispiel die Versorgung mit Elektrizität und Wärme aus Kohle oder insgesamt aus nicht-erneuerbaren Quellen ausschließen. Über eine Beiratsstruktur, wie etwa bei den Berliner Stadtwerken, können Sozial- und Umweltverbände Einfluss auf die Geschäftspolitik nehmen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Weitere Anhaltspunkte dafür, welche Kriterien die von uns per Bürgerbegehren geforderten Stadt- oder Gemeindewerke erfüllen sollten, liefert der Kasten „Mit Stadtwerken in die Energiedemokratie“ auf Seite 75. Der Gesetzesentwurf des Volksbegehrens auf Stadtstaatsebene „Neue Energie für Berlin“ bietet ebenfalls wertvolle Anregungen – auch für Bürgerbegehren auf kommunaler Ebene."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Es lohnt sich, zunächst mit GemeindevertreterInnen über unsere Vorschläge zu sprechen und sie dafür zu begeistern. Am leichtesten lassen sie sich durch Erfolgsbeispiele überzeugen. Es ist daher hilfreich, Kontakt zu Stadt- oder Gemeindewerken aufzunehmen, die in den letzten Jahren gegründet wurden – möglichst aus unserer Region. Deren VertreterInnen sind häufig gerne bereit, andere Kommunen zu unterstützen. Ein gutes Beispiel ist die „Stadtwerke Union Nordhessen“. Sie hilft Kommunen, die ihre Energienetze rekommunalisieren oder Gemeindewerke gründen wollen, aber auch Stadtwerken, die in die Energieproduktion mit erneuerbaren Energien einsteigen wollen."
+    },
+
+    {
+      "type": "infobox",
+      "content": "<ul class='list'><li class='list__item'><p class='paragraph'>Durch den Vertrieb von 100 Prozent Ökostrom und den Aufbau eigener Erzeugungsanlagen auf Basis erneuerbarer Energien, möglichst in der Region, können Stadtwerke den Strom- und Wärmemarkt beeinflussen.</p></li><li class='list__item'><p class='paragraph'>Stadtwerke können die BürgerInnen bei der Energieeinsparung beraten und technische Lösungen anbieten.</p></li><li class='list__item'><p class='paragraph'>Mit Sozialtarifen können die Stadtwerke diejenigen unterstützen, die sonst von Energiearmut betroffen sind – anstatt ihnen einfach Strom und Heizung abzudrehen.</p></li><li class='list__item'><p class='paragraph'>Stadtwerke in kommunaler Hand unterliegen der demokratischen Kontrolle durch die Gemeindevertretung und die BürgerInnen. Diese können im Sinne des Gemeinwohls Einfluss auf die Geschäftspolitik nehmen.</p></li><li class='list__item'><p class='paragraph'>Stadtwerke können durch ihr lokales Engagement die Akzeptanz der BürgerInnen für die Energiewende steigern.</p></li><li class='list__item'><p class='paragraph'>Stadtwerke arbeiten teilweise mit innovativen Finanzierungsmodellen, die Bürgerbeteiligung ermöglichen: Die BürgerInnen fördern die Energiewende vor Ort und profitieren gleichzeitig von ihr (siehe Infokasten auf Seite 72).</p></li><li class='list__item'><p class='paragraph'>Stadtwerke vergeben häufiger als private Unternehmen Aufträge an ortsansässige Firmen. Gerade die Energieerzeugung aus erneuerbaren Energien sorgt für lokale Wertschöpfung bei Planung, Installation und Wartung.</p></li><li class='list__item'><p class='paragraph'>Die Gewinne von Stadtwerken gehen in den Haushalt der Kommune und stehen für die Finanzierung anderer wichtiger Bereiche der Daseinsvorsorge zur Verfügung.</p></li></ul>",
+      "title": "Mit Stadtwerken in die Energiedemokratie"
+    },
+
+    {
+      "type": "infobox",
+      "content": "<p class='paragraph'>Die RWE-Tochter innogy ist deutschlandweit an etwa 100 Stadtwerken und 4000 Konzessionsverträgen für Strom- und Gasnetze beteiligt. Aufgrund des für Mitte 2019 geplanten Verkaufs an E.on besteht für viele Gemeinden die Option, die Anteile der innogy an ihren Stadtwerken und Energienetzen zurückzukaufen.</p><p class='paragraph'>Das ist dann der Fall, wenn die Stadtwerke, an denen innogy beteiligt ist, eine „Change-of-Control-Klausel“ in ihren Verträgen haben. Dank ihr können die Kommunen im Regelfall nach einem anzeigepflichtigen Kontrollwechsel innerhalb einer Frist von sechs Monaten den Vertrag kündigen und einen Rückkauf vornehmen. Ein solcher Kontrollwechsel ist mit dem Übergang der innogy-Geschäftsanteile von RWE an E.on gegeben.</p><p class='paragraph'>Die betroffenen Kommunen können ihre Verträge daraufhin überprüfen, ob sie eine Change-of-Control-Klausel enthalten und wie diese ausgestaltet ist. Die Stadtwerke Saarlouis beispielsweise untersuchen bereits, ob sie ein solches Sonderkündigungsrecht nutzen können. Wenn sich viele Stadtwerke ihre Anteile wiederholen, stärkt das die Kommunen – und schwächt den Energieriesen E.on, der mit dem innogy-Kauf auch auf die Gewinne aus den kommunalen Beteiligungen setzt.</p><p class='paragraph'>Eine Auflistung aller Stadtwerke und Netzbetreibergesellschaften, an denen innogy beteiligt ist, findet sich im aktuellen Geschäftsbericht. Einige davon stehen auch auf der Karte nebenan. Die Zahl steht jeweils für die aktuellen Geschäftsanteile der innogy. In vielen Fällen hält die Kommune zwar bereits die einfache Mehrheit, könnte sich aber – vorbehaltlich anderslautender Regelungen in den Verträgen – die Drei-Viertel-Mehrheit oder sämtliche Anteile und damit größere Gestaltungsmöglichkeiten zurückerobern.</p>",
+      "title": "Der Fall innogy"
+    }
+  ]
+}

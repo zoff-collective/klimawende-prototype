@@ -1,0 +1,225 @@
+{
+  "id": "vorfahrt-erkaempfen",
+  "title": "Vorfahrt für Fahrräder erkämpfen",
+  "intro": "Unsere Städte versinken im Blech und ersticken in Abgasen. Die Straßen gehören den Autos, als sei das ein Naturrecht. Doch nun rollt eine Verkehrswende von unten durch das Land – auf Fahrrädern.",
+  "image": {
+    "src": "/images/06_00TB_1280x1280.png",
+    "alt": ""
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Es gibt Städte, da werden Radfahrende von der Politik wie vollwertige VerkehrsteilnehmerInnen behandelt. In Kopenhagen fahren sie auf „Greenways“ und gut ausgebauten Radschnellwegen zur Arbeit. Im Winter werden die Radwege gleich als erstes geräumt, vor den Autostraßen. Verkehrspolitische Entscheidungen wie diese sind gut für die Gesundheit der RadfahrerInnen, die deutlich seltener unter die Räder kommen, aber auch für die der restlichen Bevölkerung. Die Feinstaub- und Stickoxidwerte sinken in Kopenhagen seit Jahren, während sie in deutschen Städten standardmäßig gesetzeswidrige Höhen erreichen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Kein Wunder. Hierzulande sind Fahrradwege in den meisten Fällen schmale, an Parkplatzreihen geklebte Schutzstreifchen, die nur von überzeugten RadfahrerInnen genutzt werden. Kinder, ältere Menschen und Ungeübte steigen kaum aufs Rad. In Berlin beispielsweise gehören den Autos 60 Prozent der Straße. RadfahrerInnen müssen sich mit drei Prozent begnügen. Die InitiatorInnen des „Volksentscheid Fahrrad“ wollten das nicht hinnehmen und starteten ein Volksbegehren – mit Erfolg: In Berlin gilt nun Deutschlands erstes Radverkehrs- und Mobilitätsgesetz. Seitdem ziehen immer mehr Bürgerinitiativen nach und starten Fahrrad-Bürgerbegehren in ihren Städten, die sich an den Zielen des Berliner Volksentscheids orientieren. Er ist damit zur Blaupause für die Verkehrswende von unten geworden."
+    },
+
+    {
+      "type": "quote",
+      "content": "Jede Stadt muss ihre eigenen Lösungen finden, aber 50 Prozent Radverkehrsanteil sind überall möglich.",
+      "quoteAuthor": "Morten Kabell",
+      "quoteAuthorDescription": "Umweltbürgermeister von Kopenhagen",
+      "quoteAuthorImage": "/images/06_Morten_Kabell.png"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Klimawende-Logbuch"
+    },
+
+    {
+      "type": "timeline",
+      "timelineItems": [
+        {
+          "title": "Dezember 2015",
+          "content": "30 BerlinerInnen schließen ein goldenes Fahrrad mit den zehn Zielen des „Volksentscheid Fahrrad“ an das Rote Rathaus an."
+        },
+
+        {
+          "title": "Januar 2018",
+          "content": "Der Stadtrat von Bamberg übernimmt die meisten Ziele des „Radentscheid Bamberg“. Zudem beschließt er ein umfangreiches Maßnahmenpaket zum Ausbau der Radinfrastruktur."
+        },
+
+        {
+          "title": "Februar 2018",
+          "content": "Der „Radentscheid Bielefeld“ hat sein Auftakttreffen."
+        },
+
+        {
+          "title": "April 2018",
+          "content": "Der „Radentscheid München“ hat sein Auftakttreffen."
+        },
+
+        {
+          "title": "Mai 2018",
+          "content": "Der „Radentscheid Hamburg“ hat sein Auftakttreffen."
+        },
+
+        {
+          "content": "Der „Radentscheid Darmstadt“ beendet die Unterschriftensammlung erfolgreich. Die Stadtregierung lehnt den Radentscheid aus formalen Gründen ab, trifft sich aber wöchentlich mit den RadaktivistInnen und setzt erste Maßnahmen bereits um. Die Aktiven klagen außerdem gegen die Ablehnung des Bürgerbegehrens."
+        },
+
+        {
+          "title": "Juni 2018",
+          "content": "Nach dem „Volksentscheid Fahrrad“ verabschiedet das Berliner Abgeordnetenhaus Deutschlands erstes Mobilitätsgesetz."
+        },
+
+        {
+          "content": "Der „Radentscheid Tübingen“ wird gegründet."
+        },
+
+        {
+          "content": "Das Aktionsbündnis „Aufbruch Fahrrad“ startet eine Volksinitiative für ein Fahrradgesetz in Nordrhein-Westfalen. Ziel des Bündnisses ist es, den Anteil des Fahrradverkehrs bis 2025 von acht auf 25 Prozent zu erhöhen."
+        },
+
+        {
+          "title": "Juli 2018",
+          "content": "Der „Radentscheid Rostock“ wird gegründet."
+        },
+
+        {
+          "title": "August 2018",
+          "content": "Der „Radentscheid Frankfurt“ beendet die Unterschriftensammlung erfolgreich."
+        },
+
+        {
+          "title": "November 2018",
+          "content": "Der „Radentscheid Kassel“ beendet die Unterschriftensammlung erfolgreich."
+        },
+
+        {
+          "title": "Dezember 2018",
+          "content": "Der „Radentscheid Stuttgart“ beendet die Unterschriftensammlung erfolgreich."
+        }
+      ]
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Mehr Rechte für RadlerInnen"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Radentscheide lassen sich in jeder Kommune durchführen. Wir profitieren dabei von den Erfahrungen der Städte, die bereits mit gutem Beispiel vorausgeradelt sind. Etabliert hat sich ein Modell, in dem die Kommune aufgefordert wird, verschiedene verkehrspolitische Ziele umzusetzen:"
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Sind Sie dafür, dass die nachfolgenden zehn Ziele verkehrspolitisch vorrangig verfolgt werden, damit möglichst viel davon umgesetzt wird?"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Zunächst sollten wir die Situation vor Ort analysieren. In Gesprächen mit UmweltschützerInnen, der ADFC-Ortsgruppe, KommunalpolitikerInnen oder RadfahrerInnen aus unserem Umfeld machen wir uns ein Bild davon, wo akuter Handlungsbedarf besteht. Eine erste Orientierung über mögliche Ziele bietet der „Radentscheid-Baukasten“ am Ende dieses Kapitels. Bei den Formulierungen der Forderungen handelt es sich um Grobentwürfe, die Ideen liefern sollen. Um sie für unser Bürgerbegehren wasserdicht auszuarbeiten, können wir die Unterschriftenlisten der bisherigen Radentscheide als Vorlagen verwenden. Jede Initiative kann auf Grundlage der drängendsten Probleme in der eigenen Gemeinde Anpassungen vornehmen oder weitere Punkte entwickeln. Entscheidend ist, dass die Ziele in den Wirkungskreis der Kommunen fallen. Maßnahmen, die das Straßenverkehrsrecht regelt, sind nicht zulässig."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Bewährt hat sich ein Katalog von fünf bis maximal zehn Zielen. So ist klar, dass es nicht nur um Einzelmaßnahmen geht, aber es wird auch nicht zu unübersichtlich für potenzielle UnterzeichnerInnen. Wie weitreichend die geforderten Maßnahmen jeweils sein sollen, etwa hinsichtlich der Länge neu zu bauender Radwege, ist letztlich eine Frage dessen, was wir für sachlich geboten und politisch möglich halten. Am besten verbinden wir unsere Forderungen mit konkreten Zeitvorgaben. So beugen wir einer Verzögerungstaktik des Stadt- oder Gemeinderats vor. Um unsere Abstimmungsfrage und Ziele zu formulieren, sollte sich eine Arbeitsgruppe im Bündnis möglichst einige Wochen bis Monate Zeit nehmen. Dass es auch schneller gehen kann, hat der „Volksentscheid Fahrrad“ in Berlin gezeigt. Bei einem „Gesetzes-Hackathon“ schrieben 30 Rechts- und VerkehrsexpertInnen in zwei arbeitsintensiven Tagen Paragraf für Paragraf des Rad-Gesetzesentwurfs. Unterstützt wurden sie per Telefon und Facebook von weiteren BeraterInnen. Ausgehend vom „Volksentscheid Fahrrad“ hat sich ein Portfolio an Argumentationsbausteinen und Aktionsformen entwickelt, das die anderen Radentscheide aufnehmen, weiterentwickeln und laufend verbessern – ungefähr so wie bei einer quelloffenen Software. Beispiele dafür finden wir auf den Websites der Initiativen. Am einfachsten ist es aber, direkt mit den Aktiven zu sprechen. Kontakt zu ihnen und zu weiteren Beratungsangeboten bekommen wir auch auf <a href='www.klimawende.org/mitmachen'>www.klimawende.org/mitmachen</a>"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Radentscheid-Baukasten"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Kernziele, die sich bei den meisten bisherigen Radentscheiden wiederfinden, sind die folgenden:"
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Lückenloses Netz aus Hauptradrouten"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Verkehrsplanung verknüpft Knotenpunkte in der Stadt zu einem Netz aus Radwegen, die nicht mehr plötzlich in den Autoverkehr münden. Dieses Ziel kann Radschnellwege für den PendlerInnen-Verkehr auf den Hauptachsen einschließen oder ein zusammenhängendes Netz fahrradgerechter Schulwegrouten."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Sichere Radwege an Hauptstraßen"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Straßen mit Regelgeschwindigkeit über 30 Kilometer pro Stunde erhalten breite, vom restlichen Verkehr baulich getrennte Fahrradwege, die auch für Kinder und SeniorInnen mühelos befahrbar sind. Je nach Größe der Kommune reichen die Forderungen von zwei bis 30 Kilometern jährlichem Zubau."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Fahrradfreundliche Nebenstraßen"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Kommune weist Fahrradstraßen aus, öffnet Einbahnstraßen für den Fahrradverkehr oder erklärt Straßen zu Sackgassen für den Autoverkehr. Hier bewegt sich die Zielgröße meist zwischen drei und 15 Kilometern Ausweisung pro Jahr."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Kreuzungen sicherer machen"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Kommune richtet an Ampeln einen zeitlichen Vorlauf für Radfahrende ein, schützt sie durch bauliche Maßnahmen vor Abbiegeunfällen oder malt Radaufstellstreifen auf. Die meisten Radentscheide fordern zwischen drei und 30 Kreuzungen pro Jahr, die sicherer werden sollen."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Mehr Fahrradparkplätze"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Kommune baut Fahrrad-Parkhäuser mit sicheren Abstellvorrichtungen an Bahnhöfen und anderen zentralen Orten, außerdem ausreichend Fahrradbügel vor Schulen, Kultur- und Sporteinrichtungen. Die meisten Bürgerbegehren machen konkrete Zahlenvorgaben für den Zubau, pro Jahr oder bis zu einem Zieldatum."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Sensibilisierung für mehr Radverkehr"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Kampagnen und Programme informieren über die Vorteile des Fahrradfahrens und stärken die gegenseitige Akzeptanz und Rücksichtnahme zwischen den VerkehrsteilnehmerInnen."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Radschnellwege"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Gut ausgebaute Radschnellwege sorgen dafür, dass PendlerInnen schnell und sicher von A nach B kommen. Gependelt wird jedoch nicht nur innerhalb der Stadt, sondern auch von einer Gemeinde in die nächste. Die Gemeinde muss in diesem Fall mit den Umlandkommunen kooperieren, die dort Streckenabschnitte planen und finanzieren müssen. Genau dazu kann das Bürgerbegehren die Stadtvertretung auffordern: Auf die Nachbarkommunen mit dem Anliegen zuzugehen, gemeinsam solche Verbindungen für PendlerInnen einzurichten."
+    },
+
+    {
+      "type": "headline-3",
+      "content": "Weitere mögliche Ziele"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Beseitigung von Mängeln und Gefahrenstellen",
+        "Personal und finanzielle Mittel für die Umsetzung",
+        "Planung nach Stand der Technik",
+        "Befahrbare Radwege, etwa durch regelmäßiges Entfernen von Schnee und parkenden Autos",
+        "Gehweg-Aufpflasterungen",
+        "Absenkung von Bordsteinkanten",
+        "Aufbau eines günstigen oder kostenlosen E-Bike-Verleihs",
+        "Aufbau eines günstigen oder kostenlosen Lastenrad-Verleihs",
+        "Aufbau eines Mietfahrrad-Systems, idealerweise inklusive Elektro-Fahrrädern und (Elektro-)Lastenrädern und integriert in den ÖPNV-Tarif"
+      ]
+    }
+  ]
+}

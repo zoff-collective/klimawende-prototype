@@ -65,10 +65,12 @@
   }
 
   &__image-container {
+    margin-bottom: 2rem;
     order: -1;
 
     @include mq($from: tablet) {
       flex-grow: 0;
+      margin-bottom: 0;
       margin-left: 4.5rem;
       order: 2;
       width: 50%;
@@ -90,16 +92,16 @@
     width: auto;
   }
 
+  &--with-image .headline {
+    margin-bottom: 2rem;
+  }
+
   &--with-image .headline__headline {
     @include font-size(25px);
 
     font-weight: 800;
 
     @include mq($from: tablet) {
-      @include font-size(60px);
-    }
-
-    @include mq($from: desktop) {
       @include font-size(60px);
     }
   }

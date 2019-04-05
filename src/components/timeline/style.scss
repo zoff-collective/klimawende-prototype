@@ -1,0 +1,35 @@
+@import "../../mixins.scss";
+
+.timeline {
+  border-bottom: 2px dashed currentColor;
+  list-style: none;
+  padding-left: 0;
+
+  @include mq($from: tablet) {
+    border-bottom-width: 3px;
+  }
+
+  &__item {
+    border-top: 2px dashed currentColor;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+
+    @include mq($from: tablet) {
+      border-top-width: 3px;
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+    }
+
+    .headline__headline-content {
+      color: currentColor;
+    }
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

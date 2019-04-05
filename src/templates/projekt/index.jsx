@@ -46,7 +46,7 @@ export default withLayout(
             {blocks && <BlockContent blocks={blocks} />}
           </div>
 
-          <div className="project__body-participate-container">
+          <div className="project__body-action-container">
             {state !== 'Abgeschlossen' && (
               <Button
                 href="#participate"

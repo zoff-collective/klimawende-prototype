@@ -13,7 +13,6 @@
   &__box {
     background-color: $color-dark-brown;
     border-radius: 1rem;
-    color: white;
     margin-bottom: 2rem;
     padding: 3rem 2rem;
 
@@ -25,7 +24,6 @@
   &__title {
     @include font-size(32px);
 
-    color: $color-yellow;
     font-family: $font-adelle;
     margin-bottom: 1.5rem;
     margin-top: 0;
@@ -42,6 +40,7 @@
   &__intro {
     @include font-size(17px);
 
+    color: white;
     font-family: $font-adelle;
     line-height: 1.4;
     margin-top: 0;

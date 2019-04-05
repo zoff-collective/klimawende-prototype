@@ -1,0 +1,549 @@
+{
+  "id": "kohlekraftwerken-den-stecker-ziehen",
+  "title": "Kohlekraftwerken den Stecker ziehen",
+  "intro": "Immer mehr Städte schalten ihre Kohlekraftwerke ab. Einige kommunale Schornsteine qualmen aber noch. Höchste Zeit, per Bürgerentscheid den lokalen Kohleausstieg einzuleiten.",
+  "image": {
+    "src": "/images/02_KKW_01EneMeMuh_1344.png",
+    "alt": ""
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Kohlekraftwerke in städtischer Hand können wir per Bürgerentscheid direkt abschalten. Dass das tatsächlich geht, war für viele MünchnerInnen im Herbst 2017 erstmal eine Überraschung. Wie sie zur Wahlurne gebeten wurden, um über das Schicksal des kohlebetriebenen Heizkraftwerks der Stadtwerke zu entscheiden, steht ausführlich ab Seite 8. Und München ist kein Einzelfall. Auf kommunaler Ebene, nah dran an den Bürgerinnen und Bürgern, hat die Kohle schon jetzt einen schweren Stand. Immer mehr Städte und Gemeinden verkünden auf eigene Initiative, entsprechend ihrem öffentlichen Auftrag zum Schutz von Umwelt und Gesundheit, ihre Kohlekessel in wenigen Jahren außer Betrieb zu nehmen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Aber wenn wir darauf warten, dass alle Stadtregierungen von sich aus tätig werden, gehen noch Millionen von Tonnen CO2 in die Luft, bis es soweit ist. Ohne Druck aus der Bevölkerung ist es weder wahrscheinlich, dass die Politik ambitionierte Ausstiegsziele verkündet, noch dass sie jetzt schon konsequent klimaneutrale Folgelösungen für die Zeit nach der Abschaltung entwickelt. Der Kohleausstieg ist auch auf kommunaler Ebene kein Selbstläufer. Es braucht immer Menschen, die den Stein ins Rollen bringen. Wenn dieser Stein ein Bürgerbegehren ist, hat er auf jeden Fall genug Schwung."
+    },
+
+    {
+      "type": "quote",
+      "content": "Der Kohleausstieg der Städte ist nicht nur ökologisch, sondern auch ökonomisch vernünftig. Erneuerbare Energie wird immer günstiger, während die Preise für CO2-Emissionen steigen.",
+      "quoteAuthor": "Prof. Claudia Kemfert",
+      "quoteAuthorDescription": "Energieökonomin am Deutschen Institut für Wirtschaftsforschung",
+      "quoteAuthorImage": "/images/02_KKW_Claudia_Kemfert_440x440.png"
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Klimawende-Logbuch"
+    },
+
+    {
+      "type": "timeline",
+      "timelineItems": [
+        {
+          "title": "März 2010",
+          "content": "Erstmals kippen BürgerInnen eine Stadtwerke-Beteiligung an einem Kohlekraftwerksprojekt. In Dachau ist ein Bürgerentscheid gegen die Investition des kommunalen Versorgers in einen neuen Kohlemeiler im 600 Kilometer entfernten Krefeld erfolgreich."
+        },
+
+        {
+          "title": "Januar 2011",
+          "content": "Die Aachener Stadtwerke verkünden, dass sie sich nur am Kraftwerksbau in Krefeld beteiligen werden, wenn es eine gasbetriebene Anlage wird. Sie beugen sich damit dem Druck eines Bürgerbegehrens noch vor dem Ende der Unterschriftensammlung."
+        },
+
+        {
+          "title": "Februar 2012",
+          "content": "Die Trianel GmbH, die hinter dem Kohlekraftwerk Krefeld steht, gibt nach und plant nun ein Gaskraftwerk. Zuvor war es in weiteren Städten zu Protesten gegen eine Beteiligung der örtlichen Stadtwerke gekommen."
+        },
+
+        {
+          "title": "November 2017",
+          "content": "Die MünchnerInnen entscheiden, dass die Stadtwerke ihr Steinkohlekraftwerk bis 2022 abschalten müssen. Wenige Tage später verkünden die Stadtwerke Erlangen die Umrüstung des dortigen Heizkraftwerks von Steinkohle auf Gas ab 2021."
+        },
+
+        {
+          "title": "Januar 2018",
+          "content": "Das Stadtparlament von Cottbus beschließt die Abschaltung des städtischen Braunkohlekraftwerks bis 2022."
+        },
+
+        {
+          "title": "Juni 2018",
+          "content": "Das Braunschweiger Kohle-Heizkraftwerk, an dem die Stadt eine Minderheitsbeteiligung hält, soll spätestens 2022 vom Netz. Der Energieversorger BS Energy prüft den Ersatz durch Altholz und Industrie-Abwärme. Im selben Monat beschließen die Stadtwerke Dessau, das städtische Braunkohlekraftwerk im März 2019 abzuschalten und die Fernwärme fortan mit Gas zu erzeugen."
+        },
+
+        {
+          "title": "Juli 2018",
+          "content": "Die Stadtwerke Wuppertal legen das Kohlekraftwerk Elberfeld still."
+        },
+
+        {
+          "title": "August 2018",
+          "content": "Die Stadtwerke Frankfurt an der Oder beschließen den Kohleausstieg bis 2022. Damit verzichten nun sämtliche kommunalen Versorgungsunternehmen in Brandenburg auf Braunkohle."
+        },
+
+        {
+          "title": "September 2018",
+          "content": "Die Stadtwerke Pforzheim beschließen, ihr Kohlekraftwerk Anfang 2022 abzuschalten."
+        },
+
+        {
+          "title": "November 2018",
+          "content": "Die Stadtwerke Flensburg kündigen die Senkung des Kohleanteils bei der Strom- und Wärmeversorgung von 70 auf 20 Prozent bis 2023 an. Dafür soll 2022 ein neues Gaskraftwerk ans Netz gehen und zwei Kohlekessel ersetzen."
+        }
+      ]
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Klimakiller auf der Abschaltliste"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Wenn ein mehrheitlich kommunaler Energieversorger ein Kohlekraftwerk betreibt, können wir den Stadtrat per Bürgerbegehren verpflichten, seinen Einfluss auf dessen Unternehmenspolitik für den Kohleausstieg zu nutzen. An welchen Standorten sich das lohnen würde, steht in den Steckbriefen auf den folgenden Seiten. Wie der Stadtrat seinen Einfluss geltend machen kann, hängt von der Gesellschaftsform der Unternehmen ab, über welche die Stadt an dem Kohlekraftwerk beteiligt ist. Im Folgenden sind die grundsätzlichen gesetzlichen Regelungen für die Rechtsformen der Gesellschaft mit beschränkter Haftung (GmbH) und der Aktiengesellschaft (AG) skizziert, die bei Stadtwerken und anderen kommunalen Betrieben am häufigsten vorkommen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Neben der Rechtsform müssen wir für die Konzeption unserer Forderungen ebenso mögliche Abweichungen in den Gesellschaftsverträgen oder Satzungen berücksichtigen. Zudem müssen wir eventuell bestehende längerfristige vertragliche Verpflichtungen des Kraftwerksbetreibers beachten, beispielsweise zur Kohleabnahme. Gesellschaftsverträge und Satzungen können wir über das Handelsregister einsehen, auch online. Für Informationen über vertragliche Verpflichtungen können wir bei den Stadtwerken anrufen oder BürgermeisterIn oder Gemeinderat kontaktieren. Unter Berufung auf das Informationsfreiheits-, Transparenz- oder Umweltinformationsgesetz des jeweiligen Bundeslandes können wir auch eine Anfrage auf Einsicht in die Verträge stellen."
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Kohleausstieg per Weisung"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Handelt es sich bei den Stadtwerken beziehungsweise der Betreibergesellschaft des Kohlekraftwerks um eine GmbH, können die Gesellschafter der Geschäftsführung bereits mit einfacher Mehrheit eine Weisung zur Abschaltung erteilen. Um die erforderlichen Beschlüsse durchzusetzen, reicht also schon eine kommunale Beteiligung von mehr als 50 Prozent. Ein Abschaltbeschluss ist besonders dann leicht erreichbar, wenn die Stadt alleinige Eigentümerin der Stadtwerke ist, die wiederum Eigentümer des Kohlekraftwerks sind. In Kaiserslautern und Flensburg ist das der Fall. In beiden Städten können wir die Stadt per Bürgerbegehren auffordern, die Geschäftsführung der Stadtwerke anzuweisen, das Kohlekraftwerk bis zu einem bestimmten Jahr vollständig stillzulegen und ab diesem Zeitpunkt keine Kohle mehr für die Strom- und Wärmeproduktion einzusetzen."
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Kaiserslautern",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Block 20"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "15 MW/ 81 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1996"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "133 027 t  (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Kaiserslautern → 100 % Stadtwerke Kaiserslautern GmbH (Betreiber)"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Flensburg",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Blöcke 9 bis 11"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "100 MW/ 216 MW"
+        },
+
+        {
+          "title": "In Betrieb",
+          "content": "Block 9 seit 1985, Block 10 seit 1988, Block 11 seit 1992"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "596 836 t  (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Flensburg → 100 % Stadtwerke Flensburg GmbH (Betreiber)"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "2016 wurden bereits zwei Kohlekessel abgeschaltet. Die Kessel 9 bis 11 werden aber immer noch mit Kohle, Ersatzbrennstoffen und Holz betrieben. Im November 2018 haben die Stadtwerke eine weitere Absenkung des Kohleanteils bis 2023 angekündigt. Dafür soll 2022 ein neues Gaskraftwerk ans Netz gehen und zwei der drei Kohlekessel ersetzen."
+        }
+      ]
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Kohleausstieg per Satzungsänderung"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Wenn die Stadt über mindestens drei Viertel der Stimmen in der Gesellschafterversammlung (GmbH) oder über mindestens drei Viertel des bei der Beschlussfassung anwesenden Grundkapitals (AG) verfügt, können wir per Bürgerbegehren über eine Satzungsänderung den Unternehmensgegenstand anpassen. Er definiert, worin das Betätigungsfeld eines Unternehmens liegt und beschränkt die Geschäftsführungsbefugnis."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Steht im entsprechenden Paragraph beispielsweise „Gegenstand des Unternehmens ist die Versorgung mit Elektrizität, Gas, Wasser und Wärme“, können wir zur Abstimmung stellen, ob daran die Formulierung „auf umweltschützende Weise“ angehängt werden soll. Eventuell fügen wir ergänzend hinzu, dass nach einer bestimmten Übergangszeit keine Kohle mehr zur Strom- und Wärmeproduktion eingesetzt wird. Um den Umweltschutz gegenüber anderen Unternehmenszielen abzusichern, empfiehlt es sich, in den entsprechenden Paragraphen einen Absatz aufzunehmen, der wie folgt lauten kann: „Im Konflikt zwischen verschiedenen Aspekten des Unternehmenszwecks und -gegenstands genießt der Umweltschutz grundsätzlich Vorrang.“"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Haben wir es, wie in Flensburg und Kaiserslautern, mit einer GmbH zu tun, sichert eine Änderung des Gesellschaftsvertrags die Energiewende über die einzelne Weisung hinaus langfristig ab. Falls es sich bei dem mehrheitlich kommunalen Unternehmen hingegen um eine Aktiengesellschaft handelt, ist die Satzungsänderung der vorrangige Hebel für den lokalen Kohleausstieg. In einer AG führt der Vorstand nämlich die Geschäfte eigenverantwortlich und weisungsfrei. Die Stadt hat also nicht das Recht, die Abschaltung des Kohlekraftwerks einfach anzuweisen. Stattdessen muss sie die ökologische Zielsetzung der künftigen Unternehmenspolitik in der Satzung der AG festschreiben lassen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Zusätzlich zu den genannten allgemeineren Formulierungen fordern wir dann beispielsweise, den Unternehmensgegenstand um einen Absatz wie den folgenden zu ergänzen: „Ab dem Jahr 20xx setzt die Gesellschaft in keiner Form mehr Kohle zur Energieerzeugung ein. Sämtliche von der Gesellschaft betriebenen Kohlekraftwerksblöcke werden bis dahin vollständig stillgelegt. Ihre Veräußerung oder Verpachtung ist ausgeschlossen.“ Die Satzungsänderung bindet Vorstand und Aufsichtsrat, so dass diese entsprechende Maßnahmen zur Umsetzung ergreifen müssen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Diese Vorgehensweise ließe sich – vorbehaltlich spezieller Regelungen in den Gesellschaftsverträgen – bei den Kohlekraftwerken in Frankfurt, Köln, Hannover und Kassel anwenden. In den letzten beiden Fällen befindet sich die AG nicht am Ende der Eigentümerkette. Die Satzungsänderung würde sie aber verpflichten, als Mehrheitsgesellschafterin der Betreiber-GmbH deren Geschäftsführung Weisung über die für den Kohleausstieg nötigen Maßnahmen zu erteilen."
+    },
+
+    {
+      "type": "image",
+      "src": "/images/02_KKW_01EneMeMuh_1344.png",
+      "alt": ""
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Frankfurt West",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Blöcke 2 und 3"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "144 MW/ 210 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989 (2017 modernisiert)"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "929 738 t (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Frankfurt → 100 % Stadtwerke Frankfurt Holding GmbH → 75,2 % Mainova AG (Betreiber)"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "Die Regierungskoalition aus CDU, SPD und Grünen hat einen Antrag in die Stadtverordnetenversammlung eingebracht, der einen Kohleausstieg im Heizkraftwerk West bis spätestens 2030 vorsieht. UmweltschützerInnen protestieren, dass das viel zu spät sei."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Köln-Merkenich",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Block 6"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "85 MW/ 78 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989 (2010 modernisiert)"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "537 244 t (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Köln → 100 % Stadtwerke Köln GmbH → 90 % GEW Köln AG → 80 % RheinEnergie AG (Betreiber)"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "2017 wurde auf Antrag der Linken ein möglicher Kohleausstieg und eine Umstellung auf eine regenerative Wärmeerzeugung durch die RheinEnergie AG geprüft. Ergebnis: Eine Umstellung auf alternative Brennstoffe wie Altholz oder Klärschlamm sei nicht wirtschaftlich und eine Umstellung auf Gas macht das Unterneh- men von den Ergebnissen der Kohlekommission abhängig. 2017 wurde auf Antrag der Linken ein möglicher Kohleausstieg und eine Umstellung auf eine regenerative Wärmeerzeugung durch die RheinEnergie AG geprüft. Ergebnis: Eine Umstellung auf alternative Brennstoffe wie Altholz oder Klärschlamm sei nicht wirtschaftlich und eine Umstellung auf Gas macht das Unterneh- men von den Ergebnissen der Kohlekommission abhängig. Die Rheinenergie AG ist außerdem mit 50 % am EnBW-Steinkoh- lekraftwerk Rostock beteiligt."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Hannover Stöcken",
+      "powerPlantSections": [
+        {
+          "title": "",
+          "content": "Blöcke 1 und 2"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "300 MW/ 425 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "1 590 978 t (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Hannover → 80,49 % VVG Hannover mbH → 75,09 % enercity AG → 84,4 % Gemeinschafts- kraftwerk Hannover GmbH (Betreiber)"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "Die Prozesswärme wird vom nahegelegenen VW-Werk genutzt, obwohl VW für das eigene Kohlekraftwerk in Wolfsburg den Kohleausstieg bis 2022 angekündigt hat und selbst Mitglied in der Powering Past Coal Alliance ist. DerUnternehmensgegenstandderenercityAGumfasstbereits „auch die Beteiligung auf dem Gebiet des Umweltschutzes“, was aber eine zu schwache Formulierung für konsequenten Klimaschutz ist."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerk Kassel",
+      "powerPlantSections": [
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "38 MW/ 80 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "199 298 t (2017)"
+        },
+
+        {
+          "title": "Eigentümerstruktur",
+          "content": "Stadt Kassel → 75,1 % Städtische Werke AG → 94,9 % Städtische Werke Energie und Wärme GmbH (Betreiber)"
+        }
+      ]
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Die STEAG-Kraftwerke"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die STEAG GmbH ist ein Zusammenschluss kommunaler Unternehmen aus dem Ruhrgebiet, der zwei Kohlekraftwerke besitzt und an zwei weiteren beteiligt ist. Zusammen bringen sie es auf einen CO2-Ausstoß von über sieben Millionen Tonnen jährlich."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Eigentümer der STEAG sind:"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Dortmunder Stadtwerke AG: 36 %",
+        "Stadtwerke Duisburg AG: 19 %",
+        "Stadtwerke Bochum GmbH: 18 %",
+        "Stadtwerke Essen AG: 15 %",
+        "Energieversorgung Oberhausen AG: 6 %",
+        "Stadtwerke Dinslaken GmbH: 6 %"
+      ]
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Der Gesellschaftsvertrag der STEAG sieht die Nutzung von Kohlekraft nicht explizit vor. Der Kohleausstieg kann somit ohne eine Satzungsänderung mit einfacher Mehrheit beschlossen werden. Dafür müssten in zwei oder mehr der oben genannten Städte, deren Stadtwerke mehrheitlich in kommunaler Hand sind und zusammen mehr als 50 Prozent der Anteile halten, parallel laufende Bürgerentscheide erfolgreich sein."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Dass das funktionieren kann, zeigt der Protest gegen die dauerhafte Inbetriebnahme des umstrittenen Atomkraftwerks Temelin in Tschechien. Dazu startete die ÖDP im Herbst 2000 zeitgleich in elf bayerischen Städten die Bürgerbegehren „Temelin-Strom kommt mir nicht ins Haus”. Angesichts dieses Drucks kündigte E.on im August 2001 den Stromliefervertrag mit dem Temelin-Betreiber CEZ."
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Kohlekraftwerk Herne",
+      "powerPlantSections": [
+        {
+          "content": "Block 4"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "511 MW/ 550 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "1 531 134 t (2017)"
+        },
+
+        {
+          "title": "Eigentümer",
+          "content": "100 % STEAG GmbH"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Heizkraftwerke Völklingen-Fenne",
+      "powerPlantSections": [
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "466 MW/ 390 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1989"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "1 046 235 t (2017)"
+        },
+
+        {
+          "title": "Eigentümer",
+          "content": "100 % STEAG GmbH"
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Kohlekraftwerk Bergkamen",
+      "powerPlantSections": [
+        {
+          "content": "Block A"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "780 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "1981"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "1 639 651 t (2017)"
+        },
+
+        {
+          "title": "Eigentümer",
+          "content": "51 % RWE Power AG, 49 % STEAG GmbH"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "Die STEAG hat im November 2018 angekün- digt, die Mehrheit von RWE übernehmen zu wollen. RWE hat die Verkaufspläne bereits bestätigt."
+        }
+      ]
+    },
+
+    {
+      "type": "power-plant",
+      "title": "Kohlekraftwerk Duisburg Walsum",
+      "powerPlantSections": [
+        {
+          "content": "Blöcke 9 und 10"
+        },
+
+        {
+          "title": "Elektrische Leistung/ Wärmeleistung",
+          "content": "1 185 MW/ 295 MW"
+        },
+
+        {
+          "title": "In Betrieb seit",
+          "content": "Block 9 seit 1988, Block 10 seit 2012"
+        },
+
+        {
+          "title": "CO2-Ausstoß",
+          "content": "3 125 023 t (2017)"
+        },
+
+        {
+          "title": "Eigentümer",
+          "content": "51 % RWE Power AG, 49 % STEAG GmbH"
+        },
+
+        {
+          "title": "Besonderheiten",
+          "content": "Das Kraftwerk verliert ab 2022 seinen ein- zigen Wärmeabnehmer. Die Stadtwerke Dinslaken haben angekündigt, den auslaufenden Wärmeliefervertrag nicht zu verlängern."
+        }
+      ]
+    },
+
+    {
+      "type": "headline-2",
+      "content": "Druck mit Minderheitsbeteiligungen machen"
+    },
+
+    {
+      "type": "paragraph",
+      "content": "An den bisher behandelten Kohlekraftwerken sind Kommunen Mehrheitseignerinnen. Ist die Stadt nur minderheitlich an dem Kohlekraftwerk beteiligt, können wir sie per Bürgerbegehren auffordern, mit den anderen Anteilseignern über einen baldigen Kohleausstieg in Verhandlung zu treten. Die anderen GesellschafterInnen oder AktionärInnen sind häufig selbst kommunal und daher für den Willen der Öffentlichkeit potenziell aufgeschlossen. In jedem Fall zieht mit einem entsprechenden Bürgerentscheidein frischer Wind in die Gesellschafter- und Hauptversammlungen ein."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Die Stadt Offenbach hält über ihre Stadtwerke eine Beteiligung von 48,4 Prozent am HEIZKRAFTWERK OFFENBACH. Die Stadt ist Mitglied des Klimabündnisses und läuft Gefahr, die zugesagten Emissionsminderungen nicht einzuhalten – wegen des Kohlekraftwerks."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Am GROSSKRAFTWERK MANNHEIM, das jährlich fast sieben Millionen Tonnen CO2 in die Luft bläst, hält die Stadt Mannheim indirekt 28 Prozent der Anteile. Per Bürgerbegehren in Mannheim und Heidelberg gibt es Chancen, die Lieferverträge für Fernwärme aus dem Mannheimer Großkraftwerk zu beenden, wie im folgenden Kapitel beschrieben."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "In Chemnitz hält die Stadt 25,5 Prozent der Anteile an der eins energie in Sachsen GmbH. Diese plant die Abschaltung eines Kohleblocks des HEIZKRAFTWERKS CHEMNITZ NORD II für 2022. Der zweite Block soll nach aktuellem Stand erst 2029 vom Netz – zu spät, um die Klimaziele der Stadt zu erreichen."
+    },
+
+    {
+      "type": "paragraph",
+      "content": "Das HEIZKRAFTWERK SCHWEINFURT befindet sich im Eigentum mehrerer Städte und Landkreise, in denen parallel stattfindende Bürgerbegehren die Abschaltung erreichen könnten."
+    },
+
+    {
+      "type": "infobox",
+      "content": "<p class='paragraph'>Wenn ein kommunales Kohlekraftwerk vom Netz geht, müssen die Stadtwerke die wegfallende Wärmeleistung ersetzen und eventuell auch Ersatz für die Stromproduktion liefern. Die kurzfristig günstigste Lösung für den Ersatz von Strom und Wärme ist – befördert durch das Kraft-Wärme-Kopplungs-Gesetz – meistens der Umstieg auf Gas. Dadurch geht aber wiederum für Jahrzehnte ein fossiler Energieträger als Brennstoff an den Start. Kampagnen für den Kohleausstieg sollten daher darauf drängen, dass die Stadt konkrete Optionen für eine regenerative Wärmeerzeugung prüft.</p> <p class='paragraph'>Die technischen Möglichkeiten für die Wärmewende sind vielfältig:</p> <ul class='list'><li class='list__item'><p class='paragraph'>Vattenfall hat 2018 eine Anlage für SOLARTHERMIE mit 78 Großkollektoren an das Berliner Fernwärmenetz angeschlossen, die 10 000 Haushalte teilweise mit Solarwärme versorgt.</p></li><li class='list__item'><p class='paragraph'>Seit November 2018 fließt INDUSTRIEABWÄRME aus der Kupferhütte Aurubis in 8000 Hamburger Haushalte. Insgesamt ist Potenzial für 25 000 Haushalte vorhanden.</p></li><li class='list__item'><p class='paragraph'>BS Energy in Braunschweig plant für den Ersatz des Kohlekraftwerks ab 2022 die Strom- und Wärmeerzeugung durch NACHHALTIG GENUTZTE BIOMASSE in Kraft-Wärme-Kopplung, in diesem Fall Altholz.</p></li><li class='list__item'><p class='paragraph'>Potenziale für TIEFENGEOTHERMIE gibt es im Wesentlichen im norddeutschen Becken, im süddeutschen Molassebecken und im Oberrheingraben.</p></li><li class='list__item'><p class='paragraph'>Mit Ökostrom betrieben, nutzen Wärmepumpen UMWELTWÄRME aus Erde, Grundwasser oder Luft.</p></li><li class='list__item'><p class='paragraph'>Heizstäbe oder Elektrodenkessel in Wärmenetzen wandeln überschüssigen Ökostrom in Wärme um. Eine solche POWER-TO-HEAT-Anlage ersetzt ab 2019 den Steinkohleblock des Berliner Heizkraftwerks Reuter und kann bis zu 30 000 Haushalte beliefern.</p></li><li class='list__item'><p class='paragraph'>Die Stadtwerke Haßfurt nehmen Anfang 2019 ein MIT WASSERSTOFF BETRIEBENES BLOCKHEIZKRAFTWERK in Betrieb. Der Wasserstoff wird aus überschüssiger Windenergie in einer Power-to-Gas-Anlage erzeugt.</p></li></ul>",
+      "title": "Kohleausstieg nur mit Wärmewende"
+    }
+  ]
+}
