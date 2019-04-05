@@ -107,7 +107,7 @@ const Page = ({
           <Checklist
             items={[
               '<em>ZIELE</em> samt Erläuterungen',
-              '<em>UNTERSCHREIBEN</em>: Hier können Interessierte sich Listen herunterladen oder sie sich eventuell auch per Formular zuschicken lassen. Später ersetzen wir diesen Punkt durch ABSTIMMEN, mit Informationen zur Abstimmung und zur Briefwahl.'
+              '<em>UNTERSCHREIBEN</em>: Hier können Interessierte sich Listen herunterladen oder sie sich eventuell auch per Formular zuschicken lassen. Später ersetzen wir diesen Punkt durch <em>ABSTIMMEN</em>, mit Informationen zur Abstimmung und zur Briefwahl.'
             ]}
           />
 
@@ -125,11 +125,11 @@ const Page = ({
           <Checklist
             items={[
               'Auf Twitter ist es kein Problem, dreimal täglich und öfter einen Tweet abzusetzen. Bei Facebook und Instagram reicht ein Post pro Tag. Vor allem während Aktionen oder im Endspurt unserer Kampagne können wir die <em>FREQUENZ</em> aber erhöhen, ohne dass uns gleich Follower abspringen.',
-              'Pointierte und humorvolle Inhalte verbreiten sich besser als lange, komplexe Beiträge. Ein Facebook-Post sollte eine LÄNGE von etwa 400 Zeichen nicht überschreiten.',
+              'Pointierte und humorvolle Inhalte verbreiten sich besser als lange, komplexe Beiträge. Ein Facebook-Post sollte eine <em>LÄNGE</em> von etwa 400 Zeichen nicht überschreiten.',
               'Auf Facebook können wir <em>VERANSTALTUNGEN</em> erstellen. So rutschen wir in die Terminkalender der Leute.',
               'Besonders häufig werden <em>MULTIMEDIALE INHALTE</em> geteilt, zum Beispiel Textkarten, Bilder, Videos von Aktionen oder Videostatements prominenter Gesichter der Kampagne und aus der Öffentlichkeit.',
               'Anderen AkteurInnen aus unserem Themenfeld zu folgen und ihren Content zu teilen, trägt zur <em>VERNETZUNG</em> bei. Wir können andere Organisationen auch anschreiben und sie bitten, unsere Inhalte zu teilen.',
-              'Einschlägige HASHTAGS sowie Orts- und Personen-Tags, zum Beispiel von KooperationspartnerInnen, unterstützen die Verbreitung unserer Botschaften.'
+              'Einschlägige <em>HASHTAGS</em> sowie Orts- und Personen-Tags, zum Beispiel von KooperationspartnerInnen, unterstützen die Verbreitung unserer Botschaften.'
             ]}
           />
 
@@ -155,7 +155,7 @@ const Page = ({
               'Gleich zu Beginn unserer Kampagne setzen wir uns mit den <em>ARGUMENTEN</em> der Gegenseite auseinander, um sie fundiert zu entkräften. Wasserdichte Fakten und Antworten auf häufige Fragen können wir als FAQ auf die Homepage stellen und in Form eines Handzettels den SammlerInnen mitgeben.',
               'Wir sollten uns mit wissenschaftlichen Studien und <em>GUTACHTEN</em> vertraut machen, die unsere Argumentation stärken. So können unsere Forderungen nicht als technisch nicht machbar oder ökonomisch nicht tragbar diskreditiert werden.',
               'Eine <em>INFOBROSCHÜRE</em>, die den Wissensstand zum Thema zusammenfasst, ist am Anfang sehr hilfreich.',
-              'RECHERCHEN zu konkreten lokalen Missständen, die mit unserem Thema zu tun haben, können auch für die Presse interessant sein.',
+              '<em>RECHERCHEN</em> zu konkreten lokalen Missständen, die mit unserem Thema zu tun haben, können auch für die Presse interessant sein.',
               'Um den Vorbereitungsaufwand für Info-Veranstaltungen zu reduzieren, lohnt es sich, <em>MUSTER-VORTRÄGE</em> anzufertigen.',
               'Mit den InitiatorInnen vergangener Bürgerbegehren in unserer Kommune oder zum gleichen Thema können wir in einen <em>AUSTAUSCH</em> von Wissen und Erfahrungen treten. Auf www.klimawende.org finden wir AnsprechpartnerInnen aus anderen Klima-Bürgerbegehren.'
             ]}
@@ -172,7 +172,7 @@ const Page = ({
 
           <Checklist
             items={[
-              'Bevor wir mit unseren Forderungen an die Presse gehen, sollten wir zunächst den DIALOG mit den AdressatInnen unseres Bürgerbegehrens suchen. So können wir einschätzen, wie viel Gegenwind uns erwartet. Außerdem erhalten wir wertvolle Informationen und vermeiden unnötige Frontenbildung.',
+              'Bevor wir mit unseren Forderungen an die Presse gehen, sollten wir zunächst den <em>DIALOG</em> mit den AdressatInnen unseres Bürgerbegehrens suchen. So können wir einschätzen, wie viel Gegenwind uns erwartet. Außerdem erhalten wir wertvolle Informationen und vermeiden unnötige Frontenbildung.',
               'Ein <em>SPRECHZETTEL</em> mit Stichpunkten und Antworten auf die erwartbaren Fragen sorgt dafür, dass wir nicht ins Schwimmen geraten, wenn wir vor die Mikrofone treten.'
             ]}
           />
@@ -186,7 +186,7 @@ const Page = ({
               'Zum Auftakt empfiehlt es sich, eine <em>PRESSEKONFERENZ</em> durchzuführen. Dazu versenden wir einige Tage vorher eine Presseeinladung an Lokalzeitungen und die örtlichen Radio- und Fernsehsender.',
               'Telefonisches <em>NACHHAKEN</em> im Vorfeld einer Aktion oder Veröffentlichung erhöht die Chance, bei der Berichterstattung berücksichtigt zu werden.',
               'Um unsere <em>PRESSEKONTAKTE</em> auszubauen verfolgen wir, welche JournalistInnen über uns schreiben und sprechen sie gezielt an. Wenn wir PressevertreterInnen treffen, fragen wir sie nach ihrer Visitenkarte.',
-              'Für den VERSAND von Pressemitteilungen zeigt die Erfahrung, dass sie von Montag bis Donnerstag eher aufgegriffen werden als am Wochenende und vormittags eher als nachmittags. An Tagen, an denen Großereignisse ohne Bezug zu unserem Thema die Berichterstattung dominieren, gehen Emails an die Redaktionen leicht unter.',
+              'Für den <em>VERSAND</em> von Pressemitteilungen zeigt die Erfahrung, dass sie von Montag bis Donnerstag eher aufgegriffen werden als am Wochenende und vormittags eher als nachmittags. An Tagen, an denen Großereignisse ohne Bezug zu unserem Thema die Berichterstattung dominieren, gehen Emails an die Redaktionen leicht unter.',
               'Indem wir erreichte Kampagnen-Meilensteine oder inhaltliche Kontroversen kommunizieren, schaffen wir <em>ANLÄSSE</em> für die Berichterstattung. Meinungsbildende JournalistInnen bewegen wir eventuell zu einer Publikation, wenn wir ihnen Exklusivmaterial anbieten. Auch bildgewaltige Aktionen werden gern von der Presse aufgegriffen. Fotos in professioneller Qualität können wir den Zeitungen anbieten. Gleichzeitig verwenden wir sie für unsere Öffentlichkeitsarbeit.'
             ]}
           />
@@ -210,9 +210,9 @@ const Page = ({
           <Checklist
             items={[
               'Eine aussagekräftige <em>ÜBERSCHRIFT</em> muss her. Sie sollte den Kerninhalt des Haupttextes verdichten.',
-              'Die Sätze sollten KURZ, KLAR, AKTIV formuliert und nicht verschachtelt sein. Keine Fremdwörter, kein Fachjargon.',
+              'Die Sätze sollten <em>KURZ, KLAR, AKTIV</em> formuliert und nicht verschachtelt sein. Keine Fremdwörter, kein Fachjargon.',
               'Pressemitteilungen werden wegen ihres <em>NEUIGKEITSWERTS</em> gelesen. Es muss sofort klar werden, was neu und besonders an unserem Vorhaben ist. Eine Einführung über die Auswirkungen des Klimawandels gehört nicht dazu.',
-              'Wenn möglich und sinnvoll, können aktuell breit diskutierte Themen als AUFHÄNGER dienen. Beispiel: „Während Deutschland im Hitzesommer einen Vorgeschmack auf den Klimawandel erhält, fordert die Initiative...“',
+              'Wenn möglich und sinnvoll, können aktuell breit diskutierte Themen als <em>AUFHÄNGER</em> dienen. Beispiel: „Während Deutschland im Hitzesommer einen Vorgeschmack auf den Klimawandel erhält, fordert die Initiative...“',
               'Wir sollten nur ein Thema pro Pressemitteilung behandeln. Der Aufbau folgt den W-Fragen. Erst müssen die JournalistInnen verstehen, <em>WER WAS WANN</em> und <em>WO</em> macht. Dann <em>WIE</em> genau es passieren soll und schließlich <em>WARUM</em>. Der Text sollte, wie eine Zeitungsmeldung, theoretisch von hinten kürzbar sein.',
               'Wir lassen <em>ZITATE</em> einfließen, die einer Person zugeordnet sind. Diese Zitate sind auch ohne Kontext verständlich und nicht zu lang.',
               'Im Schlussteil kann es hilfreich sein, unser Anliegen in einen größeren politischen, aktivistischen oder gesellschaftlichen <em>KONTEXT</em> zu stellen.',
@@ -246,7 +246,7 @@ const Page = ({
               'Für die Mobilisierung zu Einsätzen per Telefon und Email führen wir eine Liste, auf der unsere <em>TOP-SAMMLERINNEN</em> stehen. Das sind die aktivsten Ehrenamtlichen, die andere Freiwillige motivieren und neue SammlerInnen an die Hand nehmen können.',
               'Für die <em>VERNETZUNG</em> der Aktiven sorgen wir mit einer Messenger-Gruppe oder Chat-Tools wie Slack. So können sie sich auch selbständig zum Sammeln verabreden.',
               'Wir verpacken die Zahl an notwendigen Unterschriften gegenüber den Ehrenamtlichen in erreichbare Pakete und setzen uns <em>ZIELMARKEN</em>. Oft ist zu Beginn des letzten Drittels im Zeitplan erst die Hälfte der Unterschriften eingetroffen. Davon lassen wir uns aber nicht entmutigen.',
-              'Einen ENDSPURT auszurufen, motiviert die Aktiven zusätzlich und spornt Interessierte an, doch noch sammeln zu helfen.',
+              'Einen <em>ENDSPURT</em> auszurufen, motiviert die Aktiven zusätzlich und spornt Interessierte an, doch noch sammeln zu helfen.',
               'Das Büro der Landeswahlleitung bzw. der Kommunalverwaltung kann uns sagen, ob eine <em>KORREKTUR</em> der Eintragungen auf den Unterschriftenlisten möglich ist. Falls ja, recherchieren wir schlecht lesbare Einträge im Internet nach und ergänzen die Angaben.'
             ]}
           />
