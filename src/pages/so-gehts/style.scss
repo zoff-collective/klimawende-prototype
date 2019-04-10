@@ -18,6 +18,27 @@
     @include two-column();
   }
 
+  &--stecker-ziehen &__body-content-container,
+  &--mobilisieren &__body-content-container {
+    em {
+      @include font-size(15px);
+
+      @include mq($from: tablet) {
+        @include font-size(18px);
+      }
+
+      color: $color-light-blue;
+      font-family: $font-mark;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .infobox em {
+      color: $color-dark-brown;
+    }
+  }
+
   &--mobilisieren &__body-content-container {
     order: 2;
 

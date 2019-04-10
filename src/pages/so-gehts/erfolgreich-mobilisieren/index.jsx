@@ -290,7 +290,9 @@ const Page = ({
               'Vor dem ersten Einsatz auf der Straße bieten wir UnterstützerInnen eine <em>SCHULUNG</em> an. Sie erhalten einen Handzettel mit den wichtigsten Argumenten. Außerdem vermitteln wir ihnen praktische Tipps.',
               'Barrieren für die Beteiligung abzubauen ist eine Frage des richtigen <em>SERVICE</em>. Wir bereiten etwa sinnvolle Termine und Einsatzorte für die Unterschriftensammlung vor. Beim Plakatieren stellen wir das notwendige Material und eine Standortliste zur Verfügung.',
               'Der <em>INFORMATIONSFLUSS</em> sollte in beide Richtungen funktionieren. Einerseits halten wir die Aktiven auf dem Laufenden, andererseits erkundigen wir uns regelmäßig, wie es läuft und wo es in der Praxis auf der Straße klemmt.',
-              'Die Aktiven brauchen Spielraum, selbst Dinge auf die Beine zu stellen. Das geht nur, wenn sie das Recht zur <em>MITSPRACHE</em> haben und Vorschläge machen können.'
+              'Die Aktiven brauchen Spielraum, selbst Dinge auf die Beine zu stellen. Das geht nur, wenn sie das Recht zur <em>MITSPRACHE</em> haben und Vorschläge machen können.',
+              'Kleinigkeiten wie Schokolade und Getränke am Infostand sind das Geheimnis des <em>FEEL-GOOD-MANAGEMENT</em>. Wir schätzen jede Form des Engagements wert.',
+              'Lockere Runden zum Austausch, zum Beispiel nach Sammelaktionen, fördern das <em>GEMEINSCHAFTSGEFÜHL</em>, die Vernetzung unter den Aktiven und die Bindung an die Kampagne. Wir feiern unsere Erfolge.'
             ]}
           />
 
@@ -298,13 +300,6 @@ const Page = ({
             src="/images/07_06Mitglieder_1344.png"
             alt=""
             className="image"
-          />
-
-          <Checklist
-            items={[
-              'Kleinigkeiten wie Schokolade und Getränke am Infostand sind das Geheimnis des <em>FEEL-GOOD-MANAGEMENT</em>. Wir schätzen jede Form des Engagements wert.',
-              'Lockere Runden zum Austausch, zum Beispiel nach Sammelaktionen, fördern das <em>GEMEINSCHAFTSGEFÜHL</em>, die Vernetzung unter den Aktiven und die Bindung an die Kampagne. Wir feiern unsere Erfolge.'
-            ]}
           />
 
           <Infobox

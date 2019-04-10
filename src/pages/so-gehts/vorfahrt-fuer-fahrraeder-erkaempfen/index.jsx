@@ -57,6 +57,8 @@ export const query = graphql`
         content
         items
         quoteAuthor
+        src
+        alt
         quoteAuthorDescription
         quoteAuthorImage
         timelineItems {

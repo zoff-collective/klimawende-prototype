@@ -108,8 +108,8 @@
     },
 
     {
-      "type": "headline-3",
-      "content": "Sind Sie dafür, dass die nachfolgenden zehn Ziele verkehrspolitisch vorrangig verfolgt werden, damit möglichst viel davon umgesetzt wird?"
+      "type": "infobox",
+      "content": "<p class='paragraph'>Sind Sie dafür, dass die nachfolgenden zehn Ziele verkehrspolitisch vorrangig verfolgt werden, damit möglichst viel davon umgesetzt wird?</p>"
     },
 
     {
@@ -120,6 +120,12 @@
     {
       "type": "paragraph",
       "content": "Bewährt hat sich ein Katalog von fünf bis maximal zehn Zielen. So ist klar, dass es nicht nur um Einzelmaßnahmen geht, aber es wird auch nicht zu unübersichtlich für potenzielle UnterzeichnerInnen. Wie weitreichend die geforderten Maßnahmen jeweils sein sollen, etwa hinsichtlich der Länge neu zu bauender Radwege, ist letztlich eine Frage dessen, was wir für sachlich geboten und politisch möglich halten. Am besten verbinden wir unsere Forderungen mit konkreten Zeitvorgaben. So beugen wir einer Verzögerungstaktik des Stadt- oder Gemeinderats vor. Um unsere Abstimmungsfrage und Ziele zu formulieren, sollte sich eine Arbeitsgruppe im Bündnis möglichst einige Wochen bis Monate Zeit nehmen. Dass es auch schneller gehen kann, hat der „Volksentscheid Fahrrad“ in Berlin gezeigt. Bei einem „Gesetzes-Hackathon“ schrieben 30 Rechts- und VerkehrsexpertInnen in zwei arbeitsintensiven Tagen Paragraf für Paragraf des Rad-Gesetzesentwurfs. Unterstützt wurden sie per Telefon und Facebook von weiteren BeraterInnen. Ausgehend vom „Volksentscheid Fahrrad“ hat sich ein Portfolio an Argumentationsbausteinen und Aktionsformen entwickelt, das die anderen Radentscheide aufnehmen, weiterentwickeln und laufend verbessern – ungefähr so wie bei einer quelloffenen Software. Beispiele dafür finden wir auf den Websites der Initiativen. Am einfachsten ist es aber, direkt mit den Aktiven zu sprechen. Kontakt zu ihnen und zu weiteren Beratungsangeboten bekommen wir auch auf <a href='www.klimawende.org/mitmachen'>www.klimawende.org/mitmachen</a>"
+    },
+
+    {
+      "type": "image",
+      "src": "/images/06_01Fahrradteppisch_1344.png",
+      "alt": ""
     },
 
     {

@@ -3,7 +3,7 @@
   "title": "Kohlekraftwerken den Stecker ziehen",
   "intro": "Immer mehr Städte schalten ihre Kohlekraftwerke ab. Einige kommunale Schornsteine qualmen aber noch. Höchste Zeit, per Bürgerentscheid den lokalen Kohleausstieg einzuleiten.",
   "image": {
-    "src": "/images/02_KKW_01EneMeMuh_1344.png",
+    "src": "/images/abschalten.png",
     "alt": ""
   },
   "blocks": [
@@ -522,27 +522,27 @@
 
     {
       "type": "paragraph",
-      "content": "Die Stadt Offenbach hält über ihre Stadtwerke eine Beteiligung von 48,4 Prozent am HEIZKRAFTWERK OFFENBACH. Die Stadt ist Mitglied des Klimabündnisses und läuft Gefahr, die zugesagten Emissionsminderungen nicht einzuhalten – wegen des Kohlekraftwerks."
+      "content": "Die Stadt Offenbach hält über ihre Stadtwerke eine Beteiligung von 48,4 Prozent am <em>HEIZKRAFTWERK OFFENBACH</em>. Die Stadt ist Mitglied des Klimabündnisses und läuft Gefahr, die zugesagten Emissionsminderungen nicht einzuhalten – wegen des Kohlekraftwerks."
     },
 
     {
       "type": "paragraph",
-      "content": "Am GROSSKRAFTWERK MANNHEIM, das jährlich fast sieben Millionen Tonnen CO2 in die Luft bläst, hält die Stadt Mannheim indirekt 28 Prozent der Anteile. Per Bürgerbegehren in Mannheim und Heidelberg gibt es Chancen, die Lieferverträge für Fernwärme aus dem Mannheimer Großkraftwerk zu beenden, wie im folgenden Kapitel beschrieben."
+      "content": "Am <em>GROSSKRAFTWERK MANNHEIM</em>, das jährlich fast sieben Millionen Tonnen CO2 in die Luft bläst, hält die Stadt Mannheim indirekt 28 Prozent der Anteile. Per Bürgerbegehren in Mannheim und Heidelberg gibt es Chancen, die Lieferverträge für Fernwärme aus dem Mannheimer Großkraftwerk zu beenden, wie im folgenden Kapitel beschrieben."
     },
 
     {
       "type": "paragraph",
-      "content": "In Chemnitz hält die Stadt 25,5 Prozent der Anteile an der eins energie in Sachsen GmbH. Diese plant die Abschaltung eines Kohleblocks des HEIZKRAFTWERKS CHEMNITZ NORD II für 2022. Der zweite Block soll nach aktuellem Stand erst 2029 vom Netz – zu spät, um die Klimaziele der Stadt zu erreichen."
+      "content": "In Chemnitz hält die Stadt 25,5 Prozent der Anteile an der eins energie in Sachsen GmbH. Diese plant die Abschaltung eines Kohleblocks des <em>HEIZKRAFTWERKS CHEMNITZ NORD II</em> für 2022. Der zweite Block soll nach aktuellem Stand erst 2029 vom Netz – zu spät, um die Klimaziele der Stadt zu erreichen."
     },
 
     {
       "type": "paragraph",
-      "content": "Das HEIZKRAFTWERK SCHWEINFURT befindet sich im Eigentum mehrerer Städte und Landkreise, in denen parallel stattfindende Bürgerbegehren die Abschaltung erreichen könnten."
+      "content": "Das <em>HEIZKRAFTWERK SCHWEINFURT</em> befindet sich im Eigentum mehrerer Städte und Landkreise, in denen parallel stattfindende Bürgerbegehren die Abschaltung erreichen könnten."
     },
 
     {
       "type": "infobox",
-      "content": "<p class='paragraph'>Wenn ein kommunales Kohlekraftwerk vom Netz geht, müssen die Stadtwerke die wegfallende Wärmeleistung ersetzen und eventuell auch Ersatz für die Stromproduktion liefern. Die kurzfristig günstigste Lösung für den Ersatz von Strom und Wärme ist – befördert durch das Kraft-Wärme-Kopplungs-Gesetz – meistens der Umstieg auf Gas. Dadurch geht aber wiederum für Jahrzehnte ein fossiler Energieträger als Brennstoff an den Start. Kampagnen für den Kohleausstieg sollten daher darauf drängen, dass die Stadt konkrete Optionen für eine regenerative Wärmeerzeugung prüft.</p> <p class='paragraph'>Die technischen Möglichkeiten für die Wärmewende sind vielfältig:</p> <ul class='list'><li class='list__item'><p class='paragraph'>Vattenfall hat 2018 eine Anlage für SOLARTHERMIE mit 78 Großkollektoren an das Berliner Fernwärmenetz angeschlossen, die 10 000 Haushalte teilweise mit Solarwärme versorgt.</p></li><li class='list__item'><p class='paragraph'>Seit November 2018 fließt INDUSTRIEABWÄRME aus der Kupferhütte Aurubis in 8000 Hamburger Haushalte. Insgesamt ist Potenzial für 25 000 Haushalte vorhanden.</p></li><li class='list__item'><p class='paragraph'>BS Energy in Braunschweig plant für den Ersatz des Kohlekraftwerks ab 2022 die Strom- und Wärmeerzeugung durch NACHHALTIG GENUTZTE BIOMASSE in Kraft-Wärme-Kopplung, in diesem Fall Altholz.</p></li><li class='list__item'><p class='paragraph'>Potenziale für TIEFENGEOTHERMIE gibt es im Wesentlichen im norddeutschen Becken, im süddeutschen Molassebecken und im Oberrheingraben.</p></li><li class='list__item'><p class='paragraph'>Mit Ökostrom betrieben, nutzen Wärmepumpen UMWELTWÄRME aus Erde, Grundwasser oder Luft.</p></li><li class='list__item'><p class='paragraph'>Heizstäbe oder Elektrodenkessel in Wärmenetzen wandeln überschüssigen Ökostrom in Wärme um. Eine solche POWER-TO-HEAT-Anlage ersetzt ab 2019 den Steinkohleblock des Berliner Heizkraftwerks Reuter und kann bis zu 30 000 Haushalte beliefern.</p></li><li class='list__item'><p class='paragraph'>Die Stadtwerke Haßfurt nehmen Anfang 2019 ein MIT WASSERSTOFF BETRIEBENES BLOCKHEIZKRAFTWERK in Betrieb. Der Wasserstoff wird aus überschüssiger Windenergie in einer Power-to-Gas-Anlage erzeugt.</p></li></ul>",
+      "content": "<p class='paragraph'>Wenn ein kommunales Kohlekraftwerk vom Netz geht, müssen die Stadtwerke die wegfallende Wärmeleistung ersetzen und eventuell auch Ersatz für die Stromproduktion liefern. Die kurzfristig günstigste Lösung für den Ersatz von Strom und Wärme ist – befördert durch das Kraft-Wärme-Kopplungs-Gesetz – meistens der Umstieg auf Gas. Dadurch geht aber wiederum für Jahrzehnte ein fossiler Energieträger als Brennstoff an den Start. Kampagnen für den Kohleausstieg sollten daher darauf drängen, dass die Stadt konkrete Optionen für eine regenerative Wärmeerzeugung prüft.</p> <p class='paragraph'>Die technischen Möglichkeiten für die Wärmewende sind vielfältig:</p> <ul class='list'><li class='list__item'><p class='paragraph'>Vattenfall hat 2018 eine Anlage für <em>SOLARTHERMIE</em> mit 78 Großkollektoren an das Berliner Fernwärmenetz angeschlossen, die 10 000 Haushalte teilweise mit Solarwärme versorgt.</p></li><li class='list__item'><p class='paragraph'>Seit November 2018 fließt <em>INDUSTRIEABWÄRME</em> aus der Kupferhütte Aurubis in 8000 Hamburger Haushalte. Insgesamt ist Potenzial für 25 000 Haushalte vorhanden.</p></li><li class='list__item'><p class='paragraph'>BS Energy in Braunschweig plant für den Ersatz des Kohlekraftwerks ab 2022 die Strom- und Wärmeerzeugung durch <em>NACHHALTIG GENUTZTE BIOMASSE</em> in Kraft-Wärme-Kopplung, in diesem Fall Altholz.</p></li><li class='list__item'><p class='paragraph'>Potenziale für <em>TIEFENGEOTHERMIE</em> gibt es im Wesentlichen im norddeutschen Becken, im süddeutschen Molassebecken und im Oberrheingraben.</p></li><li class='list__item'><p class='paragraph'>Mit Ökostrom betrieben, nutzen Wärmepumpen <em>UMWELTWÄRME</em> aus Erde, Grundwasser oder Luft.</p></li><li class='list__item'><p class='paragraph'>Heizstäbe oder Elektrodenkessel in Wärmenetzen wandeln überschüssigen Ökostrom in Wärme um. Eine solche <em>POWER-TO-HEAT</em>-Anlage ersetzt ab 2019 den Steinkohleblock des Berliner Heizkraftwerks Reuter und kann bis zu 30 000 Haushalte beliefern.</p></li><li class='list__item'><p class='paragraph'>Die Stadtwerke Haßfurt nehmen Anfang 2019 ein <em>MIT WASSERSTOFF BETRIEBENES BLOCKHEIZKRAFTWERK</em> in Betrieb. Der Wasserstoff wird aus überschüssiger Windenergie in einer Power-to-Gas-Anlage erzeugt.</p></li></ul>",
       "title": "Kohleausstieg nur mit Wärmewende"
     }
   ]

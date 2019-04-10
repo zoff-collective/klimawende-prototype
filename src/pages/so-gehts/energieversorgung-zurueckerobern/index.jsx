@@ -60,6 +60,7 @@ export const query = graphql`
         quoteAuthorDescription
         quoteAuthorImage
         items
+        title
         timelineItems {
           title
           content

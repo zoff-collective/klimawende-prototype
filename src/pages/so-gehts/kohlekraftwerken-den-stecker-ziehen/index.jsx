@@ -15,7 +15,7 @@ const Page = ({
     content: { title, intro, image, blocks }
   }
 }) => (
-  <div className="so-gehts">
+  <div className="so-gehts so-gehts--stecker-ziehen">
     <Intro title={title} intro={intro} image={image} />
 
     <section className="so-gehts__body">

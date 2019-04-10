@@ -38,20 +38,6 @@
       }
     }
 
-    em {
-      @include font-size(15px);
-
-      @include mq($from: tablet) {
-        @include font-size(18px);
-      }
-
-      color: $color-light-blue;
-      font-family: $font-mark;
-      font-style: normal;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-
     &::before {
       @include font-size(12px);
 
