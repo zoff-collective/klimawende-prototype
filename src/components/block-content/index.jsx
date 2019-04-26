@@ -3,6 +3,7 @@ import React from 'react';
 import Blockquote from '../text/blockquote';
 import Button from '../form/button';
 import Constraint from '../constraint';
+import Figcaption from '../figcaption';
 import Goals from '../goals';
 import Headline from '../text/headline';
 import Infobox from '../text/infobox';
@@ -61,6 +62,8 @@ export default ({ blocks, children }) => (
                 alt={rest.alt || ''}
                 className="block-content__image"
               />
+
+              {rest.caption && <Figcaption content={rest.caption} />}
             </Constraint>
           );
 

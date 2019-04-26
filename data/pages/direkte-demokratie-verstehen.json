@@ -114,6 +114,12 @@
     },
 
     {
+      "type": "image",
+      "src": "/images/KDDD_T2_KT_01.jpg",
+      "alt": ""
+    },
+
+    {
       "type": "headline-2",
       "content": "Wir ändern die Gesetze – Volksbegehren in den Stadtstaaten"
     },
@@ -137,6 +143,13 @@
       "type": "image",
       "src": "/images/01_DDV_01Radentscheid01_1344.png",
       "alt": ""
+    },
+
+    {
+      "type": "image",
+      "src": "/images/KDDD_T2_KT_02.jpg",
+      "alt": "",
+      "caption": "<a href='/documents/KDDD_T2_KT_02.pdf' target='_blank'>Große Ansicht</a>"
     },
 
     {
