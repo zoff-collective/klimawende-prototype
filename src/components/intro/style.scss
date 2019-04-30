@@ -92,11 +92,12 @@
     width: auto;
   }
 
-  &--with-image .headline {
+  &--with-image .headline--level-1 {
     margin-bottom: 2rem;
   }
 
-  &--with-image .headline__headline {
+  // we have to increase specificity here, because of CSS file ordering
+  &--with-image .headline--level-1 .headline__headline {
     @include font-size(25px);
 
     font-weight: 800;
