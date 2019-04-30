@@ -76,7 +76,7 @@ export default withLayout(
                   </FormGroup>
 
                   <FormGroup>
-                    <Button fullWidth theme="yellow">
+                    <Button fullWidth theme="current">
                       Jetzt mitmachen
                     </Button>
                   </FormGroup>
@@ -90,7 +90,7 @@ export default withLayout(
               >
                 <form>
                   <FormGroup>
-                    <Button href="/beratung/" fullWidth theme="yellow">
+                    <Button href="/beratung/" fullWidth theme="current">
                       Zur Beratung
                     </Button>
                   </FormGroup>
